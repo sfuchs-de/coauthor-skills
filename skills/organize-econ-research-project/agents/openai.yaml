@@ -1,0 +1,4 @@
+interface:
+  display_name: "Organize Economics Research Project"
+  short_description: "Build a task-based reproducible research workflow"
+  default_prompt: "Use $organize-econ-research-project to audit and organize this research project."

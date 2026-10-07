@@ -31,6 +31,9 @@ does not confer account access or authorize external actions.
 | Talk narrative and delivery | `design-econ-seminar`; `review-slide-deck` for review-only work |
 | Overleaf drift or authorized synchronization | `overleaf-sync` |
 | Local GitHub verification and authorized publication | `gh-local-first` |
+| Coauthor repository onboarding, daily saves/updates and conflicts | `coauthor-github-workflow` |
+| Research project structure and task dependencies | `organize-econ-research-project` |
+| Figure/result provenance and GitHub-code/Dropbox-data setup | `build-asset-replication` |
 | Cross-agent continuity | `agent-handoff` |
 
 Read a specialist's instructions before using it, then only its task-relevant references. Do not

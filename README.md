@@ -3,6 +3,7 @@
 A portable collection of research-writing and collaboration skills for Codex and Claude Code.
 It brings writing, reasoning graphs, mathematical audits, presentations, corpus-based vocabulary,
 Overleaf synchronization, local-first GitHub work, and cross-agent handoffs into one repository.
+It also includes a plain-language coauthor handbook and GitHub-code/Dropbox-data project setup.
 
 Skills are instructions and tools—not account access. Every collaborator supplies their own
 credentials and project permissions. This package contains no manuscripts, private review cases,
@@ -53,14 +54,23 @@ and handoff tools. Do not install duplicate copies under different folder names.
 | Presentations and figures | `design-econ-seminar`, `review-slide-deck`, `fuchs-econ-slides`, `fuchs-bq-slides`, `format-econ-research-figures` |
 | Overleaf | `overleaf-sync` |
 | GitHub | `gh-local-first` |
+| Coauthor GitHub onboarding and daily work | `coauthor-github-workflow` |
+| Research project organization | `organize-econ-research-project` |
+| Replication and GitHub-code/Dropbox-data packages | `build-asset-replication` |
 | Switch between Codex and Claude | `agent-handoff` |
 
-The 22 skills remain separate so the agent loads only the protocols needed for the current task.
+The 25 skills remain separate so the agent loads only the protocols needed for the current task.
 The referee-report package retains its developed direct/staged workflows, revision rounds,
 comment contract, empirical and quantitative-model preflights, fairness gates, and editor notes.
 No confidential review reports are bundled.
 
 ## Everyday examples
+
+**Bring a coauthor onto the repository:**
+
+> Use coauthor-github-workflow to explain our repository's saving, updating, branching and review
+> rules. Adapt the coauthor handbook to our actual manuscript and Dropbox setup. Do not change
+> access or publish anything.
 
 **Review first, then revise:**
 
@@ -96,6 +106,10 @@ plan authorizes publication, messages, bookings, account changes or additional t
 
 - [Account and collaboration setup](docs/collaboration-setup.md): GitHub, Overleaf tokens, local
   LaTeX, project authority, and shared agent memory.
+- [Coauthor GitHub and Dropbox handbook](skills/coauthor-github-workflow/references/coauthor-handbook.md):
+  GitHub Desktop and command-line routines, saves versus commits, updates, conflicts and team rules.
+- [GitHub-code/Dropbox-data replication setup](skills/build-asset-replication/references/github-dropbox.md):
+  authorized snapshots, local computation, source provenance and clean-clone verification.
 - [Staged draft refinement](docs/staged-draft-refinement.md): reasoning graph, diagnosis, revision,
   mathematical audit, compilation, prose cleanup and handoff.
 - [Packaging and audit](docs/publication-audit.md): preserved resources, public-copy adaptations,

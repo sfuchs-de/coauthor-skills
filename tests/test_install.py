@@ -12,6 +12,9 @@ class InstallationTests(unittest.TestCase):
     def test_profiles_and_dependency_closure(self):
         self.assertEqual(set(installer.select('collaboration')), installer.COLLABORATION)
         self.assertTrue(installer.WRITING_CORE <= set(installer.select(skills=['referee-report'])))
+        selected = set(installer.select(skills=['coauthor-github-workflow']))
+        self.assertTrue({'coauthor-github-workflow', 'gh-local-first', 'agent-handoff',
+                         'organize-econ-research-project', 'build-asset-replication'} <= selected)
         with self.assertRaises(ValueError):
             installer.select(skills=['unknown'])
 

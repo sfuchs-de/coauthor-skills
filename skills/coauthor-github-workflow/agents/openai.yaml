@@ -1,0 +1,4 @@
+interface:
+  display_name: "Coauthor GitHub Workflow"
+  short_description: "Shared repos, safe updates and coauthor onboarding"
+  default_prompt: "Use $coauthor-github-workflow to explain this project's daily saving, updating and review routine to a new coauthor."

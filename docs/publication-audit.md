@@ -37,6 +37,11 @@ credential stores. Each original resource has a source hash and a disposition in
   Restored omitted mode/graph routing in the authoring, source-QA and math entrypoints without
   replacing the latest audit protocols. Preserved the current quick `stop-slop` skill separately
   from scored linting. Moved the lint report example to an asset and generalized helper paths.
+- Added the installed `organize-econ-research-project` and `build-asset-replication` packages,
+  preserved byte-for-byte, and an original `coauthor-github-workflow` skill with a human-facing
+  handbook. These add project/task structure, GitHub-code/Dropbox-data boundaries and daily
+  coauthor update/save/review routines. No research project, collaborator data or invitations are
+  bundled in these examples.
 
 ## Verification boundaries
 

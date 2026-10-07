@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "target": {"kind": "slides", "version": "synthetic-frozen-example", "scope": "main slides and declared backup slides"},
+  "inputs": [
+    {"id": "INPUT-001", "path": "data/prepared/panel.csv", "sha256": null, "data_class": "unknown", "source_level": "prepared"}
+  ],
+  "tasks": [
+    {"id": "TASK-001", "input_ids": ["INPUT-001"], "dependencies": [], "code_paths": ["code/build_figure.py"], "output_paths": ["build/figure.pdf", "build/plotted_data.csv"], "command": null}
+  ],
+  "assets": [
+    {"id": "ASSET-001", "path": "build/figure.pdf", "kind": "generated", "anchors": ["slide 4, panel A"], "producer_task": "TASK-001", "provenance_status": "producer_identified"}
+  ],
+  "results": [
+    {"id": "RESULT-001", "kind": "figure-series", "anchors": ["slide 4, panel A"], "asset_ids": ["ASSET-001"], "producer_task": "TASK-001", "comparison": {"method": "series-data", "rule": "Define series keys, reference data and justified tolerance after tracing the producer", "unit": "unknown"}, "status": "pending"}
+  ]
+}

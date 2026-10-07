@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Asset Replication"
+  short_description: "Turn draft and slide assets into replication packages"
+  default_prompt: "Use $build-asset-replication to trace the assets in this draft or slide deck across distributed code and data, then build and verify a GitHub–Dropbox replication package."

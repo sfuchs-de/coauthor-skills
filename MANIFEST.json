@@ -22,24 +22,24 @@
       "size": 1068
     },
     "README.md": {
-      "sha256": "b2aa19e39e0acee8d3be09138bf6343fa0bb2ac6c353730ee90f79bbe4c996b5",
-      "size": 6484
+      "sha256": "a0b8a20bac2599286f443ce41174f1ef812d634f310ea2bacb2eb786bd1f4398",
+      "size": 7481
     },
     "THIRD_PARTY_NOTICES.md": {
       "sha256": "476d255f756126f47d39c5bbfc9cfb03142b41a07aa2e490c60102996c2db55c",
       "size": 1292
     },
     "docs/collaboration-setup.md": {
-      "sha256": "34a4746922785c9709c54ee53028d80dda8b933c08a7327455217593157c9010",
-      "size": 4045
+      "sha256": "e5c86e9ff6222766184a303184b81ab2653b45ca9b4e7673e5c29223052d2e1a",
+      "size": 4550
     },
     "docs/packaging-provenance.json": {
-      "sha256": "cf47849435d38c73003feb9d5e35013bc2f291044162721169b5417b4e04a6c5",
-      "size": 127307
+      "sha256": "46a083a0236aa522bc28d4b957363d7df0f71ddaac36728d8b2e387e7fe14589",
+      "size": 130644
     },
     "docs/publication-audit.md": {
-      "sha256": "eb3c1af0eb6a62e0e470865f34e34cb8a3836274a988e918ba4df1fd50f9a6b4",
-      "size": 3995
+      "sha256": "bc9969fbda64a587876ca0857da589dd8aa6e1782d03d478369663e960c014aa",
+      "size": 4405
     },
     "docs/staged-draft-refinement.md": {
       "sha256": "88d3dc90f453cc749a67ef6ef4dab14b1df49ac426b2dbbdcf368657a52000f4",
@@ -50,8 +50,8 @@
       "size": 1566
     },
     "scripts/install.py": {
-      "sha256": "2e40d81bafb5090108819ab534517c39f04ac4a7bf247abc32a94699291fd0b3",
-      "size": 5527
+      "sha256": "4ffe538b2f7cea84f5dc2a14f722b3e41f44ea5bdd1a1cf2ba0f3666f716e850",
+      "size": 5815
     },
     "scripts/validate.py": {
       "sha256": "8649541c9bd0388fbdad1b1c8527164fe31e7bfb7212603ff9ab09cee81ed77f",
@@ -209,9 +209,53 @@
       "sha256": "dc3ffc595fe80d5da54eae84c7c76e23bafa6b8d131ad4d25feb20980d417961",
       "size": 2958
     },
+    "skills/build-asset-replication/SKILL.md": {
+      "sha256": "1f10148776ec8fede1ec8f32a75923ef472257def1acb5cc4dcd6d86673a4fca",
+      "size": 8271
+    },
+    "skills/build-asset-replication/agents/openai.yaml": {
+      "sha256": "b13dbd03881611e9b9e3b7f2059ba6b2c9b8218ea342b2d9629f6142612b1b14",
+      "size": 323
+    },
+    "skills/build-asset-replication/assets/contracts.example.json": {
+      "sha256": "cb431853ea2c5aca03d72e7948c76afea0bdc98c40d45aa1c3dd08a67d2da0b3",
+      "size": 1041
+    },
+    "skills/build-asset-replication/references/execution-and-certification.md": {
+      "sha256": "31e1b5cb1f65a5f17a12377172f3b8a767813e80fc8186908a441f835375edef",
+      "size": 6782
+    },
+    "skills/build-asset-replication/references/github-dropbox.md": {
+      "sha256": "5436065e60f82d8ea82c736ce3bfc2f62a0f1bde8be224a66bb4a1ea7f6b6fc8",
+      "size": 5243
+    },
+    "skills/build-asset-replication/references/provenance-and-contracts.md": {
+      "sha256": "3d6ff8007e8b740bf16ab708a5c8f402f0ce08df7f5012fa289770c8ed4fbe78",
+      "size": 6225
+    },
+    "skills/build-asset-replication/scripts/check_contracts.py": {
+      "sha256": "3c8638282d1a3643c0dd473b7da8b5c35b515560c872c898a3bb1e577c5e1959",
+      "size": 10425
+    },
+    "skills/build-asset-replication/scripts/test_check_contracts.py": {
+      "sha256": "884b99ac5496f33ef0098a3f16a2579ab5eb190b52198722507b35fbabfb8872",
+      "size": 4451
+    },
+    "skills/coauthor-github-workflow/SKILL.md": {
+      "sha256": "726bcab3ba9f71c55130e3ffee8f33613eb8bd9ab5899e3bb204b7f558a34c7f",
+      "size": 4063
+    },
+    "skills/coauthor-github-workflow/agents/openai.yaml": {
+      "sha256": "52392e32525326ba9b9abda6c910cd5c63a5a481757f31ea8034c53b1e1dc16b",
+      "size": 265
+    },
+    "skills/coauthor-github-workflow/references/coauthor-handbook.md": {
+      "sha256": "bb0c9c89284c157f5a588a651514fe06aee0d80b3950a17ea74adf388610f0f2",
+      "size": 13574
+    },
     "skills/coauthor-workflow/SKILL.md": {
-      "sha256": "bd2a28ddf498aa4ff41af56fd9bdbaae6b3b7e33cc36be08ed57b4d4d766ad6d",
-      "size": 3396
+      "sha256": "e395050641d6983ffa08020ba754962ad41d9f5c4c3867bfe238c4fa9963679b",
+      "size": 3675
     },
     "skills/coauthor-workflow/agents/openai.yaml": {
       "sha256": "4975595d245f071c41d8a03f7bfc445a1f8fdd1bb99879a5db2f0111ba395a20",
@@ -1445,6 +1489,18 @@
       "sha256": "e78d96bf3d4cb1a84198aaf8b3a39088f37d05805923d6412d7713a0a98dfafc",
       "size": 14475
     },
+    "skills/organize-econ-research-project/SKILL.md": {
+      "sha256": "7f99c97ec77215a4f632f327648c7628a8f99f731badbbabf81057c1c471ad6c",
+      "size": 3689
+    },
+    "skills/organize-econ-research-project/agents/openai.yaml": {
+      "sha256": "cb3ee66b0ed4c9192ca4a519772f2f5ab39d0a2e211849b1f5922614f132a1ff",
+      "size": 239
+    },
+    "skills/organize-econ-research-project/references/sources.md": {
+      "sha256": "81c18fa28f94ca58c2c9563a006b115217dcd55f3f1308ee807af7fe90264b46",
+      "size": 872
+    },
     "skills/overleaf-sync/SKILL.md": {
       "sha256": "c8d968623419c01d732c09f3d01ec172a01514913a9e2f8871f145c1e55493f5",
       "size": 6000
@@ -1677,13 +1733,17 @@
       "sha256": "e82f3879f17a5ef2e084e91f83af7e0c75e819dfe60168ba19bcfa8f708c3f8c",
       "size": 7948
     },
+    "tests/test_coauthor_git_workflow.py": {
+      "sha256": "e6358be48cba9ba8b4737890e36add80dac53125e3dd8d3b682fad1acab14d7e",
+      "size": 4703
+    },
     "tests/test_helpers.py": {
       "sha256": "ba67a614e2b5db2461b006eaca04666ea08de1f72be5af676854cd6b3eeabef9",
       "size": 3503
     },
     "tests/test_install.py": {
-      "sha256": "9c6a151100c3b9e47cec0e7ca6a5434d0ed48a8e9690fa7e5bf85ddc2f6b8cf2",
-      "size": 3190
+      "sha256": "89c19836b3e6aebe8625a400de7c5aece9827b0d9086716476d0b138d2ab0125",
+      "size": 3455
     },
     "tests/test_public_adaptations.py": {
       "sha256": "775b574ade8b5196dcce4391b24093520fc196392076abfa5854751c11358f8f",

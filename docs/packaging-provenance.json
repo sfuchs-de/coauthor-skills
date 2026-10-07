@@ -23,7 +23,9 @@
     "overleaf-sync",
     "gh-local-first",
     "agent-handoff",
-    "stop-slop"
+    "stop-slop",
+    "build-asset-replication",
+    "organize-econ-research-project"
   ],
   "files": [
     {
@@ -2491,6 +2493,72 @@
       "source_sha256": "580de0b6a1110d9773b1f1286214f8ae7bde19bf63e9e00f9dc52d4c8bb41372",
       "package_sha256": "580de0b6a1110d9773b1f1286214f8ae7bde19bf63e9e00f9dc52d4c8bb41372",
       "disposition": "preserved"
+    },
+    {
+      "path": "build-asset-replication/SKILL.md",
+      "source_sha256": "1f10148776ec8fede1ec8f32a75923ef472257def1acb5cc4dcd6d86673a4fca",
+      "disposition": "preserved",
+      "package_sha256": "1f10148776ec8fede1ec8f32a75923ef472257def1acb5cc4dcd6d86673a4fca"
+    },
+    {
+      "path": "build-asset-replication/agents/openai.yaml",
+      "source_sha256": "b13dbd03881611e9b9e3b7f2059ba6b2c9b8218ea342b2d9629f6142612b1b14",
+      "disposition": "preserved",
+      "package_sha256": "b13dbd03881611e9b9e3b7f2059ba6b2c9b8218ea342b2d9629f6142612b1b14"
+    },
+    {
+      "path": "build-asset-replication/assets/contracts.example.json",
+      "source_sha256": "cb431853ea2c5aca03d72e7948c76afea0bdc98c40d45aa1c3dd08a67d2da0b3",
+      "disposition": "preserved",
+      "package_sha256": "cb431853ea2c5aca03d72e7948c76afea0bdc98c40d45aa1c3dd08a67d2da0b3"
+    },
+    {
+      "path": "build-asset-replication/references/execution-and-certification.md",
+      "source_sha256": "31e1b5cb1f65a5f17a12377172f3b8a767813e80fc8186908a441f835375edef",
+      "disposition": "preserved",
+      "package_sha256": "31e1b5cb1f65a5f17a12377172f3b8a767813e80fc8186908a441f835375edef"
+    },
+    {
+      "path": "build-asset-replication/references/github-dropbox.md",
+      "source_sha256": "5436065e60f82d8ea82c736ce3bfc2f62a0f1bde8be224a66bb4a1ea7f6b6fc8",
+      "disposition": "preserved",
+      "package_sha256": "5436065e60f82d8ea82c736ce3bfc2f62a0f1bde8be224a66bb4a1ea7f6b6fc8"
+    },
+    {
+      "path": "build-asset-replication/references/provenance-and-contracts.md",
+      "source_sha256": "3d6ff8007e8b740bf16ab708a5c8f402f0ce08df7f5012fa289770c8ed4fbe78",
+      "disposition": "preserved",
+      "package_sha256": "3d6ff8007e8b740bf16ab708a5c8f402f0ce08df7f5012fa289770c8ed4fbe78"
+    },
+    {
+      "path": "build-asset-replication/scripts/check_contracts.py",
+      "source_sha256": "3c8638282d1a3643c0dd473b7da8b5c35b515560c872c898a3bb1e577c5e1959",
+      "disposition": "preserved",
+      "package_sha256": "3c8638282d1a3643c0dd473b7da8b5c35b515560c872c898a3bb1e577c5e1959"
+    },
+    {
+      "path": "build-asset-replication/scripts/test_check_contracts.py",
+      "source_sha256": "884b99ac5496f33ef0098a3f16a2579ab5eb190b52198722507b35fbabfb8872",
+      "disposition": "preserved",
+      "package_sha256": "884b99ac5496f33ef0098a3f16a2579ab5eb190b52198722507b35fbabfb8872"
+    },
+    {
+      "path": "organize-econ-research-project/SKILL.md",
+      "source_sha256": "7f99c97ec77215a4f632f327648c7628a8f99f731badbbabf81057c1c471ad6c",
+      "disposition": "preserved",
+      "package_sha256": "7f99c97ec77215a4f632f327648c7628a8f99f731badbbabf81057c1c471ad6c"
+    },
+    {
+      "path": "organize-econ-research-project/agents/openai.yaml",
+      "source_sha256": "cb3ee66b0ed4c9192ca4a519772f2f5ab39d0a2e211849b1f5922614f132a1ff",
+      "disposition": "preserved",
+      "package_sha256": "cb3ee66b0ed4c9192ca4a519772f2f5ab39d0a2e211849b1f5922614f132a1ff"
+    },
+    {
+      "path": "organize-econ-research-project/references/sources.md",
+      "source_sha256": "81c18fa28f94ca58c2c9563a006b115217dcd55f3f1308ee807af7fe90264b46",
+      "disposition": "preserved",
+      "package_sha256": "81c18fa28f94ca58c2c9563a006b115217dcd55f3f1308ee807af7fe90264b46"
     }
   ]
 }

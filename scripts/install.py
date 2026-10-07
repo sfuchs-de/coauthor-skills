@@ -10,12 +10,15 @@ import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-COLLABORATION = {'coauthor-workflow', 'overleaf-sync', 'gh-local-first', 'agent-handoff'}
+COLLABORATION = {'coauthor-workflow', 'coauthor-github-workflow', 'overleaf-sync', 'gh-local-first',
+                 'agent-handoff', 'organize-econ-research-project', 'build-asset-replication'}
 WRITING_CORE = {'econ-writing-suite', 'econ-write', 'theory-writing-refinement', 'audit-tex-math',
                 'academic-draft-review', 'render-mathdown-tex', 'referee-report', 'ai-slop-lint',
                 'design-econ-seminar', 'map-theory-dependencies'}
 DEPENDENCIES = {name: WRITING_CORE - {name} for name in WRITING_CORE}
 DEPENDENCIES['ai-slop-lint'] |= {'stop-slop'}
+DEPENDENCIES['coauthor-github-workflow'] = {'gh-local-first', 'agent-handoff',
+                                          'organize-econ-research-project', 'build-asset-replication'}
 
 def available():
     return {p.name for p in (ROOT/'skills').iterdir() if (p/'SKILL.md').is_file()}

@@ -2,6 +2,10 @@
 
 ## GitHub
 
+For everyday coauthor use, start with the
+[GitHub and Dropbox handbook](../skills/coauthor-github-workflow/references/coauthor-handbook.md).
+It includes a visual GitHub Desktop route, command-line equivalents and explicit team agreements.
+
 Install Git and the GitHub CLI if you want command-line repository access. Authenticate using
 `gh auth login` or your operating system's credential manager. Check the authenticated account
 and repository permissions without printing tokens or credential-bearing remote URLs.
@@ -67,6 +71,10 @@ share transcripts with another person, and it should not be run against another 
 Keep unpublished reasoning graphs, review notes and case materials private or Git-ignored.
 
 ## Limits
+
+For repository-plus-data setup, use `organize-econ-research-project` for the task layout and
+`build-asset-replication` for traceable GitHub-code/Dropbox-snapshot packages. Data access and
+redistribution permissions are separate from access to this public toolkit.
 
 Optional tools depend on the chosen workflow: Node.js for dependency-graph validation, a TeX
 installation for LaTeX builds, SymPy for symbolic checks, and Pandoc plus Chrome/Chromium for
