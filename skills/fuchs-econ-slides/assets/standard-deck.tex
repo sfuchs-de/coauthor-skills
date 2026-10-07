@@ -1,0 +1,350 @@
+\PassOptionsToPackage{bookmarks=false}{hyperref}
+\documentclass[9pt,aspectratio=169,xcolor=dvipsnames]{beamer}
+\usetheme{SimplePlus}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usefonttheme[onlymath]{serif}
+\usepackage{amsmath,amssymb}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array,tabularx,adjustbox}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,calc}
+\usepackage{hyperref}
+
+\hypersetup{colorlinks,citecolor=red,linkcolor=black,urlcolor=blue,pdfpagemode=UseNone,pdfstartview={Fit}}
+\pdfstringdefDisableCommands{\def\translate#1{#1}}
+
+% Semantic palette
+\definecolor{highlight}{HTML}{91353B}
+\definecolor{grey}{gray}{0.50}
+\definecolor{textgray}{RGB}{35,35,35}
+\definecolor{midgray}{RGB}{110,110,110}
+\definecolor{linegray}{RGB}{170,170,170}
+\definecolor{buttonblue}{HTML}{2F5D7C}
+\definecolor{trafficc}{RGB}{112,48,160}
+\definecolor{bottleneckc}{RGB}{206,96,72}
+\definecolor{feec}{RGB}{0,122,114}
+\definecolor{msccyan}{RGB}{0,150,185}
+\colorlet{bl}{DarkBlue}
+\colorlet{lab}{DarkBlue}
+\colorlet{Demand}{MediumGreen!70!black}
+\colorlet{disruptc}{highlight}
+
+% Core text helpers
+\newcommand{\hdr}[2]{\textbf{\textcolor{#1}{#2}}}
+\newcommand{\smallnote}[1]{{\scriptsize\textcolor{grey}{#1}}}
+\newcommand{\figleg}[2]{\par\vspace{1.5pt}{\scriptsize\textcolor{grey}{#1}\ \textcolor{midgray}{\textemdash\ #2}}}
+\newcommand{\resultlabel}[1]{\textbf{\color{DarkBlue}#1}}
+\newcommand{\modelheading}[1]{\resultlabel{#1}}
+
+\newenvironment{itemize2}
+{\begin{itemize}\setlength{\itemsep}{5pt}\setlength{\parskip}{1.5pt}\setlength{\parsep}{1.5pt}}
+{\end{itemize}}
+\newenvironment{enumerate2}
+{\begin{enumerate}\setlength{\itemsep}{3pt}\setlength{\parskip}{1pt}\setlength{\parsep}{1pt}}
+{\end{enumerate}}
+
+% Beamer cosmetics
+\linespread{1.05}
+\setbeamersize{text margin left=4mm,text margin right=4mm}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{itemize item}{\color{DarkBlue}$\bullet$}
+\setbeamertemplate{itemize subitem}{\color{DarkBlue}$\bullet$}
+\setbeamertemplate{itemize subsubitem}{\color{DarkBlue}--}
+\setbeamerfont{frametitle}{size=\normalsize,series=\bfseries}
+\setbeamertemplate{frametitle}{%
+  \vspace*{0.45em}{\usebeamerfont{frametitle}\usebeamercolor[fg]{frametitle}\insertframetitle\par}%
+  \vspace{1pt}{\color{DarkBlue}\hrule height 0.4pt}\vspace{0.35em}%
+}
+\setbeamertemplate{footline}{%
+  \hfill\usebeamerfont{page number in head/foot}\usebeamercolor[fg]{page number in head/foot}%
+  \insertframenumber{} / \inserttotalframenumber\hspace*{2ex}\vskip2pt%
+}
+\setbeamerfont{itemize/enumerate subbody}{size=\scriptsize}
+\setbeamerfont{itemize/enumerate subsubbody}{size=\tiny}
+\setbeamercolor{button}{fg=white,bg=buttonblue}
+
+% Progress strip
+\newcommand{\sectiontabs}[1]{\vspace*{-1.70em}{\scriptsize #1\par}\vspace{1.43em}}
+\newcommand{\tabon}[2][DarkBlue]{\textbf{\textcolor{#1}{#2}}}
+\newcommand{\taboff}[1]{\textcolor{midgray}{#1}}
+\newcommand{\tabsep}{\textcolor{linegray}{\hspace{0.35em}|\hspace{0.35em}}}
+
+% Section divider
+\newcommand{\sectiontitleframe}[3]{%
+{\setbeamercolor{background canvas}{bg=white}\setbeamertemplate{footline}{}%
+  \begin{frame}[plain,noframenumbering,label=#1]
+  \vfill\begin{center}
+    {\footnotesize\color{midgray}\MakeUppercase{Section #2}}\par\vspace{0.25cm}
+    {\large\bfseries\color{DarkBlue}#3\par}\vspace{0.20cm}
+    {\color{linegray}\rule{0.42\paperwidth}{0.4pt}}
+  \end{center}\vfill
+  \end{frame}}}
+
+% Stylized-fact box
+\definecolor{sfboxfill}{RGB}{245,247,250}
+\definecolor{sfboxline}{RGB}{205,210,218}
+\newcommand{\sfbox}[3][DarkBlue]{%
+  \par\vspace{0.95em}\noindent
+  \begin{tikzpicture}
+    \node[draw=sfboxline,line width=0.3pt,fill=sfboxfill,rounded corners=2pt,
+          inner sep=3.5pt,text width=\dimexpr\linewidth-9pt\relax,align=left]
+      {\scriptsize\textbf{\textcolor{#1}{#2}}\ #3};
+  \end{tikzpicture}\par}
+
+% Backup navigation
+\newcommand{\ulink}[2]{\hyperlink{#1}{\textcolor{buttonblue}{\underline{\smash{#2}}}}}
+\newcommand{\backupbtn}[2]{{\scriptsize\ulink{#1}{#2}}}
+\newcommand{\backupsep}{{\scriptsize\color{midgray}\ \textperiodcentered\ }}
+\newcommand{\cornerbackup}[1]{%
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[anchor=south west] at ([xshift=0.45cm,yshift=0.30cm]current page.south west)
+      {{\scriptsize\color{midgray}Backup:}\hspace{0.5em}#1};
+  \end{tikzpicture}\vspace*{-1.2\baselineskip}}
+\newcommand{\appendixreturntarget}{backup_start}
+\newcommand{\appendixreturnlabel}{Back}
+\newcommand{\setappendixreturn}[2]{\renewcommand{\appendixreturntarget}{#1}\renewcommand{\appendixreturnlabel}{#2}}
+\newcommand{\appendixnav}[1][]{%
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[anchor=south west] at ([xshift=0.45cm,yshift=0.30cm]current page.south west)
+      {{\scriptsize\ulink{backup_start}{Roadmap}\backupsep\ulink{\appendixreturntarget}{\appendixreturnlabel}#1}};
+  \end{tikzpicture}}
+
+\title{Research Title: Main Economic Object or Result}
+\author{Author One, Author Two, and Author Three}
+\date{Research Seminar --- August 2026}
+
+\begin{document}
+
+% Title
+\begin{frame}[plain,noframenumbering,label=main_title]
+\vspace*{0.35cm}
+\begin{center}
+{\Large\bfseries\color{DarkBlue}Research Title: Main Economic Object or Result\par}
+\vspace{1.15cm}
+\begin{columns}[t,onlytextwidth]
+  \column{.32\linewidth}\centering Author One\\[-1pt]\textit{\scriptsize\color{gray}Affiliation}
+  \column{.32\linewidth}\centering Author Two\\[-1pt]\textit{\scriptsize\color{gray}Affiliation}
+  \column{.32\linewidth}\centering Author Three\\[-1pt]\textit{\scriptsize\color{gray}Affiliation}
+\end{columns}
+\vspace{1.15cm}
+{\small\color{DarkBlue}Research Seminar\par}\vspace{4pt}
+{\scriptsize\color{gray}Location \textperiodcentered\ August 2026\par}
+\end{center}
+\vfill
+\smallnote{Required institutional disclaimer, when applicable.}
+\end{frame}
+
+% Motivation
+\begin{frame}[t,label=motivation]{The Setting Creates an Economic Tension}
+\footnotesize
+\vspace{1.2em}
+\modelheading{Setting}
+\begin{itemize2}
+  \item State the observable fact that makes the problem economically important.
+  \item Give one magnitude, institutional detail, or historical episode that anchors the audience.
+\end{itemize2}
+\pause
+\medskip
+\modelheading{Economic tension}
+\begin{itemize2}
+  \item Explain why the same arrangement that creates gains in normal times may generate exposure, adjustment costs, or strategic leverage.
+\end{itemize2}
+\pause
+\medskip
+\resultlabel{Question}\par
+\begin{itemize2}
+  \item Ask the paper's central economic question in one sentence.
+\end{itemize2}
+\end{frame}
+
+% This paper
+\begin{frame}[label=this_paper]{This Paper: Framework, Measurement, and Quantitative Evidence}
+\footnotesize
+\begin{enumerate}\setlength{\itemsep}{12pt}
+  \item \textbf{\color{lab}Framework}
+    \begin{itemize2}\item Define the economic object and the distinction introduced by the paper.\end{itemize2}
+  \pause
+  \item \textbf{\color{lab}Measurement}
+    \begin{itemize2}\item Explain how the data construct the theory's objects.\end{itemize2}
+  \pause
+  \item \textbf{\color{lab}Quantitative evaluation}
+    \begin{itemize2}\item State the principal experiment and headline finding.\end{itemize2}
+\end{enumerate}
+\end{frame}
+
+\sectiontitleframe{sec_framework}{1}{Framework}
+
+% Framework
+\begin{frame}[t,label=framework_setup]{Framework: Define the Economic Objects Before the Result}
+\footnotesize
+\sectiontabs{\tabon{Setup}\tabsep\taboff{Result}\tabsep\taboff{Mechanism}\tabsep\taboff{Interpretation}}
+\vspace*{\fill}
+\modelheading{Environment}
+\begin{itemize2}
+  \item \textbf{Agents and geography.} Introduce the relevant decision makers, locations, and markets.
+  \item \textbf{Choice.} State the optimizing problem or behavioral condition.
+\end{itemize2}
+\medskip
+\modelheading{Economic object}
+\begin{itemize2}
+  \item Define the outcome and the margin that changes it.
+\end{itemize2}
+\[
+  \textcolor{trafficc}{\text{Exposure}}
+  \times
+  \textcolor{disruptc}{\text{Response}}
+  =
+  \textcolor{DarkBlue}{\text{Economic incidence}}.
+\]
+\vspace*{\fill}
+\cornerbackup{\backupbtn{backup_derivation}{Derivation}}
+\end{frame}
+
+\sectiontitleframe{sec_measurement}{2}{Measurement and Data}
+
+% Measurement
+\begin{frame}[t,label=measurement]{Measurement Maps the Framework into Observable Objects}
+\footnotesize
+\sectiontabs{\tabon[trafficc]{Construction}\tabsep\taboff{Stylized fact}\tabsep\taboff{Validation}}
+\begin{columns}[T,onlytextwidth]
+  \column{0.38\textwidth}
+  \modelheading{Construction}
+  \begin{itemize2}
+    \item \textbf{Raw data.} Name the records, unit of observation, sample, and period.
+    \item \textbf{Measure.} Explain the transformation from raw records to the economic object.
+    \item \textbf{Scale.} State the denominator and unit.
+  \end{itemize2}
+  \sfbox[trafficc]{Stylized Fact 1:}{State one defensible empirical pattern.}
+  \column{0.59\textwidth}
+  \centering
+  \begin{tikzpicture}
+    \draw[linegray] (0,0) rectangle (7.0,4.0);
+    \draw[->,DarkBlue] (0.6,0.55)--(6.6,0.55) node[right,font=\scriptsize]{Economic exposure};
+    \draw[->,DarkBlue] (0.6,0.55)--(0.6,3.65) node[above,font=\scriptsize]{Measured outcome};
+    \foreach \x/\y in {1.0/1.1,1.6/1.4,2.1/1.2,2.7/2.0,3.4/2.1,4.0/2.5,4.7/2.3,5.3/3.0,6.0/3.2}
+      \fill[trafficc!72] (\x,\y) circle (2.0pt);
+    \draw[trafficc,thick] (0.9,1.0)--(6.2,3.2);
+  \end{tikzpicture}
+  \figleg{Outcome and unit; observation level and sample period.}{\textbf{Data:} source and authors' construction.}
+\end{columns}
+\end{frame}
+
+\sectiontitleframe{sec_quant}{3}{Quantitative Analysis}
+
+% Results
+\begin{frame}[t,label=main_result]{The Quantitative Experiment Reveals the Main Incidence Pattern}
+\footnotesize
+\sectiontabs{\taboff{Model}\tabsep\taboff{Scenarios}\tabsep\tabon[bottleneckc]{Main result}\tabsep\taboff{Mechanism}}
+\begin{columns}[T,onlytextwidth]
+  \column{0.36\textwidth}
+  \resultlabel{Experiment}\par
+  \begin{itemize2}
+    \item \textcolor{msccyan}{State the primitive shock and solve the equilibrium counterfactual.}
+    \item Specify the comparison, support, and unit.
+  \end{itemize2}
+  \pause
+  \medskip
+  \resultlabel{Results}\par
+  \begin{itemize2}
+    \item \textbf{Magnitude.} Report the main economically interpretable number.
+    \item \textbf{Incidence.} Identify who bears the effect and why.
+    \item \textbf{Mechanism.} State the channel supported by the evidence.
+  \end{itemize2}
+  \column{0.61\textwidth}
+  \centering
+  \begin{tikzpicture}
+    \draw[linegray] (0,0) rectangle (7.0,4.2);
+    \draw[->,DarkBlue] (0.6,0.55)--(6.55,0.55) node[right,font=\scriptsize]{Exposure};
+    \draw[->,DarkBlue] (0.6,0.55)--(0.6,3.8) node[above,font=\scriptsize]{Welfare effect};
+    \draw[linegray,dashed] (0.75,0.75)--(6.15,3.45);
+    \foreach \x/\y in {1.0/1.0,1.5/1.45,2.0/1.25,2.6/1.9,3.2/2.0,3.8/2.45,4.4/2.2,5.0/3.0,5.8/3.1}
+      \fill[bottleneckc!75] (\x,\y) circle (2.2pt);
+  \end{tikzpicture}
+  \figleg{Counterfactual response in stated units; line identifies the benchmark comparison.}{\textbf{Model:} equilibrium counterfactual.}
+\end{columns}
+\cornerbackup{\backupbtn{backup_scenario}{Scenario details}\quad\backupbtn{backup_validation}{Validation}}
+\end{frame}
+
+% Conclusion
+\begin{frame}[label=conclusion]{Conclusion: State the Economic Distinction and What the Evidence Establishes}
+\small
+\vfill
+\resultlabel{Framework}\par
+\begin{itemize2}\item State the organizing economic distinction.\end{itemize2}
+\smallskip\pause
+\resultlabel{Measurement}\par
+\begin{itemize2}\item State what the new data or empirical design measures.\end{itemize2}
+\smallskip\pause
+\resultlabel{Quantification}\par
+\begin{itemize2}\item State the principal magnitude, incidence pattern, and mechanism.\end{itemize2}
+\smallskip\pause
+\resultlabel{Takeaway}\par
+\begin{itemize2}\item \textbf{State the central implication without exceeding the evidence.}\end{itemize2}
+\vfill
+\cornerbackup{\backupbtn{backup_start}{Appendix roadmap}}
+\end{frame}
+
+\appendix
+
+\begin{frame}[noframenumbering,label=backup_start]{Backup Roadmap}
+\footnotesize
+\textbf{\textcolor{trafficc}{1. Framework and derivations}}\\
+{\scriptsize\ulink{backup_derivation}{Derivation}\backupsep\ulink{backup_scenario}{Scenario definition}}
+
+\medskip
+\textbf{\textcolor{bottleneckc}{2. Data and validation}}\\
+{\scriptsize\ulink{backup_validation}{Validation and robustness}}
+
+\smallnote{Each technical slide returns to the main slide that motivated it.}
+\end{frame}
+
+\setappendixreturn{framework_setup}{Framework (back)}
+\begin{frame}[noframenumbering,label=backup_derivation]{Derivation: State Assumptions and Intermediate Steps}
+\footnotesize
+\modelheading{Assumptions}
+\begin{itemize2}
+  \item State the conditions needed for the result.
+\end{itemize2}
+\modelheading{Derivation}
+\[
+  \text{Primitive change}
+  \quad\Longrightarrow\quad
+  \text{behavioral response}
+  \quad\Longrightarrow\quad
+  \text{equilibrium incidence}.
+\]
+\modelheading{Interpretation}
+\begin{itemize2}
+  \item Explain what is exact, local, calibrated, or assumed.
+\end{itemize2}
+\appendixnav
+\end{frame}
+
+\setappendixreturn{main_result}{Main result (back)}
+\begin{frame}[noframenumbering,label=backup_scenario]{Scenario Definition and Support}
+\footnotesize
+\begin{itemize2}
+  \item Define the primitive shock and affected observations.
+  \item Separate finite adjustments, disconnected support, and excluded cases.
+  \item Report solver and accounting checks.
+\end{itemize2}
+\appendixnav[\backupsep\backupbtn{backup_validation}{Validation}]
+\end{frame}
+
+\setappendixreturn{main_result}{Main result (back)}
+\begin{frame}[noframenumbering,label=backup_validation]{Validation and Robustness}
+\footnotesize
+\begin{itemize2}
+  \item Compare model or empirical predictions with held-out outcomes.
+  \item Report sensitivity to the economically important parameters or design choices.
+  \item State the remaining limitation directly.
+\end{itemize2}
+\appendixnav[\backupsep\backupbtn{backup_scenario}{Scenario}]
+\end{frame}
+
+\end{document}

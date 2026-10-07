@@ -1,0 +1,28 @@
+{
+  "scope":"One rendered page per paper inspected in four contact sheets; A04, R06, and R03 also inspected as individual full-page images. Not a full-document typography audit.",
+  "papers": {
+    "D01":"Caption above table; compact estimates and errors; detailed notes below; text resumes with economic discussion.",
+    "D02":"Local-polynomial curve and shaded interval; residualized axes; method and interval defined below plot.",
+    "D03":"Assumptions have introductory and interpretative prose; displays are integrated with derivation.",
+    "D04":"Named assumptions and proposition references; dense colored links and a long technical footnote warrant restraint in a reading draft.",
+    "D05":"Envelope explanation carried in prose, followed by a worked economic example.",
+    "D06":"Compact fit table; parenthesized errors and bracketed p-values; sample and controls in notes.",
+    "A01":"Readable author-manuscript body; numbered equations; theorem followed by explanatory prose.",
+    "A02":"Multi-case theorem in italics; long parameter ranges illustrate the cost of over-compact formal statements.",
+    "A03":"Results paragraphs interpret geographic patterns before cost-benefit operations; formulas remain inline where appropriate.",
+    "A04":"Two diagram panels separate directly and indirectly affected locations; arrows and labels explain stages but increase density.",
+    "A05":"No vertical table rules; units in labels; detailed clustering and measurement notes.",
+    "A06":"A central condition is displayed; successive paragraphs distinguish its implications.",
+    "K01":"Definition and proposition receive surrounding prose; central welfare formula is prominent but not boxed.",
+    "K02":"Figure discussion and subsection opening share an economic object; substantial secondary derivation in footnote.",
+    "K03":"Data/model curves use line and marker distinctions; small plotting area is not a universal inclusion-size recommendation.",
+    "K04":"Interpretation precedes the discussion heading; several technical footnotes occupy a substantial page fraction.",
+    "R01":"GMM estimates and parenthesized errors; uncertainty definition below table; interpretation in body text.",
+    "R02":"Identification discussion continues directly from the gravity equation; no decorative mathematical framing.",
+    "R03":"Nine-column table remains compact; mathematical row labels challenge scanning; notes define composite objects.",
+    "R04":"Price-index comparison proceeds in prose with references; display density varies with the section's task.",
+    "R05":"Four aligned spatial panels; separate scales and explicit truncation labels; publisher proof marks are not house-style choices.",
+    "R06":"Three maps with separate legends; missingness and denominators declared; long but substantive notes.",
+    "R07":"Outcome panels separate data and model variants; normalization and units differ across panels and are explained in notes."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "inspection":"Eight rendered pages viewed in the current task; not a full-paper visual review",
+  "pages":[
+    {"paper":"U01","pdf_page":5,"observation":"Spaced mechanism paragraphs precede the formal model; the durable-stock interpretation is readable."},
+    {"paper":"U02","pdf_page":4,"observation":"The construction-margin paragraph leads into identification; citations remain attached to the relevant contrasts."},
+    {"paper":"U03","pdf_page":29,"observation":"The displayed residual has a lead-in and immediate interpretation; extraction loses some mathematical glyphs, so the rendering is necessary."},
+    {"paper":"U04","pdf_page":25,"observation":"The two-line welfare decomposition is followed by definitions and rent-equivalent interpretation; conditions also appear in footnotes."},
+    {"paper":"U05","pdf_page":14,"observation":"The regression is preceded by outcome and design language and followed by variable definitions; highway rays are the stated unit."},
+    {"paper":"U06","pdf_page":4,"observation":"The demand-cost diagram and equation share variables and receive explicit economic interpretation; traffic quantity is the horizontal axis."},
+    {"paper":"U07","pdf_page":23,"observation":"The adjustment equation is connected to an earlier price regression; a simple example then explains marginal versus mean preferences."},
+    {"paper":"U08","pdf_page":13,"observation":"Separate ITT and TOT equations are surrounded by assignment, take-up, weighting, clustering, and interpretation language."}
+  ]
+}

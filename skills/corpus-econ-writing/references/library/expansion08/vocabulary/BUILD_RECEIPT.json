@@ -1,0 +1,57 @@
+{
+  "counts": {
+    "attested_writing_forms": 23211,
+    "included_pages": 3217,
+    "new_attested_forms": 1103,
+    "new_pages": 287,
+    "new_papers": 6,
+    "normalized_forms": 24935,
+    "papers": 59,
+    "source_page_records": 576006
+  },
+  "index_exclusions": [
+    {
+      "end": "    Albouy is also affiliated",
+      "paper_id": "L04",
+      "pdf_page": 1,
+      "reason": "French abstract; raw extraction remains unchanged",
+      "removed_characters": 975,
+      "removed_utf8_sha256": "f7c1ee2f16c7e7271340cf490d62b5797d3a19e4b25051d55e1d45f74ff985e8",
+      "start": "Qualit\u00e9 de vie, productivit\u00e9 des entreprises"
+    },
+    {
+      "end": "1. Introduction",
+      "paper_id": "L04",
+      "pdf_page": 2,
+      "reason": "French abstract continuation; English introduction retained",
+      "removed_characters": 176,
+      "removed_utf8_sha256": "60dc350df3d860240568925340baae22719d25f355d17069f9b358a499fb31a8",
+      "start": "pour les allophones,"
+    }
+  ],
+  "new_extraction_hashes": {
+    "TH01": "c4d321b01ad983c2fcf3603432f6ef424bcc6a01f694b3acb1683c27440466aa",
+    "TH02": "8500657af18bbbcc5439bfca7fc36afea44916f6db031f5986a38d35b57752e6",
+    "TH03": "bcf4f92ee5b0ff5c146dde25dcfb95cdbbf77fc0288e968000724a8d009ea074",
+    "TH04": "bebae180cce8cf9ef656d7cc26eae127367d0fc7f621fed63ebefb2cd8a673bf",
+    "TH05": "73457970a9f11b6d153b0d0f3599b5c2ce706a6b7868039adc18eaf03e309734",
+    "TH06": "98cd39daa3be0381cd5b0e92d92ee0ddcfa19cbe90130b40ed79ce895caf9ffb"
+  },
+  "new_source_hashes": {
+    "TH01": "0c31ba565c69fa6f8d10b589b12ab8c191ec9b04d2bf49e7a70faa3946f06eb1",
+    "TH02": "e64bee1431344ca32e075cfd32a190c3b4f1c09852f07aea4db69f90672f283e",
+    "TH03": "16c12559811878667c595f0d1ceeb732e6c7dbf6df5f233e52b1f02a49d7cd1b",
+    "TH04": "8c30f234ec8c3a836bccbfbf6b28ce1856d209d2d26e72f859aa12aec8defcc4",
+    "TH05": "5031a09b1fd0fcf1e803f80d4c704f8513283b73fd6c3637d57bb4b9054f36b0",
+    "TH06": "71c46cf5d42f632e6921f7bff45c2808cb5eecbfbaa4377232296670606d9405"
+  },
+  "output_sha256": {
+    "attested_vocabulary.sqlite": "1396bcf4e37cde6e7b1237b3f6e4a987a2e14ec944f7b5b9f247fc1e53fa1f5d",
+    "new_attestations.csv": "079ce62977cd6756e138526e6f312a01949f52c7a6dba7c5aa8e62971e74b17b",
+    "occurrences.csv": "6514ae7b9ebf2067319cd7c810cbccb212dfaf23917e505d9dd5fe01cedcf010",
+    "words.csv": "ea4f8a8fa8cc66f191b2871049eb7944576761443f1bb68008ef8481d6af8ae2"
+  },
+  "previous_inventory_sha256": "fc8547e9cef6f91417ee1eadb4a4f23eb54b68df25dd9666913237fb09f8db72",
+  "scope": "Exact normalized attestation; no stemming, semantic license, or implied compound approval; delta relative to urban06",
+  "sources_config_sha256": "36048a7a1c684bddce697c958eb0d1cab7667c8ef2c430e9bcccfb207acac3dc"
+}

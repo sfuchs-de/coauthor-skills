@@ -1,0 +1,4 @@
+interface:
+  display_name: "Economics Writing"
+  short_description: "Draft and revise author-side economics papers"
+  default_prompt: "Use $econ-write to revise this author-side economics draft while preserving its evidence, notation, citations, and voice."

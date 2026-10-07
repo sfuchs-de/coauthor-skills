@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Slop Lint"
+  short_description: "Audit drafts for ChatGPT-style prose tells"
+  default_prompt: "Use $ai-slop-lint to review this draft for ChatGPT-style patterns. Use the referee context for author-facing referee reports, treat rule hits as evidence prompts, and preserve technical language, anchors, citations, and authorial voice."

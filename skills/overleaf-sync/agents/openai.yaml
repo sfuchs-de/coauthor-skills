@@ -1,0 +1,4 @@
+interface:
+  display_name: "Overleaf Sync"
+  short_description: "Safely reconcile local and Overleaf Git projects."
+  default_prompt: "Audit and synchronize this project with Overleaf using the guarded Git workflow."

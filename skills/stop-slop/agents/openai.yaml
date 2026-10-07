@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stop Slop"
+  short_description: "Quick unscored cleanup of formulaic prose"
+  default_prompt: "Use $stop-slop for a quick prose cleanup that preserves technical meaning and authorial voice. Use $ai-slop-lint if a scored audit is needed."

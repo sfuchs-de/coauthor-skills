@@ -1,0 +1,12 @@
+{
+  "main_end_label": "bq_main_end",
+  "status": "Illustrative starter; replace with the supplied research material.",
+  "slides": [
+    {"label": "main_question", "title": "How Does a Price Change Affect Profits?", "role": "main", "job": "Motivate the local valuation problem.", "sources": ["Illustrative optimization example in deck.tex"], "minutes": 1, "reveals": ["Two effects", "Question", "Answer"], "handoff": "Write the firm's choice.", "cut": "keep"},
+    {"label": "main_setup", "title": "Begin with the Firm's Choice", "role": "main", "job": "State the optimization problem and restrictions.", "sources": ["Illustrative optimization example in deck.tex"], "minutes": 1.5, "reveals": ["Problem", "Restrictions", "Target"], "handoff": "Differentiate along the choice.", "cut": "keep"},
+    {"label": "main_result", "title": "The Initial Quantity Values a Small Price Change", "role": "main", "job": "Explain the envelope cancellation.", "sources": ["Derivation in backup_derivation"], "minutes": 2, "reveals": ["Derivative", "Cancellation", "Interpretation"], "handoff": "See the adjustment in an example.", "cut": "keep", "backup_labels": ["backup_derivation", "backup_finite"]},
+    {"label": "main_figure", "title": "Output Adjusts, but Its First-Order Profit Effect Cancels", "role": "main", "job": "Show quantity adjustment without changing the local valuation result.", "sources": ["Explicit quadratic example; illustrative, not estimated"], "minutes": 1.5, "reveals": ["Baseline", "Higher price", "Interpretation"], "handoff": "Distinguish local from finite changes.", "cut": "optional"},
+    {"label": "main_limits", "title": "Local Valuation and Finite Changes Are Different Tasks", "role": "main", "job": "State what extra information finite changes require.", "sources": ["Fundamental theorem of calculus; backup_finite"], "minutes": 1.5, "reveals": ["Local slope", "Finite integral", "Measurement"], "handoff": "Summarize the argument.", "cut": "keep", "backup_labels": ["backup_finite"]},
+    {"label": "bq_main_end", "title": "Conclusion", "role": "main", "job": "Retain result and scope.", "sources": ["main_result", "main_limits"], "minutes": 1, "reveals": ["Cancellation", "Valuation", "Scope"], "handoff": "Questions.", "cut": "keep"}
+  ]
+}

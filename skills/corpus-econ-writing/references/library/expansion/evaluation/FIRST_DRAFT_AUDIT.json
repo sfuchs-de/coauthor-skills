@@ -1,0 +1,434 @@
+{
+  "cases": {
+    "L01": {
+      "sha256": "ba9d946217f118f6b4eac8fd35ada1018736324b102b69c073cc78f8a4d2f758",
+      "lexical": {
+        "checked_tokens": 386,
+        "unapproved_terms": [
+          {
+            "word": "line's",
+            "form": "line's",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              40
+            ]
+          },
+          {
+            "word": "optimality",
+            "form": "optimality",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              29
+            ]
+          },
+          {
+            "word": "smoothness",
+            "form": "smoothness",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              45
+            ]
+          }
+        ],
+        "context_review": [],
+        "approved_exceptions_used": [],
+        "lexical_gate_passed": false,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review."
+      },
+      "words_approximate": 386,
+      "requested_range": [
+        380,
+        600
+      ],
+      "length_passed": true,
+      "paragraphs_approximate": 7,
+      "source_screen_rerun": true,
+      "exact_12_word_match_pages": [],
+      "substantive_review": "Separate manual review; not inferred from lexical or length checks"
+    },
+    "L02": {
+      "sha256": "1e1abdb2a05fc7bc3844d84b3e35be2e56439177d43fc2e3d40c627db6b0e424",
+      "lexical": {
+        "checked_tokens": 412,
+        "unapproved_terms": [
+          {
+            "word": "resident-spending",
+            "form": "resident-spending",
+            "reason": "unattested",
+            "count": 3,
+            "lines": [
+              3,
+              19,
+              32
+            ]
+          },
+          {
+            "word": "displace",
+            "form": "displace",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              5
+            ]
+          },
+          {
+            "word": "income-recovery",
+            "form": "income-recovery",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              42
+            ]
+          },
+          {
+            "word": "observed-income",
+            "form": "observed-income",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              39
+            ]
+          },
+          {
+            "word": "origin-month",
+            "form": "origin-month",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              38
+            ]
+          },
+          {
+            "word": "tourist's",
+            "form": "tourist's",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              8
+            ]
+          },
+          {
+            "word": "tourist-spending",
+            "form": "tourist-spending",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              2
+            ]
+          }
+        ],
+        "context_review": [
+          {
+            "word": "predictable",
+            "status": "main_text_attested",
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1
+          },
+          {
+            "word": "tourist",
+            "status": "main_text_attested",
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1
+          },
+          {
+            "word": "violate",
+            "status": "other_pages_attested",
+            "flags": [],
+            "main_count": 0
+          },
+          {
+            "word": "visitors",
+            "status": "main_text_attested",
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1
+          }
+        ],
+        "approved_exceptions_used": [],
+        "lexical_gate_passed": false,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review."
+      },
+      "words_approximate": 412,
+      "requested_range": [
+        380,
+        580
+      ],
+      "length_passed": true,
+      "paragraphs_approximate": 4,
+      "source_screen_rerun": true,
+      "exact_12_word_match_pages": [],
+      "substantive_review": "Separate manual review; not inferred from lexical or length checks"
+    },
+    "L03": {
+      "sha256": "462d4a7eae76f8db5870072a600d776ef455ca077cdffc736bab31a0d109a223",
+      "lexical": {
+        "checked_tokens": 310,
+        "unapproved_terms": [
+          {
+            "word": "price-index",
+            "form": "price-index",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              11
+            ]
+          },
+          {
+            "word": "tourist-demand",
+            "form": "tourist-demand",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              16
+            ]
+          }
+        ],
+        "context_review": [
+          {
+            "word": "automatically",
+            "status": "other_pages_attested",
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 0
+          },
+          {
+            "word": "ces",
+            "status": "main_text_attested",
+            "flags": [
+              "uppercase_only_check_name_or_notation"
+            ],
+            "main_count": 391
+          },
+          {
+            "word": "manuscript",
+            "status": "other_pages_attested",
+            "flags": [],
+            "main_count": 0
+          },
+          {
+            "word": "tourist",
+            "status": "main_text_attested",
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1
+          }
+        ],
+        "approved_exceptions_used": [],
+        "lexical_gate_passed": false,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review."
+      },
+      "words_approximate": 310,
+      "requested_range": [
+        280,
+        450
+      ],
+      "length_passed": true,
+      "paragraphs_approximate": 3,
+      "source_screen_rerun": true,
+      "exact_12_word_match_pages": [],
+      "substantive_review": "Separate manual review; not inferred from lexical or length checks"
+    },
+    "L04": {
+      "sha256": "1351e733db87426eb4fbf10307e321ac5ab06bf1ef3900ac4dca9176493594fc",
+      "lexical": {
+        "checked_tokens": 488,
+        "unapproved_terms": [
+          {
+            "word": "income-recovery",
+            "form": "income-recovery",
+            "reason": "unattested",
+            "count": 2,
+            "lines": [
+              7,
+              32
+            ]
+          },
+          {
+            "word": "data-only",
+            "form": "data-only",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              41
+            ]
+          },
+          {
+            "word": "district-uniform",
+            "form": "district-uniform",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              38
+            ]
+          },
+          {
+            "word": "fixed-workplace",
+            "form": "fixed-workplace",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              25
+            ]
+          },
+          {
+            "word": "headline",
+            "form": "headline",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              8
+            ]
+          },
+          {
+            "word": "increment",
+            "form": "increment",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              36
+            ]
+          },
+          {
+            "word": "log-point",
+            "form": "log-point",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              30
+            ]
+          },
+          {
+            "word": "observed-income",
+            "form": "observed-income",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              19
+            ]
+          },
+          {
+            "word": "optimality",
+            "form": "optimality",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              39
+            ]
+          },
+          {
+            "word": "purchase-cost",
+            "form": "purchase-cost",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              12
+            ]
+          },
+          {
+            "word": "re-solving",
+            "form": "Re-solving",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              25
+            ]
+          },
+          {
+            "word": "survives",
+            "form": "survives",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              45
+            ]
+          },
+          {
+            "word": "uncomputed",
+            "form": "uncomputed",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              39
+            ]
+          },
+          {
+            "word": "uniform-policy",
+            "form": "uniform-policy",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              36
+            ]
+          }
+        ],
+        "context_review": [
+          {
+            "word": "disagreement",
+            "status": "main_text_attested",
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1
+          },
+          {
+            "word": "receipts",
+            "status": "main_text_attested",
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1
+          },
+          {
+            "word": "recommendation",
+            "status": "main_text_attested",
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1
+          },
+          {
+            "word": "validated",
+            "status": "main_text_attested",
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1
+          }
+        ],
+        "approved_exceptions_used": [],
+        "lexical_gate_passed": false,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review."
+      },
+      "words_approximate": 488,
+      "requested_range": [
+        430,
+        650
+      ],
+      "length_passed": true,
+      "paragraphs_approximate": 5,
+      "source_screen_rerun": true,
+      "exact_12_word_match_pages": [],
+      "substantive_review": "Separate manual review; not inferred from lexical or length checks"
+    }
+  },
+  "cases_sha256": "cebac9c85e2acf860f172dc2f393437752879e3186ba7644120c573db5d37594",
+  "instruction_hashes": {
+    "ARGUMENT_AND_EXPOSITION.md": "11cad39847269d26979ab9a74c58b18b14fca378dec6943a9480eb6acaa76dc6",
+    "WORKED_EXAMPLES.md": "712bcf7de118928f9cd9f9835bd4d47b232ae913b874c87396a28be22a90f415",
+    "VOCABULARY_POLICY.md": "c9a6dbe5517774eac74108013f8291c30bcf097239596e819b85a080288e4efb"
+  },
+  "vocabulary_sha256": "77ff39c0b64055b4d0136d31bb4af594bd1b84b7d706fa55b8b883a7ee861a76",
+  "policy_sha256": "520a67ccb2a64779ed97c9b046b3d77d5b1c7ef60e182a2e7d5b7e3262ffe854",
+  "independent_generation": false,
+  "independent_review": false
+}

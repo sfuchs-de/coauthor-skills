@@ -1,0 +1,4 @@
+interface:
+  display_name: "Corpus Economics Writing"
+  short_description: "Economic exposition with corpus vocabulary checks"
+  default_prompt: "Use $corpus-econ-writing to improve this economics passage's flow and check its vocabulary while preserving its scientific meaning."

@@ -1,0 +1,213 @@
+{
+  "cases": {
+    "L01": {
+      "sha256": "620b88f7c13be10a3e0918760808a9c6c94a366eada5eb38f23ff8584b03c431",
+      "lexical": {
+        "checked_tokens": 401,
+        "unapproved_terms": [
+          {
+            "word": "fixing",
+            "form": "fixing",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              24
+            ]
+          }
+        ],
+        "context_review": [],
+        "approved_exceptions_used": [],
+        "lexical_gate_passed": false,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review."
+      },
+      "words_approximate": 401,
+      "requested_range": [
+        380,
+        600
+      ],
+      "length_passed": true,
+      "paragraphs_approximate": 7,
+      "source_screen_rerun": true,
+      "exact_12_word_match_pages": [],
+      "substantive_review": "Separate manual review; not inferred from lexical or length checks"
+    },
+    "L02": {
+      "sha256": "e8759ab5f0d1b79aea03730eb979e8e2c4602bca1ac8c94900d3977e00053e54",
+      "lexical": {
+        "checked_tokens": 432,
+        "unapproved_terms": [
+          {
+            "word": "resident-spending",
+            "form": "resident-spending",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              32
+            ]
+          }
+        ],
+        "context_review": [
+          {
+            "word": "predictable",
+            "status": "main_text_attested",
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1
+          },
+          {
+            "word": "tourist",
+            "status": "main_text_attested",
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1
+          },
+          {
+            "word": "violate",
+            "status": "other_pages_attested",
+            "flags": [],
+            "main_count": 0
+          },
+          {
+            "word": "visitors",
+            "status": "main_text_attested",
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1
+          }
+        ],
+        "approved_exceptions_used": [],
+        "lexical_gate_passed": false,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review."
+      },
+      "words_approximate": 432,
+      "requested_range": [
+        380,
+        580
+      ],
+      "length_passed": true,
+      "paragraphs_approximate": 4,
+      "source_screen_rerun": true,
+      "exact_12_word_match_pages": [],
+      "substantive_review": "Separate manual review; not inferred from lexical or length checks"
+    },
+    "L03": {
+      "sha256": "c898d921ca4e64807453a849f5c9eee90d4521586de28573bb1b983a1edfac04",
+      "lexical": {
+        "checked_tokens": 312,
+        "unapproved_terms": [],
+        "context_review": [
+          {
+            "word": "automatically",
+            "status": "other_pages_attested",
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 0
+          },
+          {
+            "word": "ces",
+            "status": "main_text_attested",
+            "flags": [
+              "uppercase_only_check_name_or_notation"
+            ],
+            "main_count": 391
+          },
+          {
+            "word": "manuscript",
+            "status": "other_pages_attested",
+            "flags": [],
+            "main_count": 0
+          },
+          {
+            "word": "tourist",
+            "status": "main_text_attested",
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1
+          }
+        ],
+        "approved_exceptions_used": [],
+        "lexical_gate_passed": true,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review."
+      },
+      "words_approximate": 312,
+      "requested_range": [
+        280,
+        450
+      ],
+      "length_passed": true,
+      "paragraphs_approximate": 3,
+      "source_screen_rerun": true,
+      "exact_12_word_match_pages": [],
+      "substantive_review": "Separate manual review; not inferred from lexical or length checks"
+    },
+    "L04": {
+      "sha256": "b6111fc7fceea910494ac9901c9c7555bad73d5828bc698104300a6f177189e9",
+      "lexical": {
+        "checked_tokens": 505,
+        "unapproved_terms": [],
+        "context_review": [
+          {
+            "word": "disagreement",
+            "status": "main_text_attested",
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1
+          },
+          {
+            "word": "receipts",
+            "status": "main_text_attested",
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1
+          },
+          {
+            "word": "recommendation",
+            "status": "main_text_attested",
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1
+          },
+          {
+            "word": "validated",
+            "status": "main_text_attested",
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1
+          }
+        ],
+        "approved_exceptions_used": [],
+        "lexical_gate_passed": true,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review."
+      },
+      "words_approximate": 505,
+      "requested_range": [
+        430,
+        650
+      ],
+      "length_passed": true,
+      "paragraphs_approximate": 5,
+      "source_screen_rerun": true,
+      "exact_12_word_match_pages": [],
+      "substantive_review": "Separate manual review; not inferred from lexical or length checks"
+    }
+  },
+  "cases_sha256": "cebac9c85e2acf860f172dc2f393437752879e3186ba7644120c573db5d37594",
+  "instruction_hashes": {
+    "ARGUMENT_AND_EXPOSITION.md": "11cad39847269d26979ab9a74c58b18b14fca378dec6943a9480eb6acaa76dc6",
+    "WORKED_EXAMPLES.md": "712bcf7de118928f9cd9f9835bd4d47b232ae913b874c87396a28be22a90f415",
+    "VOCABULARY_POLICY.md": "c9a6dbe5517774eac74108013f8291c30bcf097239596e819b85a080288e4efb"
+  },
+  "vocabulary_sha256": "77ff39c0b64055b4d0136d31bb4af594bd1b84b7d706fa55b8b883a7ee861a76",
+  "policy_sha256": "520a67ccb2a64779ed97c9b046b3d77d5b1c7ef60e182a2e7d5b7e3262ffe854",
+  "independent_generation": false,
+  "independent_review": false
+}

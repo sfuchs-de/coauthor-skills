@@ -1,0 +1,622 @@
+{
+  "independent_writing_validation": false,
+  "labels_classified": 8,
+  "length_passes": 0,
+  "lexical_passes": 1,
+  "overlap_papers": null,
+  "overlap_screen_rerun": false,
+  "sample_count": 8,
+  "samples": [
+    {
+      "editorial_command_flags": [],
+      "id": "T01",
+      "length_passed": null,
+      "prose_words": 420,
+      "requested_range": null,
+      "sha256": "4836cd805d4cdf12814f28937beb968cd384806e770c241031c940fa7b4f5bda",
+      "source_matches": [],
+      "vocabulary": {
+        "approved_exceptions_used": [],
+        "checked_tokens": 418,
+        "checker_sha256": "316ba5b5b476dfb4b8abcaf06aa46a2251dc7ac9ea07e4b838419da650f5ea44",
+        "classified_labels": [],
+        "compound_review_suggestions": [],
+        "context_review": [
+          {
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1,
+            "status": "main_text_attested",
+            "word": "lets"
+          },
+          {
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1,
+            "status": "main_text_attested",
+            "word": "minimized"
+          },
+          {
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1,
+            "status": "main_text_attested",
+            "word": "resident's"
+          },
+          {
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1,
+            "status": "main_text_attested",
+            "word": "survives"
+          }
+        ],
+        "edition": "2026-10-04-theory-08",
+        "lexical_gate_passed": false,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review.",
+        "unapproved_terms": [
+          {
+            "count": 1,
+            "form": "nonsatiation",
+            "lines": [
+              17
+            ],
+            "reason": "unattested",
+            "word": "nonsatiation"
+          }
+        ],
+        "vocabulary_sha256": "1396bcf4e37cde6e7b1237b3f6e4a987a2e14ec944f7b5b9f247fc1e53fa1f5d"
+      }
+    },
+    {
+      "editorial_command_flags": [],
+      "id": "T02",
+      "length_passed": null,
+      "prose_words": 560,
+      "requested_range": null,
+      "sha256": "bdfc1138534185b8e2ba7ed453478b0a6543ccf2fee45c25c6e09ac3ef05ff42",
+      "source_matches": [],
+      "vocabulary": {
+        "approved_exceptions_used": [],
+        "checked_tokens": 556,
+        "checker_sha256": "316ba5b5b476dfb4b8abcaf06aa46a2251dc7ac9ea07e4b838419da650f5ea44",
+        "classified_labels": [],
+        "compound_review_suggestions": [
+          {
+            "action": "Review meaning and grammar; original compound remains unapproved",
+            "candidate": "purchased input",
+            "word": "purchased-input"
+          }
+        ],
+        "context_review": [],
+        "edition": "2026-10-04-theory-08",
+        "lexical_gate_passed": false,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review.",
+        "unapproved_terms": [
+          {
+            "count": 2,
+            "form": "purchased-input",
+            "lines": [
+              8,
+              67
+            ],
+            "reason": "unattested",
+            "word": "purchased-input"
+          }
+        ],
+        "vocabulary_sha256": "1396bcf4e37cde6e7b1237b3f6e4a987a2e14ec944f7b5b9f247fc1e53fa1f5d"
+      }
+    },
+    {
+      "editorial_command_flags": [],
+      "id": "T03",
+      "length_passed": null,
+      "prose_words": 507,
+      "requested_range": null,
+      "sha256": "9882da6d328f782e8b71df55414fdeb4ba30566db6789dc26c82bf266d7308fc",
+      "source_matches": [],
+      "vocabulary": {
+        "approved_exceptions_used": [],
+        "checked_tokens": 507,
+        "checker_sha256": "316ba5b5b476dfb4b8abcaf06aa46a2251dc7ac9ea07e4b838419da650f5ea44",
+        "classified_labels": [],
+        "compound_review_suggestions": [],
+        "context_review": [
+          {
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 0,
+            "status": "other_pages_attested",
+            "word": "euro"
+          },
+          {
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 0,
+            "status": "other_pages_attested",
+            "word": "leakage"
+          },
+          {
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1,
+            "status": "main_text_attested",
+            "word": "orientation"
+          },
+          {
+            "flags": [],
+            "main_count": 0,
+            "status": "other_pages_attested",
+            "word": "successive"
+          }
+        ],
+        "edition": "2026-10-04-theory-08",
+        "lexical_gate_passed": false,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review.",
+        "unapproved_terms": [
+          {
+            "count": 2,
+            "form": "euros",
+            "lines": [
+              7,
+              14
+            ],
+            "reason": "unattested",
+            "word": "euros"
+          },
+          {
+            "count": 1,
+            "form": "nonresidents",
+            "lines": [
+              19
+            ],
+            "reason": "unattested",
+            "word": "nonresidents"
+          },
+          {
+            "count": 1,
+            "form": "Nonsingularity",
+            "lines": [
+              53
+            ],
+            "reason": "unattested",
+            "word": "nonsingularity"
+          }
+        ],
+        "vocabulary_sha256": "1396bcf4e37cde6e7b1237b3f6e4a987a2e14ec944f7b5b9f247fc1e53fa1f5d"
+      }
+    },
+    {
+      "editorial_command_flags": [],
+      "id": "T04",
+      "length_passed": null,
+      "prose_words": 611,
+      "requested_range": null,
+      "sha256": "043c7f3a9f35ef5b9f26167d08522f608b3fb4d016421f43537b0d85d5a3fbed",
+      "source_matches": [],
+      "vocabulary": {
+        "approved_exceptions_used": [],
+        "checked_tokens": 608,
+        "checker_sha256": "316ba5b5b476dfb4b8abcaf06aa46a2251dc7ac9ea07e4b838419da650f5ea44",
+        "classified_labels": [],
+        "compound_review_suggestions": [
+          {
+            "action": "Review meaning and grammar; original compound remains unapproved",
+            "candidate": "common component",
+            "word": "common-component"
+          }
+        ],
+        "context_review": [
+          {
+            "flags": [],
+            "main_count": 0,
+            "status": "other_pages_attested",
+            "word": "corrections"
+          }
+        ],
+        "edition": "2026-10-04-theory-08",
+        "lexical_gate_passed": false,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review.",
+        "unapproved_terms": [
+          {
+            "count": 1,
+            "form": "common-component",
+            "lines": [
+              42
+            ],
+            "reason": "unattested",
+            "word": "common-component"
+          },
+          {
+            "count": 1,
+            "form": "origin's",
+            "lines": [
+              25
+            ],
+            "reason": "unattested",
+            "word": "origin's"
+          }
+        ],
+        "vocabulary_sha256": "1396bcf4e37cde6e7b1237b3f6e4a987a2e14ec944f7b5b9f247fc1e53fa1f5d"
+      }
+    },
+    {
+      "editorial_command_flags": [],
+      "id": "T05",
+      "length_passed": null,
+      "prose_words": 1067,
+      "requested_range": null,
+      "sha256": "56b2f1ec658c971361b8e27eaac8cba57bd9a2d6b6f566ed659cfe4dfe2fa2a4",
+      "source_matches": [],
+      "vocabulary": {
+        "approved_exceptions_used": [],
+        "checked_tokens": 1056,
+        "checker_sha256": "316ba5b5b476dfb4b8abcaf06aa46a2251dc7ac9ea07e4b838419da650f5ea44",
+        "classified_labels": [
+          {
+            "classification": "nonprose_statement_label",
+            "context": "Assumption H",
+            "end": 3035,
+            "label": "H",
+            "line": 52,
+            "start": 3034
+          },
+          {
+            "classification": "nonprose_statement_label",
+            "context": "Assumption H",
+            "end": 3952,
+            "label": "H",
+            "line": 67,
+            "start": 3951
+          },
+          {
+            "classification": "nonprose_statement_label",
+            "context": "Assumption P",
+            "end": 5533,
+            "label": "P",
+            "line": 95,
+            "start": 5532
+          },
+          {
+            "classification": "nonprose_statement_label",
+            "context": "Assumption P",
+            "end": 7561,
+            "label": "P",
+            "line": 128,
+            "start": 7560
+          }
+        ],
+        "compound_review_suggestions": [
+          {
+            "action": "Review meaning and grammar; original compound remains unapproved",
+            "candidate": "flexible input",
+            "word": "flexible-input"
+          },
+          {
+            "action": "Review meaning and grammar; original compound remains unapproved",
+            "candidate": "local factor",
+            "word": "local-factor"
+          },
+          {
+            "action": "Review meaning and grammar; original compound remains unapproved",
+            "candidate": "purchase cost",
+            "word": "purchase-cost"
+          }
+        ],
+        "context_review": [
+          {
+            "flags": [],
+            "main_count": 0,
+            "status": "other_pages_attested",
+            "word": "labor-market"
+          },
+          {
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1,
+            "status": "main_text_attested",
+            "word": "portfolios"
+          },
+          {
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1,
+            "status": "main_text_attested",
+            "word": "resident's"
+          }
+        ],
+        "edition": "2026-10-04-theory-08",
+        "lexical_gate_passed": false,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review.",
+        "unapproved_terms": [
+          {
+            "count": 1,
+            "form": "envelopes",
+            "lines": [
+              115
+            ],
+            "reason": "unattested",
+            "word": "envelopes"
+          },
+          {
+            "count": 1,
+            "form": "flexible-input",
+            "lines": [
+              107
+            ],
+            "reason": "unattested",
+            "word": "flexible-input"
+          },
+          {
+            "count": 1,
+            "form": "local-factor",
+            "lines": [
+              96
+            ],
+            "reason": "unattested",
+            "word": "local-factor"
+          },
+          {
+            "count": 1,
+            "form": "nonsatiated",
+            "lines": [
+              53
+            ],
+            "reason": "unattested",
+            "word": "nonsatiated"
+          },
+          {
+            "count": 1,
+            "form": "purchase-cost",
+            "lines": [
+              90
+            ],
+            "reason": "unattested",
+            "word": "purchase-cost"
+          },
+          {
+            "count": 1,
+            "form": "silently",
+            "lines": [
+              121
+            ],
+            "reason": "unattested",
+            "word": "silently"
+          }
+        ],
+        "vocabulary_sha256": "1396bcf4e37cde6e7b1237b3f6e4a987a2e14ec944f7b5b9f247fc1e53fa1f5d"
+      }
+    },
+    {
+      "editorial_command_flags": [],
+      "id": "T06",
+      "length_passed": null,
+      "prose_words": 453,
+      "requested_range": null,
+      "sha256": "8cdd5163ef34e27118439e17b6d49f4883563ae339db150580cc9e96b6e42d60",
+      "source_matches": [],
+      "vocabulary": {
+        "approved_exceptions_used": [],
+        "checked_tokens": 453,
+        "checker_sha256": "316ba5b5b476dfb4b8abcaf06aa46a2251dc7ac9ea07e4b838419da650f5ea44",
+        "classified_labels": [],
+        "compound_review_suggestions": [],
+        "context_review": [
+          {
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1,
+            "status": "main_text_attested",
+            "word": "internalizes"
+          },
+          {
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1,
+            "status": "main_text_attested",
+            "word": "travelers"
+          }
+        ],
+        "edition": "2026-10-04-theory-08",
+        "lexical_gate_passed": false,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review.",
+        "unapproved_terms": [
+          {
+            "count": 2,
+            "form": "traveler",
+            "lines": [
+              8,
+              15
+            ],
+            "reason": "unattested",
+            "word": "traveler"
+          },
+          {
+            "count": 1,
+            "form": "chooser",
+            "lines": [
+              18
+            ],
+            "reason": "unattested",
+            "word": "chooser"
+          }
+        ],
+        "vocabulary_sha256": "1396bcf4e37cde6e7b1237b3f6e4a987a2e14ec944f7b5b9f247fc1e53fa1f5d"
+      }
+    },
+    {
+      "editorial_command_flags": [],
+      "id": "T07",
+      "length_passed": null,
+      "prose_words": 669,
+      "requested_range": null,
+      "sha256": "47cc80035e15e2bfe7a03d41a0d5ffda9c7d46d61a1f89dd46822f5a47f1a9c7",
+      "source_matches": [],
+      "vocabulary": {
+        "approved_exceptions_used": [],
+        "checked_tokens": 665,
+        "checker_sha256": "316ba5b5b476dfb4b8abcaf06aa46a2251dc7ac9ea07e4b838419da650f5ea44",
+        "classified_labels": [],
+        "compound_review_suggestions": [
+          {
+            "action": "Review meaning and grammar; original compound remains unapproved",
+            "candidate": "feasible direction",
+            "word": "feasible-direction"
+          },
+          {
+            "action": "Review meaning and grammar; original compound remains unapproved",
+            "candidate": "fixed transfer",
+            "word": "fixed-transfer"
+          },
+          {
+            "action": "Review meaning and grammar; original compound remains unapproved",
+            "candidate": "producer price",
+            "word": "producer-price"
+          },
+          {
+            "action": "Review meaning and grammar; original compound remains unapproved",
+            "candidate": "transfer induced",
+            "word": "transfer-induced"
+          }
+        ],
+        "context_review": [
+          {
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1,
+            "status": "main_text_attested",
+            "word": "genuinely"
+          },
+          {
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1,
+            "status": "main_text_attested",
+            "word": "recommendation"
+          },
+          {
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 0,
+            "status": "other_pages_attested",
+            "word": "resolving"
+          }
+        ],
+        "edition": "2026-10-04-theory-08",
+        "lexical_gate_passed": false,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review.",
+        "unapproved_terms": [
+          {
+            "count": 1,
+            "form": "feasible-direction",
+            "lines": [
+              81
+            ],
+            "reason": "unattested",
+            "word": "feasible-direction"
+          },
+          {
+            "count": 1,
+            "form": "fixed-transfer",
+            "lines": [
+              50
+            ],
+            "reason": "unattested",
+            "word": "fixed-transfer"
+          },
+          {
+            "count": 1,
+            "form": "producer-price",
+            "lines": [
+              11
+            ],
+            "reason": "unattested",
+            "word": "producer-price"
+          },
+          {
+            "count": 1,
+            "form": "transfer-induced",
+            "lines": [
+              51
+            ],
+            "reason": "unattested",
+            "word": "transfer-induced"
+          }
+        ],
+        "vocabulary_sha256": "1396bcf4e37cde6e7b1237b3f6e4a987a2e14ec944f7b5b9f247fc1e53fa1f5d"
+      }
+    },
+    {
+      "editorial_command_flags": [],
+      "id": "T08",
+      "length_passed": null,
+      "prose_words": 390,
+      "requested_range": null,
+      "sha256": "a265ec1960c7e775cf219449015537a7e9cf4dbae5b49ece9c962092155567bd",
+      "source_matches": [],
+      "vocabulary": {
+        "approved_exceptions_used": [],
+        "checked_tokens": 386,
+        "checker_sha256": "316ba5b5b476dfb4b8abcaf06aa46a2251dc7ac9ea07e4b838419da650f5ea44",
+        "classified_labels": [
+          {
+            "classification": "nonprose_statement_label",
+            "context": "Study A",
+            "end": 125,
+            "label": "A",
+            "line": 2,
+            "start": 124
+          },
+          {
+            "classification": "nonprose_statement_label",
+            "context": "Study B",
+            "end": 706,
+            "label": "B",
+            "line": 11,
+            "start": 705
+          },
+          {
+            "classification": "nonprose_statement_label",
+            "context": "Study B",
+            "end": 1393,
+            "label": "B",
+            "line": 19,
+            "start": 1392
+          },
+          {
+            "classification": "nonprose_statement_label",
+            "context": "Study C",
+            "end": 1712,
+            "label": "C",
+            "line": 24,
+            "start": 1711
+          }
+        ],
+        "compound_review_suggestions": [],
+        "context_review": [],
+        "edition": "2026-10-04-theory-08",
+        "lexical_gate_passed": true,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review.",
+        "unapproved_terms": [],
+        "vocabulary_sha256": "1396bcf4e37cde6e7b1237b3f6e4a987a2e14ec944f7b5b9f247fc1e53fa1f5d"
+      }
+    }
+  ],
+  "scope": "Fictional examples; lexical/depth flags and 12-word source screen are not scientific certification",
+  "source_match_pages": 0,
+  "unapproved_occurrences": 22
+}

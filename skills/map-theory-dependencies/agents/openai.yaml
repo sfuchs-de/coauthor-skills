@@ -1,0 +1,4 @@
+interface:
+  display_name: "Map Theory Dependencies"
+  short_description: "Build auditable dependency graphs for theory projects"
+  default_prompt: "Use $map-theory-dependencies to extract and validate this theory's dependencies. Use compact bridge mode when supporting $referee-report."

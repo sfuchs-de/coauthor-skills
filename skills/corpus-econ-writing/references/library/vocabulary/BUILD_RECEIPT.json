@@ -1,0 +1,67 @@
+{
+  "counts": {
+    "papers": 23,
+    "included_pages": 1216,
+    "normalized_forms": 13904,
+    "word_forms": 12800,
+    "compound_forms": 1104,
+    "attested_writing_forms": 13143,
+    "status_counts": {
+      "symbol_or_nonEnglish": 650,
+      "main_text_attested": 10937,
+      "other_pages_attested": 2206,
+      "extraction_fragment": 111
+    },
+    "source_page_records": 225204
+  },
+  "source_sha256": {
+    "D01": "4d688b30753af4d88a35475c4574ecea5aee2df0d69f7482a21895bc4f52d976",
+    "D02": "cbf3928226a7e4cc0d6b8e9a0c8c74de8bb82f461b5915ea0f74400e959a8cd0",
+    "D03": "4b781f0b7a1f94504e1dc0f722a122b6c1fd0486b65dd4be7a83dffb94052730",
+    "D04": "c9e4b95d2d6f35806052f7a34bc051029c1ba0d08348c803f660b4a43843fa01",
+    "D05": "e7229d89bb1120ed2cf6ca062d159d4dc9af80a5ea07fc6f96ce64c4ffc7dd1f",
+    "D06": "4f0034c7e1c9fcae849688bb899c84cfbc44d6e7931cccdc2ff52121ca47fe73",
+    "A01": "a27527b18307d4d5caccfcec735c0ec73d3d5d0a048bf901ec1d1bbb1267ccdc",
+    "A02": "302927c2265dcf275cc19db30e7aaee407d8a3a3baa9760a44aef25d1335f193",
+    "A03": "93b22792381d574c5f01c2fe00b4a91f45c907055654b9b88005102a2f746979",
+    "A04": "b13162836acfceb02a556865492324afdbf9ca60b0b5ad317be3e1f0e32062ca",
+    "A05": "bcc884b45fef281fa48ca6ad5464a65f9d8b8377b6b8fe550b822026e7b6b091",
+    "A06": "af2c9f921a05883d2215a3cd07142eb4763c91dcc37dc964993e9d0cd1e2c8fb",
+    "K01": "2a60afe6dcfbec2678b3d1145f2a1197216927881cd4fbca95dd3cee07f66110",
+    "K02": "188317bcc4d7591d108746a031a284a16a908842be0f0e09b94e7a31e285e4b9",
+    "K03": "8149577baa98a0cfe8532ce4fc846021af2f69dcb4a50771b88103d414890630",
+    "K04": "f1546d54a7ac56a11deeefedb817b219e2094e69edcfbc283bd2297680fd6102",
+    "R01": "8c7398429bccf29b9a3d7ddf088b91bcf2b002cdfcc958f54fc951484384fb74",
+    "R02": "d542d37d16a126e7773c75d9be2e398c1117dac12243ac56c00696cb06754f24",
+    "R03": "cd1bafacbd1f7739c1c0ea07ab36c698fc2484abbb6abacf73249943041a4b6e",
+    "R04": "173467079185337536aa2835eacdf73a7ae86c2b6a446ac27f51395bf57912d8",
+    "R05": "2897c465ed7e6412dc612fc1b7f1ad7ea43c5e9d79ee207541066b4a3d00ac7c",
+    "R06": "bca226cf314fa6f107a0e99c1f0ad5844bd1b59872826ac01b29f0e15d1cc25f",
+    "R07": "cad2ee526b8591e6cbdc74f9b78f66db0ed85b90516b2c6bb85e975d997f6bb7"
+  },
+  "evidence_manifest_sha256": "d744ad87ee513df69f6d692a4906eaf65199f316f7f6c2e78fb8675194a7f414",
+  "input_sha256": {
+    "data/sources.json": "30fc4bccc156bdf8e64f556df6901c2a791007bedbb91c91404aae5097ecf7ef",
+    "data/acquisition.json": "d8939302a2124adb3b22ed191af06562fa46ecd266ed6d5ff438176978c9eb93",
+    "data/extraction.json": "8f3749f4d88f4a1b869e1bed0e359f82295955acb26b8adbbc8b41c008ab4a4c",
+    "data/reviews.json": "a37fa5b3a93491e0f354ade0ed4c2626629c08495a75d28b0513ccdf5f72f4b4",
+    "data/reviews_middle.json": "b5be1b53a18c75cccfc2d838f716193ec3bfa3a482965068e4685620fd98f1a9",
+    "data/reviews_redding.json": "8ea96c4a63e9a0e5ddd59d37c8dfc72f834a7c95ca38318a8e31630e9bef602b",
+    "data/review_amendments.json": "7d75c7e6539de89611e246a028b21e48e6465619f0d26e338c5099754fe1861a",
+    "data/dictionary.tsv": "d2833de4d51d89dc3c336df60f06e51fe33ef4b9ed3c73bc626cd1956176bf42",
+    "scripts/study.py": "0b4ccfecf02aa5af27e589bd622cd7df4da705cc4eae421cdb0dfd37c90258ac",
+    "scripts/vocabulary.py": "208e24ca0216e2184dbedecf5ffc8bca9f5cb2603b536b9a2cf8f23fe9694c00"
+  },
+  "extracted_hashes_verified": true,
+  "sqlite_integrity": "ok",
+  "occurrence_totals_verified": true,
+  "output_sha256": {
+    "words.csv": "f72323b5b451ef0f32dedc4df8e42cbe05e7f33be42d8c319abdb2e7b3ce67db",
+    "occurrences.csv": "648009ce59f620a628f376b899a31404da4445e29d548ba837bf02c02fe6574d",
+    "attested_vocabulary.json": "4bc4a74946bdc21eb48369e461fbc209ce5943f4c23d638f7a7a242d4518aebd",
+    "attested_vocabulary.sqlite": "0a595a011d69fc7581f500a5714e8148d0860c4c00ecefe499e212f77061f86b",
+    "curated_dictionary_attestation.csv": "eed1cc82c6e5b02356ddb3f12823e0c21579e98819128e67bf1fdd0fb2ce4e39",
+    "README.md": "39eaffc33051e870482620d6b9c41989c73d0273d7be5f5089e5bb15b1965b06"
+  },
+  "network_used": false
+}

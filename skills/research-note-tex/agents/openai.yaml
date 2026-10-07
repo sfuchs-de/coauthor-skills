@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Note TeX"
+  short_description: "Compile polished economics research notes"
+  default_prompt: "Use $research-note-tex to turn recent research results into a compiled self-contained TeX note."

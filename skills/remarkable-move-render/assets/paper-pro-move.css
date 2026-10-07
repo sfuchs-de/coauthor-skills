@@ -1,0 +1,119 @@
+@page {
+  size: 91.8mm 163.2mm;
+  margin: 6mm 6mm 7mm;
+}
+
+:root {
+  color-scheme: light;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #1f2328;
+  background: #ffffff;
+  font-size: 8.55pt;
+  line-height: 1.33;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+body {
+  max-width: none;
+  font-family: inherit;
+  color: inherit;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2 {
+  color: #111418;
+  font-weight: 650;
+  line-height: 1.18;
+  letter-spacing: 0;
+}
+
+h1 {
+  margin: 0 0 0.75rem;
+  font-size: 17pt;
+}
+
+h2 {
+  break-before: page;
+  page-break-before: always;
+  margin: 0 0 0.55rem;
+  padding: 0 0 0.28rem;
+  border-bottom: 0.6px solid #d8dee4;
+  font-size: 12.3pt;
+}
+
+p {
+  margin: 0 0 0.48rem;
+  orphans: 2;
+  widows: 2;
+}
+
+em {
+  color: #57606a;
+}
+
+strong {
+  font-weight: 650;
+}
+
+ul,
+ol {
+  margin: 0.12rem 0 0.35rem;
+  padding-left: 1.1rem;
+}
+
+li {
+  margin: 0.22rem 0;
+  padding-left: 0.08rem;
+}
+
+math[display="block"] {
+  display: block;
+  margin: 0.16rem auto 0.24rem;
+  text-align: center;
+  font-size: 1.04em;
+}
+
+p:has(> math[display="block"]) {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 0 0.22rem;
+}
+
+code {
+  padding: 0.06em 0.22em;
+  border-radius: 2px;
+  background: #f6f8fa;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.9em;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #8c959f;
+}
+
+@media print {
+  h1,
+  h2,
+  p,
+  li,
+  math {
+    break-inside: avoid;
+  }
+}
+

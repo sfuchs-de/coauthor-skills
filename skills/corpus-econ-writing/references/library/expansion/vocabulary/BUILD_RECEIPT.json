@@ -1,0 +1,40 @@
+{
+  "counts": {
+    "papers": 31,
+    "new_papers": 8,
+    "included_pages": 1718,
+    "new_pages": 502,
+    "normalized_forms": 17015,
+    "attested_writing_forms": 15852,
+    "new_attested_forms": 2709,
+    "source_page_records": 319630
+  },
+  "sources_config_sha256": "d5fa5dbec913f7b25e01cda8f9f1afcea10a701ec59f1babde5f9725702921bd",
+  "new_source_hashes": {
+    "D07": "e241e1c5bf8925fe046acd907bad76f19afb0e14de3af6e204d5ebb32b2f0f9b",
+    "D08": "00ee6ccab0628b530b111d3b35c3c2e1b9bc20d4292c352e0266219db11f8ad4",
+    "A07": "2a173dbcc882630c0cb807c742142af2a91790e9675f6d6fc4d5d68effc64242",
+    "A08": "4fbfaf94d7bceb91676da32e3bac7e6d7e002738d9b71a288fee66d553224f5c",
+    "K05": "84a91ea2d2d42f2f4fffe726055ec60111636491f1e6a44b089fb472fe2aeaa4",
+    "R08": "dff1a1b5340f4d3b5840412cb39d049310646abf477e1b581630bd8f8b608d9c",
+    "R09": "a44d2685912ff177f6dd6ab5da03838b69f86ff7266a2e0a104bcf395545f375",
+    "R10": "c067fc39f1ec9be8810ff94ff98f1e21056a37c5d7d3bd1e8f5b823d581dd285"
+  },
+  "new_extraction_hashes": {
+    "D07": "0ef82488150215afab24440bc9dc2e218b62e80a13003a1608c9feb581f6e464",
+    "D08": "099a4323b448fc8e44dce649ddf2d5f715f98702216574d76e05ddc954478042",
+    "A07": "da211359493648e8c714b33ed53e1b4bbc1fedd366f7028a2fa0b4d512bb24d5",
+    "A08": "91ec09b2eb96599144d8ef30ec3d9cf7d2781e66697d20193221ce516ce5d93d",
+    "K05": "b0355b5ae79f072e06f426a592f5a1778f302c48769d2090e57b3eed205cc68f",
+    "R08": "9127e8f03acc955a6f4bcf0e39148fc388a347cc1dbd3f63e838502b0acb58c9",
+    "R09": "0a06c4c670eadefbc0c6ed66de286632af5fb47c7cac3a61aa58cdff0b8fb854",
+    "R10": "0892b14a8245e221143e2a9061d6eeda133c6abdeaad7e6239d801dcfc757107"
+  },
+  "output_sha256": {
+    "attested_vocabulary.sqlite": "77ff39c0b64055b4d0136d31bb4af594bd1b84b7d706fa55b8b883a7ee861a76",
+    "new_attestations.csv": "443f32a7e498c6743e0224edd7bd2d81cc8176330a5b3e0d61813f28ad37c3b6",
+    "occurrences.csv": "ababf035f5de770e82e82bdad21082ca5742727ae8872faa68f4cdee488a70df",
+    "words.csv": "6ea8cbfb0a7e96ec78a6f197a5849a75dd55d1cc0825ba943cf4fa667d26d18c"
+  },
+  "scope": "Extraction inventory, not manual approval of every token; main ranges are approximate. No free inflections or new concepts."
+}

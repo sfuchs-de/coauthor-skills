@@ -1,0 +1,4 @@
+interface:
+  display_name: "Referee Report"
+  short_description: "Draft evidence-anchored independent reviews"
+  default_prompt: "Use $referee-report to review this manuscript independently and produce an evidence-anchored report."

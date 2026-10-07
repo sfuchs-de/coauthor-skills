@@ -1,0 +1,80 @@
+{
+  "ratings_sha256": "c1b63b55b23c8b8b80dfa55c192a67223c68e34f3449df1a0b4549d5012ed1f9",
+  "checked_audit_sha256": "8215f4048ab505075b924478e33818f46164dba305adf37f99e9baeb41161fd7",
+  "example_audit_sha256": "1cc4c11a1a13d8658e7294b84e45550703fb6df2cfd222aca27a68358ec4f60f",
+  "cases": {
+    "L01": {
+      "sample_sha256": "191ab303c424edf564e3b37823c44aed695953dbd7812b7c17dd7b157b19f45d",
+      "scores": {
+        "structure": 3.5,
+        "flow": 3.5,
+        "argument": 4,
+        "exposition": 3.5,
+        "interpretation": 3.5,
+        "math_sequence": 4,
+        "literature": null
+      },
+      "self_rating_10": 9.166666666666666,
+      "fidelity_passed": true,
+      "lexical_passed": true,
+      "length_passed": true,
+      "words": 400
+    },
+    "L02": {
+      "sample_sha256": "6ffdd384c8a211ca81bb06b480f168572a213ddc898a60b3997a9352b8613b82",
+      "scores": {
+        "structure": 3.5,
+        "flow": 3.5,
+        "argument": 4,
+        "exposition": 3.5,
+        "interpretation": 3.5,
+        "math_sequence": 3.5,
+        "literature": null
+      },
+      "self_rating_10": 8.958333333333334,
+      "fidelity_passed": true,
+      "lexical_passed": true,
+      "length_passed": true,
+      "words": 434
+    },
+    "L03": {
+      "sample_sha256": "c898d921ca4e64807453a849f5c9eee90d4521586de28573bb1b983a1edfac04",
+      "scores": {
+        "structure": 3.5,
+        "flow": 3.5,
+        "argument": 4,
+        "exposition": 3.5,
+        "interpretation": 3.5,
+        "math_sequence": 3.5,
+        "literature": 3.5
+      },
+      "self_rating_10": 8.928571428571429,
+      "fidelity_passed": true,
+      "lexical_passed": true,
+      "length_passed": true,
+      "words": 312
+    },
+    "L04": {
+      "sample_sha256": "b6111fc7fceea910494ac9901c9c7555bad73d5828bc698104300a6f177189e9",
+      "scores": {
+        "structure": 3.5,
+        "flow": 3.5,
+        "argument": 4,
+        "exposition": 3.5,
+        "interpretation": 3.5,
+        "math_sequence": 3.5,
+        "literature": null
+      },
+      "self_rating_10": 8.958333333333334,
+      "fidelity_passed": true,
+      "lexical_passed": true,
+      "length_passed": true,
+      "words": 505
+    }
+  },
+  "equal_case_mean_self_rating_10": 9.00297619047619,
+  "short_example_lexical_passes": 10,
+  "independent_generation": false,
+  "independent_review": false,
+  "scope": "Hash-bound same-context editorial self-review; not a causal improvement or author-similarity estimate"
+}

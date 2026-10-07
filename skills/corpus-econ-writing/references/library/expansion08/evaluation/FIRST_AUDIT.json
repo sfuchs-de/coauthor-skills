@@ -1,0 +1,254 @@
+{
+  "independent_writing_validation": false,
+  "labels_classified": 0,
+  "length_passes": 4,
+  "lexical_passes": 0,
+  "overlap_papers": 59,
+  "overlap_screen_rerun": true,
+  "sample_count": 4,
+  "samples": [
+    {
+      "editorial_command_flags": [],
+      "id": "T01",
+      "length_passed": true,
+      "prose_words": 260,
+      "requested_range": [
+        220,
+        350
+      ],
+      "sha256": "c32cba6ce8702382cd49d883fcee54861f4b5007a825c31f4f358f7cf83e9d2d",
+      "source_matches": [],
+      "vocabulary": {
+        "approved_exceptions_used": [],
+        "checked_tokens": 256,
+        "checker_sha256": "316ba5b5b476dfb4b8abcaf06aa46a2251dc7ac9ea07e4b838419da650f5ea44",
+        "classified_labels": [],
+        "compound_review_suggestions": [
+          {
+            "action": "Review meaning and grammar; original compound remains unapproved",
+            "candidate": "input price",
+            "word": "input-price"
+          }
+        ],
+        "context_review": [],
+        "edition": "2026-10-04-theory-08",
+        "lexical_gate_passed": false,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review.",
+        "unapproved_terms": [
+          {
+            "count": 1,
+            "form": "input-price",
+            "lines": [
+              29
+            ],
+            "reason": "unattested",
+            "word": "input-price"
+          }
+        ],
+        "vocabulary_sha256": "1396bcf4e37cde6e7b1237b3f6e4a987a2e14ec944f7b5b9f247fc1e53fa1f5d"
+      }
+    },
+    {
+      "editorial_command_flags": [],
+      "id": "T02",
+      "length_passed": true,
+      "prose_words": 254,
+      "requested_range": [
+        240,
+        380
+      ],
+      "sha256": "8083051018dd01efdd2502036e29c818e7afbcf8e430750e3087d4eb3d480e04",
+      "source_matches": [],
+      "vocabulary": {
+        "approved_exceptions_used": [],
+        "checked_tokens": 253,
+        "checker_sha256": "316ba5b5b476dfb4b8abcaf06aa46a2251dc7ac9ea07e4b838419da650f5ea44",
+        "classified_labels": [],
+        "compound_review_suggestions": [
+          {
+            "action": "Review meaning and grammar; original compound remains unapproved",
+            "candidate": "held fixed",
+            "word": "held-fixed"
+          }
+        ],
+        "context_review": [
+          {
+            "flags": [],
+            "main_count": 0,
+            "status": "other_pages_attested",
+            "word": "state's"
+          }
+        ],
+        "edition": "2026-10-04-theory-08",
+        "lexical_gate_passed": false,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review.",
+        "unapproved_terms": [
+          {
+            "count": 1,
+            "form": "held-fixed",
+            "lines": [
+              36
+            ],
+            "reason": "unattested",
+            "word": "held-fixed"
+          }
+        ],
+        "vocabulary_sha256": "1396bcf4e37cde6e7b1237b3f6e4a987a2e14ec944f7b5b9f247fc1e53fa1f5d"
+      }
+    },
+    {
+      "editorial_command_flags": [],
+      "id": "T03",
+      "length_passed": true,
+      "prose_words": 296,
+      "requested_range": [
+        280,
+        450
+      ],
+      "sha256": "557e4c4aee425512426ae7df9c907c84a49a6b276d1379454e963d8b59639893",
+      "source_matches": [],
+      "vocabulary": {
+        "approved_exceptions_used": [],
+        "checked_tokens": 292,
+        "checker_sha256": "316ba5b5b476dfb4b8abcaf06aa46a2251dc7ac9ea07e4b838419da650f5ea44",
+        "classified_labels": [],
+        "compound_review_suggestions": [
+          {
+            "action": "Review meaning and grammar; original compound remains unapproved",
+            "candidate": "origin effect",
+            "word": "origin-effect"
+          },
+          {
+            "action": "Review meaning and grammar; original compound remains unapproved",
+            "candidate": "relative share",
+            "word": "relative-share"
+          }
+        ],
+        "context_review": [
+          {
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1,
+            "status": "main_text_attested",
+            "word": "naming"
+          }
+        ],
+        "edition": "2026-10-04-theory-08",
+        "lexical_gate_passed": false,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review.",
+        "unapproved_terms": [
+          {
+            "count": 1,
+            "form": "citywide",
+            "lines": [
+              43
+            ],
+            "reason": "unattested",
+            "word": "citywide"
+          },
+          {
+            "count": 1,
+            "form": "origin's",
+            "lines": [
+              34
+            ],
+            "reason": "unattested",
+            "word": "origin's"
+          },
+          {
+            "count": 1,
+            "form": "origin-effect",
+            "lines": [
+              39
+            ],
+            "reason": "unattested",
+            "word": "origin-effect"
+          },
+          {
+            "count": 1,
+            "form": "relative-share",
+            "lines": [
+              22
+            ],
+            "reason": "unattested",
+            "word": "relative-share"
+          }
+        ],
+        "vocabulary_sha256": "1396bcf4e37cde6e7b1237b3f6e4a987a2e14ec944f7b5b9f247fc1e53fa1f5d"
+      }
+    },
+    {
+      "editorial_command_flags": [],
+      "id": "T04",
+      "length_passed": true,
+      "prose_words": 243,
+      "requested_range": [
+        180,
+        280
+      ],
+      "sha256": "6bdc7f3a033a47bdd6894f8b4d9e4f38745e29b6369b80ee093c41fcea8670a9",
+      "source_matches": [],
+      "vocabulary": {
+        "approved_exceptions_used": [],
+        "checked_tokens": 240,
+        "checker_sha256": "316ba5b5b476dfb4b8abcaf06aa46a2251dc7ac9ea07e4b838419da650f5ea44",
+        "classified_labels": [],
+        "compound_review_suggestions": [
+          {
+            "action": "Review meaning and grammar; original compound remains unapproved",
+            "candidate": "initial basket",
+            "word": "initial-basket"
+          },
+          {
+            "action": "Review meaning and grammar; original compound remains unapproved",
+            "candidate": "spatial policy",
+            "word": "spatial-policy"
+          },
+          {
+            "action": "Review meaning and grammar; original compound remains unapproved",
+            "candidate": "unequal gains",
+            "word": "unequal-gains"
+          }
+        ],
+        "context_review": [],
+        "edition": "2026-10-04-theory-08",
+        "lexical_gate_passed": false,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review.",
+        "unapproved_terms": [
+          {
+            "count": 1,
+            "form": "initial-basket",
+            "lines": [
+              22
+            ],
+            "reason": "unattested",
+            "word": "initial-basket"
+          },
+          {
+            "count": 1,
+            "form": "Spatial-policy",
+            "lines": [
+              19
+            ],
+            "reason": "unattested",
+            "word": "spatial-policy"
+          },
+          {
+            "count": 1,
+            "form": "unequal-gains",
+            "lines": [
+              12
+            ],
+            "reason": "unattested",
+            "word": "unequal-gains"
+          }
+        ],
+        "vocabulary_sha256": "1396bcf4e37cde6e7b1237b3f6e4a987a2e14ec944f7b5b9f247fc1e53fa1f5d"
+      }
+    }
+  ],
+  "scope": "Fictional examples; lexical/depth flags and 12-word source screen are not scientific certification",
+  "source_match_pages": 0,
+  "unapproved_occurrences": 9
+}

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Fuchs Economics Slides"
+  short_description: "Build research decks in the NBER/Cowles style."
+  brand_color: "#173B63"
+  default_prompt: "Use $fuchs-econ-slides to create a research presentation in my standard NBER/Cowles format."

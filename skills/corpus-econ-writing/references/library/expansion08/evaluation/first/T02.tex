@@ -1,0 +1,37 @@
+A policy affects resident welfare both directly and through the equilibrium it
+changes. Let $E$ denote a scalar equilibrium state, $T$ a transfer, and $t$ the
+policy instrument. Welfare is $w(E,T,t)$, equilibrium satisfies $F(E,T,t)=0$,
+and the budget returns revenue through $T=R(E,t)$. Assume these functions are
+continuously differentiable near the initial equilibrium.
+
+The partial derivative $F_E$ changes the state with the transfer and policy
+fixed; $F_T$ changes the transfer with the state and policy fixed; $F_t$ changes
+the policy with the other two arguments fixed. The same convention applies to
+the partial derivatives of welfare. Revenue derivatives hold the other argument
+of $R$ fixed. Differentiating both equilibrium and the budget gives
+\[
+ F_E E'+F_T T'+F_t=0,\qquad T'=R_E E'+R_t,
+\]
+where a prime denotes a total derivative with respect to the policy. Substitution
+makes the feedback explicit:
+\[
+ D=F_E+F_T R_E\ne0,\qquad E'=-\frac{F_t+F_T R_t}{D}.
+\]
+The denominator includes the effect of the state on revenue and the effect of
+the returned revenue on equilibrium. Its nonzero value permits a local response;
+it does not establish stability or a unique optimum for the policy.
+
+The corresponding welfare derivative is
+\[
+ w'=w_t+w_T R_t+(w_E+w_T R_E)E'.
+\]
+The direct effect $w_t$ must remain because welfare explicitly depends on the
+policy. The other terms value both the transfer and state changes. Feedback is
+counted once through the response $E'$ and the budget derivative.
+
+In a different experiment that changes an exogenous transfer with policy fixed,
+and provided $F_E\ne0$, the total value of that transfer is
+$w_T-w_E F_T/F_E$. This includes the state's adjustment, whereas $w_T$ holds
+the state fixed. Replacing $w_T$ by that total value in the preceding chain rule
+would then value adjustment twice. Keeping the experiment and held-fixed
+arguments explicit prevents that error without removing equilibrium effects.

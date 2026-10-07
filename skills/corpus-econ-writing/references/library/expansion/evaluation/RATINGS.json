@@ -1,0 +1,19 @@
+{
+  "scale":"0-4 with half-point editorial increments; scores are same-context self-review, not independent author resemblance or a trained metric",
+  "criteria":"Structure, flow, argument, exposition, interpretation, mathematical and dependency sequence, and literature comparison. Inapplicable literature scores are null, not automatic full marks.",
+  "cases":[
+    {"id":"L01","scores":{"structure":3.5,"flow":3.5,"argument":4,"exposition":3.5,"interpretation":3.5,"math_sequence":4,"literature":null},"fidelity_passed":true,"findings":"General preferences and technology remain distinct from empirical recovery. The budget movement explicitly matches the envelope. The revision removes an implication that wages were fixed. The last transition remains compact and would need the actual next regression in a complete paper."},
+    {"id":"L02","scores":{"structure":3.5,"flow":3.5,"argument":4,"exposition":3.5,"interpretation":3.5,"math_sequence":3.5,"literature":null},"fidelity_passed":true,"findings":"Descriptive counts motivate bilateral links, then identification and income correction. The effect normalization is not lost. The four paragraphs remain fairly dense; an actual data subsection would supply sample details rather than repeat every regressor in one sentence."},
+    {"id":"L03","scores":{"structure":3.5,"flow":3.5,"argument":4,"exposition":3.5,"interpretation":3.5,"math_sequence":3.5,"literature":3.5},"fidelity_passed":true,"findings":"References are compared by task and restrictions. The empirical identifying condition stays separate from mathematical properties. The third paragraph still contains several author groups and would benefit from narrower scope when inserted into a real manuscript."},
+    {"id":"L04","scores":{"structure":3.5,"flow":3.5,"argument":4,"exposition":3.5,"interpretation":3.5,"math_sequence":3.5,"literature":null},"fidelity_passed":true,"findings":"Sensitivity changes the next claim, not just an appendix qualification. Finite gains and local log points remain distinct. The conclusion no longer invents a transmission finding absent from the brief. The tax paragraph is necessarily conditional and is not a causal explanation of scattered rates."}
+  ],
+  "critical_first_draft_repairs":[
+    {"id":"L01","issue":"The statement about unchanged costs could imply an unassumed fixed wage. Fixed workplace quantity does not fix the wage; G covers combined payments."},
+    {"id":"L04","issue":"The conclusion claimed work/purchase transmission beyond directly affected places although the supplied brief had no such finding. Removed rather than treated as a harmless flourish."}
+  ],
+  "first_draft_lexical_passes":0,
+  "checked_lexical_passes":4,
+  "independent_generation":false,
+  "independent_scoring":false,
+  "comparison_limit":"Different prompts, longer format, changed corpus, manual revision, and shared context prevent a causal or statistical comparison with Candidates 02 or 03. A high self-rating is not independent acceptance."
+}

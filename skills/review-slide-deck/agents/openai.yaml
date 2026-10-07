@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Slide Deck"
+  short_description: "Audit academic decks for clarity and delivery"
+  default_prompt: "Use $review-slide-deck to review this presentation and prioritize the changes that will most improve the talk."

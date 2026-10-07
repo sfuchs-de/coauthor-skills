@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "edition": "2026-10-03-expanded-04",
+  "base_edition": "2026-10-03",
+  "author_indexes": {
+    "donaldson": "https://dave-donaldson.com/research/",
+    "arkolakis": "https://arkolakis.com/research/",
+    "redding": "https://stephenredding.github.io/redpublish.htm"
+  },
+  "papers": [
+    {"id":"D07","title":"The Textbook Case for Industrial Policy: Theory Meets Data","year":2025,"version":"Published JPE article, May 2025","authors":["Dominick Bartelme","Arnaud Costinot","Dave Donaldson","Andres Rodriguez-Clare"],"focal_authors":["Donaldson"],"genre":"theory-empirical-policy","index":"donaldson","pdf_url":"https://dave-donaldson.com/wp-content/uploads/BCDR.pdf","main_pages":[1,43]},
+    {"id":"D08","title":"Persistence and Path Dependence in the Spatial Economy","year":2022,"version":"Author manuscript dated October 2022, not asserted to be latest published version","authors":["Treb Allen","Dave Donaldson"],"focal_authors":["Allen","Donaldson"],"genre":"theory-empirical","index":"donaldson","pdf_url":"https://dave-donaldson.com/wp-content/uploads/Path_Dependence.pdf","main_pages":[1,41]},
+    {"id":"A07","title":"On the Equilibrium Properties of Spatial Models","year":2024,"version":"Author manuscript dated January 2024, includes online appendix","authors":["Treb Allen","Costas Arkolakis","Xiangliang Li"],"focal_authors":["Allen","Arkolakis"],"genre":"theory-method","index":"arkolakis","pdf_url":"https://arkolakis.com/wp-content/uploads/AAL-Equilibrium-Networks.pdf","main_pages":[1,17]},
+    {"id":"A08","title":"Quantitative Regional Economics","year":2025,"version":"Author-hosted handbook manuscript","authors":["Treb Allen","Costas Arkolakis"],"focal_authors":["Allen","Arkolakis"],"genre":"survey-theory","index":"arkolakis","pdf_url":"https://arkolakis.com/wp-content/uploads/AA-Quantitative-Regional-Economics.pdf","main_pages":[1,65]},
+    {"id":"K05","title":"General Equilibrium Effects in Space: Theory and Measurement","year":2025,"version":"Author manuscript dated September 2025","authors":["Rodrigo Adao","Costas Arkolakis","Federico Esposito"],"focal_authors":["Arkolakis"],"genre":"theory-empirical-method","index":"arkolakis","pdf_url":"https://arkolakis.com/wp-content/uploads/AAE.pdf","main_pages":[1,40]},
+    {"id":"R08","title":"Dynamic Spatial General Equilibrium","year":2023,"version":"Published Econometrica article, March 2023","authors":["Benny Kleinman","Ernest Liu","Stephen Redding"],"focal_authors":["Redding"],"genre":"theory-quantitative","index":"redding","resolve_title":"Dynamic Spatial General Equilibrium","main_pages":[1,37]},
+    {"id":"R09","title":"The Costs of Remoteness: Evidence from German Division and Reunification","year":2008,"version":"Published AER article, December 2008","authors":["Stephen Redding","Daniel Sturm"],"focal_authors":["Redding"],"genre":"empirical-model","index":"redding","resolve_title":"The Costs of Remoteness: Evidence from German Division and Reunification","main_pages":[1,29]},
+    {"id":"R10","title":"Quantitative Urban Economics","year":2025,"version":"Published handbook chapter, chapter pagination starts at 74","authors":["Stephen Redding"],"focal_authors":["Redding"],"genre":"survey-theory","index":"redding","resolve_title":"Quantitative Urban Economics","main_pages":[2,61]}
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "MY01": {
+    "pdf_page": 7,
+    "image_sha256": "04853ba6604995b6b7773b715acb244c1d75ad6df5dd864b472a9e4fb653792d",
+    "inspection": "pending visual review"
+  },
+  "MY02": {
+    "pdf_page": 13,
+    "image_sha256": "d7a921202c7c948ec81a22ec1e0d24dd54d82abeed02266a8333963bd15a1958",
+    "inspection": "pending visual review"
+  },
+  "MY03": {
+    "pdf_page": 19,
+    "image_sha256": "c1439cfb77fd82fd26e07504fc72495dabdf1228838f97fd13c5944eb8b77e1f",
+    "inspection": "pending visual review"
+  },
+  "MY04": {
+    "pdf_page": 8,
+    "image_sha256": "5da5047f1718dc1dfd680f7910fb2d39664fd3df4681d7c3dfa7f0a2b387208c",
+    "inspection": "pending visual review"
+  },
+  "W01": {
+    "pdf_page": 14,
+    "image_sha256": "16b7315bed01b9ceff01722aad0c6dcd8d7e357d5c2a6de3a1f3ce24fc23e4d0",
+    "inspection": "pending visual review"
+  },
+  "W02": {
+    "pdf_page": 24,
+    "image_sha256": "a02c40b2d4bf312250cf0696771f6b8246edd857b44e2a59c31d41f6eb29eda9",
+    "inspection": "pending visual review"
+  },
+  "W03": {
+    "pdf_page": 3,
+    "image_sha256": "0fde6c5dbbcd3cd3cf7ee1888cde9b7198cd7469c91f78bd047f7c61b646c353",
+    "inspection": "pending visual review"
+  },
+  "W04": {
+    "pdf_page": 27,
+    "image_sha256": "bc5286ebec10d7e319d9ceb4fddc9b6441f03bebb48a530f58524d194522b912",
+    "inspection": "pending visual review"
+  },
+  "L01": {
+    "pdf_page": 18,
+    "image_sha256": "d2dd3a55a5a48c9cb7e065ae690d58a8dac6630d8788af41283dcf718d29826c",
+    "inspection": "pending visual review"
+  },
+  "L02": {
+    "pdf_page": 15,
+    "image_sha256": "1fff6fe760cd3c6521a3451daee1d74ed0ba44d14077667eaddbd2182e2b709f",
+    "inspection": "pending visual review"
+  },
+  "L03": {
+    "pdf_page": 19,
+    "image_sha256": "2fe5147f9e1f8a5ed61557456e21cdfd4fa9bfc778cbe71aacc45ed289ce73de",
+    "inspection": "pending visual review"
+  },
+  "L04": {
+    "pdf_page": 15,
+    "image_sha256": "e68661b2902ea455d19aa47b46491c68f89f5abcff64a79298baf6112f9587c1",
+    "inspection": "pending visual review"
+  },
+  "R11": {
+    "pdf_page": 4,
+    "image_sha256": "2cd199fd37409723a5c91e61adb512da320bb505ada89016018c88068d31a89a",
+    "inspection": "pending visual review"
+  },
+  "R12": {
+    "pdf_page": 20,
+    "image_sha256": "be7c551042eb08b8e8aad0a8dfe892d9baf478bd0dc395605a7ef2fe8bb4ba8b",
+    "inspection": "pending visual review"
+  }
+}

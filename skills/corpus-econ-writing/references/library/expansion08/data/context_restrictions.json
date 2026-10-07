@@ -1,0 +1,7 @@
+{
+  "euro": {
+    "status": "context_restricted",
+    "evidence": {"paper_id":"TH02","pdf_page":14,"context":"Euro. Econ. Rev., a journal abbreviation in references"},
+    "reason": "This single occurrence does not attest the currency meaning. Retain the token in the occurrence index, but require a justified approved exception for prose use."
+  }
+}

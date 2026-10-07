@@ -1,0 +1,42 @@
+{
+  "D07": {
+    "pdf_page": 10,
+    "image_sha256": "1212b8a6edd13a637971a0a7a59d930da0deee39ed34182ddedff01e5ccc795e",
+    "inspection": "pending visual review"
+  },
+  "D08": {
+    "pdf_page": 12,
+    "image_sha256": "772aff6c41607d961c53b44776d8010973c4caec998a33da135a2b7a755552e8",
+    "inspection": "pending visual review"
+  },
+  "A07": {
+    "pdf_page": 7,
+    "image_sha256": "da56628928667d1462fa4f5c49cbf216ad5b19af92c4aeb4ab50064f160945ee",
+    "inspection": "pending visual review"
+  },
+  "A08": {
+    "pdf_page": 44,
+    "image_sha256": "86ad166df74e69868bbbeae182626b7bc7457fbe501620ba91189176f31ba146",
+    "inspection": "pending visual review"
+  },
+  "K05": {
+    "pdf_page": 3,
+    "image_sha256": "03f3ca493d80c9033dc0cb4b04df043a692a8549afd436fe858092e93e62a8d5",
+    "inspection": "pending visual review"
+  },
+  "R08": {
+    "pdf_page": 10,
+    "image_sha256": "5625ee3ee6e55cf601ebe331a994c2ad00377fc331cd94fa8b62a4b1e5fb448a",
+    "inspection": "pending visual review"
+  },
+  "R09": {
+    "pdf_page": 17,
+    "image_sha256": "cf0d33f3bda0a8582f245729f51662676329370fbcc6452ce9f1fb736b39662d",
+    "inspection": "pending visual review"
+  },
+  "R10": {
+    "pdf_page": 22,
+    "image_sha256": "c75bb10df35e6e3fc45dc8f1a7e3ba43b4c4d71e5b356fa9bf433b09ae27202d",
+    "inspection": "pending visual review"
+  }
+}

@@ -1,0 +1,142 @@
+\documentclass[10pt,aspectratio=169]{beamer}
+\usepackage{bq-theme}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\hypersetup{pdftitle={Local Responses and Optimized Values}}
+\newcommand{\dd}{\mathrm{d}}
+
+% Replace this small illustrative example with the supplied research material.
+% The shared source deliberately contains no McGill findings or calibrations.
+\newcommand{\SupplyFigure}[1]{%
+\begin{tikzpicture}
+\begin{axis}[width=.82\textwidth,height=.54\textheight,
+  xmin=0,xmax=1.7,ymin=0,ymax=1.7,axis lines=left,
+  xlabel={Quantity $q$},ylabel={Marginal cost / price},
+  xtick={0,1,1.3},ytick={0,1,1.3},tick label style={font=\small},
+  label style={font=\small},clip=false]
+  \addplot[black,thick,domain=0:1.6,samples=2]{x};
+  \node[anchor=west,font=\small] at (axis cs:1.2,1.55) {$C'(q)=q$};
+  \addplot[BQBlue,dashed] coordinates {(0,1) (1,1) (1,0)};
+  \addplot[BQBlue,only marks,mark=*] coordinates {(1,1)};
+  \node[anchor=south east,font=\small,text=BQBlue] at (axis cs:1,1) {Initial optimum};
+  \ifnum#1=2
+    \addplot[BQRed,dashed] coordinates {(0,1.3) (1.3,1.3) (1.3,0)};
+    \addplot[BQRed,only marks,mark=*] coordinates {(1.3,1.3)};
+    \node[anchor=west,font=\small,text=BQRed] at (axis cs:1.32,1.27) {After $p$ rises};
+  \fi
+\end{axis}
+\end{tikzpicture}}
+
+\begin{document}
+\begin{frame}[plain,noframenumbering,label=title]
+\vspace{8mm}
+\begin{center}
+{\Large\color{BQBlue}Local Responses and Optimized Values\par}
+\vspace{10mm}
+\begin{tabular}{ccc}
+Author One & Author Two & Author Three\\[2pt]
+{\footnotesize Affiliation One} & {\footnotesize Affiliation Two} & {\footnotesize Affiliation Three}
+\end{tabular}\par
+\vspace{8mm}
+{\small Research Seminar\\[3pt]Month Year}
+\end{center}
+\vfill
+{\tiny Illustrative starter, not empirical research results.}
+\end{frame}
+
+\begin{frame}[label=main_question]{How Does a Price Change Affect Profits?}
+\begin{BQList}
+\item<1-> A price change has two apparent effects.
+\begin{BQSub}
+\item Revenue changes on the initial quantity.
+\item The firm chooses a new quantity.
+\end{BQSub}
+\item<2-> Do we need to predict both to value a small price change?
+\item<3-> Optimization makes the \textbf{initial quantity} informative.
+\end{BQList}
+\end{frame}
+
+\BQAgenda{1}{A local mechanism,What the result identifies,From theory to measurement}
+
+\begin{frame}[label=main_setup]{Begin with the Firm's Choice}
+\begin{BQCompact}
+\item<1-> A price-taking firm chooses output $q$ at price $p$:
+\[G(p)=\max_{q\geq0}\{pq-C(q)\}.\]
+\item<2-> Hold the cost function fixed and consider a differentiable interior optimum.
+\begin{BQSub}
+\item The first-order condition is $C'(q)=p$.
+\end{BQSub}
+\item<3-> We want the change in optimized profit, $\dd G$.
+\end{BQCompact}
+\BQBottomLinks{\backupbtn{backup_derivation}{Derivation}}
+\end{frame}
+
+\begin{frame}[label=main_result]{The Initial Quantity Values a Small Price Change}
+\begin{BQCompact}[12pt]
+\item<1-> Differentiate revenue and cost along the firm's choice:
+\[\dd G=\textcolor{BQBlue}{q\,\dd p}+[p-C'(q)]\dd q.\]
+\item<2-> At the optimum, the \textbf{quantity adjustment cancels}:
+\[p-C'(q)=0\quad\Longrightarrow\quad\dd G=\textcolor{BQBlue}{q\,\dd p}.\]
+\item<3-> The \textcolor{BQBlue}{gain on the initial quantity} is the first-order profit change.
+\begin{BQSub}
+\item No separate prediction of $\dd q$ is needed for this local valuation.
+\end{BQSub}
+\end{BQCompact}
+\BQSource{Price-taking, fixed differentiable costs, and an interior optimum. This is a local statement.}
+\BQBottomLinks{\backupbtn{backup_derivation}{Cancellation}\quad\backupbtn{backup_finite}{Finite changes}}
+\end{frame}
+
+\begin{frame}[t,label=main_figure]{Output Adjusts, but Its First-Order Profit Effect Cancels}
+\BQLead{Illustrate with $C(q)=q^2/2$, so the firm chooses $q=p$.}
+\begin{overlayarea}{\textwidth}{.58\textheight}
+\centering
+\only<1|handout:0>{\SupplyFigure{1}}
+\only<2-|handout:1>{\SupplyFigure{2}}
+\end{overlayarea}
+\begin{itemize}
+\item<3-> A small price rise values each unit initially sold at the higher price.
+\end{itemize}
+\BQSource{Illustrative quadratic cost example; axis values are not estimates.}
+\end{frame}
+
+\begin{frame}[label=main_limits]{Local Valuation and Finite Changes Are Different Tasks}
+\begin{BQList}
+\item<1-> Initial quantity identifies the \textbf{local slope} of optimized profit.
+\item<2-> A finite change also depends on how output varies along the price path:
+\[G(p_1)-G(p_0)=\int_{p_0}^{p_1}q(p)\,\dd p.\]
+\item<3-> An empirical application must distinguish an observed quantity from an assumed response curve.
+\end{BQList}
+\BQBottomLinks{\backupbtn{backup_finite}{Quadratic example}}
+\end{frame}
+
+\begin{frame}[label=bq_main_end]{Conclusion}
+\begin{BQList}
+\item<1-> Optimization cancels the first-order effect of the chosen quantity adjustment.
+\item<2-> Initial quantity values a small price change.
+\item<3-> Finite-change predictions require additional information about the response path.
+\end{BQList}
+\end{frame}
+
+\BQAppendix
+\setappendixreturn{main_result}{Back to the envelope}
+\begin{frame}[noframenumbering,label=backup_derivation]{Why Does the Quantity Adjustment Cancel?}
+\begin{BQCompact}
+\item Write optimized profit as $G(p)=p\,q(p)-C(q(p))$.
+\item Apply the chain rule:
+\[G'(p)=q(p)+p\,q'(p)-C'(q(p))q'(p).\]
+\item The first-order condition $C'(q(p))=p$ leaves $G'(p)=q(p)$.
+\item The calculation assumes a smooth interior solution; changing costs would add another term.
+\end{BQCompact}
+\end{frame}
+
+\setappendixreturn{main_limits}{Back to local versus finite}
+\begin{frame}[noframenumbering,label=backup_finite]{The Finite-Change Remainder Is Second Order}
+\begin{BQCompact}
+\item In the quadratic example, $q(p)=p$ and $G(p)=p^2/2$.
+\item For price change $h$:
+\[G(p+h)-G(p)=p\,h+\frac{h^2}{2}.\]
+\item The envelope gives the linear term $q(p)h=p\,h$.
+\item The remainder depends on curvature; the local formula is not an exact finite-change identity.
+\end{BQCompact}
+\end{frame}
+\end{document}

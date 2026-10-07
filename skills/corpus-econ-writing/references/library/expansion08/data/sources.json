@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "edition": "2026-10-04-theory-08",
+  "previous_edition": "2026-10-04-urban-06",
+  "activation": "Expanded theory default; all previous inventories remain explicitly selectable",
+  "author_indexes": {},
+  "papers": [
+    {"id":"TH01","title":"Envelope Theorems for Arbitrary Choice Sets","authors":["Paul Milgrom","Ilya Segal"],"focal_authors":["Milgrom","Segal"],"year":2002,"genre":"optimization-theory","version":"Author-hosted Econometrica article, 2002; one copyright cover then printed pages 583-601; final main page also begins references","pdf_url":"https://milgrom.people.stanford.edu/wp-content/uploads/2002/03/Envelope-Theorems.pdf","main_pages":[2,19]},
+    {"id":"TH02","title":"An Almost Ideal Demand System","authors":["Angus Deaton","John Muellbauer"],"focal_authors":["Deaton","Muellbauer"],"year":1980,"genre":"consumer-theory-empirical","version":"Author-hosted AER article, June 1980, pages 312-326; main page range has an appendix start on the boundary page","pdf_url":"https://www.princeton.edu/~deaton/downloads/An_Almost_Ideal_Demand_System.pdf","main_pages":[1,12]},
+    {"id":"TH03","title":"Revenue Recycling and the Welfare Effects of Road Pricing","authors":["Ian W. H. Parry","Antonio M. Bento"],"focal_authors":["Parry","Bento"],"year":2001,"genre":"transport-policy-theory","version":"RFF discussion paper 99-45, August 1999; subsequently Scandinavian Journal of Economics 2001","pdf_url":"https://media.rff.org/documents/RFF-DP-99-45.pdf","main_pages":[4,27]},
+    {"id":"TH04","title":"Measuring the Unequal Gains from Trade","authors":["Pablo D. Fajgelbaum","Amit K. Khandelwal"],"focal_authors":["Fajgelbaum","Khandelwal"],"year":2016,"genre":"consumer-welfare-trade","version":"NBER working paper 20331, July 2014, revised August 2015 as printed on title page; subsequently QJE 2016","pdf_url":"https://www.nber.org/system/files/working_papers/w20331/w20331.pdf","main_pages":[3,30]},
+    {"id":"TH05","title":"On the Identification of Gross Output Production Functions","authors":["Amit Gandhi","Salvador Navarro","David A. Rivers"],"focal_authors":["Gandhi","Navarro","Rivers"],"year":2020,"genre":"production-identification","version":"Author manuscript dated August 5, 2019, including online appendices; subsequently JPE 2020; end-positioned figures/tables indexed as other pages","pdf_url":"https://publish.uwo.ca/~drivers2/research/Production_Final_Full.pdf","main_pages":[2,36]},
+    {"id":"TH06","title":"Optimal Spatial Policies, Geography, and Sorting","authors":["Pablo D. Fajgelbaum","Cecile Gaubert"],"focal_authors":["Fajgelbaum","Gaubert"],"year":2020,"genre":"spatial-policy-theory","version":"NBER working paper 24632, May 2018, revised November 2019 as printed on title page; subsequently QJE 2020","pdf_url":"https://www.nber.org/system/files/working_papers/w24632/w24632.pdf","main_pages":[3,43]}
+  ]
+}

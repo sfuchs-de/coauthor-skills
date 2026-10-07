@@ -1,0 +1,13 @@
+{
+  "input_sha256": "e6e1f127e680240800cd0b97dfe13fdd8e632a0049ed91f30955efdc9f3fbc0e",
+  "new_observations": 48,
+  "new_usage_entries": 36,
+  "selected_passage_pages": 68,
+  "output_sha256": {
+    "analysis/analysis.sqlite": "7dc116c22d5b8dcd498f707a05f1e8823a6daa5b693e7d34c7407856ceb308a6",
+    "analysis/observations.csv": "ab8f56a4fe68b5281fde47a443a467209986fe8276ad925b708be71e5ac953b0",
+    "analysis/usage.csv": "4406e0b9fa2e963539b2a3de39e6d9d82feab906deb12d059b417ef77b6cf291",
+    "SOURCE_STUDY.md": "c7356ec1bac1c4acd26dd8b0922810c619e2b3999c022ddadfeccbdc50ab4d15",
+    "USAGE_SUPPLEMENT.md": "b3b41e80d3b0eb5b0677da08276ee0849da1ce47ad50dbed948b6590b014ac30"
+  }
+}

@@ -1,0 +1,234 @@
+\documentclass[11pt]{article}
+
+%========================================================
+% PAGE GEOMETRY AND BASIC SETTINGS
+%========================================================
+\usepackage[margin=1in]{geometry}
+\usepackage{microtype}
+\usepackage{setspace}
+\setstretch{1.15}
+
+%========================================================
+% MATH PACKAGES AND SYMBOLS
+%========================================================
+\usepackage{amsmath, amssymb, amsthm, amsfonts, mathtools, bm}
+\usepackage{dsfont}
+\usepackage{mathrsfs}
+\usepackage{bbm}
+\usepackage{stmaryrd}
+\usepackage{esint}
+\usepackage{colonequals}
+
+%========================================================
+% TABLES, FIGURES, AND CAPTIONS
+%========================================================
+\usepackage{booktabs}
+\usepackage{threeparttable}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage[font=small,labelfont=bf]{caption}
+
+%========================================================
+% ENUMERATION AND TEXT UTILITIES
+%========================================================
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=1.25em, itemsep=3pt, topsep=3pt}
+\setlist[enumerate]{leftmargin=1.25em, itemsep=3pt, topsep=3pt}
+
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue]{hyperref}
+
+%========================================================
+% NUMBERING AND THEOREM STYLES
+%========================================================
+\numberwithin{equation}{section}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\newtheorem{assumption}{Assumption}[section]
+\newtheorem*{assumption*}{Assumption}
+
+\newlist{assumpenum}{enumerate}{1}
+\setlist[assumpenum,1]{label=\textup{(\alph*)}, ref=\theassumption\textup{(\alph*)}, leftmargin=1.5em}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+%========================================================
+% CUSTOM MATH OPERATORS AND SHORTCUTS
+%========================================================
+
+% Probability and expectation
+\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator{\Cov}{Cov}
+\DeclareMathOperator{\Prob}{\mathbb{P}}
+\DeclareMathOperator{\plim}{plim}
+
+% Optimization and algebra
+\DeclareMathOperator*{\argmin}{argmin}
+\DeclareMathOperator*{\argmax}{argmax}
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\spec}{spec}
+\DeclareMathOperator{\Sym}{Sym}
+\DeclareMathOperator{\Id}{I}
+
+% Differential operators
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\pd}{\partial}
+\newcommand{\grad}{\nabla}
+
+% Useful short macros
+\newcommand{\1}{\mathds{1}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+
+% Bracket sizes
+\newcommand{\paren}[1]{\left(#1\right)}
+\newcommand{\brac}[1]{\left[#1\right]}
+\newcommand{\bracec}[1]{\left\{#1\right\}}
+
+% Common bold symbols
+\newcommand{\bA}{\mathbf{A}}
+\newcommand{\bB}{\mathbf{B}}
+\newcommand{\bC}{\mathbf{C}}
+\newcommand{\bD}{\mathbf{D}}
+\newcommand{\bE}{\mathbf{E}}
+\newcommand{\bH}{\mathbf{H}}
+\newcommand{\bI}{\mathbf{I}}
+\newcommand{\bK}{\mathbf{K}}
+\newcommand{\bL}{\mathbf{L}}
+\newcommand{\bM}{\mathbf{M}}
+\newcommand{\bP}{\mathbf{P}}
+\newcommand{\bR}{\mathbf{R}}
+\newcommand{\bw}{\mathbf{w}}
+\newcommand{\bp}{\mathbf{p}}
+\newcommand{\bone}{\mathbf{1}}
+
+% Common bold Greek symbols
+\newcommand{\balpha}{\boldsymbol{\alpha}}
+\newcommand{\bbeta}{\boldsymbol{\beta}}
+\newcommand{\btheta}{\boldsymbol{\theta}}
+\newcommand{\btau}{\boldsymbol{\tau}}
+\newcommand{\bpsi}{\boldsymbol{\psi}}
+\newcommand{\bPi}{\boldsymbol{\Pi}}
+
+%========================================================
+% PROJECT-SPECIFIC MACROS
+%========================================================
+% Add note-specific operators and notation here.
+
+%========================================================
+% DOCUMENT APPEARANCE AND SECTION STYLING
+%========================================================
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{0.5em}{}
+\titleformat{\paragraph}[runin]{\bfseries}{\theparagraph}{0.5em}{}
+\titlespacing*{\section}{0pt}{1.2em plus 0.3em minus 0.1em}{0.8em}
+\titlespacing*{\subsection}{0pt}{1em plus 0.2em minus 0.1em}{0.5em}
+\titlespacing*{\paragraph}{0pt}{0.8em plus 0.2em minus 0.1em}{0.5em}
+
+%========================================================
+% HYPERREF SETUP
+%========================================================
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=blue,
+  pdfauthor={},
+  pdftitle={Research Note},
+  pdfsubject={Summary and technical appendix},
+  pdfkeywords={economics, theory, empirical, computational}
+}
+
+%========================================================
+% TITLE AND AUTHOR INFO
+%========================================================
+\title{\textbf{Research Note Title}\\[0.5em]
+\large Subtitle Describing the Main Object or Result}
+\author{}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Summary of Main Results}\label{sec:summary}
+
+\paragraph{Goal.}
+State the economic question and the object this note derives or summarizes.
+
+\paragraph{Main result.}
+State the main result in words before giving notation-heavy details.
+
+\paragraph{Status.}
+State whether the result is proved, numerically verified, empirically estimated, conjectural, or a maintained approximation.
+
+\section{Setup and Notation}\label{sec:setup}
+
+Define the economic environment, primitives, observables, policy variables, and equilibrium objects.
+
+\section{Main Results}\label{sec:main-results}
+
+\begin{proposition}[Main result]\label{prop:main}
+Under the maintained assumptions, the economic object of interest admits the representation
+\begin{equation}\label{eq:main-representation}
+  Y = A + B.
+\end{equation}
+\end{proposition}
+
+\begin{proof}
+The full derivation is in Appendix~\ref{app:derivations}. The key step is to decompose the total effect into the direct component \(A\) and the equilibrium adjustment \(B\).
+\end{proof}
+
+\section{Interpretation}\label{sec:interpretation}
+
+Explain the economic content of the result. Identify the direct effect, equilibrium response, incidence, substitution, selection, or identification channel.
+
+\section{Checks, Limitations, and Open Issues}\label{sec:checks}
+
+\paragraph{Checks.}
+List benchmark cases, sign checks, units, limiting cases, and computational or empirical diagnostics.
+
+\paragraph{Limitations.}
+State what the note does not yet prove, estimate, or verify.
+
+\appendix
+
+\section{Derivations}\label{app:derivations}
+
+\subsection{Deriving the main representation}\label{app:derive-main}
+
+\paragraph{Economic object.}
+We derive \eqref{eq:main-representation}, which decomposes the object \(Y\) into a direct component and an adjustment component.
+
+\paragraph{Primitive relationship.}
+Start from
+\begin{equation}\label{eq:primitive}
+  Y = f(x,z),
+\end{equation}
+where \(x\) is the direct margin and \(z\) is an endogenous adjustment.
+
+\paragraph{Line-by-line derivation.}
+Differentiating \eqref{eq:primitive} with respect to a policy shifter \(\tau\) gives
+\begin{align}
+  \frac{\dd Y}{\dd \tau}
+  &= \frac{\pd f(x,z)}{\pd x}\frac{\dd x}{\dd \tau}
+   + \frac{\pd f(x,z)}{\pd z}\frac{\dd z}{\dd \tau} \notag\\
+  &= A + B. \label{eq:main-derivative}
+\end{align}
+The first equality applies the chain rule. The second defines \(A\) as the direct effect through \(x\) and \(B\) as the adjustment effect through \(z\).
+
+\paragraph{Economic interpretation.}
+Equation \eqref{eq:main-derivative} separates the mechanical effect of the policy from the endogenous equilibrium response.
+
+\end{document}

@@ -1,0 +1,18 @@
+{
+  "cases_sha256": "cebac9c85e2acf860f172dc2f393437752879e3186ba7644120c573db5d37594",
+  "instruction_hashes": {
+    "ARGUMENT_AND_EXPOSITION.md": "11cad39847269d26979ab9a74c58b18b14fca378dec6943a9480eb6acaa76dc6",
+    "WORKED_EXAMPLES.md": "712bcf7de118928f9cd9f9835bd4d47b232ae913b874c87396a28be22a90f415",
+    "VOCABULARY_POLICY.md": "c9a6dbe5517774eac74108013f8291c30bcf097239596e819b85a080288e4efb"
+  },
+  "first_draft_hashes": {
+    "L01.tex": "ba9d946217f118f6b4eac8fd35ada1018736324b102b69c073cc78f8a4d2f758",
+    "L02.tex": "1e1abdb2a05fc7bc3844d84b3e35be2e56439177d43fc2e3d40c627db6b0e424",
+    "L03.tex": "462d4a7eae76f8db5870072a600d776ef455ca077cdffc736bab31a0d109a223",
+    "L04.tex": "1351e733db87426eb4fbf10307e321ac5ab06bf1ef3900ac4dca9176493594fc"
+  },
+  "sources_config_sha256": "d5fa5dbec913f7b25e01cda8f9f1afcea10a701ec59f1babde5f9725702921bd",
+  "independent_generation": false,
+  "independent_review": false,
+  "scope": "Same-context formative exercises; no blind or causal comparison claim"
+}

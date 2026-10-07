@@ -1,0 +1,4 @@
+interface:
+  display_name: "Theory Writing Refinement"
+  short_description: "Clarify theory structure and mathematical exposition"
+  default_prompt: "Use $theory-writing-refinement to map and improve this theory manuscript without changing unverified mathematics."

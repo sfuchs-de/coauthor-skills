@@ -1,0 +1,186 @@
+id,term,main_literal_phrase_count,unattested_component_words,instruction
+lex-research-question,research question,3,[],Attested phrase; verify economic context
+lex-contribution,contribution,63,[],Attested phrase; verify economic context
+lex-mechanism,mechanism,31,[],Attested phrase; verify economic context
+lex-object-of-interest,object of interest,17,[],Attested phrase; verify economic context
+lex-obstacle,obstacle,0,"[""obstacle""]",Editorial vocabulary; not automatically publication vocabulary
+lex-implication,implication,28,[],Attested phrase; verify economic context
+lex-intuition,intuition,32,[],Attested phrase; verify economic context
+lex-interpretation,interpretation,60,[],Attested phrase; verify economic context
+lex-scope,scope,22,[],Attested phrase; verify economic context
+lex-benchmark,benchmark,38,[],Attested phrase; verify economic context
+lex-baseline,baseline,234,[],Attested phrase; verify economic context
+lex-comparison,comparison,39,[],Attested phrase; verify economic context
+lex-contrast,contrast,147,[],Attested phrase; verify economic context
+lex-handoff,handoff,0,"[""handoff""]",Editorial vocabulary; not automatically publication vocabulary
+lex-roadmap,roadmap,0,"[""roadmap""]",Editorial vocabulary; not automatically publication vocabulary
+lex-first-order,first-order,44,[],Attested phrase; verify economic context
+lex-second-order,second-order,8,[],Attested phrase; verify economic context
+lex-envelope-theorem,envelope theorem,6,[],Attested phrase; verify economic context
+lex-shephard-s-lemma,Shephard's lemma,5,[],Attested phrase; verify economic context
+lex-expenditure-function,expenditure function,30,[],Attested phrase; verify economic context
+lex-indirect-utility,indirect utility,21,[],Attested phrase; verify economic context
+lex-equivalent-variation,equivalent variation,11,[],Attested phrase; verify economic context
+lex-compensating-variation,compensating variation,2,[],Attested phrase; verify economic context
+lex-money-metric,money metric,1,[],Attested phrase; verify economic context
+lex-initial-basket,initial basket,0,"[""basket""]",Editorial vocabulary; not automatically publication vocabulary
+lex-laspeyres-index,Laspeyres index,6,[],Attested phrase; verify economic context
+lex-paasche-index,Paasche index,1,[],Attested phrase; verify economic context
+lex-cost-of-living,cost of living,128,[],Attested phrase; verify economic context
+lex-price-index,price index,198,[],Attested phrase; verify economic context
+lex-price-share,price share,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-restricted-profit,restricted profit,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-factor-payments,factor payments,15,[],Attested phrase; verify economic context
+lex-income-gain,income gain,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-log-points,log points,16,[],Attested phrase; verify economic context
+lex-percentage-points,percentage points,19,[],Attested phrase; verify economic context
+lex-percent-change,percent change,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-initial-income-points,initial-income points,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-per-resident,per resident,2,[],Attested phrase; verify economic context
+lex-per-area,per area,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-level,level,478,[],Attested phrase; verify economic context
+lex-relative-change,relative change,6,[],Attested phrase; verify economic context
+lex-elasticity,elasticity,620,[],Attested phrase; verify economic context
+lex-semi-elasticity,semi-elasticity,10,[],Attested phrase; verify economic context
+lex-numeraire,numeraire,28,[],Attested phrase; verify economic context
+lex-normalization,normalization,42,[],Attested phrase; verify economic context
+lex-primitives,primitives,7,[],Attested phrase; verify economic context
+lex-preferences,preferences,285,[],Attested phrase; verify economic context
+lex-technology,technology,167,[],Attested phrase; verify economic context
+lex-timing,timing,11,[],Attested phrase; verify economic context
+lex-fixed-input,fixed input,1,[],Attested phrase; verify economic context
+lex-flexible-input,flexible input,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-optimization,optimization,9,[],Attested phrase; verify economic context
+lex-optimality-condition,optimality condition,0,"[""optimality""]",Editorial vocabulary; not automatically publication vocabulary
+lex-equilibrium,equilibrium,902,[],Attested phrase; verify economic context
+lex-market-clearing,market clearing,107,[],Attested phrase; verify economic context
+lex-closure,closure,17,[],Attested phrase; verify economic context
+lex-partial-equilibrium,partial equilibrium,50,[],Attested phrase; verify economic context
+lex-general-equilibrium,general equilibrium,192,[],Attested phrase; verify economic context
+lex-existence,existence,105,[],Attested phrase; verify economic context
+lex-uniqueness,uniqueness,77,[],Attested phrase; verify economic context
+lex-invertibility,invertibility,8,[],Attested phrase; verify economic context
+lex-convergence,convergence,22,[],Attested phrase; verify economic context
+lex-stability,stability,12,[],Attested phrase; verify economic context
+lex-path-dependence,path dependence,31,[],Attested phrase; verify economic context
+lex-persistence,persistence,33,[],Attested phrase; verify economic context
+lex-ces,CES,370,[],Attested phrase; verify economic context
+lex-iia,IIA,26,[],Attested phrase; verify economic context
+lex-frechet-distribution,Fréchet distribution,18,[],Attested phrase; verify economic context
+lex-effective-labor,effective labor,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-hours-elasticity,hours elasticity,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-iceberg-cost,iceberg cost,3,[],Attested phrase; verify economic context
+lex-agglomeration,agglomeration,257,[],Attested phrase; verify economic context
+lex-dispersion-force,dispersion force,10,[],Attested phrase; verify economic context
+lex-externality,externality,12,[],Attested phrase; verify economic context
+lex-fundamentals,fundamentals,124,[],Attested phrase; verify economic context
+lex-identification,identification,41,[],Attested phrase; verify economic context
+lex-exogeneity,exogeneity,7,[],Attested phrase; verify economic context
+lex-endogeneity,endogeneity,14,[],Attested phrase; verify economic context
+lex-interference,interference,0,"[""interference""]",Editorial vocabulary; not automatically publication vocabulary
+lex-spillover,spillover,32,[],Attested phrase; verify economic context
+lex-instrument,instrument,56,[],Attested phrase; verify economic context
+lex-exclusion-restriction,exclusion restriction,6,[],Attested phrase; verify economic context
+lex-orthogonality,orthogonality,10,[],Attested phrase; verify economic context
+lex-rank-condition,rank condition,1,[],Attested phrase; verify economic context
+lex-fixed-effects,fixed effects,159,[],Attested phrase; verify economic context
+lex-normalization-sensitivity,normalization sensitivity,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-income-recovery,income recovery,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-basket-adjustment,basket adjustment,0,"[""basket""]",Editorial vocabulary; not automatically publication vocabulary
+lex-shift-share,shift-share,15,[],Attested phrase; verify economic context
+lex-predictable-variation,predictable variation,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-residualization,residualization,0,"[""residualization""]",Editorial vocabulary; not automatically publication vocabulary
+lex-pre-trend,pre-trend,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-placebo,placebo,9,[],Attested phrase; verify economic context
+lex-support,support,54,[],Attested phrase; verify economic context
+lex-crosswalk,crosswalk,0,"[""crosswalk""]",Editorial vocabulary; not automatically publication vocabulary
+lex-coverage,coverage,3,[],Attested phrase; verify economic context
+lex-imputation,imputation,1,[],Attested phrase; verify economic context
+lex-scaling,scaling,3,[],Attested phrase; verify economic context
+lex-retention,retention,0,"[""retention""]",Editorial vocabulary; not automatically publication vocabulary
+lex-outside-resources,outside resources,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-autonomous-demand,autonomous demand,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-baseline-shares,baseline shares,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-marginal-allocation,marginal allocation,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-exposure,exposure,90,[],Attested phrase; verify economic context
+lex-transmission,transmission,1,[],Attested phrase; verify economic context
+lex-propagation-round,propagation round,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-leakage,leakage,0,"[""leakage""]",Editorial vocabulary; not automatically publication vocabulary
+lex-multiplier,multiplier,2,[],Attested phrase; verify economic context
+lex-spectral-radius,spectral radius,3,[],Attested phrase; verify economic context
+lex-market-access,market access,337,[],Attested phrase; verify economic context
+lex-commuting-openness,commuting openness,8,[],Attested phrase; verify economic context
+lex-observation-unit,observation unit,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-estimator,estimator,51,[],Attested phrase; verify economic context
+lex-estimand,estimand,0,"[""estimand""]",Editorial vocabulary; not automatically publication vocabulary
+lex-coefficient,coefficient,90,[],Attested phrase; verify economic context
+lex-standard-error,standard error,20,[],Attested phrase; verify economic context
+lex-confidence-interval,confidence interval,27,[],Attested phrase; verify economic context
+lex-clustering,clustering,9,[],Attested phrase; verify economic context
+lex-weighting,weighting,14,[],Attested phrase; verify economic context
+lex-trimming,trimming,0,"[""trimming""]",Editorial vocabulary; not automatically publication vocabulary
+lex-winsorization,winsorization,0,"[""winsorization""]",Editorial vocabulary; not automatically publication vocabulary
+lex-pooled-sample,pooled sample,1,[],Attested phrase; verify economic context
+lex-generated-regressor,generated regressor,2,[],Attested phrase; verify economic context
+lex-smearing,smearing,0,"[""smearing""]",Editorial vocabulary; not automatically publication vocabulary
+lex-moment-condition,moment condition,11,[],Attested phrase; verify economic context
+lex-robustness,robustness,87,[],Attested phrase; verify economic context
+lex-sensitivity,sensitivity,19,[],Attested phrase; verify economic context
+lex-model-fit,model fit,4,[],Attested phrase; verify economic context
+lex-validation,validation,19,[],Attested phrase; verify economic context
+lex-untargeted-moment,untargeted moment,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-out-of-sample,out-of-sample,9,[],Attested phrase; verify economic context
+lex-non-rejection,non-rejection,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-power,power,85,[],Attested phrase; verify economic context
+lex-mechanical-fit,mechanical fit,10,[],Attested phrase; verify economic context
+lex-misspecification,misspecification,52,[],Attested phrase; verify economic context
+lex-counterfactual,counterfactual,393,[],Attested phrase; verify economic context
+lex-calibration,calibration,59,[],Attested phrase; verify economic context
+lex-inversion,inversion,11,[],Attested phrase; verify economic context
+lex-exact-hat-algebra,exact hat algebra,13,[],Attested phrase; verify economic context
+lex-jacobian,Jacobian,7,[],Attested phrase; verify economic context
+lex-residual,residual,39,[],Attested phrase; verify economic context
+lex-nesting,nesting,0,"[""nesting""]",Editorial vocabulary; not automatically publication vocabulary
+lex-nonlinear-response,nonlinear response,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-bound,bound,17,[],Attested phrase; verify economic context
+lex-feasibility,feasibility,3,[],Attested phrase; verify economic context
+lex-endpoint,endpoint,1,[],Attested phrase; verify economic context
+lex-policy-premium,policy premium,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-tax-base,tax base,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-rebate,rebate,0,"[""rebate""]",Editorial vocabulary; not automatically publication vocabulary
+lex-incidence,incidence,33,[],Attested phrase; verify economic context
+lex-kkt-conditions,KKT conditions,0,"[""kkt""]",Editorial vocabulary; not automatically publication vocabulary
+lex-local-optimum,local optimum,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-global-optimum,global optimum,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-data-based,data-based,3,[],Attested phrase; verify economic context
+lex-shows,shows,138,[],Attested phrase; verify economic context
+lex-suggests,suggests,50,[],Attested phrase; verify economic context
+lex-implies,implies,292,[],Attested phrase; verify economic context
+lex-estimates,estimates,423,[],Attested phrase; verify economic context
+lex-predicts,predicts,35,[],Attested phrase; verify economic context
+lex-identifies,identifies,3,[],Attested phrase; verify economic context
+lex-is-consistent-with,is consistent with,63,[],Attested phrase; verify economic context
+lex-accounts-for,accounts for,13,[],Attested phrase; verify economic context
+lex-holds-fixed,holds fixed,1,[],Attested phrase; verify economic context
+lex-under,under,313,[],Attested phrase; verify economic context
+lex-because,because,473,[],Attested phrase; verify economic context
+lex-therefore,therefore,214,[],Attested phrase; verify economic context
+lex-however,however,250,[],Attested phrase; verify economic context
+lex-in-turn,in turn,45,[],Attested phrase; verify economic context
+lex-to-recover,to recover,24,[],Attested phrase; verify economic context
+lex-this-distinction,this distinction,5,[],Attested phrase; verify economic context
+lex-the-remaining-question,the remaining question,0,[],Editorial vocabulary; not automatically publication vocabulary
+lex-framework,framework,243,[],Attested phrase; verify economic context
+lex-tractable,tractable,48,[],Attested phrase; verify economic context
+lex-rich,rich,53,[],Attested phrase; verify economic context
+lex-novel,novel,8,[],Attested phrase; verify economic context
+lex-leverage,leverage,6,[],Attested phrase; verify economic context
+lex-unpack,unpack,0,"[""unpack""]",Editorial vocabulary; not automatically publication vocabulary
+lex-robustly,robustly,0,"[""robustly""]",Editorial vocabulary; not automatically publication vocabulary
+lex-meaningful,meaningful,10,[],Attested phrase; verify economic context
+lex-holistic,holistic,0,"[""holistic""]",Editorial vocabulary; not automatically publication vocabulary
+lex-nuanced,nuanced,1,[],Attested phrase; verify economic context
+lex-underscores,underscores,0,"[""underscores""]",Editorial vocabulary; not automatically publication vocabulary
+lex-reconcile,reconcile,6,[],Attested phrase; verify economic context
+lex-data-driven,data-driven,1,[],Attested phrase; verify economic context
+lex-comprehensive,comprehensive,10,[],Attested phrase; verify economic context

@@ -1,0 +1,2496 @@
+{
+  "date": "2026-10-07",
+  "source": "installed personal skill packages",
+  "note": "Source locations and credential stores are intentionally not distributed.",
+  "skills": [
+    "econ-writing-suite",
+    "econ-write",
+    "theory-writing-refinement",
+    "audit-tex-math",
+    "academic-draft-review",
+    "render-mathdown-tex",
+    "referee-report",
+    "ai-slop-lint",
+    "design-econ-seminar",
+    "corpus-econ-writing",
+    "map-theory-dependencies",
+    "review-slide-deck",
+    "fuchs-bq-slides",
+    "fuchs-econ-slides",
+    "format-econ-research-figures",
+    "research-note-tex",
+    "remarkable-move-render",
+    "overleaf-sync",
+    "gh-local-first",
+    "agent-handoff",
+    "stop-slop"
+  ],
+  "files": [
+    {
+      "path": "econ-writing-suite/SKILL.md",
+      "source_sha256": "e5a9b613fcdd09d8e9b8f5b5ca22275388fa19ac535adcae5eea317e8015dbd6",
+      "disposition": "adapted-for-public-distribution",
+      "package_sha256": "0d83612c35f335a83bf086d19f69a357d1ffddd06bfb2c5d71f0c103fedf30c9"
+    },
+    {
+      "path": "econ-writing-suite/agents/openai.yaml",
+      "source_sha256": "c89af7bf448fcf6ac258015dd13cd683d44a7332d4d45c424dd3ea3f45109ed7",
+      "disposition": "preserved",
+      "package_sha256": "c89af7bf448fcf6ac258015dd13cd683d44a7332d4d45c424dd3ea3f45109ed7"
+    },
+    {
+      "path": "econ-writing-suite/references/reasoning-graph-integration.md",
+      "source_sha256": "9b0b7c032fec0ec9af8925c068e934bd33a1e909847a7a80712beab0e74744bb",
+      "disposition": "preserved",
+      "package_sha256": "9b0b7c032fec0ec9af8925c068e934bd33a1e909847a7a80712beab0e74744bb"
+    },
+    {
+      "path": "econ-writing-suite/references/referee-report-workflow.md",
+      "source_sha256": "305ccfe4146038d031dc29bfb69f6c9ba47f0be8b8e0f86564acd730125540b6",
+      "disposition": "preserved",
+      "package_sha256": "305ccfe4146038d031dc29bfb69f6c9ba47f0be8b8e0f86564acd730125540b6"
+    },
+    {
+      "path": "econ-writing-suite/scripts/reasoning_graph_workspace.py",
+      "source_sha256": "cbb726dba32497d1a176c11fa778c65fb28c3a3c0c3eec4acec2007efa6cb8d9",
+      "disposition": "preserved",
+      "package_sha256": "cbb726dba32497d1a176c11fa778c65fb28c3a3c0c3eec4acec2007efa6cb8d9"
+    },
+    {
+      "path": "econ-write/SKILL.md",
+      "source_sha256": "2ab6fe5a6b6fd049648c77b4a73d03807a4e0e58cee8474baa3423e1af9b2a7e",
+      "disposition": "adapted-for-public-distribution",
+      "package_sha256": "5ba30c88b3dfb5dcbae6584b14899c464c51a8a7d1b1b18f96a60f6b8d88a184"
+    },
+    {
+      "path": "econ-write/agents/openai.yaml",
+      "source_sha256": "c5b4e7ea37b80d4ce0f18e9bbd73f66d48638f392c15832a5919495bf62ba4f5",
+      "disposition": "preserved",
+      "package_sha256": "c5b4e7ea37b80d4ce0f18e9bbd73f66d48638f392c15832a5919495bf62ba4f5"
+    },
+    {
+      "path": "econ-write/references/authoring-guide.md",
+      "source_sha256": "1df7e449c77e706c0fd61affa75b302d6dfbe0e6a6cdd43d8bbce7fd7bb9ef1f",
+      "disposition": "preserved",
+      "package_sha256": "1df7e449c77e706c0fd61affa75b302d6dfbe0e6a6cdd43d8bbce7fd7bb9ef1f"
+    },
+    {
+      "path": "econ-write/references/identification-strategies.md",
+      "source_sha256": "75abe6b8a8a775dff3293407f305b6c282c32a77dfd5cbbebf5d7e2f3cd4338d",
+      "disposition": "preserved",
+      "package_sha256": "75abe6b8a8a775dff3293407f305b6c282c32a77dfd5cbbebf5d7e2f3cd4338d"
+    },
+    {
+      "path": "econ-write/references/latex-tips.md",
+      "source_sha256": "2bcd5333f61ce6ddde17a624bdeffbeb2b5e8cdb392164541761a3df51e02930",
+      "disposition": "preserved",
+      "package_sha256": "2bcd5333f61ce6ddde17a624bdeffbeb2b5e8cdb392164541761a3df51e02930"
+    },
+    {
+      "path": "econ-write/references/review-checklist.md",
+      "source_sha256": "38410107b4d4622a24dfd9fdcffcd23fc0fae1d09fba7b340a3d788edd09ca0a",
+      "disposition": "preserved",
+      "package_sha256": "38410107b4d4622a24dfd9fdcffcd23fc0fae1d09fba7b340a3d788edd09ca0a"
+    },
+    {
+      "path": "econ-write/references/specialized-tasks.md",
+      "source_sha256": "1402ca1bea7b6ce182616369f8304a9297be647535af7a18cf63f93e0b88994b",
+      "disposition": "preserved",
+      "package_sha256": "1402ca1bea7b6ce182616369f8304a9297be647535af7a18cf63f93e0b88994b"
+    },
+    {
+      "path": "econ-write/scripts/build_reasoning_skeleton.py",
+      "source_sha256": "e9972d987a25446ff26722afcd78b18fded83121ba536f0c37a3790190cab540",
+      "disposition": "preserved",
+      "package_sha256": "e9972d987a25446ff26722afcd78b18fded83121ba536f0c37a3790190cab540"
+    },
+    {
+      "path": "theory-writing-refinement/SKILL.md",
+      "source_sha256": "04f872975be506a7f86166e62a0497c373fa0113c6f7860e8597a6222c436e32",
+      "disposition": "preserved",
+      "package_sha256": "04f872975be506a7f86166e62a0497c373fa0113c6f7860e8597a6222c436e32"
+    },
+    {
+      "path": "theory-writing-refinement/agents/openai.yaml",
+      "source_sha256": "6cf42805a002c617b4eb8585ead05b01ff1ed99f39e48f226316298a7d3f5d77",
+      "disposition": "preserved",
+      "package_sha256": "6cf42805a002c617b4eb8585ead05b01ff1ed99f39e48f226316298a7d3f5d77"
+    },
+    {
+      "path": "theory-writing-refinement/references/appendix-integration.md",
+      "source_sha256": "9ff09e4aefb2f685b68d0407c2985f16314c31edb146b90daf5e27f521a6cf56",
+      "disposition": "preserved",
+      "package_sha256": "9ff09e4aefb2f685b68d0407c2985f16314c31edb146b90daf5e27f521a6cf56"
+    },
+    {
+      "path": "theory-writing-refinement/references/coherence-ledger.md",
+      "source_sha256": "8592aa8eea9fe460be73b9010771b785066c65a90d4c31a2bee855b8e21890e8",
+      "disposition": "preserved",
+      "package_sha256": "8592aa8eea9fe460be73b9010771b785066c65a90d4c31a2bee855b8e21890e8"
+    },
+    {
+      "path": "theory-writing-refinement/references/math-exposition-protocol.md",
+      "source_sha256": "3cda58145ac2cab58901d15ce16b51176fd7907ba52f7b666333130f9bebf4dc",
+      "disposition": "preserved",
+      "package_sha256": "3cda58145ac2cab58901d15ce16b51176fd7907ba52f7b666333130f9bebf4dc"
+    },
+    {
+      "path": "theory-writing-refinement/references/math-result-protocol.md",
+      "source_sha256": "891083f81cccbfa7fde12b03045527e88487a6d6b4a1286b09b0b64db00abca1",
+      "disposition": "preserved",
+      "package_sha256": "891083f81cccbfa7fde12b03045527e88487a6d6b4a1286b09b0b64db00abca1"
+    },
+    {
+      "path": "theory-writing-refinement/references/network-theory-appendix.md",
+      "source_sha256": "7009e2c0104ee19cc9c44fde7306cb9862e9bc72c694796cc5d2f55552eaa3fc",
+      "disposition": "preserved",
+      "package_sha256": "7009e2c0104ee19cc9c44fde7306cb9862e9bc72c694796cc5d2f55552eaa3fc"
+    },
+    {
+      "path": "theory-writing-refinement/scripts/tex_reasoning_scaffold.py",
+      "source_sha256": "e82f3879f17a5ef2e084e91f83af7e0c75e819dfe60168ba19bcfa8f708c3f8c",
+      "disposition": "preserved",
+      "package_sha256": "e82f3879f17a5ef2e084e91f83af7e0c75e819dfe60168ba19bcfa8f708c3f8c"
+    },
+    {
+      "path": "audit-tex-math/SKILL.md",
+      "source_sha256": "3a64ea0d6ec56075bf0dd625e7ee0cf71089ee480a6b8b41c0e7673ca4906c2d",
+      "disposition": "adapted-for-public-distribution",
+      "package_sha256": "16afc5c303ce8fd50d446efa6d6a4132fec8768c7054febec0d99230bd448b31"
+    },
+    {
+      "path": "audit-tex-math/agents/openai.yaml",
+      "source_sha256": "48e7a9606a2c1f1d848db0283adab02af9f3461a2134292bf037864cac8e4285",
+      "disposition": "preserved",
+      "package_sha256": "48e7a9606a2c1f1d848db0283adab02af9f3461a2134292bf037864cac8e4285"
+    },
+    {
+      "path": "audit-tex-math/references/audit_protocol.md",
+      "source_sha256": "31a73e5293d8c3d46cbd1c5d0d3ee2425769e5a82a0e0a38c98b8a904b89effc",
+      "disposition": "preserved",
+      "package_sha256": "31a73e5293d8c3d46cbd1c5d0d3ee2425769e5a82a0e0a38c98b8a904b89effc"
+    },
+    {
+      "path": "audit-tex-math/references/equation_repair_protocol.md",
+      "source_sha256": "a99439e49a9438b1d840f4bc1dde408adfd6fe2ec1fc28cf3c79318511fc33c3",
+      "disposition": "preserved",
+      "package_sha256": "a99439e49a9438b1d840f4bc1dde408adfd6fe2ec1fc28cf3c79318511fc33c3"
+    },
+    {
+      "path": "audit-tex-math/references/finding_severity.md",
+      "source_sha256": "a921481bb2c0cf597945fc4e0c53a2d1b953c6a18dcdb247abf6afa979726f21",
+      "disposition": "preserved",
+      "package_sha256": "a921481bb2c0cf597945fc4e0c53a2d1b953c6a18dcdb247abf6afa979726f21"
+    },
+    {
+      "path": "audit-tex-math/references/side_condition_checklist.md",
+      "source_sha256": "c8eb05aa6174332923782525dc7aeff80f9faeceb60b182517b18eee2c93109c",
+      "disposition": "preserved",
+      "package_sha256": "c8eb05aa6174332923782525dc7aeff80f9faeceb60b182517b18eee2c93109c"
+    },
+    {
+      "path": "audit-tex-math/references/visible_audit_artifacts.md",
+      "source_sha256": "596f0287e2d62606055da1e2cd9c712580672a40d948eb10506e1a7537417f07",
+      "disposition": "preserved",
+      "package_sha256": "596f0287e2d62606055da1e2cd9c712580672a40d948eb10506e1a7537417f07"
+    },
+    {
+      "path": "audit-tex-math/scripts/extract_tex_math.py",
+      "source_sha256": "c430c8923e6bc1683a5307441f8b7e19e94dcab5df97ba3bd103e98c901e85cb",
+      "disposition": "preserved",
+      "package_sha256": "c430c8923e6bc1683a5307441f8b7e19e94dcab5df97ba3bd103e98c901e85cb"
+    },
+    {
+      "path": "audit-tex-math/scripts/math_check.py",
+      "source_sha256": "2338683f8dcf194984407a88aed878e3ca9d55af3b845cc508296e48ffdec3db",
+      "disposition": "preserved",
+      "package_sha256": "2338683f8dcf194984407a88aed878e3ca9d55af3b845cc508296e48ffdec3db"
+    },
+    {
+      "path": "audit-tex-math/scripts/proof_obligation_index.py",
+      "source_sha256": "756450accca616ec250a238191b9f556e7939c51aedb98d27710daf86bb71f05",
+      "disposition": "preserved",
+      "package_sha256": "756450accca616ec250a238191b9f556e7939c51aedb98d27710daf86bb71f05"
+    },
+    {
+      "path": "audit-tex-math/scripts/tex_line_context.py",
+      "source_sha256": "dc3ffc595fe80d5da54eae84c7c76e23bafa6b8d131ad4d25feb20980d417961",
+      "disposition": "preserved",
+      "package_sha256": "dc3ffc595fe80d5da54eae84c7c76e23bafa6b8d131ad4d25feb20980d417961"
+    },
+    {
+      "path": "academic-draft-review/SKILL.md",
+      "source_sha256": "4c3bb41caa2542bc4c8eea6c6ba9bda8f8d75ea9d25a926acbea2eb0882d11ad",
+      "disposition": "adapted-for-public-distribution",
+      "package_sha256": "dc23f73331eb1a8fd2d77b70ac2e8aebb59f5c98fa0c6580065a4ba9027e0faa"
+    },
+    {
+      "path": "academic-draft-review/agents/openai.yaml",
+      "source_sha256": "3815d2d51b9404f3f0248835283992f8fd23d07c1eaa26f07dcc1f70d8f61cbf",
+      "disposition": "preserved",
+      "package_sha256": "3815d2d51b9404f3f0248835283992f8fd23d07c1eaa26f07dcc1f70d8f61cbf"
+    },
+    {
+      "path": "render-mathdown-tex/SKILL.md",
+      "source_sha256": "7a6fb7af10b6ff079d8478a284d3bfc9e005ee45568f915a592db36bd6e97fe8",
+      "disposition": "preserved",
+      "package_sha256": "7a6fb7af10b6ff079d8478a284d3bfc9e005ee45568f915a592db36bd6e97fe8"
+    },
+    {
+      "path": "render-mathdown-tex/agents/openai.yaml",
+      "source_sha256": "62ea1ab6f5aa1a74b19dd23e56994bbf6d16e1ac48a00da41d29ada73c60f65f",
+      "disposition": "preserved",
+      "package_sha256": "62ea1ab6f5aa1a74b19dd23e56994bbf6d16e1ac48a00da41d29ada73c60f65f"
+    },
+    {
+      "path": "render-mathdown-tex/assets/theory-note-template.tex",
+      "source_sha256": "9e1a93619aa71287f8c4bdc8b343d56845e316639ca7b95a95baa836d1dafa7d",
+      "disposition": "preserved",
+      "package_sha256": "9e1a93619aa71287f8c4bdc8b343d56845e316639ca7b95a95baa836d1dafa7d"
+    },
+    {
+      "path": "render-mathdown-tex/references/conversion-contract.md",
+      "source_sha256": "3c6fdf8acb4c03be589ca986eff0243d57cfd768528b417cfb0db74c92190907",
+      "disposition": "preserved",
+      "package_sha256": "3c6fdf8acb4c03be589ca986eff0243d57cfd768528b417cfb0db74c92190907"
+    },
+    {
+      "path": "render-mathdown-tex/references/style-contract.md",
+      "source_sha256": "e9eeae181c42fc10468021e12f438d6a18fbe395a1609ec0e80598e545e4d0cf",
+      "disposition": "preserved",
+      "package_sha256": "e9eeae181c42fc10468021e12f438d6a18fbe395a1609ec0e80598e545e4d0cf"
+    },
+    {
+      "path": "render-mathdown-tex/scripts/check_tex_output.py",
+      "source_sha256": "cf063534b26478b1d23520e6560b3905d99779ad77541a5e158a82fd9b4792f6",
+      "disposition": "preserved",
+      "package_sha256": "cf063534b26478b1d23520e6560b3905d99779ad77541a5e158a82fd9b4792f6"
+    },
+    {
+      "path": "render-mathdown-tex/scripts/inventory_markdown.py",
+      "source_sha256": "1cb1310cd32176d071b2de7007c1786913669affd12bf6f5520caac6ccaf86d5",
+      "disposition": "preserved",
+      "package_sha256": "1cb1310cd32176d071b2de7007c1786913669affd12bf6f5520caac6ccaf86d5"
+    },
+    {
+      "path": "referee-report/SKILL.md",
+      "source_sha256": "2855a29f10d46c37818217373566b16c723b0c88ea38bd077f242b4a4f80b723",
+      "disposition": "preserved",
+      "package_sha256": "2855a29f10d46c37818217373566b16c723b0c88ea38bd077f242b4a4f80b723"
+    },
+    {
+      "path": "referee-report/agents/openai.yaml",
+      "source_sha256": "5a1e8954cf4b295489b844b60e7e6683c30835752c6d855789a84c3dd0322086",
+      "disposition": "preserved",
+      "package_sha256": "5a1e8954cf4b295489b844b60e7e6683c30835752c6d855789a84c3dd0322086"
+    },
+    {
+      "path": "referee-report/assets/editor_note.md",
+      "source_sha256": "7e14ee1a4008c6394405b02b55ed4cd7a9e7d2776ce9258b7471a8adad323dab",
+      "disposition": "preserved",
+      "package_sha256": "7e14ee1a4008c6394405b02b55ed4cd7a9e7d2776ce9258b7471a8adad323dab"
+    },
+    {
+      "path": "referee-report/assets/initial_report.md",
+      "source_sha256": "f7cbaf46fbf089663d68c323bf4b3ad6e7019554340c7e3b0d0a978a43940378",
+      "disposition": "preserved",
+      "package_sha256": "f7cbaf46fbf089663d68c323bf4b3ad6e7019554340c7e3b0d0a978a43940378"
+    },
+    {
+      "path": "referee-report/assets/referee_report_template.md",
+      "source_sha256": "f548491e57d6376bffa3f5165afdbe850f9c8aa330e13190712a32b8d72a94f1",
+      "disposition": "preserved",
+      "package_sha256": "f548491e57d6376bffa3f5165afdbe850f9c8aa330e13190712a32b8d72a94f1"
+    },
+    {
+      "path": "referee-report/assets/referee_report_template.tex",
+      "source_sha256": "e521c86f7e72f76cff44ce2ea05a4f4fe4b3edeb69ef286ce09862529fad9a28",
+      "disposition": "preserved",
+      "package_sha256": "e521c86f7e72f76cff44ce2ea05a4f4fe4b3edeb69ef286ce09862529fad9a28"
+    },
+    {
+      "path": "referee-report/assets/revision_report.md",
+      "source_sha256": "74a2c8fa890b845f2c48276bb26ce35dc2859624dde0370ef3f6f0d1fa45827e",
+      "disposition": "preserved",
+      "package_sha256": "74a2c8fa890b845f2c48276bb26ce35dc2859624dde0370ef3f6f0d1fa45827e"
+    },
+    {
+      "path": "referee-report/references/archive_integration.md",
+      "source_sha256": "fae823c76b1c3b66f33848b2ac9d4634da472e43117cdd51d6f0ef5f2c090f25",
+      "disposition": "preserved",
+      "package_sha256": "fae823c76b1c3b66f33848b2ac9d4634da472e43117cdd51d6f0ef5f2c090f25"
+    },
+    {
+      "path": "referee-report/references/comment_contract.md",
+      "source_sha256": "b70287d8911e929f3c5269a367792725543fd4ad3d021679f617fe75e883038d",
+      "disposition": "preserved",
+      "package_sha256": "b70287d8911e929f3c5269a367792725543fd4ad3d021679f617fe75e883038d"
+    },
+    {
+      "path": "referee-report/references/comment_fairness_audit.md",
+      "source_sha256": "c4e538272097ae8d0eb713f8cc5dd673b33f6723fc3d0d5b5e3de25c2f65c2d6",
+      "disposition": "preserved",
+      "package_sha256": "c4e538272097ae8d0eb713f8cc5dd673b33f6723fc3d0d5b5e3de25c2f65c2d6"
+    },
+    {
+      "path": "referee-report/references/editorial_filter.md",
+      "source_sha256": "134ebfa7051fa7a87c5afa050ba3f797e8ca150cd5f88b37c9fb6074d0e7e182",
+      "disposition": "preserved",
+      "package_sha256": "134ebfa7051fa7a87c5afa050ba3f797e8ca150cd5f88b37c9fb6074d0e7e182"
+    },
+    {
+      "path": "referee-report/references/empirical_design_preflight.md",
+      "source_sha256": "a49d2509e51a46de01ceb2ecbb21487fe183094638e24078a3ac580cba19bb55",
+      "disposition": "preserved",
+      "package_sha256": "a49d2509e51a46de01ceb2ecbb21487fe183094638e24078a3ac580cba19bb55"
+    },
+    {
+      "path": "referee-report/references/literature_benchmarking.md",
+      "source_sha256": "5467224b9c2c90e294c19dfc4354a5f96f3afc86fa452faa3579d96ef033411b",
+      "disposition": "preserved",
+      "package_sha256": "5467224b9c2c90e294c19dfc4354a5f96f3afc86fa452faa3579d96ef033411b"
+    },
+    {
+      "path": "referee-report/references/quantitative_model_audit.md",
+      "source_sha256": "53768c27afa51edbb1e7b726f20282e71ef15418c8306e325386c36209d78fc8",
+      "disposition": "preserved",
+      "package_sha256": "53768c27afa51edbb1e7b726f20282e71ef15418c8306e325386c36209d78fc8"
+    },
+    {
+      "path": "referee-report/references/report_quality_rubric.md",
+      "source_sha256": "61f528c7911a611cc5160b0a7927681b2aa323dfa68f4b696e2d5cde888eaf98",
+      "disposition": "preserved",
+      "package_sha256": "61f528c7911a611cc5160b0a7927681b2aa323dfa68f4b696e2d5cde888eaf98"
+    },
+    {
+      "path": "referee-report/references/reviewer_style_markdown.md",
+      "source_sha256": "bf75c0a6bb78a4851c3295a2e9cab53090a03c9958ad93c4fea6181e479e9182",
+      "disposition": "preserved",
+      "package_sha256": "bf75c0a6bb78a4851c3295a2e9cab53090a03c9958ad93c4fea6181e479e9182"
+    },
+    {
+      "path": "referee-report/references/round_protocol.md",
+      "source_sha256": "313ab7a389ec94f5caf7fd86c615c693f4564a63829d539a12069116aa06e25e",
+      "disposition": "preserved",
+      "package_sha256": "313ab7a389ec94f5caf7fd86c615c693f4564a63829d539a12069116aa06e25e"
+    },
+    {
+      "path": "referee-report/references/stage_protocol.md",
+      "source_sha256": "4043dd32c9bea6a4c2cf94b9780f759c0832663fedb3fa565580f2798266d0ce",
+      "disposition": "preserved",
+      "package_sha256": "4043dd32c9bea6a4c2cf94b9780f759c0832663fedb3fa565580f2798266d0ce"
+    },
+    {
+      "path": "referee-report/references/theory_bridge.md",
+      "source_sha256": "d31dcae2f49565b771471169cc451b79c6bc9ef1d6a4c42f8ea5f703bcc235a5",
+      "disposition": "preserved",
+      "package_sha256": "d31dcae2f49565b771471169cc451b79c6bc9ef1d6a4c42f8ea5f703bcc235a5"
+    },
+    {
+      "path": "referee-report/references/top5_economics_checks.md",
+      "source_sha256": "3d77442501fc13da8a9d9f1e69cb6c214d902ac532defc92e5b545ed206d6240",
+      "disposition": "preserved",
+      "package_sha256": "3d77442501fc13da8a9d9f1e69cb6c214d902ac532defc92e5b545ed206d6240"
+    },
+    {
+      "path": "ai-slop-lint/SKILL.md",
+      "source_sha256": "052be8dbe64f03917551856ba47d2ac4f3711629de5a1b96d029ce5a5f056a1a",
+      "disposition": "adapted-for-public-distribution",
+      "package_sha256": "23ff58ebed00ce71882323c43a17832d2caac0179f01e7ec8c6105c76f4230d1"
+    },
+    {
+      "path": "ai-slop-lint/agents/openai.yaml",
+      "source_sha256": "deed2b846cd3219fe40ae3e491a301616768906ab740314b664c562d31ec4232",
+      "disposition": "preserved",
+      "package_sha256": "deed2b846cd3219fe40ae3e491a301616768906ab740314b664c562d31ec4232"
+    },
+    {
+      "path": "ai-slop-lint/references/chatgpt_compendium_review.md",
+      "source_sha256": "51e0fd5f4e93c8d538c990ab1ca68310d4474f36d10da2ccf31fcfd08ed5ebfe",
+      "disposition": "preserved",
+      "package_sha256": "51e0fd5f4e93c8d538c990ab1ca68310d4474f36d10da2ccf31fcfd08ed5ebfe"
+    },
+    {
+      "path": "ai-slop-lint/references/compendium.md",
+      "source_sha256": "4dee1859c7eaf2fdf8cd4b298af151d0c5d0461202bf763aa86d1daae9bf5a2a",
+      "disposition": "preserved",
+      "package_sha256": "4dee1859c7eaf2fdf8cd4b298af151d0c5d0461202bf763aa86d1daae9bf5a2a"
+    },
+    {
+      "path": "ai-slop-lint/references/rulebook.json",
+      "source_sha256": "ed6598b6312c57e53973e123c3cee4b713ea01e24e3aa7fbac45bf61a92c399a",
+      "disposition": "preserved",
+      "package_sha256": "ed6598b6312c57e53973e123c3cee4b713ea01e24e3aa7fbac45bf61a92c399a"
+    },
+    {
+      "path": "ai-slop-lint/references/source_inventory.md",
+      "source_sha256": "8b9a0941537f1ebc737a3ca6edb35b68fa04c7438df49347a8414282d6a5321d",
+      "disposition": "preserved",
+      "package_sha256": "8b9a0941537f1ebc737a3ca6edb35b68fa04c7438df49347a8414282d6a5321d"
+    },
+    {
+      "path": "ai-slop-lint/scripts/ai_slop_lint.py",
+      "source_sha256": "2213d80c3fa27c6e70f0f5c633ffd208deca70eeb6138b2e1c9d7e49b96f7ced",
+      "disposition": "preserved",
+      "package_sha256": "2213d80c3fa27c6e70f0f5c633ffd208deca70eeb6138b2e1c9d7e49b96f7ced"
+    },
+    {
+      "path": "ai-slop-lint/scripts/ai_slop_pass_report.py",
+      "source_sha256": "171cd882e779c9ac9a21c039d6d3837dd30d2c121d1856f03fa115b4a69ebc50",
+      "disposition": "preserved",
+      "package_sha256": "171cd882e779c9ac9a21c039d6d3837dd30d2c121d1856f03fa115b4a69ebc50"
+    },
+    {
+      "path": "design-econ-seminar/SKILL.md",
+      "source_sha256": "831c59289a6028905897d028b76e1280b2ed1d4b81777876d1594ecb752dffae",
+      "disposition": "preserved",
+      "package_sha256": "831c59289a6028905897d028b76e1280b2ed1d4b81777876d1594ecb752dffae"
+    },
+    {
+      "path": "design-econ-seminar/agents/openai.yaml",
+      "source_sha256": "c945a21d7be0834543fb2a85138ce51bde2ad67bf94fe89a469c1280495aafe9",
+      "disposition": "preserved",
+      "package_sha256": "c945a21d7be0834543fb2a85138ce51bde2ad67bf94fe89a469c1280495aafe9"
+    },
+    {
+      "path": "design-econ-seminar/assets/speaker-script-template.md",
+      "source_sha256": "b67087379bd9665ad21dda0a85dda1fe1a63d661e61acdab50648473b6358e82",
+      "disposition": "preserved",
+      "package_sha256": "b67087379bd9665ad21dda0a85dda1fe1a63d661e61acdab50648473b6358e82"
+    },
+    {
+      "path": "design-econ-seminar/references/econ-writing-presentation-guidance.md",
+      "source_sha256": "8a5f51e1724a0e19431b948d5ac76f69785c3f5d4a0387afc6cf6ac3fa8c8aa8",
+      "disposition": "preserved",
+      "package_sha256": "8a5f51e1724a0e19431b948d5ac76f69785c3f5d4a0387afc6cf6ac3fa8c8aa8"
+    },
+    {
+      "path": "design-econ-seminar/references/slide-execution.md",
+      "source_sha256": "645b872c060d222e9ff36f09fb045b06897c0110007fd4e46fc4f807dfc7c06f",
+      "disposition": "preserved",
+      "package_sha256": "645b872c060d222e9ff36f09fb045b06897c0110007fd4e46fc4f807dfc7c06f"
+    },
+    {
+      "path": "design-econ-seminar/references/sources.md",
+      "source_sha256": "696246e4e3995964c86d5728357f7f4ee0a8a64ce28bed913eb605ae4506fd44",
+      "disposition": "preserved",
+      "package_sha256": "696246e4e3995964c86d5728357f7f4ee0a8a64ce28bed913eb605ae4506fd44"
+    },
+    {
+      "path": "design-econ-seminar/references/speaker-script.md",
+      "source_sha256": "dd31bd3c55540a5859272ad3c1ad9ef90389ad84e568c22291f987e31f3a4e95",
+      "disposition": "preserved",
+      "package_sha256": "dd31bd3c55540a5859272ad3c1ad9ef90389ad84e568c22291f987e31f3a4e95"
+    },
+    {
+      "path": "corpus-econ-writing/PACKAGE_MANIFEST.json",
+      "source_sha256": "412fa88aad2a67e456c0da9e12ef0ca2bd42b874ec4c9a877c3373ee425ffa10",
+      "disposition": "adapted-for-public-distribution",
+      "package_sha256": "4c3173532ebb42e510ae26f989d923c0242fa10d35a5d8af081c5c9df9aaafdb"
+    },
+    {
+      "path": "corpus-econ-writing/SKILL.md",
+      "source_sha256": "2af5202079346f46ec9b3e8f6aaeff22515fddf4b8558834adbf62c6b1476e5c",
+      "disposition": "preserved",
+      "package_sha256": "2af5202079346f46ec9b3e8f6aaeff22515fddf4b8558834adbf62c6b1476e5c"
+    },
+    {
+      "path": "corpus-econ-writing/agents/openai.yaml",
+      "source_sha256": "2b756e9e2591d60b87b7ea9ad09db3c2cba4c4b93df3c62cf49e062c466ab8ce",
+      "disposition": "preserved",
+      "package_sha256": "2b756e9e2591d60b87b7ea9ad09db3c2cba4c4b93df3c62cf49e062c466ab8ce"
+    },
+    {
+      "path": "corpus-econ-writing/references/calibrated-exposition.md",
+      "source_sha256": "692a5604236ab4a8f18e051f72142fe222ce7190d48ecaf7b545da6b22fd9b68",
+      "disposition": "preserved",
+      "package_sha256": "692a5604236ab4a8f18e051f72142fe222ce7190d48ecaf7b545da6b22fd9b68"
+    },
+    {
+      "path": "corpus-econ-writing/references/exception-handling.md",
+      "source_sha256": "af9896855cd88aebf9c54e2512a4e9f450c17d4a80a28ff9a96a45fead5cb6ec",
+      "disposition": "preserved",
+      "package_sha256": "af9896855cd88aebf9c54e2512a4e9f450c17d4a80a28ff9a96a45fead5cb6ec"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/AUTHOR_GENRE_COMPARISON.md",
+      "source_sha256": "cece7844a85382129ae82cedda62ef77d82e7beb6db9a6221735c41e29ee2a23",
+      "disposition": "preserved",
+      "package_sha256": "cece7844a85382129ae82cedda62ef77d82e7beb6db9a6221735c41e29ee2a23"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/CURRENT_EDITION.md",
+      "source_sha256": "d4abea9da66e374e9bac8f3d59865dfacaa4ed4ebdc5f6f9aeb099aa190064a7",
+      "disposition": "preserved",
+      "package_sha256": "d4abea9da66e374e9bac8f3d59865dfacaa4ed4ebdc5f6f9aeb099aa190064a7"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/DICTIONARY.md",
+      "source_sha256": "5702206b6e97cfc03fb975b3038550b0cb85d71ce5f360568e4ab85fdeb34a81",
+      "disposition": "preserved",
+      "package_sha256": "5702206b6e97cfc03fb975b3038550b0cb85d71ce5f360568e4ab85fdeb34a81"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/EXPOSITION_PATTERNS.md",
+      "source_sha256": "aad31dbe08afc048f675eef39c190431c401db08b4071bca46503a273bfcdb40",
+      "disposition": "preserved",
+      "package_sha256": "aad31dbe08afc048f675eef39c190431c401db08b4071bca46503a273bfcdb40"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/FORMATTING_GUIDE.md",
+      "source_sha256": "7c1eaa9cfe856fc8cdda5eccd40a62356d4e3335a3da1ae25149415a69380075",
+      "disposition": "preserved",
+      "package_sha256": "7c1eaa9cfe856fc8cdda5eccd40a62356d4e3335a3da1ae25149415a69380075"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/PACKAGE_MANIFEST.json",
+      "source_sha256": "869eff3aeb1ecbcf60d1cd0a102a24780658b09df43118ed861ab09eec5ac3e1",
+      "disposition": "adapted-for-public-distribution",
+      "package_sha256": "3b955ea6cae296cfa8b02c095c406f0a4ae0b68643da6ce370fd7ccecf8b162d"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/PORTABLE_USE.md",
+      "source_sha256": "a2c884fbf65c22f77b60bfc594b894106e403e8006a3c2e0674c52d1047e423d",
+      "disposition": "preserved",
+      "package_sha256": "a2c884fbf65c22f77b60bfc594b894106e403e8006a3c2e0674c52d1047e423d"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/README.md",
+      "source_sha256": "9f5449d098747df013b5a8e5db0fee94be393ca24d0882fa65e0bab34385657c",
+      "disposition": "preserved",
+      "package_sha256": "9f5449d098747df013b5a8e5db0fee94be393ca24d0882fa65e0bab34385657c"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/REVIEW_REPORT.md",
+      "source_sha256": "6e7df2bb211090040ef9fca0df0ccebeb324ec2a5a8418be65cc7dde6302c779",
+      "disposition": "preserved",
+      "package_sha256": "6e7df2bb211090040ef9fca0df0ccebeb324ec2a5a8418be65cc7dde6302c779"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/RULES.md",
+      "source_sha256": "c84ee1d1032d4ddb83164b2fb8c0a599a2495b59a65a40fb508b64531678a892",
+      "disposition": "preserved",
+      "package_sha256": "c84ee1d1032d4ddb83164b2fb8c0a599a2495b59a65a40fb508b64531678a892"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/SETUP_AND_SEARCH.md",
+      "source_sha256": "a2c884fbf65c22f77b60bfc594b894106e403e8006a3c2e0674c52d1047e423d",
+      "disposition": "preserved",
+      "package_sha256": "a2c884fbf65c22f77b60bfc594b894106e403e8006a3c2e0674c52d1047e423d"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/STYLE_GUIDE.md",
+      "source_sha256": "ff6d159f72f7b36a660673911370c147b830636a93ff838621580661bb18f609",
+      "disposition": "preserved",
+      "package_sha256": "ff6d159f72f7b36a660673911370c147b830636a93ff838621580661bb18f609"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/VOCABULARY_POLICY.md",
+      "source_sha256": "520913389bc48e7eb97469a3996f4228e6fb6fdce9b702e9d48781a3bfb50945",
+      "disposition": "preserved",
+      "package_sha256": "520913389bc48e7eb97469a3996f4228e6fb6fdce9b702e9d48781a3bfb50945"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/VOCABULARY_REVIEW.md",
+      "source_sha256": "3d16ae62b41bcdfe1acab16f307d5a6bb0e776a67ac6abae0729ef5fe7839177",
+      "disposition": "preserved",
+      "package_sha256": "3d16ae62b41bcdfe1acab16f307d5a6bb0e776a67ac6abae0729ef5fe7839177"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/WRITING_INSTRUCTIONS.md",
+      "source_sha256": "175b6ed4fa45cb79fe22f84e8905fa422de0741ba37de8d4b975f995c206707c",
+      "disposition": "preserved",
+      "package_sha256": "175b6ed4fa45cb79fe22f84e8905fa422de0741ba37de8d4b975f995c206707c"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/catalogue.md",
+      "source_sha256": "4b8a09023376f9d85c4a084e0828793bf1c361c575cd9713c912b121f6a0231a",
+      "disposition": "preserved",
+      "package_sha256": "4b8a09023376f9d85c4a084e0828793bf1c361c575cd9713c912b121f6a0231a"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/data/acquisition.json",
+      "source_sha256": "d8939302a2124adb3b22ed191af06562fa46ecd266ed6d5ff438176978c9eb93",
+      "disposition": "preserved",
+      "package_sha256": "d8939302a2124adb3b22ed191af06562fa46ecd266ed6d5ff438176978c9eb93"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/data/dictionary.tsv",
+      "source_sha256": "d2833de4d51d89dc3c336df60f06e51fe33ef4b9ed3c73bc626cd1956176bf42",
+      "disposition": "preserved",
+      "package_sha256": "d2833de4d51d89dc3c336df60f06e51fe33ef4b9ed3c73bc626cd1956176bf42"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/data/review_amendments.json",
+      "source_sha256": "7d75c7e6539de89611e246a028b21e48e6465619f0d26e338c5099754fe1861a",
+      "disposition": "preserved",
+      "package_sha256": "7d75c7e6539de89611e246a028b21e48e6465619f0d26e338c5099754fe1861a"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/data/review_inputs.json",
+      "source_sha256": "d744ad87ee513df69f6d692a4906eaf65199f316f7f6c2e78fb8675194a7f414",
+      "disposition": "preserved",
+      "package_sha256": "d744ad87ee513df69f6d692a4906eaf65199f316f7f6c2e78fb8675194a7f414"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/data/reviews.json",
+      "source_sha256": "a37fa5b3a93491e0f354ade0ed4c2626629c08495a75d28b0513ccdf5f72f4b4",
+      "disposition": "preserved",
+      "package_sha256": "a37fa5b3a93491e0f354ade0ed4c2626629c08495a75d28b0513ccdf5f72f4b4"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/data/reviews_middle.json",
+      "source_sha256": "b5be1b53a18c75cccfc2d838f716193ec3bfa3a482965068e4685620fd98f1a9",
+      "disposition": "preserved",
+      "package_sha256": "b5be1b53a18c75cccfc2d838f716193ec3bfa3a482965068e4685620fd98f1a9"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/data/reviews_redding.json",
+      "source_sha256": "8ea96c4a63e9a0e5ddd59d37c8dfc72f834a7c95ca38318a8e31630e9bef602b",
+      "disposition": "preserved",
+      "package_sha256": "8ea96c4a63e9a0e5ddd59d37c8dfc72f834a7c95ca38318a8e31630e9bef602b"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/data/rules.json",
+      "source_sha256": "c1b40d5deae8aaf4f4f8fafeb291c562ef5cadaa8684b1638a6de56c219547c8",
+      "disposition": "preserved",
+      "package_sha256": "c1b40d5deae8aaf4f4f8fafeb291c562ef5cadaa8684b1638a6de56c219547c8"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/data/sources.json",
+      "source_sha256": "30fc4bccc156bdf8e64f556df6901c2a791007bedbb91c91404aae5097ecf7ef",
+      "disposition": "preserved",
+      "package_sha256": "30fc4bccc156bdf8e64f556df6901c2a791007bedbb91c91404aae5097ecf7ef"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/data/visual_observations.json",
+      "source_sha256": "782a5b23caff7cd5a678f29309ac8f4299b9bf2906736d40f28ad0761b0c7f93",
+      "disposition": "preserved",
+      "package_sha256": "782a5b23caff7cd5a678f29309ac8f4299b9bf2906736d40f28ad0761b0c7f93"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/data/visual_samples.json",
+      "source_sha256": "8d7f34156877e6aae15f0982feef4db6e1234a0f7152f0eeca17131c60bf88b9",
+      "disposition": "preserved",
+      "package_sha256": "8d7f34156877e6aae15f0982feef4db6e1234a0f7152f0eeca17131c60bf88b9"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/data/vocabulary_policy.json",
+      "source_sha256": "520a67ccb2a64779ed97c9b046b3d77d5b1c7ef60e182a2e7d5b7e3262ffe854",
+      "disposition": "preserved",
+      "package_sha256": "520a67ccb2a64779ed97c9b046b3d77d5b1c7ef60e182a2e7d5b7e3262ffe854"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/database/BUILD_RECEIPT.json",
+      "source_sha256": "36e3e5858c6cd9e74115af3bb33332cb5721050182caa4e4cf4ad476f9e48e52",
+      "disposition": "preserved",
+      "package_sha256": "36e3e5858c6cd9e74115af3bb33332cb5721050182caa4e4cf4ad476f9e48e52"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/database/QUALITY_RECEIPT.json",
+      "source_sha256": "163843c180be17e17afae58dd0d748b9e500dd4a52caa5cdf9f7af5337f42d44",
+      "disposition": "adapted-for-public-distribution",
+      "package_sha256": "01b8e875539a3bb235a9f13da52bd0d6d9cf825603d1d91cb7fbcbb783d3dd45"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/database/dictionary.csv",
+      "source_sha256": "911a1522892e0c93eb9587dba4b8eddefae96cc6f84154ab242bd3f9307da78b",
+      "disposition": "preserved",
+      "package_sha256": "911a1522892e0c93eb9587dba4b8eddefae96cc6f84154ab242bd3f9307da78b"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/database/literal_frequencies.csv",
+      "source_sha256": "f32c86e83ac343d74049b6ffe8a40abfd6bdbc026a6ec9c214bbebd0e44aab71",
+      "disposition": "preserved",
+      "package_sha256": "f32c86e83ac343d74049b6ffe8a40abfd6bdbc026a6ec9c214bbebd0e44aab71"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/database/observations.csv",
+      "source_sha256": "25ca4211287de888201fefc41af76bc9f434431fac60f7cad888c7d1cfcebd09",
+      "disposition": "preserved",
+      "package_sha256": "25ca4211287de888201fefc41af76bc9f434431fac60f7cad888c7d1cfcebd09"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/database/papers.csv",
+      "source_sha256": "e77af61fbc8befeac74b336f22a2c42154697d00b66db384fdf967ef7ebafdd6",
+      "disposition": "preserved",
+      "package_sha256": "e77af61fbc8befeac74b336f22a2c42154697d00b66db384fdf967ef7ebafdd6"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/database/rules.csv",
+      "source_sha256": "1b338ed143814de5e70365c7bfa0f06255c56a5ed7c7dcd9c31c147f1bcc0e2e",
+      "disposition": "preserved",
+      "package_sha256": "1b338ed143814de5e70365c7bfa0f06255c56a5ed7c7dcd9c31c147f1bcc0e2e"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/database/writing_database.json",
+      "source_sha256": "f12ade21b15dda77eb3c8967a33c6029cc66856759d6c72b2a9ee4a473c1477f",
+      "disposition": "preserved",
+      "package_sha256": "f12ade21b15dda77eb3c8967a33c6029cc66856759d6c72b2a9ee4a473c1477f"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/database/writing_database.sqlite",
+      "source_sha256": "6ca9e23fba588428e2f37c2a0ef3224a7e77b5b0a9046fc449e73f52d0b1654c",
+      "disposition": "preserved",
+      "package_sha256": "6ca9e23fba588428e2f37c2a0ef3224a7e77b5b0a9046fc449e73f52d0b1654c"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/ARGUMENT_AND_EXPOSITION.md",
+      "source_sha256": "11cad39847269d26979ab9a74c58b18b14fca378dec6943a9480eb6acaa76dc6",
+      "disposition": "preserved",
+      "package_sha256": "11cad39847269d26979ab9a74c58b18b14fca378dec6943a9480eb6acaa76dc6"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/README.md",
+      "source_sha256": "f1fed384579fee3ed1a8bb0154c35b43f8f9bf308249558c6041b764cfaef363",
+      "disposition": "preserved",
+      "package_sha256": "f1fed384579fee3ed1a8bb0154c35b43f8f9bf308249558c6041b764cfaef363"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/SOURCE_STUDY.md",
+      "source_sha256": "c7356ec1bac1c4acd26dd8b0922810c619e2b3999c022ddadfeccbdc50ab4d15",
+      "disposition": "preserved",
+      "package_sha256": "c7356ec1bac1c4acd26dd8b0922810c619e2b3999c022ddadfeccbdc50ab4d15"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/USAGE_SUPPLEMENT.md",
+      "source_sha256": "fd748ed6204cb6c054d9ddf43b441312249c7bdbb0d85aab513e43f06fdeedb9",
+      "disposition": "preserved",
+      "package_sha256": "fd748ed6204cb6c054d9ddf43b441312249c7bdbb0d85aab513e43f06fdeedb9"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/VOCABULARY_POLICY.md",
+      "source_sha256": "c9a6dbe5517774eac74108013f8291c30bcf097239596e819b85a080288e4efb",
+      "disposition": "preserved",
+      "package_sha256": "c9a6dbe5517774eac74108013f8291c30bcf097239596e819b85a080288e4efb"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/WORKED_EXAMPLES.md",
+      "source_sha256": "c7c4208c7beafda933ecf7bbfab7415f700949ef9cc2b6c042e8f9ddbabd2cd8",
+      "disposition": "preserved",
+      "package_sha256": "c7c4208c7beafda933ecf7bbfab7415f700949ef9cc2b6c042e8f9ddbabd2cd8"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/analysis/BUILD_RECEIPT.initial.json",
+      "source_sha256": "29ca827dfb64f5eac13c555eaabf1fd93d054738286d6418a9f825ec93d69155",
+      "disposition": "preserved",
+      "package_sha256": "29ca827dfb64f5eac13c555eaabf1fd93d054738286d6418a9f825ec93d69155"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/analysis/BUILD_RECEIPT.json",
+      "source_sha256": "1f1c49453c851d84b16e43293d9de94fede7b412afb38f6f20265de1bbd769ec",
+      "disposition": "preserved",
+      "package_sha256": "1f1c49453c851d84b16e43293d9de94fede7b412afb38f6f20265de1bbd769ec"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/analysis/analysis.sqlite",
+      "source_sha256": "b7935f5ed8d6df24e8572f0267b9b87b03713fbbc41921a6c2577122f84188bc",
+      "disposition": "preserved",
+      "package_sha256": "b7935f5ed8d6df24e8572f0267b9b87b03713fbbc41921a6c2577122f84188bc"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/analysis/observations.csv",
+      "source_sha256": "ab8f56a4fe68b5281fde47a443a467209986fe8276ad925b708be71e5ac953b0",
+      "disposition": "preserved",
+      "package_sha256": "ab8f56a4fe68b5281fde47a443a467209986fe8276ad925b708be71e5ac953b0"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/analysis/usage.csv",
+      "source_sha256": "35793337802762dab84a70838bfc82798f2f0364821bf6cf1993b0285a06fac0",
+      "disposition": "preserved",
+      "package_sha256": "35793337802762dab84a70838bfc82798f2f0364821bf6cf1993b0285a06fac0"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/data/BASELINE_FREEZE.json",
+      "source_sha256": "d085a0bc99387e8591710a300748da6f07646bb12efb9166d740ee48df4c12e2",
+      "disposition": "preserved",
+      "package_sha256": "d085a0bc99387e8591710a300748da6f07646bb12efb9166d740ee48df4c12e2"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/data/acquisition.json",
+      "source_sha256": "ac783a92efc742a6fd15eab74c56a77dd59df7c4202fab4880a700b99a179fd7",
+      "disposition": "preserved",
+      "package_sha256": "ac783a92efc742a6fd15eab74c56a77dd59df7c4202fab4880a700b99a179fd7"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/data/analysis.json",
+      "source_sha256": "6bc2d7b8836f2c88bc90021db1f20efde409e4a0a1be897691dfeca19693bef4",
+      "disposition": "preserved",
+      "package_sha256": "6bc2d7b8836f2c88bc90021db1f20efde409e4a0a1be897691dfeca19693bef4"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/data/render_receipt.json",
+      "source_sha256": "cc6425f24baac51b9334a3300b0b780193cf265649d379f19cb459ab0a44dbee",
+      "disposition": "preserved",
+      "package_sha256": "cc6425f24baac51b9334a3300b0b780193cf265649d379f19cb459ab0a44dbee"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/data/sources.json",
+      "source_sha256": "d5fa5dbec913f7b25e01cda8f9f1afcea10a701ec59f1babde5f9725702921bd",
+      "disposition": "preserved",
+      "package_sha256": "d5fa5dbec913f7b25e01cda8f9f1afcea10a701ec59f1babde5f9725702921bd"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/data/visual_observations.json",
+      "source_sha256": "0b5c964d46614df06f8e08d4fd5dc4e496c4ca90ebda236ed0be18f93292a975",
+      "disposition": "preserved",
+      "package_sha256": "0b5c964d46614df06f8e08d4fd5dc4e496c4ca90ebda236ed0be18f93292a975"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/evaluation/ARGUMENT_MAPS.md",
+      "source_sha256": "58468b37898cb73e77d33961ce31b0697b83df070d7619a140db069a0676e103",
+      "disposition": "preserved",
+      "package_sha256": "58468b37898cb73e77d33961ce31b0697b83df070d7619a140db069a0676e103"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/evaluation/CASES.json",
+      "source_sha256": "cebac9c85e2acf860f172dc2f393437752879e3186ba7644120c573db5d37594",
+      "disposition": "preserved",
+      "package_sha256": "cebac9c85e2acf860f172dc2f393437752879e3186ba7644120c573db5d37594"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/evaluation/CHECKED_AUDIT.json",
+      "source_sha256": "8215f4048ab505075b924478e33818f46164dba305adf37f99e9baeb41161fd7",
+      "disposition": "preserved",
+      "package_sha256": "8215f4048ab505075b924478e33818f46164dba305adf37f99e9baeb41161fd7"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/evaluation/EXAMPLE_AUDIT.json",
+      "source_sha256": "1cc4c11a1a13d8658e7294b84e45550703fb6df2cfd222aca27a68358ec4f60f",
+      "disposition": "preserved",
+      "package_sha256": "1cc4c11a1a13d8658e7294b84e45550703fb6df2cfd222aca27a68358ec4f60f"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/evaluation/FINAL_AUDIT.json",
+      "source_sha256": "32dbbc66c97d0dc3a2f32e394de99d245fb90f8ffe30c39f144be7e0a042d0db",
+      "disposition": "preserved",
+      "package_sha256": "32dbbc66c97d0dc3a2f32e394de99d245fb90f8ffe30c39f144be7e0a042d0db"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/evaluation/FIRST_DRAFT_AUDIT.json",
+      "source_sha256": "ab026f6da0e54fc15a26d2abfb731fcddbada54d73600c46dae576a6873a48da",
+      "disposition": "preserved",
+      "package_sha256": "ab026f6da0e54fc15a26d2abfb731fcddbada54d73600c46dae576a6873a48da"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/evaluation/FREEZE_RECEIPT.json",
+      "source_sha256": "1b5ca3f81faeedd5337896dc58313006fbd0a168ec6dafbc5648bb127e39ef2d",
+      "disposition": "preserved",
+      "package_sha256": "1b5ca3f81faeedd5337896dc58313006fbd0a168ec6dafbc5648bb127e39ef2d"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/evaluation/INSTRUCTION_AMENDMENT.json",
+      "source_sha256": "67fb0d43948fd29b939137a161b6f5a22c814d6254203d95db3524fbbbeb18b6",
+      "disposition": "preserved",
+      "package_sha256": "67fb0d43948fd29b939137a161b6f5a22c814d6254203d95db3524fbbbeb18b6"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/evaluation/RATINGS.json",
+      "source_sha256": "c1b63b55b23c8b8b80dfa55c192a67223c68e34f3449df1a0b4549d5012ed1f9",
+      "disposition": "preserved",
+      "package_sha256": "c1b63b55b23c8b8b80dfa55c192a67223c68e34f3449df1a0b4549d5012ed1f9"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/evaluation/REVIEW.md",
+      "source_sha256": "fc01ad631658b1a50d01326725cdd5ac1cfe996ca90e47821a616f42adeff5b9",
+      "disposition": "preserved",
+      "package_sha256": "fc01ad631658b1a50d01326725cdd5ac1cfe996ca90e47821a616f42adeff5b9"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/evaluation/SAMPLES.md",
+      "source_sha256": "5d3c9743b7afd26b91ea652830f1576447280d1638cb6652320a5487a751b88f",
+      "disposition": "preserved",
+      "package_sha256": "5d3c9743b7afd26b91ea652830f1576447280d1638cb6652320a5487a751b88f"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/evaluation/SUMMARY.json",
+      "source_sha256": "0494aa6f73ccfab9aa071d746f9cd50cf61974a9f40aeb0edc33dd1d4aa6a486",
+      "disposition": "preserved",
+      "package_sha256": "0494aa6f73ccfab9aa071d746f9cd50cf61974a9f40aeb0edc33dd1d4aa6a486"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/evaluation/first-drafts/L01.tex",
+      "source_sha256": "ba9d946217f118f6b4eac8fd35ada1018736324b102b69c073cc78f8a4d2f758",
+      "disposition": "preserved",
+      "package_sha256": "ba9d946217f118f6b4eac8fd35ada1018736324b102b69c073cc78f8a4d2f758"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/evaluation/first-drafts/L02.tex",
+      "source_sha256": "1e1abdb2a05fc7bc3844d84b3e35be2e56439177d43fc2e3d40c627db6b0e424",
+      "disposition": "preserved",
+      "package_sha256": "1e1abdb2a05fc7bc3844d84b3e35be2e56439177d43fc2e3d40c627db6b0e424"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/evaluation/first-drafts/L03.tex",
+      "source_sha256": "462d4a7eae76f8db5870072a600d776ef455ca077cdffc736bab31a0d109a223",
+      "disposition": "preserved",
+      "package_sha256": "462d4a7eae76f8db5870072a600d776ef455ca077cdffc736bab31a0d109a223"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/evaluation/first-drafts/L04.tex",
+      "source_sha256": "1351e733db87426eb4fbf10307e321ac5ab06bf1ef3900ac4dca9176493594fc",
+      "disposition": "preserved",
+      "package_sha256": "1351e733db87426eb4fbf10307e321ac5ab06bf1ef3900ac4dca9176493594fc"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/evaluation/samples/L01.tex",
+      "source_sha256": "191ab303c424edf564e3b37823c44aed695953dbd7812b7c17dd7b157b19f45d",
+      "disposition": "preserved",
+      "package_sha256": "191ab303c424edf564e3b37823c44aed695953dbd7812b7c17dd7b157b19f45d"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/evaluation/samples/L02.tex",
+      "source_sha256": "6ffdd384c8a211ca81bb06b480f168572a213ddc898a60b3997a9352b8613b82",
+      "disposition": "preserved",
+      "package_sha256": "6ffdd384c8a211ca81bb06b480f168572a213ddc898a60b3997a9352b8613b82"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/evaluation/samples/L03.tex",
+      "source_sha256": "c898d921ca4e64807453a849f5c9eee90d4521586de28573bb1b983a1edfac04",
+      "disposition": "preserved",
+      "package_sha256": "c898d921ca4e64807453a849f5c9eee90d4521586de28573bb1b983a1edfac04"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/evaluation/samples/L04.tex",
+      "source_sha256": "b6111fc7fceea910494ac9901c9c7555bad73d5828bc698104300a6f177189e9",
+      "disposition": "preserved",
+      "package_sha256": "b6111fc7fceea910494ac9901c9c7555bad73d5828bc698104300a6f177189e9"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/scripts/__pycache__/edition.cpython-314.pyc",
+      "source_sha256": "5b30a58967b952817161fa75474fd180bb41ff6a28dcdf7c0b5e80178078b85c",
+      "disposition": "excluded",
+      "reason": "Generated bytecode, not a skill resource."
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/scripts/audit.py",
+      "source_sha256": "31bfb2371a15b46aa6d8b9cc805de834fe97912b3536fb8129fd8af0508f124e",
+      "disposition": "preserved",
+      "package_sha256": "31bfb2371a15b46aa6d8b9cc805de834fe97912b3536fb8129fd8af0508f124e"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/scripts/build_release.py",
+      "source_sha256": "e1496a00cafb8119e093ff07e8daafd73956f51d3dcf4b3b09d34c58bd83011a",
+      "disposition": "preserved",
+      "package_sha256": "e1496a00cafb8119e093ff07e8daafd73956f51d3dcf4b3b09d34c58bd83011a"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/scripts/edition.py",
+      "source_sha256": "30f163854785b55cea1e24bbdd6eb662928bc14f03d97d6c322830fe931ca110",
+      "disposition": "adapted-for-public-distribution",
+      "package_sha256": "8ff3a6fd7b27e86905aada6f923f1a100d69a19041698fc04cc3cb865a627b07"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/tests/test_edition.py",
+      "source_sha256": "566f80282d08eab334ee29908ec89cd830e19a39aee6fc78e0f62f593d3b00d7",
+      "disposition": "preserved",
+      "package_sha256": "566f80282d08eab334ee29908ec89cd830e19a39aee6fc78e0f62f593d3b00d7"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/vocabulary/BUILD_RECEIPT.json",
+      "source_sha256": "504828cf65568fddcda7b59cc0b03eb6f7c4d04bde41e87a400d376fa5d25062",
+      "disposition": "preserved",
+      "package_sha256": "504828cf65568fddcda7b59cc0b03eb6f7c4d04bde41e87a400d376fa5d25062"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/vocabulary/attested_vocabulary.sqlite",
+      "source_sha256": "77ff39c0b64055b4d0136d31bb4af594bd1b84b7d706fa55b8b883a7ee861a76",
+      "disposition": "preserved",
+      "package_sha256": "77ff39c0b64055b4d0136d31bb4af594bd1b84b7d706fa55b8b883a7ee861a76"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/vocabulary/new_attestations.csv",
+      "source_sha256": "443f32a7e498c6743e0224edd7bd2d81cc8176330a5b3e0d61813f28ad37c3b6",
+      "disposition": "preserved",
+      "package_sha256": "443f32a7e498c6743e0224edd7bd2d81cc8176330a5b3e0d61813f28ad37c3b6"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/vocabulary/occurrences.csv",
+      "source_sha256": "ababf035f5de770e82e82bdad21082ca5742727ae8872faa68f4cdee488a70df",
+      "disposition": "preserved",
+      "package_sha256": "ababf035f5de770e82e82bdad21082ca5742727ae8872faa68f4cdee488a70df"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion/vocabulary/words.csv",
+      "source_sha256": "6ea8cbfb0a7e96ec78a6f197a5849a75dd55d1cc0825ba943cf4fa667d26d18c",
+      "disposition": "preserved",
+      "package_sha256": "6ea8cbfb0a7e96ec78a6f197a5849a75dd55d1cc0825ba943cf4fa667d26d18c"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/AUTHOR_AND_GENRE_GUIDE.md",
+      "source_sha256": "e0f7053dfd78079a69228ad7e905e02538930d71f1535aced445120f1b172f7c",
+      "disposition": "preserved",
+      "package_sha256": "e0f7053dfd78079a69228ad7e905e02538930d71f1535aced445120f1b172f7c"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/FIRST_EXAMPLES.md",
+      "source_sha256": "1883173b634ea8fe7630748f7fcb4e7dda1c32c2fd0d9e90344b745e6ac56c31",
+      "disposition": "preserved",
+      "package_sha256": "1883173b634ea8fe7630748f7fcb4e7dda1c32c2fd0d9e90344b745e6ac56c31"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/README.md",
+      "source_sha256": "5db5a6af2fac55f05ff7e8552559a160a09ccdcc8ee1dea6bac8d2cf306f2f9f",
+      "disposition": "preserved",
+      "package_sha256": "5db5a6af2fac55f05ff7e8552559a160a09ccdcc8ee1dea6bac8d2cf306f2f9f"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/SOURCE_STUDY.md",
+      "source_sha256": "10257df0db94ae4b7a9770b660b6b92517e7b79e7b5a745baa9952fa781ad66b",
+      "disposition": "preserved",
+      "package_sha256": "10257df0db94ae4b7a9770b660b6b92517e7b79e7b5a745baa9952fa781ad66b"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/USAGE_SUPPLEMENT.md",
+      "source_sha256": "103cde4654880ad228949010ef6a5c179e5568248683a6663e313148fa2e00c9",
+      "disposition": "preserved",
+      "package_sha256": "103cde4654880ad228949010ef6a5c179e5568248683a6663e313148fa2e00c9"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/VOCABULARY_POLICY.md",
+      "source_sha256": "c8e558c640f43512828dbb04fcecd0f07cab5b5521d9278d11c3d7dbd9831146",
+      "disposition": "preserved",
+      "package_sha256": "c8e558c640f43512828dbb04fcecd0f07cab5b5521d9278d11c3d7dbd9831146"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/WORKED_EXAMPLES.md",
+      "source_sha256": "4476d4aec14dddbbc3562aa78ca57ecabd22b11951e5d3aa36fa8750c4f656d9",
+      "disposition": "preserved",
+      "package_sha256": "4476d4aec14dddbbc3562aa78ca57ecabd22b11951e5d3aa36fa8750c4f656d9"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/analysis/BUILD_RECEIPT.json",
+      "source_sha256": "ec1afde3f8b98b18378d12b9d3c05d1a8fae268068b785bd00f95cbf4fa2cacb",
+      "disposition": "preserved",
+      "package_sha256": "ec1afde3f8b98b18378d12b9d3c05d1a8fae268068b785bd00f95cbf4fa2cacb"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/analysis/analysis.sqlite",
+      "source_sha256": "77719d4fac37ad8f5513c22839d3c127e6d064a786b3c904e0731412539ce11f",
+      "disposition": "preserved",
+      "package_sha256": "77719d4fac37ad8f5513c22839d3c127e6d064a786b3c904e0731412539ce11f"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/analysis/observations.csv",
+      "source_sha256": "371e89085b78423abcbca1cc8ab4587dd2783a03ab025e9ee97361e7a4c55655",
+      "disposition": "preserved",
+      "package_sha256": "371e89085b78423abcbca1cc8ab4587dd2783a03ab025e9ee97361e7a4c55655"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/analysis/usage.csv",
+      "source_sha256": "19c1ba9b77cb0f8ba68e77027ad2098dfe0b3445b8974d1d2680519520b9fe1f",
+      "disposition": "preserved",
+      "package_sha256": "19c1ba9b77cb0f8ba68e77027ad2098dfe0b3445b8974d1d2680519520b9fe1f"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/data/BASELINE_FREEZE.json",
+      "source_sha256": "e001150d2f773d4c250262b5facdb9f99f1e9c6172ba09495f45ada261fbbd7a",
+      "disposition": "preserved",
+      "package_sha256": "e001150d2f773d4c250262b5facdb9f99f1e9c6172ba09495f45ada261fbbd7a"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/data/PREVIOUS_FREEZE.json",
+      "source_sha256": "6c91aa047400a1bb16e0eb3260f6d2aaca6b4a87b7cb7d91216f2b7da45e6282",
+      "disposition": "preserved",
+      "package_sha256": "6c91aa047400a1bb16e0eb3260f6d2aaca6b4a87b7cb7d91216f2b7da45e6282"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/data/acquisition.json",
+      "source_sha256": "82cf5dc5dd90f81ddbcc3e435c63841dac5dcd92831dcb627aa8a301a3daa7e3",
+      "disposition": "preserved",
+      "package_sha256": "82cf5dc5dd90f81ddbcc3e435c63841dac5dcd92831dcb627aa8a301a3daa7e3"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/data/analysis.json",
+      "source_sha256": "45e529ba9d75393771210857b3222ea5354e042c37407756868c0f98050fa7b9",
+      "disposition": "preserved",
+      "package_sha256": "45e529ba9d75393771210857b3222ea5354e042c37407756868c0f98050fa7b9"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/data/render_receipt.json",
+      "source_sha256": "cd31266fd228baa988c3bf2d4fb0b4c13353a03f422519756860c64e8fcc73c2",
+      "disposition": "preserved",
+      "package_sha256": "cd31266fd228baa988c3bf2d4fb0b4c13353a03f422519756860c64e8fcc73c2"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/data/sources.json",
+      "source_sha256": "03f07f0253d1e5c3459cd1a535e1bc77e89fe06a478f3cee421bb46142c3a63f",
+      "disposition": "preserved",
+      "package_sha256": "03f07f0253d1e5c3459cd1a535e1bc77e89fe06a478f3cee421bb46142c3a63f"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/data/visual_observations.json",
+      "source_sha256": "8ef0ceb2db782a648dfd834c3b572c8c11b7902dc21ed1c2309b1de4cef75ecd",
+      "disposition": "preserved",
+      "package_sha256": "8ef0ceb2db782a648dfd834c3b572c8c11b7902dc21ed1c2309b1de4cef75ecd"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/evaluation/CHECKED_AUDIT.json",
+      "source_sha256": "4e85b7006eec17fc3b721e8fb47e37f839afd8565bab5ce7f4f3ddfcf5a08d67",
+      "disposition": "preserved",
+      "package_sha256": "4e85b7006eec17fc3b721e8fb47e37f839afd8565bab5ce7f4f3ddfcf5a08d67"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/evaluation/EXAMPLE_AUDIT.json",
+      "source_sha256": "96003d275f545ab576718657a3d374c40ad5f25db3f178750a2797a06ecd0ab3",
+      "disposition": "preserved",
+      "package_sha256": "96003d275f545ab576718657a3d374c40ad5f25db3f178750a2797a06ecd0ab3"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/evaluation/REVIEW.md",
+      "source_sha256": "6d640835dc668864e47ee00fa6504851121b71a6a44e16f52e9d22cd872b2fc0",
+      "disposition": "preserved",
+      "package_sha256": "6d640835dc668864e47ee00fa6504851121b71a6a44e16f52e9d22cd872b2fc0"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/scripts/audit_examples.py",
+      "source_sha256": "5fb621953a9b473c86e029d8c4d6ec3864b150bab0e15adc6ffdc809e9d25d5a",
+      "disposition": "preserved",
+      "package_sha256": "5fb621953a9b473c86e029d8c4d6ec3864b150bab0e15adc6ffdc809e9d25d5a"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/scripts/build_release.py",
+      "source_sha256": "36f85dcd781097aa80c4bb703ae9b8661a8ce9f732fc4197651d8b7f8285eb31",
+      "disposition": "preserved",
+      "package_sha256": "36f85dcd781097aa80c4bb703ae9b8661a8ce9f732fc4197651d8b7f8285eb31"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/scripts/edition.py",
+      "source_sha256": "5d42dd5f135098fb5efe83fe01d28787a9472bc104a482ad461292a8d71267e3",
+      "disposition": "adapted-for-public-distribution",
+      "package_sha256": "08a744f9a45ad6ce93d245ba7117a965fca930d77972e2f1db7ae1ca57207b73"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/tests/test_extension.py",
+      "source_sha256": "a29106e008026776cf873d8497044e9225feef4e26909ad59bb7841412848d33",
+      "disposition": "preserved",
+      "package_sha256": "a29106e008026776cf873d8497044e9225feef4e26909ad59bb7841412848d33"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/vocabulary/BUILD_RECEIPT.json",
+      "source_sha256": "9104ec28551dcee499ccf66019448f541ddb7b45bd8a347a8b5e2aa4327bd3c4",
+      "disposition": "preserved",
+      "package_sha256": "9104ec28551dcee499ccf66019448f541ddb7b45bd8a347a8b5e2aa4327bd3c4"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/vocabulary/attested_vocabulary.sqlite",
+      "source_sha256": "fc713c9ecc8e3fc379013adcd7af37dd5e640b84a521406c3785cf2a00f4f773",
+      "disposition": "preserved",
+      "package_sha256": "fc713c9ecc8e3fc379013adcd7af37dd5e640b84a521406c3785cf2a00f4f773"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/vocabulary/new_attestations.csv",
+      "source_sha256": "6970c5455e1a52707256e00e10eaa0120f9242c6814fe7890c26f38309dddcca",
+      "disposition": "preserved",
+      "package_sha256": "6970c5455e1a52707256e00e10eaa0120f9242c6814fe7890c26f38309dddcca"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/vocabulary/occurrences.csv",
+      "source_sha256": "bda3ba866d57983745eef6824aa0b904ddcfa6a731ba58a85b2cc012d9c05241",
+      "disposition": "preserved",
+      "package_sha256": "bda3ba866d57983745eef6824aa0b904ddcfa6a731ba58a85b2cc012d9c05241"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion05/vocabulary/words.csv",
+      "source_sha256": "1ddaa22fdebd952d8b7618f9ca1cbe2c946b9a0f68b7096ebb4123fabacedc6c",
+      "disposition": "preserved",
+      "package_sha256": "1ddaa22fdebd952d8b7618f9ca1cbe2c946b9a0f68b7096ebb4123fabacedc6c"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/README.md",
+      "source_sha256": "3fdd239c34ea3107a0b479dee56aea3e3783fd1cae2d908f8360c7950bc8f25d",
+      "disposition": "preserved",
+      "package_sha256": "3fdd239c34ea3107a0b479dee56aea3e3783fd1cae2d908f8360c7950bc8f25d"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/SOURCE_STUDY.md",
+      "source_sha256": "c8aa7abe4a3a627299a74d2d4ea3d2385d48afa589a5de26cfc9e4abe3a5344f",
+      "disposition": "preserved",
+      "package_sha256": "c8aa7abe4a3a627299a74d2d4ea3d2385d48afa589a5de26cfc9e4abe3a5344f"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/URBAN_EXPOSITION.md",
+      "source_sha256": "1e65b4424140a934094aeb90f10564efde186d6ce0ae2600f4c1fe241436af98",
+      "disposition": "preserved",
+      "package_sha256": "1e65b4424140a934094aeb90f10564efde186d6ce0ae2600f4c1fe241436af98"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/USAGE_SUPPLEMENT.md",
+      "source_sha256": "dbde865dbe6d814c448ef3f0890cdc7f7082e67025d6464a183c20121d20a715",
+      "disposition": "preserved",
+      "package_sha256": "dbde865dbe6d814c448ef3f0890cdc7f7082e67025d6464a183c20121d20a715"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/VOCABULARY_POLICY.md",
+      "source_sha256": "ff51d2570fc72e5764a47ac5a2b565bfd2f297da88dc564db95a02cb5cb89eb9",
+      "disposition": "preserved",
+      "package_sha256": "ff51d2570fc72e5764a47ac5a2b565bfd2f297da88dc564db95a02cb5cb89eb9"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/WORKED_EXAMPLES.md",
+      "source_sha256": "237b43c9e6f1ceddf1049f7b958b8938a1d4ec1c22baf46a8210ebb710f20720",
+      "disposition": "preserved",
+      "package_sha256": "237b43c9e6f1ceddf1049f7b958b8938a1d4ec1c22baf46a8210ebb710f20720"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/analysis/BUILD_RECEIPT.json",
+      "source_sha256": "10f6f0af16ff90613f1f7a57a1544d62b7e8ad59a8da7cd6e19a891e0b83e680",
+      "disposition": "preserved",
+      "package_sha256": "10f6f0af16ff90613f1f7a57a1544d62b7e8ad59a8da7cd6e19a891e0b83e680"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/analysis/analysis.sqlite",
+      "source_sha256": "79d9eaeaf940b606f20a71df0f2bf3977eac67fbea5316c89e8916089e218876",
+      "disposition": "preserved",
+      "package_sha256": "79d9eaeaf940b606f20a71df0f2bf3977eac67fbea5316c89e8916089e218876"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/analysis/observations.csv",
+      "source_sha256": "916f39d236e81d164e8f55763ffa6a39e5bb00ea7f0f26f256df6b8abd2bc599",
+      "disposition": "preserved",
+      "package_sha256": "916f39d236e81d164e8f55763ffa6a39e5bb00ea7f0f26f256df6b8abd2bc599"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/analysis/usage.csv",
+      "source_sha256": "1a199bd71cdfbc963e8904bd31c2f75d29e48e24cbfd6e1d2fe03a9125769708",
+      "disposition": "preserved",
+      "package_sha256": "1a199bd71cdfbc963e8904bd31c2f75d29e48e24cbfd6e1d2fe03a9125769708"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/data/BASELINE_FREEZE.json",
+      "source_sha256": "97d01a1155e5af1435d1bd5249710d640a32673537c00f327856048745c63276",
+      "disposition": "preserved",
+      "package_sha256": "97d01a1155e5af1435d1bd5249710d640a32673537c00f327856048745c63276"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/data/PREVIOUS_FREEZE.json",
+      "source_sha256": "f70af6f6d9c23a8d415025193e415bad53b41dca5abfeb6c90d6275832bd11f8",
+      "disposition": "preserved",
+      "package_sha256": "f70af6f6d9c23a8d415025193e415bad53b41dca5abfeb6c90d6275832bd11f8"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/data/acquisition.json",
+      "source_sha256": "e37bd090521379352b6901f945cb482723cdb3ce50692ea2710e20971f4af901",
+      "disposition": "preserved",
+      "package_sha256": "e37bd090521379352b6901f945cb482723cdb3ce50692ea2710e20971f4af901"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/data/analysis.json",
+      "source_sha256": "cbd23edcb3559722a39cebab433b1dddeab667f1c0fb1c035a0f34201d684af5",
+      "disposition": "preserved",
+      "package_sha256": "cbd23edcb3559722a39cebab433b1dddeab667f1c0fb1c035a0f34201d684af5"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/data/render_receipt.json",
+      "source_sha256": "1955580a0a30caaea91cdb4f4ca3fa225b27c84f10d26bd910192675e84fafcf",
+      "disposition": "preserved",
+      "package_sha256": "1955580a0a30caaea91cdb4f4ca3fa225b27c84f10d26bd910192675e84fafcf"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/data/sources.json",
+      "source_sha256": "c06423314400b5dd69a313f00305d352b7d767c8b0e311dd9ab1974c8f7fd278",
+      "disposition": "preserved",
+      "package_sha256": "c06423314400b5dd69a313f00305d352b7d767c8b0e311dd9ab1974c8f7fd278"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/data/visual_observations.json",
+      "source_sha256": "bd669be42e047d9a7392eec112f763981f5f57f30ca0243a650cbfed9bbc042d",
+      "disposition": "preserved",
+      "package_sha256": "bd669be42e047d9a7392eec112f763981f5f57f30ca0243a650cbfed9bbc042d"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/evaluation/CHECKED_AUDIT.json",
+      "source_sha256": "e96c5e5e6d3182f9efbce3b91efe9c7d613136366ffaecde2f8bb078a6c572bd",
+      "disposition": "preserved",
+      "package_sha256": "e96c5e5e6d3182f9efbce3b91efe9c7d613136366ffaecde2f8bb078a6c572bd"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/evaluation/FIRST_AUDIT.json",
+      "source_sha256": "ad78f8f100e8d5332c53d1dcfd6edf3e4ac9d4f2306f040bbb6f0b3124a3d471",
+      "disposition": "preserved",
+      "package_sha256": "ad78f8f100e8d5332c53d1dcfd6edf3e4ac9d4f2306f040bbb6f0b3124a3d471"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/evaluation/REVIEW.md",
+      "source_sha256": "855b70a1d95efa7c08fea098047b67fee749afff2adf1dceba773e13ca1f3c87",
+      "disposition": "preserved",
+      "package_sha256": "855b70a1d95efa7c08fea098047b67fee749afff2adf1dceba773e13ca1f3c87"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/scripts/audit_examples.py",
+      "source_sha256": "66d3c9e9fae22fad5bb3497720b79707372df599c21b34490ff8197086b8d1ca",
+      "disposition": "preserved",
+      "package_sha256": "66d3c9e9fae22fad5bb3497720b79707372df599c21b34490ff8197086b8d1ca"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/scripts/build_release.py",
+      "source_sha256": "a6968dbc4c36f2fa27e910c5d39b0ecbdcce17d5af2913a6c0e13cc743d4ce59",
+      "disposition": "preserved",
+      "package_sha256": "a6968dbc4c36f2fa27e910c5d39b0ecbdcce17d5af2913a6c0e13cc743d4ce59"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/scripts/edition.py",
+      "source_sha256": "cde0fc3bcab339c758c0d271e2dc3babd11b29baaae2f9b3ab6e1df5a47047a9",
+      "disposition": "adapted-for-public-distribution",
+      "package_sha256": "db58eeeb7927a36eaa68894bdecd3ac9c031696f0e7a2ef286c0b42eb7750e78"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/tests/test_urban.py",
+      "source_sha256": "abce335ee410ccc40ab046a77d15fbda13ec0d0c4e32f3d0f1943c08e61e460e",
+      "disposition": "preserved",
+      "package_sha256": "abce335ee410ccc40ab046a77d15fbda13ec0d0c4e32f3d0f1943c08e61e460e"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/vocabulary/BUILD_RECEIPT.json",
+      "source_sha256": "1334a11956673977b2deb09814c85f0a69bddafd471255a0bfc70dd884aac162",
+      "disposition": "preserved",
+      "package_sha256": "1334a11956673977b2deb09814c85f0a69bddafd471255a0bfc70dd884aac162"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/vocabulary/attested_vocabulary.sqlite",
+      "source_sha256": "fc8547e9cef6f91417ee1eadb4a4f23eb54b68df25dd9666913237fb09f8db72",
+      "disposition": "preserved",
+      "package_sha256": "fc8547e9cef6f91417ee1eadb4a4f23eb54b68df25dd9666913237fb09f8db72"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/vocabulary/new_attestations.csv",
+      "source_sha256": "446fef13b5f796980e47ff8ae056afa352b64f89d64f65d037aded62118b739b",
+      "disposition": "preserved",
+      "package_sha256": "446fef13b5f796980e47ff8ae056afa352b64f89d64f65d037aded62118b739b"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/vocabulary/occurrences.csv",
+      "source_sha256": "17bd15e91bb88a10dc6a06bcbca2f9ded48364fff6d76195509e6503e71f63c6",
+      "disposition": "preserved",
+      "package_sha256": "17bd15e91bb88a10dc6a06bcbca2f9ded48364fff6d76195509e6503e71f63c6"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion06/vocabulary/words.csv",
+      "source_sha256": "233106a0d72cea9ec1ff168deecd8ede6a5ad787ff0c5e29f0550e12007330f5",
+      "disposition": "preserved",
+      "package_sha256": "233106a0d72cea9ec1ff168deecd8ede6a5ad787ff0c5e29f0550e12007330f5"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/README.md",
+      "source_sha256": "0ddb39c97e243bf0cee75b4cde49c77d74ff35a3dbdb2a4b2e590f20f06be21f",
+      "disposition": "preserved",
+      "package_sha256": "0ddb39c97e243bf0cee75b4cde49c77d74ff35a3dbdb2a4b2e590f20f06be21f"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/SOURCE_STUDY.md",
+      "source_sha256": "c9c30c1a821c0c80f7293df20ce5266163243b844c6d09615352b235d9c536b9",
+      "disposition": "preserved",
+      "package_sha256": "c9c30c1a821c0c80f7293df20ce5266163243b844c6d09615352b235d9c536b9"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/THEORY_EXPOSITION.md",
+      "source_sha256": "7f7404cdf877196fe607158f33604e5a92303d7ca95543c6a4e8e830ac1157d8",
+      "disposition": "preserved",
+      "package_sha256": "7f7404cdf877196fe607158f33604e5a92303d7ca95543c6a4e8e830ac1157d8"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/USAGE_SUPPLEMENT.md",
+      "source_sha256": "d56a27e7d4d0ea81649b12d4796ab1521220948f6f0c9eaef1abe4c5984cf509",
+      "disposition": "preserved",
+      "package_sha256": "d56a27e7d4d0ea81649b12d4796ab1521220948f6f0c9eaef1abe4c5984cf509"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/VOCABULARY_POLICY.md",
+      "source_sha256": "e007aba1baf20cec96973f216d5234354d19c1d38c92d2f89c8a6beffd864511",
+      "disposition": "preserved",
+      "package_sha256": "e007aba1baf20cec96973f216d5234354d19c1d38c92d2f89c8a6beffd864511"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/WORKED_EXAMPLES.md",
+      "source_sha256": "f8ec8473da790cc363948d32bcf92c6b947bac52b883c7d5ab981b3b29c74e67",
+      "disposition": "preserved",
+      "package_sha256": "f8ec8473da790cc363948d32bcf92c6b947bac52b883c7d5ab981b3b29c74e67"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/analysis/STUDY_RECEIPT.json",
+      "source_sha256": "5203b1268aabb98d768f57a3ed1528e12c226f00928b4462932d834901a6d4a6",
+      "disposition": "preserved",
+      "package_sha256": "5203b1268aabb98d768f57a3ed1528e12c226f00928b4462932d834901a6d4a6"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/data/ACQUISITION_REPAIR.md",
+      "source_sha256": "329a6c48b48d2081fa7fdd35ae479eab0242231d9fec88c804281b66c914a835",
+      "disposition": "preserved",
+      "package_sha256": "329a6c48b48d2081fa7fdd35ae479eab0242231d9fec88c804281b66c914a835"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/data/PRESERVATION_FREEZE.json",
+      "source_sha256": "aeade464c80bc7fbdc230f4577c1562c2241d174528cd7e2e93993fb1264ddb2",
+      "disposition": "preserved",
+      "package_sha256": "aeade464c80bc7fbdc230f4577c1562c2241d174528cd7e2e93993fb1264ddb2"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/data/acquisition.json",
+      "source_sha256": "88b9720994fbdd1a47b7c3a88c98585269b76955aba8cf9c152d48cc80007d1b",
+      "disposition": "preserved",
+      "package_sha256": "88b9720994fbdd1a47b7c3a88c98585269b76955aba8cf9c152d48cc80007d1b"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/data/context_restrictions.json",
+      "source_sha256": "82193d41607a8577b164ec7ae74eb83abd29e39468fae5fbe1c904b591ced2c7",
+      "disposition": "preserved",
+      "package_sha256": "82193d41607a8577b164ec7ae74eb83abd29e39468fae5fbe1c904b591ced2c7"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/data/sources.json",
+      "source_sha256": "36048a7a1c684bddce697c958eb0d1cab7667c8ef2c430e9bcccfb207acac3dc",
+      "disposition": "preserved",
+      "package_sha256": "36048a7a1c684bddce697c958eb0d1cab7667c8ef2c430e9bcccfb207acac3dc"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/evaluation/CHECKED_AUDIT.json",
+      "source_sha256": "53d219818592adc36ba6dcb1f8bee02bf2b886425a600c4e0491c34554a16ea9",
+      "disposition": "preserved",
+      "package_sha256": "53d219818592adc36ba6dcb1f8bee02bf2b886425a600c4e0491c34554a16ea9"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/evaluation/FINAL_AUDIT.json",
+      "source_sha256": "3e0d91f8c7dd4f1dfb054f3c047ddc254d7f9b96350a994431f44f4a132d5b25",
+      "disposition": "preserved",
+      "package_sha256": "3e0d91f8c7dd4f1dfb054f3c047ddc254d7f9b96350a994431f44f4a132d5b25"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/evaluation/FIRST_AUDIT.json",
+      "source_sha256": "93e99ece178448784fb111f34c466aa965ca71611ade16c713b22fbd062e30b3",
+      "disposition": "preserved",
+      "package_sha256": "93e99ece178448784fb111f34c466aa965ca71611ade16c713b22fbd062e30b3"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/evaluation/PREVIOUS_REAUDIT.json",
+      "source_sha256": "ef05ce5a3808e0d891806bcbd7aee6a76ba8bb4c2c8851327db3478523b842db",
+      "disposition": "preserved",
+      "package_sha256": "ef05ce5a3808e0d891806bcbd7aee6a76ba8bb4c2c8851327db3478523b842db"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/evaluation/PREVIOUS_REAUDIT_RELEASE.json",
+      "source_sha256": "ecda7ffddc01687487cced7bd91bbe5f007c1cdbe7159c752aa71cea33c06010",
+      "disposition": "preserved",
+      "package_sha256": "ecda7ffddc01687487cced7bd91bbe5f007c1cdbe7159c752aa71cea33c06010"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/evaluation/PREVIOUS_REAUDIT_VERIFIED.json",
+      "source_sha256": "afabb0aeea397ba25f6b8e2cdd7d77db9e3d52d8a922ede4be0e2544ae16eb3a",
+      "disposition": "preserved",
+      "package_sha256": "afabb0aeea397ba25f6b8e2cdd7d77db9e3d52d8a922ede4be0e2544ae16eb3a"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/evaluation/PROTOCOL.md",
+      "source_sha256": "1b02d34946e9c27c7cedf1821b29d0f71bdd8c8661ab1724c3512d5483e7adea",
+      "disposition": "preserved",
+      "package_sha256": "1b02d34946e9c27c7cedf1821b29d0f71bdd8c8661ab1724c3512d5483e7adea"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/evaluation/RELEASE_AUDIT.json",
+      "source_sha256": "8669dd29178529d8f32c0fcfb0b653536b7a18fbb21443e7451ce575230f1c78",
+      "disposition": "preserved",
+      "package_sha256": "8669dd29178529d8f32c0fcfb0b653536b7a18fbb21443e7451ce575230f1c78"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/evaluation/REVIEW.md",
+      "source_sha256": "faa4843aefbe869348e29c287594e2ff882e14acabd4dfcad4e61f01f39050a3",
+      "disposition": "preserved",
+      "package_sha256": "faa4843aefbe869348e29c287594e2ff882e14acabd4dfcad4e61f01f39050a3"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/evaluation/VERIFIED_AUDIT.json",
+      "source_sha256": "f01953f48f15bead956a854caed314da4842d3209ee35139118f53da7f161693",
+      "disposition": "preserved",
+      "package_sha256": "f01953f48f15bead956a854caed314da4842d3209ee35139118f53da7f161693"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/evaluation/final/T01.tex",
+      "source_sha256": "0fb1efdffe384a5a7cb18a847d8e0c9fa9f26f6cea4bcbc1ec09b24b3a4be73a",
+      "disposition": "preserved",
+      "package_sha256": "0fb1efdffe384a5a7cb18a847d8e0c9fa9f26f6cea4bcbc1ec09b24b3a4be73a"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/evaluation/final/T02.tex",
+      "source_sha256": "62dacdb6e81095acc45e6ece4917318c0bee8f7e42a07ed93761eff81f3491eb",
+      "disposition": "preserved",
+      "package_sha256": "62dacdb6e81095acc45e6ece4917318c0bee8f7e42a07ed93761eff81f3491eb"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/evaluation/final/T03.tex",
+      "source_sha256": "45656ee43d97822a10df14055e6cd892ab328c6dd96ab87e7bf7ac3d105269a9",
+      "disposition": "preserved",
+      "package_sha256": "45656ee43d97822a10df14055e6cd892ab328c6dd96ab87e7bf7ac3d105269a9"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/evaluation/final/T04.tex",
+      "source_sha256": "3a7d55e25a633d6eed2fdb6c1a5b62071b2091ef3eff2d2f725d186f9e173ddb",
+      "disposition": "preserved",
+      "package_sha256": "3a7d55e25a633d6eed2fdb6c1a5b62071b2091ef3eff2d2f725d186f9e173ddb"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/evaluation/first/T01.tex",
+      "source_sha256": "c32cba6ce8702382cd49d883fcee54861f4b5007a825c31f4f358f7cf83e9d2d",
+      "disposition": "preserved",
+      "package_sha256": "c32cba6ce8702382cd49d883fcee54861f4b5007a825c31f4f358f7cf83e9d2d"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/evaluation/first/T02.tex",
+      "source_sha256": "8083051018dd01efdd2502036e29c818e7afbcf8e430750e3087d4eb3d480e04",
+      "disposition": "preserved",
+      "package_sha256": "8083051018dd01efdd2502036e29c818e7afbcf8e430750e3087d4eb3d480e04"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/evaluation/first/T03.tex",
+      "source_sha256": "557e4c4aee425512426ae7df9c907c84a49a6b276d1379454e963d8b59639893",
+      "disposition": "preserved",
+      "package_sha256": "557e4c4aee425512426ae7df9c907c84a49a6b276d1379454e963d8b59639893"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/evaluation/first/T04.tex",
+      "source_sha256": "6bdc7f3a033a47bdd6894f8b4d9e4f38745e29b6369b80ee093c41fcea8670a9",
+      "disposition": "preserved",
+      "package_sha256": "6bdc7f3a033a47bdd6894f8b4d9e4f38745e29b6369b80ee093c41fcea8670a9"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/scripts/audit_examples.py",
+      "source_sha256": "922e482952722dbdb8232be1b817bc0857d760b266a746b9f9eff7c1813619bc",
+      "disposition": "preserved",
+      "package_sha256": "922e482952722dbdb8232be1b817bc0857d760b266a746b9f9eff7c1813619bc"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/scripts/build_release.py",
+      "source_sha256": "99b4bbc92b4a5655402e920fa9542e2ce0d04db9e087a25bed83008a86670a27",
+      "disposition": "preserved",
+      "package_sha256": "99b4bbc92b4a5655402e920fa9542e2ce0d04db9e087a25bed83008a86670a27"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/scripts/edition.py",
+      "source_sha256": "d3ba91680ee1ef6cf702767fb46d9c425c8602c54bd04efea1ebdd3311f7c75d",
+      "disposition": "preserved",
+      "package_sha256": "d3ba91680ee1ef6cf702767fb46d9c425c8602c54bd04efea1ebdd3311f7c75d"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/scripts/freeze.py",
+      "source_sha256": "47431ed5a4ff2382250b74437d0d39acbab056ba07d55ea895b2b6688d2dc854",
+      "disposition": "preserved",
+      "package_sha256": "47431ed5a4ff2382250b74437d0d39acbab056ba07d55ea895b2b6688d2dc854"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/scripts/study.py",
+      "source_sha256": "81341446e0a3dea34b69747e36f996e57201c9724149866b30bbe89005b8b19c",
+      "disposition": "preserved",
+      "package_sha256": "81341446e0a3dea34b69747e36f996e57201c9724149866b30bbe89005b8b19c"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/tests/test_theory.py",
+      "source_sha256": "7e0c84133d56d27b236ac203e8ef8cf310d2b5ea0925e2807998a06fbf966463",
+      "disposition": "preserved",
+      "package_sha256": "7e0c84133d56d27b236ac203e8ef8cf310d2b5ea0925e2807998a06fbf966463"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/vocabulary/BUILD_RECEIPT.json",
+      "source_sha256": "3d5b09d6a7cf7c6a81ac00f6f0e839546ad09c2941864f660c18125334789f9e",
+      "disposition": "preserved",
+      "package_sha256": "3d5b09d6a7cf7c6a81ac00f6f0e839546ad09c2941864f660c18125334789f9e"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/vocabulary/attested_vocabulary.sqlite",
+      "source_sha256": "1396bcf4e37cde6e7b1237b3f6e4a987a2e14ec944f7b5b9f247fc1e53fa1f5d",
+      "disposition": "preserved",
+      "package_sha256": "1396bcf4e37cde6e7b1237b3f6e4a987a2e14ec944f7b5b9f247fc1e53fa1f5d"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/vocabulary/new_attestations.csv",
+      "source_sha256": "079ce62977cd6756e138526e6f312a01949f52c7a6dba7c5aa8e62971e74b17b",
+      "disposition": "preserved",
+      "package_sha256": "079ce62977cd6756e138526e6f312a01949f52c7a6dba7c5aa8e62971e74b17b"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/vocabulary/occurrences.csv",
+      "source_sha256": "6514ae7b9ebf2067319cd7c810cbccb212dfaf23917e505d9dd5fe01cedcf010",
+      "disposition": "preserved",
+      "package_sha256": "6514ae7b9ebf2067319cd7c810cbccb212dfaf23917e505d9dd5fe01cedcf010"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/expansion08/vocabulary/words.csv",
+      "source_sha256": "ea4f8a8fa8cc66f191b2871049eb7944576761443f1bb68008ef8481d6af8ae2",
+      "disposition": "preserved",
+      "package_sha256": "ea4f8a8fa8cc66f191b2871049eb7944576761443f1bb68008ef8481d6af8ae2"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/A01.md",
+      "source_sha256": "9e1fc198bbd1dbaa1c7700e72423f90bad4fd9ce8985489106ef0d9df23ecfa8",
+      "disposition": "preserved",
+      "package_sha256": "9e1fc198bbd1dbaa1c7700e72423f90bad4fd9ce8985489106ef0d9df23ecfa8"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/A02.md",
+      "source_sha256": "e2b3a1a442882dc98536374ca0a9451b7334aaf3ae9e4c2b39a3d33c1b0d6963",
+      "disposition": "preserved",
+      "package_sha256": "e2b3a1a442882dc98536374ca0a9451b7334aaf3ae9e4c2b39a3d33c1b0d6963"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/A03.md",
+      "source_sha256": "095b164e676be87e3645ebf1afbe59ccbf597817f03f32d81c349569e3b05e54",
+      "disposition": "preserved",
+      "package_sha256": "095b164e676be87e3645ebf1afbe59ccbf597817f03f32d81c349569e3b05e54"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/A04.md",
+      "source_sha256": "2a089dae097f252311c6cd8f401ffaf9a3bd4ce59d4c15015c433a548b29aaf5",
+      "disposition": "preserved",
+      "package_sha256": "2a089dae097f252311c6cd8f401ffaf9a3bd4ce59d4c15015c433a548b29aaf5"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/A05.md",
+      "source_sha256": "e20e35cf02c96544ce0a967821fd960796ae8304964a444c5d3af4529ff423a9",
+      "disposition": "preserved",
+      "package_sha256": "e20e35cf02c96544ce0a967821fd960796ae8304964a444c5d3af4529ff423a9"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/A06.md",
+      "source_sha256": "b0b7135846623b4e3c8654a82cccf23caaaff9f1463bca5269ae112092801f1e",
+      "disposition": "preserved",
+      "package_sha256": "b0b7135846623b4e3c8654a82cccf23caaaff9f1463bca5269ae112092801f1e"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/D01.md",
+      "source_sha256": "d7ee9e4a8aadf72b3ca9d6394d97eae7c1f3afaf87d183e5a9220e3df2d03a6c",
+      "disposition": "preserved",
+      "package_sha256": "d7ee9e4a8aadf72b3ca9d6394d97eae7c1f3afaf87d183e5a9220e3df2d03a6c"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/D02.md",
+      "source_sha256": "2a0583bc7e5b0896bffc8f8d68124dcdd26cf4a297de07f6e2afde22013db420",
+      "disposition": "preserved",
+      "package_sha256": "2a0583bc7e5b0896bffc8f8d68124dcdd26cf4a297de07f6e2afde22013db420"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/D03.md",
+      "source_sha256": "a16d370f62b05e1899da74126b722e700226ce09226a43336584c86baaeec575",
+      "disposition": "preserved",
+      "package_sha256": "a16d370f62b05e1899da74126b722e700226ce09226a43336584c86baaeec575"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/D04.md",
+      "source_sha256": "e350e40cb40cd758e7c251f4685ce820ec468ce80a4d9ca31df68e4ef5e039bb",
+      "disposition": "preserved",
+      "package_sha256": "e350e40cb40cd758e7c251f4685ce820ec468ce80a4d9ca31df68e4ef5e039bb"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/D05.md",
+      "source_sha256": "53ee27b963eb7b001ca843a6d9a53f378358cb923208b01fa53a53873dfe9be5",
+      "disposition": "preserved",
+      "package_sha256": "53ee27b963eb7b001ca843a6d9a53f378358cb923208b01fa53a53873dfe9be5"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/D06.md",
+      "source_sha256": "a2087201f1366adb6b352f973606bd67aca07724b2fc12ad1fbe452279bddd77",
+      "disposition": "preserved",
+      "package_sha256": "a2087201f1366adb6b352f973606bd67aca07724b2fc12ad1fbe452279bddd77"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/K01.md",
+      "source_sha256": "c62b6aeda3721619bbd4716e4cac83f8238f08e333cbc3d47d426b0d08cc54d1",
+      "disposition": "preserved",
+      "package_sha256": "c62b6aeda3721619bbd4716e4cac83f8238f08e333cbc3d47d426b0d08cc54d1"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/K02.md",
+      "source_sha256": "6f56278c01807711803b6b41e11b3ebd9e3844453fb5b4e739e8629a75decf21",
+      "disposition": "preserved",
+      "package_sha256": "6f56278c01807711803b6b41e11b3ebd9e3844453fb5b4e739e8629a75decf21"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/K03.md",
+      "source_sha256": "c420abe40c0e1817952d47fd337bd0cb24f526feca21a2f762f631cafeaa1de3",
+      "disposition": "preserved",
+      "package_sha256": "c420abe40c0e1817952d47fd337bd0cb24f526feca21a2f762f631cafeaa1de3"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/K04.md",
+      "source_sha256": "4180263497a6742a3b638d15667b5491a5b448465898ebfa046cb23943d1b768",
+      "disposition": "preserved",
+      "package_sha256": "4180263497a6742a3b638d15667b5491a5b448465898ebfa046cb23943d1b768"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/R01.md",
+      "source_sha256": "5922ea4d89c3d91cae975c5b0c6d83c5fdf65dfd83f5cf418c07b6430d47e27b",
+      "disposition": "preserved",
+      "package_sha256": "5922ea4d89c3d91cae975c5b0c6d83c5fdf65dfd83f5cf418c07b6430d47e27b"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/R02.md",
+      "source_sha256": "caf6746002759b89f738da93d26e045dfb59ec6c076e29523e1e7edfa1058539",
+      "disposition": "preserved",
+      "package_sha256": "caf6746002759b89f738da93d26e045dfb59ec6c076e29523e1e7edfa1058539"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/R03.md",
+      "source_sha256": "6a61920b7fd3a441dd2b98bd129925bfc67ef8814fa2232c18aaf75a00060bac",
+      "disposition": "preserved",
+      "package_sha256": "6a61920b7fd3a441dd2b98bd129925bfc67ef8814fa2232c18aaf75a00060bac"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/R04.md",
+      "source_sha256": "cadce651a1b46a742e947d09b24e266c33accc72fc819213e5779b163da64785",
+      "disposition": "preserved",
+      "package_sha256": "cadce651a1b46a742e947d09b24e266c33accc72fc819213e5779b163da64785"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/R05.md",
+      "source_sha256": "b6a231ea227d79472e4b87fbc3e126bcc61e65acaaa22d2ebf7c88b4251530eb",
+      "disposition": "preserved",
+      "package_sha256": "b6a231ea227d79472e4b87fbc3e126bcc61e65acaaa22d2ebf7c88b4251530eb"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/R06.md",
+      "source_sha256": "5bce5f006388d20c167b022e4d014418df6080c14258af7d65d764929bd57fcb",
+      "disposition": "preserved",
+      "package_sha256": "5bce5f006388d20c167b022e4d014418df6080c14258af7d65d764929bd57fcb"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/reviews/R07.md",
+      "source_sha256": "3bcb2ea12cc393c50cfa04ff88db74f7b75557676f73bcf1468ca2ce9bf46992",
+      "disposition": "preserved",
+      "package_sha256": "3bcb2ea12cc393c50cfa04ff88db74f7b75557676f73bcf1468ca2ce9bf46992"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/scripts/__pycache__/corpus.cpython-314.pyc",
+      "source_sha256": "d1618ac8f9534d7ff3fec36bbfbec69f9711daaa795b6dda2e28e0398b7c5804",
+      "disposition": "excluded",
+      "reason": "Generated bytecode, not a skill resource."
+    },
+    {
+      "path": "corpus-econ-writing/references/library/scripts/__pycache__/study.cpython-314.pyc",
+      "source_sha256": "dfd57e573137dce6b0258f474b08b1cada370c623a6cec6414d6cdbb5deceb50",
+      "disposition": "excluded",
+      "reason": "Generated bytecode, not a skill resource."
+    },
+    {
+      "path": "corpus-econ-writing/references/library/scripts/__pycache__/vocabulary.cpython-314.pyc",
+      "source_sha256": "e7c462bdd691e73801d6d2bdf8aa7cd9f1ba66e6e562ed3df639fc37091a138d",
+      "disposition": "excluded",
+      "reason": "Generated bytecode, not a skill resource."
+    },
+    {
+      "path": "corpus-econ-writing/references/library/scripts/corpus.py",
+      "source_sha256": "befd9a0bace966299e900feca57a368c4bb4e73b31519588c4138bce640bbc2f",
+      "disposition": "preserved",
+      "package_sha256": "befd9a0bace966299e900feca57a368c4bb4e73b31519588c4138bce640bbc2f"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/scripts/quality.py",
+      "source_sha256": "aff568e650761fddd90704b01b7543bc5f116f37d1c741bff370db546535ba37",
+      "disposition": "preserved",
+      "package_sha256": "aff568e650761fddd90704b01b7543bc5f116f37d1c741bff370db546535ba37"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/scripts/reading_pack.py",
+      "source_sha256": "dafe8ab37e791e8d3a078319f9c6507d41d44dcb2b6b99c6e7fbb02963b47ced",
+      "disposition": "preserved",
+      "package_sha256": "dafe8ab37e791e8d3a078319f9c6507d41d44dcb2b6b99c6e7fbb02963b47ced"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/scripts/study.py",
+      "source_sha256": "0b4ccfecf02aa5af27e589bd622cd7df4da705cc4eae421cdb0dfd37c90258ac",
+      "disposition": "preserved",
+      "package_sha256": "0b4ccfecf02aa5af27e589bd622cd7df4da705cc4eae421cdb0dfd37c90258ac"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/scripts/verify_authors.py",
+      "source_sha256": "593dc258025808f0b21d20b42845df2405e64bfdabf17bac9727af45ecc8905f",
+      "disposition": "preserved",
+      "package_sha256": "593dc258025808f0b21d20b42845df2405e64bfdabf17bac9727af45ecc8905f"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/scripts/verify_expansion.py",
+      "source_sha256": "eddd420b25b92e0c13a800a0bb1c00fbfb79255aa6aece110e49819cd981adf6",
+      "disposition": "preserved",
+      "package_sha256": "eddd420b25b92e0c13a800a0bb1c00fbfb79255aa6aece110e49819cd981adf6"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/scripts/verify_package.py",
+      "source_sha256": "dd878817701c8435d56e9201732fe0280b298e1d8019f5329ad9ae2967ec69b4",
+      "disposition": "preserved",
+      "package_sha256": "dd878817701c8435d56e9201732fe0280b298e1d8019f5329ad9ae2967ec69b4"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/scripts/verify_theory.py",
+      "source_sha256": "cdf123a3fd2ad32f7ce594d93105f853921bc43a2f8ecd839ea13d8b24abd40d",
+      "disposition": "preserved",
+      "package_sha256": "cdf123a3fd2ad32f7ce594d93105f853921bc43a2f8ecd839ea13d8b24abd40d"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/scripts/verify_urban.py",
+      "source_sha256": "8d2fd7f1ec102a12d0771764625384ffe39373ca12f75ef457d9c7408806f35d",
+      "disposition": "preserved",
+      "package_sha256": "8d2fd7f1ec102a12d0771764625384ffe39373ca12f75ef457d9c7408806f35d"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/scripts/visual_samples.py",
+      "source_sha256": "a9dedbf12dfbcc9bb7285ac72463141e399950c193d3d396f1e67c7a42c1c446",
+      "disposition": "preserved",
+      "package_sha256": "a9dedbf12dfbcc9bb7285ac72463141e399950c193d3d396f1e67c7a42c1c446"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/scripts/vocabulary.py",
+      "source_sha256": "208e24ca0216e2184dbedecf5ffc8bca9f5cb2603b536b9a2cf8f23fe9694c00",
+      "disposition": "preserved",
+      "package_sha256": "208e24ca0216e2184dbedecf5ffc8bca9f5cb2603b536b9a2cf8f23fe9694c00"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/tests/fixtures/vocabulary_fail.txt",
+      "source_sha256": "b8e5d030160b1aced548cb80c1b19ae00a2bd7a41d71784e201649a508a3c9fe",
+      "disposition": "preserved",
+      "package_sha256": "b8e5d030160b1aced548cb80c1b19ae00a2bd7a41d71784e201649a508a3c9fe"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/tests/fixtures/vocabulary_pass.txt",
+      "source_sha256": "eeccdc306fa5bf8d8832ecf840bb476197e418b04f78a077e774fd790d07056d",
+      "disposition": "preserved",
+      "package_sha256": "eeccdc306fa5bf8d8832ecf840bb476197e418b04f78a077e774fd790d07056d"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/tests/test_package.py",
+      "source_sha256": "2e59eeef20c9bc162c1863709373a410e331d6d717290783641c6475c5277444",
+      "disposition": "preserved",
+      "package_sha256": "2e59eeef20c9bc162c1863709373a410e331d6d717290783641c6475c5277444"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/tests/test_study.py",
+      "source_sha256": "9d9b9f3efdc46b6e7af6648f4a81cdd5525b4689d6a568229f402a7c22e7e790",
+      "disposition": "preserved",
+      "package_sha256": "9d9b9f3efdc46b6e7af6648f4a81cdd5525b4689d6a568229f402a7c22e7e790"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/tests/test_vocabulary.py",
+      "source_sha256": "dfdd00a6e78ac6866a5448be4bbbe6d2bd47f5a3159ee8beb2e785d4282a9e36",
+      "disposition": "preserved",
+      "package_sha256": "dfdd00a6e78ac6866a5448be4bbbe6d2bd47f5a3159ee8beb2e785d4282a9e36"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/vocabulary/BUILD_RECEIPT.json",
+      "source_sha256": "4ed8e680dff8b94ecacac2169f95507d972df09657b08c60eba08553fe934ca4",
+      "disposition": "preserved",
+      "package_sha256": "4ed8e680dff8b94ecacac2169f95507d972df09657b08c60eba08553fe934ca4"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/vocabulary/README.md",
+      "source_sha256": "39eaffc33051e870482620d6b9c41989c73d0273d7be5f5089e5bb15b1965b06",
+      "disposition": "preserved",
+      "package_sha256": "39eaffc33051e870482620d6b9c41989c73d0273d7be5f5089e5bb15b1965b06"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/vocabulary/VERIFY_RECEIPT.json",
+      "source_sha256": "d0b290ce3c354de7ed35afe6b96a269373f934a5c49722b980cfdb56cf4409ce",
+      "disposition": "preserved",
+      "package_sha256": "d0b290ce3c354de7ed35afe6b96a269373f934a5c49722b980cfdb56cf4409ce"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/vocabulary/attested_vocabulary.json",
+      "source_sha256": "4bc4a74946bdc21eb48369e461fbc209ce5943f4c23d638f7a7a242d4518aebd",
+      "disposition": "preserved",
+      "package_sha256": "4bc4a74946bdc21eb48369e461fbc209ce5943f4c23d638f7a7a242d4518aebd"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/vocabulary/attested_vocabulary.sqlite",
+      "source_sha256": "0a595a011d69fc7581f500a5714e8148d0860c4c00ecefe499e212f77061f86b",
+      "disposition": "preserved",
+      "package_sha256": "0a595a011d69fc7581f500a5714e8148d0860c4c00ecefe499e212f77061f86b"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/vocabulary/curated_dictionary_attestation.csv",
+      "source_sha256": "eed1cc82c6e5b02356ddb3f12823e0c21579e98819128e67bf1fdd0fb2ce4e39",
+      "disposition": "preserved",
+      "package_sha256": "eed1cc82c6e5b02356ddb3f12823e0c21579e98819128e67bf1fdd0fb2ce4e39"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/vocabulary/occurrences.csv",
+      "source_sha256": "648009ce59f620a628f376b899a31404da4445e29d548ba837bf02c02fe6574d",
+      "disposition": "preserved",
+      "package_sha256": "648009ce59f620a628f376b899a31404da4445e29d548ba837bf02c02fe6574d"
+    },
+    {
+      "path": "corpus-econ-writing/references/library/vocabulary/words.csv",
+      "source_sha256": "f72323b5b451ef0f32dedc4df8e42cbe05e7f33be42d8c319abdb2e7b3ce67db",
+      "disposition": "preserved",
+      "package_sha256": "f72323b5b451ef0f32dedc4df8e42cbe05e7f33be42d8c319abdb2e7b3ce67db"
+    },
+    {
+      "path": "corpus-econ-writing/references/paragraph-repairs.md",
+      "source_sha256": "4a5ec188512abc97238e22e7a25e5914b3ecea00850f226f8991657be87dee9b",
+      "disposition": "preserved",
+      "package_sha256": "4a5ec188512abc97238e22e7a25e5914b3ecea00850f226f8991657be87dee9b"
+    },
+    {
+      "path": "corpus-econ-writing/scripts/check_vocabulary.py",
+      "source_sha256": "3ba583b5eb6a962c36916fd6123630d938155b63d802014348656103df81234b",
+      "disposition": "preserved",
+      "package_sha256": "3ba583b5eb6a962c36916fd6123630d938155b63d802014348656103df81234b"
+    },
+    {
+      "path": "corpus-econ-writing/scripts/verify_package.py",
+      "source_sha256": "cdf123a3fd2ad32f7ce594d93105f853921bc43a2f8ecd839ea13d8b24abd40d",
+      "disposition": "preserved",
+      "package_sha256": "cdf123a3fd2ad32f7ce594d93105f853921bc43a2f8ecd839ea13d8b24abd40d"
+    },
+    {
+      "path": "map-theory-dependencies/SKILL.md",
+      "source_sha256": "f2590ec859832e82a35dfc5ff934cc32f44cd1515c885447cedd63e2e14e818f",
+      "disposition": "adapted-for-public-distribution",
+      "package_sha256": "4accded79f994b14f2555b1095fd3ea38c243a5b413fde807375205af7e24393"
+    },
+    {
+      "path": "map-theory-dependencies/agents/openai.yaml",
+      "source_sha256": "e70a4ee85cf6355afcbe3ba2f72ef9dca2be2b46265495bf9bc4ce9093b7c9ae",
+      "disposition": "preserved",
+      "package_sha256": "e70a4ee85cf6355afcbe3ba2f72ef9dca2be2b46265495bf9bc4ce9093b7c9ae"
+    },
+    {
+      "path": "map-theory-dependencies/references/extraction-playbook.md",
+      "source_sha256": "e6c3e9a187b02d3c846ffc6d4ba17a8336457769a00ea25663e7deb46cfca833",
+      "disposition": "preserved",
+      "package_sha256": "e6c3e9a187b02d3c846ffc6d4ba17a8336457769a00ea25663e7deb46cfca833"
+    },
+    {
+      "path": "map-theory-dependencies/references/graph-contract.md",
+      "source_sha256": "6d2f97d573a5dd8dfd9d45283ee0812c4012082e40cf063aa9a89598989194aa",
+      "disposition": "preserved",
+      "package_sha256": "6d2f97d573a5dd8dfd9d45283ee0812c4012082e40cf063aa9a89598989194aa"
+    },
+    {
+      "path": "map-theory-dependencies/scripts/validate_dependency_graph.mjs",
+      "source_sha256": "e78d96bf3d4cb1a84198aaf8b3a39088f37d05805923d6412d7713a0a98dfafc",
+      "disposition": "preserved",
+      "package_sha256": "e78d96bf3d4cb1a84198aaf8b3a39088f37d05805923d6412d7713a0a98dfafc"
+    },
+    {
+      "path": "review-slide-deck/SKILL.md",
+      "source_sha256": "49babce015fff0718860548245c145e649b00696cb5c034c7086ac09371f7512",
+      "disposition": "preserved",
+      "package_sha256": "49babce015fff0718860548245c145e649b00696cb5c034c7086ac09371f7512"
+    },
+    {
+      "path": "review-slide-deck/agents/openai.yaml",
+      "source_sha256": "4bd55b49bde4182e2c6183819a6b42707780f54d873ffea6016420502f2f10ce",
+      "disposition": "preserved",
+      "package_sha256": "4bd55b49bde4182e2c6183819a6b42707780f54d873ffea6016420502f2f10ce"
+    },
+    {
+      "path": "review-slide-deck/references/report-template.md",
+      "source_sha256": "d31435fcec602c159ae84d34594ebef616f64fdb1df4f8d857f039c8ff13ebe3",
+      "disposition": "preserved",
+      "package_sha256": "d31435fcec602c159ae84d34594ebef616f64fdb1df4f8d857f039c8ff13ebe3"
+    },
+    {
+      "path": "review-slide-deck/references/review-rubric.md",
+      "source_sha256": "3785676e54b35701cd1c3220246551dd03b6798ceedf90496c3573b528141fd5",
+      "disposition": "preserved",
+      "package_sha256": "3785676e54b35701cd1c3220246551dd03b6798ceedf90496c3573b528141fd5"
+    },
+    {
+      "path": "fuchs-bq-slides/SKILL.md",
+      "source_sha256": "a0652620ae67cfa84415d2c50629f5d9bf6f6a413f2ea0ea5bc18080cfa9d636",
+      "disposition": "adapted-for-public-distribution",
+      "package_sha256": "f0c5d7b4be0eab7c1ef50b7a7c9978293cf3af85aaa1ea4d39bb02c14828f8f2"
+    },
+    {
+      "path": "fuchs-bq-slides/agents/openai.yaml",
+      "source_sha256": "eb9f8b862102e22ce45ee76fc410e20a90bf5b217490a175ee79602613c0ed1e",
+      "disposition": "preserved",
+      "package_sha256": "eb9f8b862102e22ce45ee76fc410e20a90bf5b217490a175ee79602613c0ed1e"
+    },
+    {
+      "path": "fuchs-bq-slides/assets/deck/bq-theme.sty",
+      "source_sha256": "8cf2b02dbb73a63f4dbe8abf413c9588dc5cc0f4ec2d615e283125e41c9d76f4",
+      "disposition": "preserved",
+      "package_sha256": "8cf2b02dbb73a63f4dbe8abf413c9588dc5cc0f4ec2d615e283125e41c9d76f4"
+    },
+    {
+      "path": "fuchs-bq-slides/assets/deck/deck.tex",
+      "source_sha256": "866b47900263d02c3bbb7db4d6310aa5fe418d7e069da57f7ede9bdb0589bf13",
+      "disposition": "preserved",
+      "package_sha256": "866b47900263d02c3bbb7db4d6310aa5fe418d7e069da57f7ede9bdb0589bf13"
+    },
+    {
+      "path": "fuchs-bq-slides/assets/deck/handout.tex",
+      "source_sha256": "6b993d5ed7e9305878f45e3594f525e6a68ac2f8ae0b7b402a7d5e902f56e2d0",
+      "disposition": "preserved",
+      "package_sha256": "6b993d5ed7e9305878f45e3594f525e6a68ac2f8ae0b7b402a7d5e902f56e2d0"
+    },
+    {
+      "path": "fuchs-bq-slides/assets/deck/slide-map.json",
+      "source_sha256": "3ba85d674a234fb59d286ee51106e1533f4d38dd57ad101d993a557374afee5d",
+      "disposition": "preserved",
+      "package_sha256": "3ba85d674a234fb59d286ee51106e1533f4d38dd57ad101d993a557374afee5d"
+    },
+    {
+      "path": "fuchs-bq-slides/references/argument-and-length.md",
+      "source_sha256": "6910b2ac15654ad6f92ba082f81fc93c8768296207e2bf65172568f9860337e7",
+      "disposition": "preserved",
+      "package_sha256": "6910b2ac15654ad6f92ba082f81fc93c8768296207e2bf65172568f9860337e7"
+    },
+    {
+      "path": "fuchs-bq-slides/references/design-system.md",
+      "source_sha256": "3d8dc4470de48e141f417148ef9901c9077d9f304a91ae59822acca8af91147e",
+      "disposition": "preserved",
+      "package_sha256": "3d8dc4470de48e141f417148ef9901c9077d9f304a91ae59822acca8af91147e"
+    },
+    {
+      "path": "fuchs-bq-slides/references/evidence-and-qa.md",
+      "source_sha256": "0b667c499fbe425b3a58db3fa0c612b3f5a85c514ecb8b5035b7e733f030a46c",
+      "disposition": "preserved",
+      "package_sha256": "0b667c499fbe425b3a58db3fa0c612b3f5a85c514ecb8b5035b7e733f030a46c"
+    },
+    {
+      "path": "fuchs-bq-slides/references/reference-contact-sheet.png",
+      "source_sha256": "7feb624bde421f9f8776e00542cb837111b1a4492f1d10c2e7cd94ccc19977fc",
+      "disposition": "excluded",
+      "reason": "Private manuscript screenshot; synthetic template retained."
+    },
+    {
+      "path": "fuchs-bq-slides/references/reference-profile.json",
+      "source_sha256": "022361a151da7f12cc768959e05b2213f1dfb6136d81914ab340a84a228921e4",
+      "disposition": "excluded",
+      "reason": "Private manuscript snapshot metadata; design protocol retained."
+    },
+    {
+      "path": "fuchs-bq-slides/scripts/audit_deck.py",
+      "source_sha256": "d62c7e614e43516c93af0a1134c4f8b41a6b10eb323eba7eeb0308f57b7cdc5c",
+      "disposition": "preserved",
+      "package_sha256": "d62c7e614e43516c93af0a1134c4f8b41a6b10eb323eba7eeb0308f57b7cdc5c"
+    },
+    {
+      "path": "fuchs-bq-slides/scripts/init_deck.py",
+      "source_sha256": "ab90a06a4c78895705f59a99600a778c6a97b53f68522ae53092256bd8f598d4",
+      "disposition": "preserved",
+      "package_sha256": "ab90a06a4c78895705f59a99600a778c6a97b53f68522ae53092256bd8f598d4"
+    },
+    {
+      "path": "fuchs-bq-slides/scripts/test_tools.py",
+      "source_sha256": "4a3841e7e578e05460cac38dc6dc4ad788f0696dfb73df58b6ae458681595b50",
+      "disposition": "preserved",
+      "package_sha256": "4a3841e7e578e05460cac38dc6dc4ad788f0696dfb73df58b6ae458681595b50"
+    },
+    {
+      "path": "fuchs-econ-slides/SKILL.md",
+      "source_sha256": "d7af2f4d06a6527c8780c9b22ad240b74fb27fa2a5b4d6633a2db82adcd7b700",
+      "disposition": "preserved",
+      "package_sha256": "d7af2f4d06a6527c8780c9b22ad240b74fb27fa2a5b4d6633a2db82adcd7b700"
+    },
+    {
+      "path": "fuchs-econ-slides/agents/openai.yaml",
+      "source_sha256": "f1d8d7fbdb5e095db3c4e45b9d4749b19effe6c768879a5e5bd393d466fc98df",
+      "disposition": "preserved",
+      "package_sha256": "f1d8d7fbdb5e095db3c4e45b9d4749b19effe6c768879a5e5bd393d466fc98df"
+    },
+    {
+      "path": "fuchs-econ-slides/assets/beamerthemeSimplePlus.sty",
+      "source_sha256": "503090aac55e0ad664583d6e3178783c7b19aee0f9a460e14ec82bd0ce32508a",
+      "disposition": "preserved",
+      "package_sha256": "503090aac55e0ad664583d6e3178783c7b19aee0f9a460e14ec82bd0ce32508a"
+    },
+    {
+      "path": "fuchs-econ-slides/assets/standard-deck.tex",
+      "source_sha256": "f95aba938147017d4e0a0eb834e47d116d0336c1f9bf09e258ef12dc00490a8d",
+      "disposition": "preserved",
+      "package_sha256": "f95aba938147017d4e0a0eb834e47d116d0336c1f9bf09e258ef12dc00490a8d"
+    },
+    {
+      "path": "fuchs-econ-slides/references/deck-architecture.md",
+      "source_sha256": "1d537b6d001b4ef6d863020944f93171eb4e9078c32c4e76c9078ce1b01a9894",
+      "disposition": "preserved",
+      "package_sha256": "1d537b6d001b4ef6d863020944f93171eb4e9078c32c4e76c9078ce1b01a9894"
+    },
+    {
+      "path": "fuchs-econ-slides/references/source-decks.md",
+      "source_sha256": "639194e3b9036a90165bf2c43bb5a29759d76264aea8c59d574bb9fef5fc190b",
+      "disposition": "adapted-for-public-distribution",
+      "package_sha256": "529f04cab886aad8eebf542f4b26c37ae94941ed3fc36f268fd3bc487d07a9f1"
+    },
+    {
+      "path": "fuchs-econ-slides/references/style-guide.md",
+      "source_sha256": "1ffe68efd4e8afc5a07a07e85dec54276a910271d39c1afc1b94764cb32e2fbd",
+      "disposition": "preserved",
+      "package_sha256": "1ffe68efd4e8afc5a07a07e85dec54276a910271d39c1afc1b94764cb32e2fbd"
+    },
+    {
+      "path": "format-econ-research-figures/SKILL.md",
+      "source_sha256": "ca48a2185918ad8e816eeb2f5acea5c5a071541106b68ecaa74adc19cebf6cd0",
+      "disposition": "preserved",
+      "package_sha256": "ca48a2185918ad8e816eeb2f5acea5c5a071541106b68ecaa74adc19cebf6cd0"
+    },
+    {
+      "path": "format-econ-research-figures/agents/openai.yaml",
+      "source_sha256": "90dbaac39c755672f22506bd8649d3bda96e0c4496bd8dc49ad259f803d0b6f1",
+      "disposition": "preserved",
+      "package_sha256": "90dbaac39c755672f22506bd8649d3bda96e0c4496bd8dc49ad259f803d0b6f1"
+    },
+    {
+      "path": "format-econ-research-figures/references/charts-tables.md",
+      "source_sha256": "f186c148f4e8009748bd1474b63050529c1c3916f09e21cc519194090610a211",
+      "disposition": "preserved",
+      "package_sha256": "f186c148f4e8009748bd1474b63050529c1c3916f09e21cc519194090610a211"
+    },
+    {
+      "path": "format-econ-research-figures/references/maps.md",
+      "source_sha256": "b55a87fff3d62b0e23552c09bc5f86d43cd654de1559ecbf3f5d2c33ee32f3ee",
+      "disposition": "preserved",
+      "package_sha256": "b55a87fff3d62b0e23552c09bc5f86d43cd654de1559ecbf3f5d2c33ee32f3ee"
+    },
+    {
+      "path": "format-econ-research-figures/references/qa-provenance.md",
+      "source_sha256": "084eefe3f7eeaa532c618ac1619625671531a38e3201cedca3b666d390a631be",
+      "disposition": "preserved",
+      "package_sha256": "084eefe3f7eeaa532c618ac1619625671531a38e3201cedca3b666d390a631be"
+    },
+    {
+      "path": "format-econ-research-figures/references/tex-slides.md",
+      "source_sha256": "97f2646823d95e2e3b3cc675e2810634b5a0099847a120a12eb2df04d062dc5c",
+      "disposition": "preserved",
+      "package_sha256": "97f2646823d95e2e3b3cc675e2810634b5a0099847a120a12eb2df04d062dc5c"
+    },
+    {
+      "path": "format-econ-research-figures/references/visual-contract.md",
+      "source_sha256": "1d37fb23d0142e8b86abb947634153a135b7ef7481dd50e57eebd558950a3090",
+      "disposition": "preserved",
+      "package_sha256": "1d37fb23d0142e8b86abb947634153a135b7ef7481dd50e57eebd558950a3090"
+    },
+    {
+      "path": "research-note-tex/SKILL.md",
+      "source_sha256": "f7abddfa7557789b52c8b18e7b653cbd64672dc425d5aa953b97728504a7fd70",
+      "disposition": "preserved",
+      "package_sha256": "f7abddfa7557789b52c8b18e7b653cbd64672dc425d5aa953b97728504a7fd70"
+    },
+    {
+      "path": "research-note-tex/agents/openai.yaml",
+      "source_sha256": "90fd9d823548baad48a503c997e0bc5263f5767d02e6e00a5e5cc1251fa3b76b",
+      "disposition": "preserved",
+      "package_sha256": "90fd9d823548baad48a503c997e0bc5263f5767d02e6e00a5e5cc1251fa3b76b"
+    },
+    {
+      "path": "research-note-tex/assets/research-note-template.tex",
+      "source_sha256": "a6859ee0b7c6b5697dea286087500fe3a97ddb87523f1c257c8d4e07c8b5f4bb",
+      "disposition": "preserved",
+      "package_sha256": "a6859ee0b7c6b5697dea286087500fe3a97ddb87523f1c257c8d4e07c8b5f4bb"
+    },
+    {
+      "path": "research-note-tex/references/derivation-patterns.md",
+      "source_sha256": "afbf935cc1e5d72f6e470c33166a5c81c0b50b4528282a1ca9f212f71981dcdf",
+      "disposition": "preserved",
+      "package_sha256": "afbf935cc1e5d72f6e470c33166a5c81c0b50b4528282a1ca9f212f71981dcdf"
+    },
+    {
+      "path": "research-note-tex/scripts/compile_tex_note.sh",
+      "source_sha256": "b4b1ccca278fb5809243b5aa21bf67c5d13253094ea3f813f612428f98f9fb9c",
+      "disposition": "preserved",
+      "package_sha256": "b4b1ccca278fb5809243b5aa21bf67c5d13253094ea3f813f612428f98f9fb9c"
+    },
+    {
+      "path": "remarkable-move-render/SKILL.md",
+      "source_sha256": "8019dcb76c1b2b727eb6d714400d7c13e8c8800b6cb811145b40457c3e31c176",
+      "disposition": "adapted-for-public-distribution",
+      "package_sha256": "297f13e192ed01754b904de49dae312d8a309500407ccb0274e875354406f33d"
+    },
+    {
+      "path": "remarkable-move-render/agents/openai.yaml",
+      "source_sha256": "026d9ed3f32364c382a34c6e4114405f9f9e0b1217c55b9e196237668e4fb372",
+      "disposition": "preserved",
+      "package_sha256": "026d9ed3f32364c382a34c6e4114405f9f9e0b1217c55b9e196237668e4fb372"
+    },
+    {
+      "path": "remarkable-move-render/assets/paper-pro-move.css",
+      "source_sha256": "dfc3afdb67ef691d6783698cad151f71c68c77065c1f257febd78de948c54743",
+      "disposition": "preserved",
+      "package_sha256": "dfc3afdb67ef691d6783698cad151f71c68c77065c1f257febd78de948c54743"
+    },
+    {
+      "path": "remarkable-move-render/scripts/render_move.py",
+      "source_sha256": "e8fcd499bfbee6349259f2b8263a1019c2947b23e0b197cb10bec579baf9eab6",
+      "disposition": "preserved",
+      "package_sha256": "e8fcd499bfbee6349259f2b8263a1019c2947b23e0b197cb10bec579baf9eab6"
+    },
+    {
+      "path": "overleaf-sync/SKILL.md",
+      "source_sha256": "39c1e224d75d4005ace4ad34ce80c139334b5ba1ab23b33522ee9730325ac015",
+      "disposition": "adapted-for-public-distribution",
+      "package_sha256": "c8d968623419c01d732c09f3d01ec172a01514913a9e2f8871f145c1e55493f5"
+    },
+    {
+      "path": "overleaf-sync/agents/openai.yaml",
+      "source_sha256": "99d6185b8b6cfe4f303757c03eaf1bbe0ec64dbf009811844e9044857db66018",
+      "disposition": "preserved",
+      "package_sha256": "99d6185b8b6cfe4f303757c03eaf1bbe0ec64dbf009811844e9044857db66018"
+    },
+    {
+      "path": "overleaf-sync/references/authentication.md",
+      "source_sha256": "38ab099685b16374c21037ab16a5adaf2aeb0d5d81f1ecac0bd41d6077eb085e",
+      "disposition": "preserved",
+      "package_sha256": "38ab099685b16374c21037ab16a5adaf2aeb0d5d81f1ecac0bd41d6077eb085e"
+    },
+    {
+      "path": "overleaf-sync/references/project-registry.md",
+      "source_sha256": "344f3341a081ea8bed5552d6e8ba14c191ea0d85b7666fd8d41da55eb934c488",
+      "disposition": "excluded",
+      "reason": "Private project registry: configure project-local paths instead."
+    },
+    {
+      "path": "overleaf-sync/scripts/overleaf_preflight.sh",
+      "source_sha256": "dce5d4136d3a73c619a7e57933995f6713432fbb8f37c47878ff1d7505f89ab4",
+      "disposition": "preserved",
+      "package_sha256": "dce5d4136d3a73c619a7e57933995f6713432fbb8f37c47878ff1d7505f89ab4"
+    },
+    {
+      "path": "gh-local-first/SKILL.md",
+      "source_sha256": "c919dd582f2e446067626ae7f7f785ccfb09c38ef2b48c1a97bec14719e98bab",
+      "disposition": "preserved",
+      "package_sha256": "c919dd582f2e446067626ae7f7f785ccfb09c38ef2b48c1a97bec14719e98bab"
+    },
+    {
+      "path": "gh-local-first/agents/openai.yaml",
+      "source_sha256": "26197b66467da506152d35bdf4d58d4a936c4e6358a9d395fab3b798fb81efc8",
+      "disposition": "preserved",
+      "package_sha256": "26197b66467da506152d35bdf4d58d4a936c4e6358a9d395fab3b798fb81efc8"
+    },
+    {
+      "path": "gh-local-first/references/workflow-patterns.md",
+      "source_sha256": "e70578dc2eb8c9c231ecb9102c2eaff3f2c6b5e5187fb400c23953191b9a252f",
+      "disposition": "preserved",
+      "package_sha256": "e70578dc2eb8c9c231ecb9102c2eaff3f2c6b5e5187fb400c23953191b9a252f"
+    },
+    {
+      "path": "gh-local-first/scripts/audit_actions_usage.py",
+      "source_sha256": "6eba6b49002f7df7603e0945eefb8c9c7ad030a93a0cd1df20ff70b728a31034",
+      "disposition": "preserved",
+      "package_sha256": "6eba6b49002f7df7603e0945eefb8c9c7ad030a93a0cd1df20ff70b728a31034"
+    },
+    {
+      "path": "agent-handoff/SKILL.md",
+      "source_sha256": "f7143895fac2ecc75e37048595d3a9a456fb93996b0856c329f2b9dbdca0d3ab",
+      "disposition": "adapted-for-public-distribution",
+      "package_sha256": "81e9a05784b0ec67dd91f78c79aa9b167f69d6794ecaa5a8749cf9f541b9d55e"
+    },
+    {
+      "path": "agent-handoff/scripts/__pycache__/catchup.cpython-314.pyc",
+      "source_sha256": "8503da1bb5ceadfa6552b9d59ff6751a80bf360ae4da5267eb0bef791adfbc71",
+      "disposition": "excluded",
+      "reason": "Generated bytecode, not a skill resource."
+    },
+    {
+      "path": "agent-handoff/scripts/catchup.py",
+      "source_sha256": "62cc8d049326983ee3c43f540051a107bdeabb35acb15e5c2fc4ffbe8b93758d",
+      "disposition": "preserved",
+      "package_sha256": "62cc8d049326983ee3c43f540051a107bdeabb35acb15e5c2fc4ffbe8b93758d"
+    },
+    {
+      "path": "econ-write/LICENSE.econ-writing-skill",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "1c49e6e598da3aabb8aca93c7e4ab088acd372848ba2b3f232d478b2ca0b6c75",
+      "package_sha256": "1c49e6e598da3aabb8aca93c7e4ab088acd372848ba2b3f232d478b2ca0b6c75",
+      "disposition": "preserved"
+    },
+    {
+      "path": "econ-write/assets/author-side-review-template.md",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "8c3263bb4d5ea13d1c5a03433f89e72298445effcfa8bd2e2d9a74a55bb56ca2",
+      "package_sha256": "8c3263bb4d5ea13d1c5a03433f89e72298445effcfa8bd2e2d9a74a55bb56ca2",
+      "disposition": "preserved"
+    },
+    {
+      "path": "econ-write/references/adversarial-author-review.md",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "23728886c2b728975dfdfade5fe829a5710f38f6aff3b6e3df347b9b2e632037",
+      "package_sha256": "23728886c2b728975dfdfade5fe829a5710f38f6aff3b6e3df347b9b2e632037",
+      "disposition": "preserved"
+    },
+    {
+      "path": "econ-write/references/author-review-output-contract.md",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "1e6992c65ef8f53b9f08500eb1d7dedc4d83aec6fcb7edb55f82f5aa58882daf",
+      "package_sha256": "1e6992c65ef8f53b9f08500eb1d7dedc4d83aec6fcb7edb55f82f5aa58882daf",
+      "disposition": "preserved"
+    },
+    {
+      "path": "econ-write/references/core-style.md",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "6ed797f8586844a36c10b4caefbc163c343b3038b57880013b16b3529532b6b4",
+      "package_sha256": "6ed797f8586844a36c10b4caefbc163c343b3038b57880013b16b3529532b6b4",
+      "disposition": "preserved"
+    },
+    {
+      "path": "econ-write/references/empirical-writing.md",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "941f4a235fdb6e438788fbb3e3dfccfc3a185a1987f85c85ffc56b9960231406",
+      "package_sha256": "941f4a235fdb6e438788fbb3e3dfccfc3a185a1987f85c85ffc56b9960231406",
+      "disposition": "preserved"
+    },
+    {
+      "path": "econ-write/references/paper-types.md",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "f48fa628223d7671be4fe3978b753c04c8520f89f3f76e5d61b44390be888d0a",
+      "package_sha256": "f48fa628223d7671be4fe3978b753c04c8520f89f3f76e5d61b44390be888d0a",
+      "disposition": "preserved"
+    },
+    {
+      "path": "econ-write/references/provenance.md",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "d343a5cd08d9bc26c11cc8128ba285930302a133d04acde334fe5c10c59558bc",
+      "package_sha256": "d343a5cd08d9bc26c11cc8128ba285930302a133d04acde334fe5c10c59558bc",
+      "disposition": "preserved"
+    },
+    {
+      "path": "econ-write/references/reasoning-graph-protocol.md",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "fb19c815e43b45d7d2f658d357e2a0bc063bf9cdddaf7aa2d86661b13992c32f",
+      "package_sha256": "fb19c815e43b45d7d2f658d357e2a0bc063bf9cdddaf7aa2d86661b13992c32f",
+      "disposition": "preserved"
+    },
+    {
+      "path": "econ-write/references/result-first-exposition.md",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "3b6309219ed945e6c5d5dae3fabdd03cd9651124262adc04cfe2fb3f350c472b",
+      "package_sha256": "3b6309219ed945e6c5d5dae3fabdd03cd9651124262adc04cfe2fb3f350c472b",
+      "disposition": "preserved"
+    },
+    {
+      "path": "econ-write/references/section-writing.md",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "31dc0b7edcd8488d124823b9b97ede5613a9d745f7da71749d7cebd34e20a847",
+      "package_sha256": "31dc0b7edcd8488d124823b9b97ede5613a9d745f7da71749d7cebd34e20a847",
+      "disposition": "preserved"
+    },
+    {
+      "path": "econ-write/references/use-cases-and-checklist.md",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "f68da0f9c8bf1d7c7448bd3aca51139d5fb93301adaaca8d6e1d3b3187b41cfb",
+      "package_sha256": "f68da0f9c8bf1d7c7448bd3aca51139d5fb93301adaaca8d6e1d3b3187b41cfb",
+      "disposition": "preserved"
+    },
+    {
+      "path": "audit-tex-math/LICENSE.math-proof",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "6ec336902ea4b85f7077e001ebff92f7fad9a3936e88108e10a44fed344dd787",
+      "package_sha256": "6ec336902ea4b85f7077e001ebff92f7fad9a3936e88108e10a44fed344dd787",
+      "disposition": "preserved"
+    },
+    {
+      "path": "audit-tex-math/references/derivation-protocol.md",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "86c904f49e781a0efa1194a143463d3aa2e37f2d99f32e38b119800eb6266ec7",
+      "package_sha256": "86c904f49e781a0efa1194a143463d3aa2e37f2d99f32e38b119800eb6266ec7",
+      "disposition": "preserved"
+    },
+    {
+      "path": "audit-tex-math/references/proof-readability-checklist.md",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "5f6f256a7276992c88e58a1930bf052aaf93ff82928a39c087a968cf30b7c533",
+      "package_sha256": "5f6f256a7276992c88e58a1930bf052aaf93ff82928a39c087a968cf30b7c533",
+      "disposition": "preserved"
+    },
+    {
+      "path": "audit-tex-math/references/proof-writing-sources.md",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "ca352c30feb661d4a560d976a213ccddb37a3ab97597a640200772af12ae7df1",
+      "package_sha256": "ca352c30feb661d4a560d976a213ccddb37a3ab97597a640200772af12ae7df1",
+      "disposition": "preserved"
+    },
+    {
+      "path": "audit-tex-math/references/readability-protocol.md",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "f8a3bd2ad0abb156c322549a7b23c39db7792e4a55c09f0c6d0458ecefc1e8a4",
+      "package_sha256": "f8a3bd2ad0abb156c322549a7b23c39db7792e4a55c09f0c6d0458ecefc1e8a4",
+      "disposition": "preserved"
+    },
+    {
+      "path": "academic-draft-review/references/short-note-style.md",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "df35a378f097285ef4c241ad7d9eea7d955e69f5fabfc0608d6725f051d71a8b",
+      "package_sha256": "df35a378f097285ef4c241ad7d9eea7d955e69f5fabfc0608d6725f051d71a8b",
+      "disposition": "preserved"
+    },
+    {
+      "path": "academic-draft-review/scripts/check_short_note_format.py",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "7754ef710f13f593fec5086b5c25bb9d0e839f0503053b0152ea06fb81dc7007",
+      "package_sha256": "7754ef710f13f593fec5086b5c25bb9d0e839f0503053b0152ea06fb81dc7007",
+      "disposition": "preserved"
+    },
+    {
+      "path": "ai-slop-lint/LICENSE.stop-slop",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "2e2b2beaf41cc0ce28485455a62aed81777cdcdf68702e142427aef1cd720f2c",
+      "package_sha256": "2e2b2beaf41cc0ce28485455a62aed81777cdcdf68702e142427aef1cd720f2c",
+      "disposition": "preserved"
+    },
+    {
+      "path": "ai-slop-lint/references/academic-prose-patterns.md",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "4e97ec0f4013677560511ee7729690fc32167412e4c91f672ac5e529306bcf8f",
+      "package_sha256": "4e97ec0f4013677560511ee7729690fc32167412e4c91f672ac5e529306bcf8f",
+      "disposition": "preserved"
+    },
+    {
+      "path": "ai-slop-lint/references/quick-pass-examples.md",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "49c592899eb4457f95d0767e15e3143569e2cef50f2927c3174e62432984cd3d",
+      "package_sha256": "49c592899eb4457f95d0767e15e3143569e2cef50f2927c3174e62432984cd3d",
+      "disposition": "preserved"
+    },
+    {
+      "path": "ai-slop-lint/references/quick-pass-phrases.md",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "f1d8e0b5f0531d33c72d6530b3bb8319def54f88a2622ca484009e8e475b7ea4",
+      "package_sha256": "f1d8e0b5f0531d33c72d6530b3bb8319def54f88a2622ca484009e8e475b7ea4",
+      "disposition": "preserved"
+    },
+    {
+      "path": "ai-slop-lint/references/quick-pass-structures.md",
+      "source_origin": "public-econ-writing-skills@2ec70e2baa0904f54b9cb18902fb471ff0ec446e",
+      "source_sha256": "580de0b6a1110d9773b1f1286214f8ae7bde19bf63e9e00f9dc52d4c8bb41372",
+      "package_sha256": "580de0b6a1110d9773b1f1286214f8ae7bde19bf63e9e00f9dc52d4c8bb41372",
+      "disposition": "preserved"
+    },
+    {
+      "path": "stop-slop/LICENSE",
+      "source_origin": "installed-personal-skills",
+      "source_sha256": "2e2b2beaf41cc0ce28485455a62aed81777cdcdf68702e142427aef1cd720f2c",
+      "package_sha256": "2e2b2beaf41cc0ce28485455a62aed81777cdcdf68702e142427aef1cd720f2c",
+      "disposition": "preserved"
+    },
+    {
+      "path": "stop-slop/SKILL.md",
+      "source_origin": "installed-personal-skills",
+      "source_sha256": "daa6893329373ecaa1aafd1278cc3fb3279364e559e5de11ffc550c7b9984db0",
+      "package_sha256": "daa6893329373ecaa1aafd1278cc3fb3279364e559e5de11ffc550c7b9984db0",
+      "disposition": "preserved"
+    },
+    {
+      "path": "stop-slop/agents/openai.yaml",
+      "source_origin": "installed-personal-skills",
+      "source_sha256": "379ece3b1ea4d13799bd4c8a5b856c3cbc3a4619b4f932b9f9bbee2fba4c1f33",
+      "package_sha256": "379ece3b1ea4d13799bd4c8a5b856c3cbc3a4619b4f932b9f9bbee2fba4c1f33",
+      "disposition": "preserved"
+    },
+    {
+      "path": "stop-slop/references/examples.md",
+      "source_origin": "installed-personal-skills",
+      "source_sha256": "49c592899eb4457f95d0767e15e3143569e2cef50f2927c3174e62432984cd3d",
+      "package_sha256": "49c592899eb4457f95d0767e15e3143569e2cef50f2927c3174e62432984cd3d",
+      "disposition": "preserved"
+    },
+    {
+      "path": "stop-slop/references/phrases.md",
+      "source_origin": "installed-personal-skills",
+      "source_sha256": "f1d8e0b5f0531d33c72d6530b3bb8319def54f88a2622ca484009e8e475b7ea4",
+      "package_sha256": "f1d8e0b5f0531d33c72d6530b3bb8319def54f88a2622ca484009e8e475b7ea4",
+      "disposition": "preserved"
+    },
+    {
+      "path": "stop-slop/references/structures.md",
+      "source_origin": "installed-personal-skills",
+      "source_sha256": "580de0b6a1110d9773b1f1286214f8ae7bde19bf63e9e00f9dc52d4c8bb41372",
+      "package_sha256": "580de0b6a1110d9773b1f1286214f8ae7bde19bf63e9e00f9dc52d4c8bb41372",
+      "disposition": "preserved"
+    }
+  ]
+}

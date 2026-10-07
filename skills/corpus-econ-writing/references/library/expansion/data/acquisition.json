@@ -1,0 +1,82 @@
+{
+  "D07": {
+    "id": "D07",
+    "requested_url": "https://dave-donaldson.com/wp-content/uploads/BCDR.pdf",
+    "resolved_url": "https://dave-donaldson.com/wp-content/uploads/BCDR.pdf",
+    "author_index": "https://dave-donaldson.com/research/",
+    "sha256": "e241e1c5bf8925fe046acd907bad76f19afb0e14de3af6e204d5ebb32b2f0f9b",
+    "bytes": 1697573,
+    "retrieved_at_utc": "2026-10-04T03:38:32.058699+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "D08": {
+    "id": "D08",
+    "requested_url": "https://dave-donaldson.com/wp-content/uploads/Path_Dependence.pdf",
+    "resolved_url": "https://dave-donaldson.com/wp-content/uploads/Path_Dependence.pdf",
+    "author_index": "https://dave-donaldson.com/research/",
+    "sha256": "00ee6ccab0628b530b111d3b35c3c2e1b9bc20d4292c352e0266219db11f8ad4",
+    "bytes": 20280333,
+    "retrieved_at_utc": "2026-10-04T03:38:34.056241+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "A07": {
+    "id": "A07",
+    "requested_url": "https://arkolakis.com/wp-content/uploads/AAL-Equilibrium-Networks.pdf",
+    "resolved_url": "https://arkolakis.com/wp-content/uploads/AAL-Equilibrium-Networks.pdf",
+    "author_index": "https://arkolakis.com/research/",
+    "sha256": "2a173dbcc882630c0cb807c742142af2a91790e9675f6d6fc4d5d68effc64242",
+    "bytes": 1018807,
+    "retrieved_at_utc": "2026-10-04T03:38:35.344446+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "A08": {
+    "id": "A08",
+    "requested_url": "https://arkolakis.com/wp-content/uploads/AA-Quantitative-Regional-Economics.pdf",
+    "resolved_url": "https://arkolakis.com/wp-content/uploads/AA-Quantitative-Regional-Economics.pdf",
+    "author_index": "https://arkolakis.com/research/",
+    "sha256": "4fbfaf94d7bceb91676da32e3bac7e6d7e002738d9b71a288fee66d553224f5c",
+    "bytes": 4037960,
+    "retrieved_at_utc": "2026-10-04T03:38:36.924424+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "K05": {
+    "id": "K05",
+    "requested_url": "https://arkolakis.com/wp-content/uploads/AAE.pdf",
+    "resolved_url": "https://arkolakis.com/wp-content/uploads/AAE.pdf",
+    "author_index": "https://arkolakis.com/research/",
+    "sha256": "84a91ea2d2d42f2f4fffe726055ec60111636491f1e6a44b089fb472fe2aeaa4",
+    "bytes": 2298596,
+    "retrieved_at_utc": "2026-10-04T03:38:38.224462+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "R08": {
+    "id": "R08",
+    "requested_url": "https://www.dropbox.com/scl/fi/vs49sbinp1jhqmqed74l1/SSTD_Paper.pdf?rlkey=ezb3bbejbw461h33s9a0wec84&dl=1",
+    "resolved_url": "https://uc876ca4374cfbe9d677eb8b063e.dl.dropboxusercontent.com/cd/0/get/DJUx2dZUGnL5g2tu6eysabaZ6rHwPk3FhhhmSeE7o8ZbNxea8C7U5fgf908hvI4797lvQRvpMRCw135R4eCYToH_YHsDyr1qIZ712IS9jkmgAn0cytnKd9ze9vNvyz-5ukyD14aEEidmShnMUxWlJiy5/file?dl=1",
+    "author_index": "https://stephenredding.github.io/redpublish.htm",
+    "sha256": "dff1a1b5340f4d3b5840412cb39d049310646abf477e1b581630bd8f8b608d9c",
+    "bytes": 1875562,
+    "retrieved_at_utc": "2026-10-04T03:38:39.860578+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "R09": {
+    "id": "R09",
+    "requested_url": "https://www.dropbox.com/scl/fi/api07wurln8np0jokmucz/GermanCitiesAER2008.pdf?rlkey=khe4pi5orkkavdlzvgtpb4nuy&dl=1",
+    "resolved_url": "https://uce5672111bfbe98b0edb9b99505.dl.dropboxusercontent.com/cd/0/get/DJUodmiVBJNCJgNmG82RuFBRlPtB3aAg3NORElgofGif-rveXgb4IhovA1eb-SxdpyghCvA-i96SfkS1C6A_RsAJZJY6S7FCZkO4sqQe9AEBIDGJSHDWLj8FrRZNkgmRcvagj0636cFmpQiQXLOTLuk9/file?dl=1",
+    "author_index": "https://stephenredding.github.io/redpublish.htm",
+    "sha256": "a44d2685912ff177f6dd6ab5da03838b69f86ff7266a2e0a104bcf395545f375",
+    "bytes": 631519,
+    "retrieved_at_utc": "2026-10-04T03:38:41.805231+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "R10": {
+    "id": "R10",
+    "requested_url": "https://www.dropbox.com/scl/fi/ts9i8qth8o1xn7kmurne3/Quant_Urban_Handbook_2025.pdf?rlkey=xtzang47oh4wvgrjl41psfy6x&dl=1",
+    "resolved_url": "https://uc3aa85adddca71ac48e3034c1a7.dl.dropboxusercontent.com/cd/0/get/DJWXYYLTeaUv1nZDzZSwJbIZZYuzWw66Q_Lw_XaholqnJaO1_GCmj7kQ8L-pVBJH173zm-awMaGtgKmF7YrfwkQb_ztDeOuztfc9qfVblTPaWqVyFt1CydD9Hyl3nRmLDfYv018siku54JKJyWPU6Gc7/file?dl=1",
+    "author_index": "https://stephenredding.github.io/redpublish.htm",
+    "sha256": "c067fc39f1ec9be8810ff94ff98f1e21056a37c5d7d3bd1e8f5b823d581dd285",
+    "bytes": 4716966,
+    "retrieved_at_utc": "2026-10-04T03:38:43.956935+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  }
+}

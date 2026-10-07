@@ -1,0 +1,25 @@
+{
+  "counts": {
+    "papers": 23,
+    "observations": 245,
+    "rules": 45,
+    "dictionary_entries": 185,
+    "raw_pdf_pages": 1236,
+    "included_pdf_pages": 1216,
+    "manually_sampled_pages": 311,
+    "visual_pages": 23,
+    "literal_frequency_records": 1138
+  },
+  "environment": {
+    "python": "3.14.6",
+    "sqlite": "3.53.3",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O"
+  },
+  "source_hashes_verified": true,
+  "reviewed_extract_hashes_verified": true,
+  "visual_hashes_verified": true,
+  "page_references_verified": true,
+  "rule_links_verified": true,
+  "source_quotations_reproduced": 0,
+  "no_research_documents_modified_by_builder": true
+}

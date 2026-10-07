@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit TeX Math"
+  short_description: "Audit TeX proofs and repair equations"
+  default_prompt: "Use $audit-tex-math to audit this TeX document with source-grounded evidence and deterministic checks. Use compact bridge mode when supporting $referee-report."

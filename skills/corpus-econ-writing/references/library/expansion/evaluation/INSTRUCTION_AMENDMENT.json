@@ -1,0 +1,13 @@
+{
+  "previous_hashes": {
+    "ARGUMENT_AND_EXPOSITION.md": "11cad39847269d26979ab9a74c58b18b14fca378dec6943a9480eb6acaa76dc6",
+    "WORKED_EXAMPLES.md": "712bcf7de118928f9cd9f9835bd4d47b232ae913b874c87396a28be22a90f415",
+    "VOCABULARY_POLICY.md": "c9a6dbe5517774eac74108013f8291c30bcf097239596e819b85a080288e4efb"
+  },
+  "current_hashes": {
+    "ARGUMENT_AND_EXPOSITION.md": "11cad39847269d26979ab9a74c58b18b14fca378dec6943a9480eb6acaa76dc6",
+    "WORKED_EXAMPLES.md": "c7c4208c7beafda933ecf7bbfab7415f700949ef9cc2b6c042e8f9ddbabd2cd8",
+    "VOCABULARY_POLICY.md": "c9a6dbe5517774eac74108013f8291c30bcf097239596e819b85a080288e4efb"
+  },
+  "reason": "Repair three unattested forms in two original worked examples; no brief or scientific condition changes. The formative exercise is not a causal comparison."
+}

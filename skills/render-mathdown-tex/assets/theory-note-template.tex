@@ -1,0 +1,183 @@
+\documentclass[11pt]{article}
+
+%========================================================
+% PAGE GEOMETRY AND BASIC SETTINGS
+%========================================================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{microtype}
+\usepackage{setspace}
+\setstretch{1.15}
+
+%========================================================
+% MATHEMATICS
+%========================================================
+\usepackage{amsmath,amssymb,amsthm,amsfonts,mathtools,bm}
+
+%========================================================
+% TABLES, FIGURES, AND TEXT UTILITIES
+%========================================================
+\usepackage{booktabs,array,threeparttable,float,graphicx}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=1.25em,itemsep=3pt,topsep=3pt}
+\setlist[enumerate]{leftmargin=1.25em,itemsep=3pt,topsep=3pt}
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage{titlesec}
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue]{hyperref}
+\usepackage[nameinlink,noabbrev]{cleveref}
+
+%========================================================
+% NUMBERING AND THEOREM STYLES
+%========================================================
+\numberwithin{equation}{section}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{assumption}{Assumption}[section]
+\newtheorem*{assumption*}{Assumption}
+
+\newlist{assumpenum}{enumerate}{1}
+\setlist[assumpenum,1]{label=\textup{(\alph*)},ref=\theassumption\textup{(\alph*)},leftmargin=1.5em}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+%========================================================
+% GENERIC MATH OPERATORS AND SHORTCUTS
+% Add only recurring, source-defined notation below.
+%========================================================
+\newcommand{\E}{\mathbb{E}}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator{\Cov}{Cov}
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\spec}{spec}
+\DeclareMathOperator{\Sym}{Sym}
+\newcommand{\Prob}{\mathbb{P}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\one}{\mathbf{1}}
+\newcommand{\Id}{\mathbf{I}}
+\newcommand{\dd}{\mathop{}\!\mathrm{d}}
+\newcommand{\pd}{\partial}
+
+%========================================================
+% DOCUMENT APPEARANCE
+%========================================================
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{0.5em}{}
+\titleformat{\subsubsection}{\normalsize\itshape}{\thesubsubsection.}{0.5em}{}
+\titleformat{\paragraph}[runin]{\bfseries}{}{0pt}{}
+\titlespacing*{\section}{0pt}{1.2em plus 0.3em minus 0.1em}{0.8em}
+\titlespacing*{\subsection}{0pt}{1em plus 0.2em minus 0.1em}{0.5em}
+\titlespacing*{\subsubsection}{0pt}{0.8em plus 0.2em minus 0.1em}{0.4em}
+\titlespacing*{\paragraph}{0pt}{0.8em plus 0.2em minus 0.1em}{0.5em}
+
+% A quiet framed box for one logic chain or compact procedure.
+\newsavebox{\notebox}
+\newenvironment{noteboxed}[1]{%
+  \par\medskip\noindent
+  \begingroup
+  \setlength{\fboxsep}{0.75em}%
+  \setlength{\fboxrule}{0.45pt}%
+  \begin{lrbox}{\notebox}%
+  \begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}%
+  \textbf{#1}\par\smallskip
+}{%
+  \end{minipage}%
+  \end{lrbox}%
+  \fbox{\usebox{\notebox}}%
+  \endgroup
+  \par\medskip
+}
+
+\hypersetup{
+  pdfauthor={@@PDF-AUTHOR@@},
+  pdftitle={@@PDF-TITLE@@},
+  pdfsubject={@@PDF-SUBJECT@@},
+  pdfkeywords={@@PDF-KEYWORDS@@}
+}
+
+%========================================================
+% TITLE
+%========================================================
+\title{\textbf{@@TITLE@@}\\[0.5em]\large @@SUBTITLE@@}
+\author{@@AUTHOR@@}
+\date{@@DATE@@}
+
+\begin{document}
+\maketitle
+
+\section{Summary of Main Results}\label{sec:summary}
+
+\paragraph{Goal.}
+@@GOAL@@
+
+\paragraph{Objects and scope.}
+@@OBJECTS-AND-SCOPE@@
+
+\begin{noteboxed}{Logic of the argument.}
+\centering
+@@LOGIC-FLOW@@
+\end{noteboxed}
+
+\paragraph{Simplest informative case.}
+@@SIMPLE-CASE@@
+
+\paragraph{Full result.}
+@@HEADLINE-RESULT@@
+
+\paragraph{Conditions and limitations.}
+@@SUMMARY-LIMITATIONS@@
+
+\paragraph{Implementation and verification.}
+@@IMPLEMENTATION-SUMMARY@@
+
+\newpage
+\begin{center}
+{\LARGE\textbf{Technical Appendix}}\\[2mm]
+{\large @@APPENDIX-SUBTITLE@@}
+\end{center}
+
+\appendix
+
+\section{Setup, notation, and roadmap}\label{app:setup}
+
+\paragraph{Roadmap.}
+@@ROADMAP@@
+
+\subsection{Primitives and domains}
+@@PRIMITIVES@@
+
+\subsection{Maintained assumptions}
+@@ASSUMPTIONS@@
+
+\section{Detailed derivation}\label{app:derivation}
+@@DETAILED-DERIVATION@@
+
+% mathdown-claim:@@RESULT-ID@@
+% mathdown-derivation:@@RESULT-ID@@
+% mathdown-result:@@RESULT-ID@@
+\begin{proposition}[@@RESULT-NAME@@]\label{prop:main-result}
+@@RESULT-STATEMENT@@
+\end{proposition}
+
+\begin{proof}
+@@RESULT-PROOF@@
+\end{proof}
+
+\section{Sanity checks, failure conditions, and verification}\label{app:verification}
+@@CHECKS-AND-FAILURES@@
+
+\section{Notation and provenance}\label{app:notation}
+@@NOTATION-AND-PROVENANCE@@
+
+\end{document}

@@ -1,0 +1,10 @@
+{
+  "D01":{"add_read_pages":[34],"add_observations":[[34,"scope","The conclusion distinguishes income levels from unstudied volatility."]]},
+  "D05":{"add_read_pages":[24]},
+  "A01":{"add_read_pages":[1]},
+  "A02":{"add_read_pages":[10,11],"add_observations":[[10,"valuation","Real output prices and expenditure need not equal worker welfare."],[11,"normalization","The chosen income scale leaves quantity and nominal-price scales unresolved."]]},
+  "A05":{"add_read_pages":[42],"add_observations":[[42,"conclusion","The ending returns from observed patterns to the search mechanism."]]},
+  "K02":{"main_pages":[3,35],"reason":"PDF page 36 starts the data appendix, not the main discussion."},
+  "R02":{"add_read_pages":[41,42],"add_observations":[[41,"fixed-effects","The workplace effect contains more than wages."],[42,"identification","The instrument is justified by a stated conditional exclusion."]]},
+  "R07":{"add_read_pages":[23,24,25],"add_observations":[[24,"generality","A general cost function precedes quantitative parameterization."]]}
+}

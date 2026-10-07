@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "default": "Use vocabulary attested in the frozen 23-paper corpus; prefer main-text usage and plain economic language.",
+  "exceptions": [],
+  "exception_rule": "An exception must name the exact term, explain why no attested alternative preserves the meaning, identify its necessary use, and record an explicit approval. Do not add exemptions automatically.",
+  "concept_rule": "Attested component words do not authorize a new technical concept, compound, assumption, or estimand. Introduce technical terminology only when the argument requires it."
+}

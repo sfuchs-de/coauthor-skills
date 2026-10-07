@@ -1,0 +1,142 @@
+{
+  "MY01": {
+    "id": "MY01",
+    "requested_url": "https://drive.google.com/uc?export=download&id=1OF5uW9Y6zSbXk8uGSjAAYoJcAul5dR39",
+    "resolved_url": "https://drive.usercontent.google.com/download?id=1OF5uW9Y6zSbXk8uGSjAAYoJcAul5dR39&export=download",
+    "author_index": "https://www.myrtokalouptsidi.com/research",
+    "sha256": "bdbadbec6555b8b12362e77bda0d325f81e45722694db99af7f05444e2fefbb3",
+    "bytes": 1350694,
+    "retrieved_at_utc": "2026-10-04T04:28:22.277251+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "MY02": {
+    "id": "MY02",
+    "requested_url": "https://drive.google.com/uc?export=download&id=1wWXeEs5ykuFOpzgJM7jFRzDzLPQ9QB5i",
+    "resolved_url": "https://drive.usercontent.google.com/download?id=1wWXeEs5ykuFOpzgJM7jFRzDzLPQ9QB5i&export=download",
+    "author_index": "https://www.myrtokalouptsidi.com/research",
+    "sha256": "0168babbef64a9243412e2d94f7626ef3926282b4375d2b34fb605377bf54e27",
+    "bytes": 710647,
+    "retrieved_at_utc": "2026-10-04T04:28:24.316517+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "MY03": {
+    "id": "MY03",
+    "requested_url": "https://drive.google.com/uc?export=download&id=1WO9OS0MxsrhMmQv8OAHMgxVFypcTMPee",
+    "resolved_url": "https://drive.usercontent.google.com/download?id=1WO9OS0MxsrhMmQv8OAHMgxVFypcTMPee&export=download",
+    "author_index": "https://www.myrtokalouptsidi.com/research",
+    "sha256": "d2b5b1dc34d95ca085cca4d6ce25f5a452ff46be0fc4578a485fa560ab6e2a32",
+    "bytes": 1374147,
+    "retrieved_at_utc": "2026-10-04T04:28:26.489024+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "MY04": {
+    "id": "MY04",
+    "requested_url": "https://drive.google.com/uc?export=download&id=13l_EVsAC9J5o3_M2jJVFh4qaEccD8NiJ",
+    "resolved_url": "https://drive.usercontent.google.com/download?id=13l_EVsAC9J5o3_M2jJVFh4qaEccD8NiJ&export=download",
+    "author_index": "https://www.myrtokalouptsidi.com/research",
+    "sha256": "7dc4cf1043bbd7f8583c18f8f5fd3cd295b09023e9d03b99f803e6398e19e98c",
+    "bytes": 835556,
+    "retrieved_at_utc": "2026-10-04T04:28:28.448478+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "W01": {
+    "id": "W01",
+    "requested_url": "https://wongwoanfoong.github.io/research/RoundTrip_Wong.pdf",
+    "resolved_url": "https://wongwoanfoong.github.io/research/RoundTrip_Wong.pdf",
+    "author_index": "https://sites.google.com/site/wongwoanfoong/research",
+    "sha256": "d5b1e6c46918d0284a4b01bb803c75ccf7be6d22a3dd963b1f48f20fc66a9fe2",
+    "bytes": 1966279,
+    "retrieved_at_utc": "2026-10-04T04:28:28.956688+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "W02": {
+    "id": "W02",
+    "requested_url": "https://wongwoanfoong.github.io/research/Entrepot_GWZ.pdf",
+    "resolved_url": "https://wongwoanfoong.github.io/research/Entrepot_GWZ.pdf",
+    "author_index": "https://sites.google.com/site/wongwoanfoong/research",
+    "sha256": "1831dc68cd944a3f97d574fd71d8eac9be713a8c04cbad263196c556637dc5e5",
+    "bytes": 3360211,
+    "retrieved_at_utc": "2026-10-04T04:28:29.542308+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "W03": {
+    "id": "W03",
+    "requested_url": "https://wongwoanfoong.github.io/research/Transport_SupplyChains_GW.pdf",
+    "resolved_url": "https://wongwoanfoong.github.io/research/Transport_SupplyChains_GW.pdf",
+    "author_index": "https://sites.google.com/site/wongwoanfoong/research",
+    "sha256": "525bf5d753482b9c832fd1f6b3a0e13591e5f4b5254272452999baf84ccac125",
+    "bytes": 797660,
+    "retrieved_at_utc": "2026-10-04T04:28:29.905111+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "W04": {
+    "id": "W04",
+    "requested_url": "https://wongwoanfoong.github.io/research/BTA_MPW.pdf",
+    "resolved_url": "https://wongwoanfoong.github.io/research/BTA_MPW.pdf",
+    "author_index": "https://sites.google.com/site/wongwoanfoong/research",
+    "sha256": "d4dd17528d8364532669e14577683a5d2c1d0229d00d3102e71e9317bbeed5b1",
+    "bytes": 5826296,
+    "retrieved_at_utc": "2026-10-04T04:28:30.842988+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "L01": {
+    "id": "L01",
+    "requested_url": "https://fernandoleibovici.github.io/Leibovici_JMP.pdf",
+    "resolved_url": "https://fernandoleibovici.github.io/Leibovici_JMP.pdf",
+    "author_index": "https://www.fernandoleibovici.com/publications",
+    "sha256": "0fa29e009d3c1e72eb7176151a9792cd00785a6a0e1a730ac0891889096f9f91",
+    "bytes": 692396,
+    "retrieved_at_utc": "2026-10-04T04:28:31.255388+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "L02": {
+    "id": "L02",
+    "requested_url": "https://fernandoleibovici.github.io/KLS.pdf",
+    "resolved_url": "https://fernandoleibovici.github.io/KLS.pdf",
+    "author_index": "https://www.fernandoleibovici.com/publications",
+    "sha256": "bab28ffde931da5626a8821c2b2c8bb14a447d4bcc7254034cf29fcabe5f390f",
+    "bytes": 468136,
+    "retrieved_at_utc": "2026-10-04T04:28:31.623112+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "L03": {
+    "id": "L03",
+    "requested_url": "https://fernandoleibovici.github.io/KLT.pdf",
+    "resolved_url": "https://fernandoleibovici.github.io/KLT.pdf",
+    "author_index": "https://www.fernandoleibovici.com/publications",
+    "sha256": "d442bc1e0aa49115b016ef2810e51ecf660f42f79a2b291ace40ca6a5c34f473",
+    "bytes": 442189,
+    "retrieved_at_utc": "2026-10-04T04:28:31.990982+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "L04": {
+    "id": "L04",
+    "requested_url": "https://fernandoleibovici.github.io/canada_qolprod.pdf",
+    "resolved_url": "https://fernandoleibovici.github.io/canada_qolprod.pdf",
+    "author_index": "https://www.fernandoleibovici.com/publications",
+    "sha256": "3d73a2d12e6251bedf4353dfc4479fc328a32f9303db8dd39e291d5cafe57766",
+    "bytes": 724948,
+    "retrieved_at_utc": "2026-10-04T04:28:32.348259+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "R11": {
+    "id": "R11",
+    "requested_url": "https://www.dropbox.com/scl/fi/o7qdk9jfilranisrx6lf8/LAEG_AEA.pdf?rlkey=okv2l9jfl10i7tkt4u2kfv1p5&dl=1",
+    "resolved_url": "https://uc71a55c6520795884fc6694e6aa.dl.dropboxusercontent.com/cd/0/get/DJWYDDkKNiZ1gulHiR3AwgS9HebX4uvuMKohahykdE5W7aJEi99EbPQnvBHLq0dY6vetlNqCSvocakzkcDBkNbn_yuYmtayTGIW9opmPuhORcDpO2AqKCSDvBW0IPyAtTL9L4RFVxhM_97W8WTUsFrH4/file?dl=1",
+    "author_index": "https://stephenredding.github.io/redpublish.htm",
+    "sha256": "5f70779723601f6fc104fbdcdce68db251ee53f8974552a2e33556f86fa27898",
+    "bytes": 527980,
+    "retrieved_at_utc": "2026-10-04T04:28:34.103773+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "R12": {
+    "id": "R12",
+    "requested_url": "https://www.dropbox.com/scl/fi/lwhbqfo25yuty52pkil4a/IFE_Paper.pdf?rlkey=fapa4be3g1kgfgi9otfhwdr2p&dl=1",
+    "resolved_url": "https://uc3ccec8e01772af59c5d7add79a.dl.dropboxusercontent.com/cd/0/get/DJVfp4Ecor65BzFZn-Zt3zZ6lBHHJvtjuXeiqFK0IP0Qtav6yvAjTbUg8gj5h1si6qvGz1WIgcU86uymI754NYGIJKoEnaH1qEPm-UF9Pr-199jCZ8kWLoO4wnuwExkGnB589lrdfOl_9EUocgPCQJDJ/file?dl=1",
+    "author_index": "https://stephenredding.github.io/redpublish.htm",
+    "sha256": "1bc3c50cc796a5366c650caf0e366d9f2ead290c702bfc84f573d35a95c846ee",
+    "bytes": 958576,
+    "retrieved_at_utc": "2026-10-04T04:28:35.392607+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  }
+}

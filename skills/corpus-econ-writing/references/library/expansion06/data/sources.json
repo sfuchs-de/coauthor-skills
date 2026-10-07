@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "edition": "2026-10-04-urban-06",
+  "previous_edition": "2026-10-04-authors-05",
+  "activation": "Urban-specific opt-in; the general default remains edition05",
+  "author_indexes": {
+    "nber": "https://www.nber.org/papers",
+    "baum-snow": "https://sites.google.com/site/baumsnow/research",
+    "diamond": "https://web.stanford.edu/~diamondr/",
+    "turner": "https://economics.brown.edu/people/matthew-turner",
+    "katz": "https://lkatz.scholars.harvard.edu/publications/effects-exposure-better-neighborhoods-children-new-evidence-moving-opportunity"
+  },
+  "papers": [
+    {"id":"U01","title":"Urban Decline and Durable Housing","year":2005,"authors":["Edward L. Glaeser","Joseph Gyourko"],"focal_authors":["Glaeser","Gyourko"],"index":"nber","genre":"urban-theory-empirical","version":"NBER working paper 8598, November 2001; subsequently JPE 2005","pdf_url":"https://www.nber.org/system/files/working_papers/w8598/w8598.pdf","main_pages":[3,35]},
+    {"id":"U02","title":"The Microgeography of Housing Supply","year":2024,"authors":["Nathaniel Baum-Snow","Lu Han"],"focal_authors":["Baum-Snow","Han"],"index":"baum-snow","genre":"housing-spatial-empirical","version":"Author manuscript dated September 5, 2023; subsequently JPE 2024","pdf_url":"https://drive.google.com/uc?export=download&id=1L4iUwSdUjqy1VMsvalJ6SgAWeYDkVwU2","main_pages":[2,39]},
+    {"id":"U03","title":"The Determinants and Welfare Implications of US Workers' Diverging Location Choices by Skill: 1980-2000","year":2016,"authors":["Rebecca Diamond"],"focal_authors":["Diamond"],"index":"diamond","genre":"urban-sorting-structural","version":"Author manuscript dated August 27, 2015; subsequently AER 2016","pdf_url":"https://web.stanford.edu/~diamondr/jmp_final_all_files.pdf","main_pages":[2,36]},
+    {"id":"U04","title":"The Effects of Rent Control Expansion on Tenants, Landlords, and Inequality: Evidence from San Francisco","year":2019,"authors":["Rebecca Diamond","Timothy McQuade","Franklin Qian"],"focal_authors":["Diamond","McQuade","Qian"],"index":"diamond","genre":"urban-policy-incidence","version":"Author manuscript dated December 27, 2017; subsequently AER 2019","pdf_url":"https://web.stanford.edu/~diamondr/DMQOld.pdf","main_pages":[1,31]},
+    {"id":"U05","title":"Did Highways Cause Suburbanization?","year":2007,"authors":["Nathaniel Baum-Snow"],"focal_authors":["Baum-Snow"],"index":"baum-snow","genre":"transport-causal-empirical","version":"Author manuscript dated July 26, 2006; subsequently QJE 2007; uses highway-ray units","pdf_url":"https://drive.google.com/uc?export=download&id=1BTA7fyiERnQPbdeP691V_QtOKCCATJTX","main_pages":[3,26]},
+    {"id":"U06","title":"The Fundamental Law of Road Congestion: Evidence from US Cities","year":2011,"authors":["Gilles Duranton","Matthew A. Turner"],"focal_authors":["Duranton","Turner"],"index":"turner","genre":"transport-demand-empirical","version":"Undated institution-hosted author manuscript; PDF metadata created September 13, 2010, not a verified manuscript date; subsequently AER 2011","pdf_url":"https://economics.brown.edu/sites/default/files/news/Duranton_Turner_AER_2011.pdf","main_pages":[1,35]},
+    {"id":"U07","title":"A Unified Framework for Measuring Preferences for Schools and Neighborhoods","year":2007,"authors":["Patrick Bayer","Fernando Ferreira","Robert McMillan"],"focal_authors":["Bayer","Ferreira","McMillan"],"index":"nber","genre":"urban-sorting-identification","version":"NBER working paper 13236, July 2007; subsequently JPE 2007; main range includes the reference heading on its final page","pdf_url":"https://www.nber.org/system/files/working_papers/w13236/w13236.pdf","main_pages":[3,32]},
+    {"id":"U08","title":"The Effects of Exposure to Better Neighborhoods on Children: New Evidence from the Moving to Opportunity Experiment","year":2016,"authors":["Raj Chetty","Nathaniel Hendren","Lawrence F. Katz"],"focal_authors":["Chetty","Hendren","Katz"],"index":"katz","genre":"neighborhood-experiment","version":"Author manuscript dated August 2015; subsequently AER 2016","pdf_url":"https://opportunityinsights.org/wp-content/uploads/2018/03/mto_paper.pdf","main_pages":[2,42]}
+  ]
+}

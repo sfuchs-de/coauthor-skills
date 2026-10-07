@@ -1,0 +1,12 @@
+{
+  "all_output_hashes_verified": true,
+  "source_hashes_verified": true,
+  "sqlite_integrity": "ok",
+  "page_counts_reconciled": true,
+  "csv_counts": {
+    "words.csv": 13904,
+    "occurrences.csv": 225204,
+    "curated_dictionary_attestation.csv": 185
+  },
+  "network_used": false
+}

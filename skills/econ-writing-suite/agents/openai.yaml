@@ -1,0 +1,4 @@
+interface:
+  display_name: "Economics Writing Suite"
+  short_description: "Route and coordinate complete research-writing workflows"
+  default_prompt: "Use $econ-writing-suite to coordinate this economics research-writing task and maintain a shared reasoning graph when it spans stages."

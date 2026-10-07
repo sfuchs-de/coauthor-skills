@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Draft Review"
+  short_description: "Compile and correct author-side academic drafts"
+  default_prompt: "Use $academic-draft-review to compile and correct this author-side academic draft. Route independent referee work to $referee-report."

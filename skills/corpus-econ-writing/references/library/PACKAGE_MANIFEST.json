@@ -1,0 +1,951 @@
+{
+  "edition": "2026-10-04-theory-08",
+  "excluded": [
+    "sources/",
+    "extracted/",
+    "visual_review/",
+    "data/extraction.json",
+    "__pycache__/",
+    "packaging/",
+    "*.pdf",
+    "*.png"
+  ],
+  "files": {
+    "AUTHOR_GENRE_COMPARISON.md": {
+      "sha256": "cece7844a85382129ae82cedda62ef77d82e7beb6db9a6221735c41e29ee2a23",
+      "size": 7054
+    },
+    "CURRENT_EDITION.md": {
+      "sha256": "d4abea9da66e374e9bac8f3d59865dfacaa4ed4ebdc5f6f9aeb099aa190064a7",
+      "size": 539
+    },
+    "DICTIONARY.md": {
+      "sha256": "5702206b6e97cfc03fb975b3038550b0cb85d71ce5f360568e4ab85fdeb34a81",
+      "size": 43928
+    },
+    "EXPOSITION_PATTERNS.md": {
+      "sha256": "aad31dbe08afc048f675eef39c190431c401db08b4071bca46503a273bfcdb40",
+      "size": 8106
+    },
+    "FORMATTING_GUIDE.md": {
+      "sha256": "7c1eaa9cfe856fc8cdda5eccd40a62356d4e3335a3da1ae25149415a69380075",
+      "size": 13505
+    },
+    "PORTABLE_USE.md": {
+      "sha256": "a2c884fbf65c22f77b60bfc594b894106e403e8006a3c2e0674c52d1047e423d",
+      "size": 4353
+    },
+    "README.md": {
+      "sha256": "9f5449d098747df013b5a8e5db0fee94be393ca24d0882fa65e0bab34385657c",
+      "size": 3966
+    },
+    "REVIEW_REPORT.md": {
+      "sha256": "6e7df2bb211090040ef9fca0df0ccebeb324ec2a5a8418be65cc7dde6302c779",
+      "size": 7400
+    },
+    "RULES.md": {
+      "sha256": "c84ee1d1032d4ddb83164b2fb8c0a599a2495b59a65a40fb508b64531678a892",
+      "size": 17625
+    },
+    "SETUP_AND_SEARCH.md": {
+      "sha256": "a2c884fbf65c22f77b60bfc594b894106e403e8006a3c2e0674c52d1047e423d",
+      "size": 4353
+    },
+    "STYLE_GUIDE.md": {
+      "sha256": "ff6d159f72f7b36a660673911370c147b830636a93ff838621580661bb18f609",
+      "size": 27259
+    },
+    "VOCABULARY_POLICY.md": {
+      "sha256": "520913389bc48e7eb97469a3996f4228e6fb6fdce9b702e9d48781a3bfb50945",
+      "size": 5742
+    },
+    "VOCABULARY_REVIEW.md": {
+      "sha256": "3d16ae62b41bcdfe1acab16f307d5a6bb0e776a67ac6abae0729ef5fe7839177",
+      "size": 3480
+    },
+    "WRITING_INSTRUCTIONS.md": {
+      "sha256": "175b6ed4fa45cb79fe22f84e8905fa422de0741ba37de8d4b975f995c206707c",
+      "size": 9866
+    },
+    "catalogue.md": {
+      "sha256": "4b8a09023376f9d85c4a084e0828793bf1c361c575cd9713c912b121f6a0231a",
+      "size": 5989
+    },
+    "data/acquisition.json": {
+      "sha256": "d8939302a2124adb3b22ed191af06562fa46ecd266ed6d5ff438176978c9eb93",
+      "size": 13120
+    },
+    "data/dictionary.tsv": {
+      "sha256": "d2833de4d51d89dc3c336df60f06e51fe33ef4b9ed3c73bc626cd1956176bf42",
+      "size": 37648
+    },
+    "data/review_amendments.json": {
+      "sha256": "7d75c7e6539de89611e246a028b21e48e6465619f0d26e338c5099754fe1861a",
+      "size": 1053
+    },
+    "data/review_inputs.json": {
+      "sha256": "d744ad87ee513df69f6d692a4906eaf65199f316f7f6c2e78fb8675194a7f414",
+      "size": 6920
+    },
+    "data/reviews.json": {
+      "sha256": "a37fa5b3a93491e0f354ade0ed4c2626629c08495a75d28b0513ccdf5f72f4b4",
+      "size": 4740
+    },
+    "data/reviews_middle.json": {
+      "sha256": "b5be1b53a18c75cccfc2d838f716193ec3bfa3a482965068e4685620fd98f1a9",
+      "size": 13953
+    },
+    "data/reviews_redding.json": {
+      "sha256": "8ea96c4a63e9a0e5ddd59d37c8dfc72f834a7c95ca38318a8e31630e9bef602b",
+      "size": 9254
+    },
+    "data/rules.json": {
+      "sha256": "c1b40d5deae8aaf4f4f8fafeb291c562ef5cadaa8684b1638a6de56c219547c8",
+      "size": 7989
+    },
+    "data/sources.json": {
+      "sha256": "30fc4bccc156bdf8e64f556df6901c2a791007bedbb91c91404aae5097ecf7ef",
+      "size": 8644
+    },
+    "data/visual_observations.json": {
+      "sha256": "782a5b23caff7cd5a678f29309ac8f4299b9bf2906736d40f28ad0761b0c7f93",
+      "size": 2971
+    },
+    "data/visual_samples.json": {
+      "sha256": "8d7f34156877e6aae15f0982feef4db6e1234a0f7152f0eeca17131c60bf88b9",
+      "size": 7221
+    },
+    "data/vocabulary_policy.json": {
+      "sha256": "520a67ccb2a64779ed97c9b046b3d77d5b1c7ef60e182a2e7d5b7e3262ffe854",
+      "size": 579
+    },
+    "database/BUILD_RECEIPT.json": {
+      "sha256": "36e3e5858c6cd9e74115af3bb33332cb5721050182caa4e4cf4ad476f9e48e52",
+      "size": 664
+    },
+    "database/QUALITY_RECEIPT.json": {
+      "sha256": "01b8e875539a3bb235a9f13da52bd0d6d9cf825603d1d91cb7fbcbb783d3dd45",
+      "size": 13167
+    },
+    "database/dictionary.csv": {
+      "sha256": "911a1522892e0c93eb9587dba4b8eddefae96cc6f84154ab242bd3f9307da78b",
+      "size": 51787
+    },
+    "database/literal_frequencies.csv": {
+      "sha256": "f32c86e83ac343d74049b6ffe8a40abfd6bdbc026a6ec9c214bbebd0e44aab71",
+      "size": 227160
+    },
+    "database/observations.csv": {
+      "sha256": "25ca4211287de888201fefc41af76bc9f434431fac60f7cad888c7d1cfcebd09",
+      "size": 52434
+    },
+    "database/papers.csv": {
+      "sha256": "e77af61fbc8befeac74b336f22a2c42154697d00b66db384fdf967ef7ebafdd6",
+      "size": 15904
+    },
+    "database/rules.csv": {
+      "sha256": "1b338ed143814de5e70365c7bfa0f06255c56a5ed7c7dcd9c31c147f1bcc0e2e",
+      "size": 6095
+    },
+    "database/writing_database.json": {
+      "sha256": "f12ade21b15dda77eb3c8967a33c6029cc66856759d6c72b2a9ee4a473c1477f",
+      "size": 856850
+    },
+    "database/writing_database.sqlite": {
+      "sha256": "6ca9e23fba588428e2f37c2a0ef3224a7e77b5b0a9046fc449e73f52d0b1654c",
+      "size": 659456
+    },
+    "expansion/ARGUMENT_AND_EXPOSITION.md": {
+      "sha256": "11cad39847269d26979ab9a74c58b18b14fca378dec6943a9480eb6acaa76dc6",
+      "size": 9426
+    },
+    "expansion/README.md": {
+      "sha256": "f1fed384579fee3ed1a8bb0154c35b43f8f9bf308249558c6041b764cfaef363",
+      "size": 2295
+    },
+    "expansion/SOURCE_STUDY.md": {
+      "sha256": "c7356ec1bac1c4acd26dd8b0922810c619e2b3999c022ddadfeccbdc50ab4d15",
+      "size": 8604
+    },
+    "expansion/USAGE_SUPPLEMENT.md": {
+      "sha256": "fd748ed6204cb6c054d9ddf43b441312249c7bdbb0d85aab513e43f06fdeedb9",
+      "size": 7251
+    },
+    "expansion/VOCABULARY_POLICY.md": {
+      "sha256": "c9a6dbe5517774eac74108013f8291c30bcf097239596e819b85a080288e4efb",
+      "size": 1896
+    },
+    "expansion/WORKED_EXAMPLES.md": {
+      "sha256": "c7c4208c7beafda933ecf7bbfab7415f700949ef9cc2b6c042e8f9ddbabd2cd8",
+      "size": 7391
+    },
+    "expansion/analysis/BUILD_RECEIPT.initial.json": {
+      "sha256": "29ca827dfb64f5eac13c555eaabf1fd93d054738286d6418a9f825ec93d69155",
+      "size": 680
+    },
+    "expansion/analysis/BUILD_RECEIPT.json": {
+      "sha256": "1f1c49453c851d84b16e43293d9de94fede7b412afb38f6f20265de1bbd769ec",
+      "size": 680
+    },
+    "expansion/analysis/analysis.sqlite": {
+      "sha256": "b7935f5ed8d6df24e8572f0267b9b87b03713fbbc41921a6c2577122f84188bc",
+      "size": 86016
+    },
+    "expansion/analysis/observations.csv": {
+      "sha256": "ab8f56a4fe68b5281fde47a443a467209986fe8276ad925b708be71e5ac953b0",
+      "size": 5077
+    },
+    "expansion/analysis/usage.csv": {
+      "sha256": "35793337802762dab84a70838bfc82798f2f0364821bf6cf1993b0285a06fac0",
+      "size": 5757
+    },
+    "expansion/data/BASELINE_FREEZE.json": {
+      "sha256": "d085a0bc99387e8591710a300748da6f07646bb12efb9166d740ee48df4c12e2",
+      "size": 9641
+    },
+    "expansion/data/acquisition.json": {
+      "sha256": "ac783a92efc742a6fd15eab74c56a77dd59df7c4202fab4880a700b99a179fd7",
+      "size": 4489
+    },
+    "expansion/data/analysis.json": {
+      "sha256": "6bc2d7b8836f2c88bc90021db1f20efde409e4a0a1be897691dfeca19693bef4",
+      "size": 14345
+    },
+    "expansion/data/render_receipt.json": {
+      "sha256": "cc6425f24baac51b9334a3300b0b780193cf265649d379f19cb459ab0a44dbee",
+      "size": 1329
+    },
+    "expansion/data/sources.json": {
+      "sha256": "d5fa5dbec913f7b25e01cda8f9f1afcea10a701ec59f1babde5f9725702921bd",
+      "size": 3321
+    },
+    "expansion/data/visual_observations.json": {
+      "sha256": "0b5c964d46614df06f8e08d4fd5dc4e496c4ca90ebda236ed0be18f93292a975",
+      "size": 1597
+    },
+    "expansion/evaluation/ARGUMENT_MAPS.md": {
+      "sha256": "58468b37898cb73e77d33961ce31b0697b83df070d7619a140db069a0676e103",
+      "size": 4199
+    },
+    "expansion/evaluation/CASES.json": {
+      "sha256": "cebac9c85e2acf860f172dc2f393437752879e3186ba7644120c573db5d37594",
+      "size": 6132
+    },
+    "expansion/evaluation/CHECKED_AUDIT.json": {
+      "sha256": "8215f4048ab505075b924478e33818f46164dba305adf37f99e9baeb41161fd7",
+      "size": 6165
+    },
+    "expansion/evaluation/EXAMPLE_AUDIT.json": {
+      "sha256": "1cc4c11a1a13d8658e7294b84e45550703fb6df2cfd222aca27a68358ec4f60f",
+      "size": 6609
+    },
+    "expansion/evaluation/FINAL_AUDIT.json": {
+      "sha256": "32dbbc66c97d0dc3a2f32e394de99d245fb90f8ffe30c39f144be7e0a042d0db",
+      "size": 6833
+    },
+    "expansion/evaluation/FIRST_DRAFT_AUDIT.json": {
+      "sha256": "ab026f6da0e54fc15a26d2abfb731fcddbada54d73600c46dae576a6873a48da",
+      "size": 11949
+    },
+    "expansion/evaluation/FREEZE_RECEIPT.json": {
+      "sha256": "1b5ca3f81faeedd5337896dc58313006fbd0a168ec6dafbc5648bb127e39ef2d",
+      "size": 1018
+    },
+    "expansion/evaluation/INSTRUCTION_AMENDMENT.json": {
+      "sha256": "67fb0d43948fd29b939137a161b6f5a22c814d6254203d95db3524fbbbeb18b6",
+      "size": 811
+    },
+    "expansion/evaluation/RATINGS.json": {
+      "sha256": "c1b63b55b23c8b8b80dfa55c192a67223c68e34f3449df1a0b4549d5012ed1f9",
+      "size": 2998
+    },
+    "expansion/evaluation/REVIEW.md": {
+      "sha256": "fc01ad631658b1a50d01326725cdd5ac1cfe996ca90e47821a616f42adeff5b9",
+      "size": 4356
+    },
+    "expansion/evaluation/SAMPLES.md": {
+      "sha256": "5d3c9743b7afd26b91ea652830f1576447280d1638cb6652320a5487a751b88f",
+      "size": 12051
+    },
+    "expansion/evaluation/SUMMARY.json": {
+      "sha256": "0494aa6f73ccfab9aa071d746f9cd50cf61974a9f40aeb0edc33dd1d4aa6a486",
+      "size": 2467
+    },
+    "expansion/evaluation/first-drafts/L01.tex": {
+      "sha256": "ba9d946217f118f6b4eac8fd35ada1018736324b102b69c073cc78f8a4d2f758",
+      "size": 2887
+    },
+    "expansion/evaluation/first-drafts/L02.tex": {
+      "sha256": "1e1abdb2a05fc7bc3844d84b3e35be2e56439177d43fc2e3d40c627db6b0e424",
+      "size": 3013
+    },
+    "expansion/evaluation/first-drafts/L03.tex": {
+      "sha256": "462d4a7eae76f8db5870072a600d776ef455ca077cdffc736bab31a0d109a223",
+      "size": 2247
+    },
+    "expansion/evaluation/first-drafts/L04.tex": {
+      "sha256": "1351e733db87426eb4fbf10307e321ac5ab06bf1ef3900ac4dca9176493594fc",
+      "size": 3427
+    },
+    "expansion/evaluation/samples/L01.tex": {
+      "sha256": "191ab303c424edf564e3b37823c44aed695953dbd7812b7c17dd7b157b19f45d",
+      "size": 2977
+    },
+    "expansion/evaluation/samples/L02.tex": {
+      "sha256": "6ffdd384c8a211ca81bb06b480f168572a213ddc898a60b3997a9352b8613b82",
+      "size": 3078
+    },
+    "expansion/evaluation/samples/L03.tex": {
+      "sha256": "c898d921ca4e64807453a849f5c9eee90d4521586de28573bb1b983a1edfac04",
+      "size": 2247
+    },
+    "expansion/evaluation/samples/L04.tex": {
+      "sha256": "b6111fc7fceea910494ac9901c9c7555bad73d5828bc698104300a6f177189e9",
+      "size": 3455
+    },
+    "expansion/scripts/audit.py": {
+      "sha256": "31bfb2371a15b46aa6d8b9cc805de834fe97912b3536fb8129fd8af0508f124e",
+      "size": 11114
+    },
+    "expansion/scripts/build_release.py": {
+      "sha256": "e1496a00cafb8119e093ff07e8daafd73956f51d3dcf4b3b09d34c58bd83011a",
+      "size": 6099
+    },
+    "expansion/scripts/edition.py": {
+      "sha256": "8ff3a6fd7b27e86905aada6f923f1a100d69a19041698fc04cc3cb865a627b07",
+      "size": 20719
+    },
+    "expansion/tests/test_edition.py": {
+      "sha256": "566f80282d08eab334ee29908ec89cd830e19a39aee6fc78e0f62f593d3b00d7",
+      "size": 7771
+    },
+    "expansion/vocabulary/BUILD_RECEIPT.json": {
+      "sha256": "504828cf65568fddcda7b59cc0b03eb6f7c4d04bde41e87a400d376fa5d25062",
+      "size": 2203
+    },
+    "expansion/vocabulary/attested_vocabulary.sqlite": {
+      "sha256": "77ff39c0b64055b4d0136d31bb4af594bd1b84b7d706fa55b8b883a7ee861a76",
+      "size": 35315712
+    },
+    "expansion/vocabulary/new_attestations.csv": {
+      "sha256": "443f32a7e498c6743e0224edd7bd2d81cc8176330a5b3e0d61813f28ad37c3b6",
+      "size": 137252
+    },
+    "expansion/vocabulary/occurrences.csv": {
+      "sha256": "ababf035f5de770e82e82bdad21082ca5742727ae8872faa68f4cdee488a70df",
+      "size": 12014800
+    },
+    "expansion/vocabulary/words.csv": {
+      "sha256": "6ea8cbfb0a7e96ec78a6f197a5849a75dd55d1cc0825ba943cf4fa667d26d18c",
+      "size": 2143036
+    },
+    "expansion05/AUTHOR_AND_GENRE_GUIDE.md": {
+      "sha256": "e0f7053dfd78079a69228ad7e905e02538930d71f1535aced445120f1b172f7c",
+      "size": 6875
+    },
+    "expansion05/FIRST_EXAMPLES.md": {
+      "sha256": "1883173b634ea8fe7630748f7fcb4e7dda1c32c2fd0d9e90344b745e6ac56c31",
+      "size": 6540
+    },
+    "expansion05/README.md": {
+      "sha256": "5db5a6af2fac55f05ff7e8552559a160a09ccdcc8ee1dea6bac8d2cf306f2f9f",
+      "size": 3222
+    },
+    "expansion05/SOURCE_STUDY.md": {
+      "sha256": "10257df0db94ae4b7a9770b660b6b92517e7b79e7b5a745baa9952fa781ad66b",
+      "size": 12284
+    },
+    "expansion05/USAGE_SUPPLEMENT.md": {
+      "sha256": "103cde4654880ad228949010ef6a5c179e5568248683a6663e313148fa2e00c9",
+      "size": 5245
+    },
+    "expansion05/VOCABULARY_POLICY.md": {
+      "sha256": "c8e558c640f43512828dbb04fcecd0f07cab5b5521d9278d11c3d7dbd9831146",
+      "size": 1586
+    },
+    "expansion05/WORKED_EXAMPLES.md": {
+      "sha256": "4476d4aec14dddbbc3562aa78ca57ecabd22b11951e5d3aa36fa8750c4f656d9",
+      "size": 6569
+    },
+    "expansion05/analysis/BUILD_RECEIPT.json": {
+      "sha256": "ec1afde3f8b98b18378d12b9d3c05d1a8fae268068b785bd00f95cbf4fa2cacb",
+      "size": 680
+    },
+    "expansion05/analysis/analysis.sqlite": {
+      "sha256": "77719d4fac37ad8f5513c22839d3c127e6d064a786b3c904e0731412539ce11f",
+      "size": 86016
+    },
+    "expansion05/analysis/observations.csv": {
+      "sha256": "371e89085b78423abcbca1cc8ab4587dd2783a03ab025e9ee97361e7a4c55655",
+      "size": 6215
+    },
+    "expansion05/analysis/usage.csv": {
+      "sha256": "19c1ba9b77cb0f8ba68e77027ad2098dfe0b3445b8974d1d2680519520b9fe1f",
+      "size": 4180
+    },
+    "expansion05/data/BASELINE_FREEZE.json": {
+      "sha256": "e001150d2f773d4c250262b5facdb9f99f1e9c6172ba09495f45ada261fbbd7a",
+      "size": 9640
+    },
+    "expansion05/data/PREVIOUS_FREEZE.json": {
+      "sha256": "6c91aa047400a1bb16e0eb3260f6d2aaca6b4a87b7cb7d91216f2b7da45e6282",
+      "size": 7078
+    },
+    "expansion05/data/acquisition.json": {
+      "sha256": "82cf5dc5dd90f81ddbcc3e435c63841dac5dcd92831dcb627aa8a301a3daa7e3",
+      "size": 7295
+    },
+    "expansion05/data/analysis.json": {
+      "sha256": "45e529ba9d75393771210857b3222ea5354e042c37407756868c0f98050fa7b9",
+      "size": 14626
+    },
+    "expansion05/data/render_receipt.json": {
+      "sha256": "cd31266fd228baa988c3bf2d4fb0b4c13353a03f422519756860c64e8fcc73c2",
+      "size": 2327
+    },
+    "expansion05/data/sources.json": {
+      "sha256": "03f07f0253d1e5c3459cd1a535e1bc77e89fe06a478f3cee421bb46142c3a63f",
+      "size": 8986
+    },
+    "expansion05/data/visual_observations.json": {
+      "sha256": "8ef0ceb2db782a648dfd834c3b572c8c11b7902dc21ed1c2309b1de4cef75ecd",
+      "size": 2551
+    },
+    "expansion05/evaluation/CHECKED_AUDIT.json": {
+      "sha256": "4e85b7006eec17fc3b721e8fb47e37f839afd8565bab5ce7f4f3ddfcf5a08d67",
+      "size": 3947
+    },
+    "expansion05/evaluation/EXAMPLE_AUDIT.json": {
+      "sha256": "96003d275f545ab576718657a3d374c40ad5f25db3f178750a2797a06ecd0ab3",
+      "size": 4373
+    },
+    "expansion05/evaluation/REVIEW.md": {
+      "sha256": "6d640835dc668864e47ee00fa6504851121b71a6a44e16f52e9d22cd872b2fc0",
+      "size": 2050
+    },
+    "expansion05/scripts/audit_examples.py": {
+      "sha256": "5fb621953a9b473c86e029d8c4d6ec3864b150bab0e15adc6ffdc809e9d25d5a",
+      "size": 3356
+    },
+    "expansion05/scripts/build_release.py": {
+      "sha256": "36f85dcd781097aa80c4bb703ae9b8661a8ce9f732fc4197651d8b7f8285eb31",
+      "size": 4843
+    },
+    "expansion05/scripts/edition.py": {
+      "sha256": "08a744f9a45ad6ce93d245ba7117a965fca930d77972e2f1db7ae1ca57207b73",
+      "size": 13822
+    },
+    "expansion05/tests/test_extension.py": {
+      "sha256": "a29106e008026776cf873d8497044e9225feef4e26909ad59bb7841412848d33",
+      "size": 7168
+    },
+    "expansion05/vocabulary/BUILD_RECEIPT.json": {
+      "sha256": "9104ec28551dcee499ccf66019448f541ddb7b45bd8a347a8b5e2aa4327bd3c4",
+      "size": 3969
+    },
+    "expansion05/vocabulary/attested_vocabulary.sqlite": {
+      "sha256": "fc713c9ecc8e3fc379013adcd7af37dd5e640b84a521406c3785cf2a00f4f773",
+      "size": 49180672
+    },
+    "expansion05/vocabulary/new_attestations.csv": {
+      "sha256": "6970c5455e1a52707256e00e10eaa0120f9242c6814fe7890c26f38309dddcca",
+      "size": 211839
+    },
+    "expansion05/vocabulary/occurrences.csv": {
+      "sha256": "bda3ba866d57983745eef6824aa0b904ddcfa6a731ba58a85b2cc012d9c05241",
+      "size": 16778986
+    },
+    "expansion05/vocabulary/words.csv": {
+      "sha256": "1ddaa22fdebd952d8b7618f9ca1cbe2c946b9a0f68b7096ebb4123fabacedc6c",
+      "size": 2808704
+    },
+    "expansion06/README.md": {
+      "sha256": "3fdd239c34ea3107a0b479dee56aea3e3783fd1cae2d908f8360c7950bc8f25d",
+      "size": 1839
+    },
+    "expansion06/SOURCE_STUDY.md": {
+      "sha256": "c8aa7abe4a3a627299a74d2d4ea3d2385d48afa589a5de26cfc9e4abe3a5344f",
+      "size": 8482
+    },
+    "expansion06/URBAN_EXPOSITION.md": {
+      "sha256": "1e65b4424140a934094aeb90f10564efde186d6ce0ae2600f4c1fe241436af98",
+      "size": 7307
+    },
+    "expansion06/USAGE_SUPPLEMENT.md": {
+      "sha256": "dbde865dbe6d814c448ef3f0890cdc7f7082e67025d6464a183c20121d20a715",
+      "size": 4220
+    },
+    "expansion06/VOCABULARY_POLICY.md": {
+      "sha256": "ff51d2570fc72e5764a47ac5a2b565bfd2f297da88dc564db95a02cb5cb89eb9",
+      "size": 1474
+    },
+    "expansion06/WORKED_EXAMPLES.md": {
+      "sha256": "237b43c9e6f1ceddf1049f7b958b8938a1d4ec1c22baf46a8210ebb710f20720",
+      "size": 6309
+    },
+    "expansion06/analysis/BUILD_RECEIPT.json": {
+      "sha256": "10f6f0af16ff90613f1f7a57a1544d62b7e8ad59a8da7cd6e19a891e0b83e680",
+      "size": 680
+    },
+    "expansion06/analysis/analysis.sqlite": {
+      "sha256": "79d9eaeaf940b606f20a71df0f2bf3977eac67fbea5316c89e8916089e218876",
+      "size": 73728
+    },
+    "expansion06/analysis/observations.csv": {
+      "sha256": "916f39d236e81d164e8f55763ffa6a39e5bb00ea7f0f26f256df6b8abd2bc599",
+      "size": 4518
+    },
+    "expansion06/analysis/usage.csv": {
+      "sha256": "1a199bd71cdfbc963e8904bd31c2f75d29e48e24cbfd6e1d2fe03a9125769708",
+      "size": 3297
+    },
+    "expansion06/data/BASELINE_FREEZE.json": {
+      "sha256": "97d01a1155e5af1435d1bd5249710d640a32673537c00f327856048745c63276",
+      "size": 9638
+    },
+    "expansion06/data/PREVIOUS_FREEZE.json": {
+      "sha256": "f70af6f6d9c23a8d415025193e415bad53b41dca5abfeb6c90d6275832bd11f8",
+      "size": 14550
+    },
+    "expansion06/data/acquisition.json": {
+      "sha256": "e37bd090521379352b6901f945cb482723cdb3ce50692ea2710e20971f4af901",
+      "size": 4033
+    },
+    "expansion06/data/analysis.json": {
+      "sha256": "cbd23edcb3559722a39cebab433b1dddeab667f1c0fb1c035a0f34201d684af5",
+      "size": 10696
+    },
+    "expansion06/data/render_receipt.json": {
+      "sha256": "1955580a0a30caaea91cdb4f4ca3fa225b27c84f10d26bd910192675e84fafcf",
+      "size": 1328
+    },
+    "expansion06/data/sources.json": {
+      "sha256": "c06423314400b5dd69a313f00305d352b7d767c8b0e311dd9ab1974c8f7fd278",
+      "size": 4194
+    },
+    "expansion06/data/visual_observations.json": {
+      "sha256": "bd669be42e047d9a7392eec112f763981f5f57f30ca0243a650cbfed9bbc042d",
+      "size": 1538
+    },
+    "expansion06/evaluation/CHECKED_AUDIT.json": {
+      "sha256": "e96c5e5e6d3182f9efbce3b91efe9c7d613136366ffaecde2f8bb078a6c572bd",
+      "size": 4501
+    },
+    "expansion06/evaluation/FIRST_AUDIT.json": {
+      "sha256": "ad78f8f100e8d5332c53d1dcfd6edf3e4ac9d4f2306f040bbb6f0b3124a3d471",
+      "size": 4708
+    },
+    "expansion06/evaluation/REVIEW.md": {
+      "sha256": "855b70a1d95efa7c08fea098047b67fee749afff2adf1dceba773e13ca1f3c87",
+      "size": 1942
+    },
+    "expansion06/scripts/audit_examples.py": {
+      "sha256": "66d3c9e9fae22fad5bb3497720b79707372df599c21b34490ff8197086b8d1ca",
+      "size": 2920
+    },
+    "expansion06/scripts/build_release.py": {
+      "sha256": "a6968dbc4c36f2fa27e910c5d39b0ecbdcce17d5af2913a6c0e13cc743d4ce59",
+      "size": 4245
+    },
+    "expansion06/scripts/edition.py": {
+      "sha256": "db58eeeb7927a36eaa68894bdecd3ac9c031696f0e7a2ef286c0b42eb7750e78",
+      "size": 10075
+    },
+    "expansion06/tests/test_urban.py": {
+      "sha256": "abce335ee410ccc40ab046a77d15fbda13ec0d0c4e32f3d0f1943c08e61e460e",
+      "size": 5677
+    },
+    "expansion06/vocabulary/BUILD_RECEIPT.json": {
+      "sha256": "1334a11956673977b2deb09814c85f0a69bddafd471255a0bfc70dd884aac162",
+      "size": 3019
+    },
+    "expansion06/vocabulary/attested_vocabulary.sqlite": {
+      "sha256": "fc8547e9cef6f91417ee1eadb4a4f23eb54b68df25dd9666913237fb09f8db72",
+      "size": 57810944
+    },
+    "expansion06/vocabulary/new_attestations.csv": {
+      "sha256": "446fef13b5f796980e47ff8ae056afa352b64f89d64f65d037aded62118b739b",
+      "size": 117554
+    },
+    "expansion06/vocabulary/occurrences.csv": {
+      "sha256": "17bd15e91bb88a10dc6a06bcbca2f9ded48364fff6d76195509e6503e71f63c6",
+      "size": 19792368
+    },
+    "expansion06/vocabulary/words.csv": {
+      "sha256": "233106a0d72cea9ec1ff168deecd8ede6a5ad787ff0c5e29f0550e12007330f5",
+      "size": 3178410
+    },
+    "expansion08/README.md": {
+      "sha256": "0ddb39c97e243bf0cee75b4cde49c77d74ff35a3dbdb2a4b2e590f20f06be21f",
+      "size": 1570
+    },
+    "expansion08/SOURCE_STUDY.md": {
+      "sha256": "c9c30c1a821c0c80f7293df20ce5266163243b844c6d09615352b235d9c536b9",
+      "size": 5034
+    },
+    "expansion08/THEORY_EXPOSITION.md": {
+      "sha256": "7f7404cdf877196fe607158f33604e5a92303d7ca95543c6a4e8e830ac1157d8",
+      "size": 6012
+    },
+    "expansion08/USAGE_SUPPLEMENT.md": {
+      "sha256": "d56a27e7d4d0ea81649b12d4796ab1521220948f6f0c9eaef1abe4c5984cf509",
+      "size": 2553
+    },
+    "expansion08/VOCABULARY_POLICY.md": {
+      "sha256": "e007aba1baf20cec96973f216d5234354d19c1d38c92d2f89c8a6beffd864511",
+      "size": 1772
+    },
+    "expansion08/WORKED_EXAMPLES.md": {
+      "sha256": "f8ec8473da790cc363948d32bcf92c6b947bac52b883c7d5ab981b3b29c74e67",
+      "size": 1318
+    },
+    "expansion08/analysis/STUDY_RECEIPT.json": {
+      "sha256": "5203b1268aabb98d768f57a3ed1528e12c226f00928b4462932d834901a6d4a6",
+      "size": 5067
+    },
+    "expansion08/data/ACQUISITION_REPAIR.md": {
+      "sha256": "329a6c48b48d2081fa7fdd35ae479eab0242231d9fec88c804281b66c914a835",
+      "size": 667
+    },
+    "expansion08/data/PRESERVATION_FREEZE.json": {
+      "sha256": "aeade464c80bc7fbdc230f4577c1562c2241d174528cd7e2e93993fb1264ddb2",
+      "size": 260
+    },
+    "expansion08/data/acquisition.json": {
+      "sha256": "88b9720994fbdd1a47b7c3a88c98585269b76955aba8cf9c152d48cc80007d1b",
+      "size": 2941
+    },
+    "expansion08/data/context_restrictions.json": {
+      "sha256": "82193d41607a8577b164ec7ae74eb83abd29e39468fae5fbe1c904b591ced2c7",
+      "size": 351
+    },
+    "expansion08/data/sources.json": {
+      "sha256": "36048a7a1c684bddce697c958eb0d1cab7667c8ef2c430e9bcccfb207acac3dc",
+      "size": 2886
+    },
+    "expansion08/evaluation/CHECKED_AUDIT.json": {
+      "sha256": "53d219818592adc36ba6dcb1f8bee02bf2b886425a600c4e0491c34554a16ea9",
+      "size": 4802
+    },
+    "expansion08/evaluation/FINAL_AUDIT.json": {
+      "sha256": "3e0d91f8c7dd4f1dfb054f3c047ddc254d7f9b96350a994431f44f4a132d5b25",
+      "size": 5015
+    },
+    "expansion08/evaluation/FIRST_AUDIT.json": {
+      "sha256": "93e99ece178448784fb111f34c466aa965ca71611ade16c713b22fbd062e30b3",
+      "size": 8110
+    },
+    "expansion08/evaluation/PREVIOUS_REAUDIT.json": {
+      "sha256": "ef05ce5a3808e0d891806bcbd7aee6a76ba8bb4c2c8851327db3478523b842db",
+      "size": 19426
+    },
+    "expansion08/evaluation/PREVIOUS_REAUDIT_RELEASE.json": {
+      "sha256": "ecda7ffddc01687487cced7bd91bbe5f007c1cdbe7159c752aa71cea33c06010",
+      "size": 20981
+    },
+    "expansion08/evaluation/PREVIOUS_REAUDIT_VERIFIED.json": {
+      "sha256": "afabb0aeea397ba25f6b8e2cdd7d77db9e3d52d8a922ede4be0e2544ae16eb3a",
+      "size": 19302
+    },
+    "expansion08/evaluation/PROTOCOL.md": {
+      "sha256": "1b02d34946e9c27c7cedf1821b29d0f71bdd8c8661ab1724c3512d5483e7adea",
+      "size": 3446
+    },
+    "expansion08/evaluation/RELEASE_AUDIT.json": {
+      "sha256": "8669dd29178529d8f32c0fcfb0b653536b7a18fbb21443e7451ce575230f1c78",
+      "size": 5394
+    },
+    "expansion08/evaluation/REVIEW.md": {
+      "sha256": "faa4843aefbe869348e29c287594e2ff882e14acabd4dfcad4e61f01f39050a3",
+      "size": 4371
+    },
+    "expansion08/evaluation/VERIFIED_AUDIT.json": {
+      "sha256": "f01953f48f15bead956a854caed314da4842d3209ee35139118f53da7f161693",
+      "size": 5394
+    },
+    "expansion08/evaluation/final/T01.tex": {
+      "sha256": "0fb1efdffe384a5a7cb18a847d8e0c9fa9f26f6cea4bcbc1ec09b24b3a4be73a",
+      "size": 1858
+    },
+    "expansion08/evaluation/final/T02.tex": {
+      "sha256": "62dacdb6e81095acc45e6ece4917318c0bee8f7e42a07ed93761eff81f3491eb",
+      "size": 1954
+    },
+    "expansion08/evaluation/final/T03.tex": {
+      "sha256": "45656ee43d97822a10df14055e6cd892ab328c6dd96ab87e7bf7ac3d105269a9",
+      "size": 2496
+    },
+    "expansion08/evaluation/final/T04.tex": {
+      "sha256": "3a7d55e25a633d6eed2fdb6c1a5b62071b2091ef3eff2d2f725d186f9e173ddb",
+      "size": 1823
+    },
+    "expansion08/evaluation/first/T01.tex": {
+      "sha256": "c32cba6ce8702382cd49d883fcee54861f4b5007a825c31f4f358f7cf83e9d2d",
+      "size": 1850
+    },
+    "expansion08/evaluation/first/T02.tex": {
+      "sha256": "8083051018dd01efdd2502036e29c818e7afbcf8e430750e3087d4eb3d480e04",
+      "size": 1955
+    },
+    "expansion08/evaluation/first/T03.tex": {
+      "sha256": "557e4c4aee425512426ae7df9c907c84a49a6b276d1379454e963d8b59639893",
+      "size": 2328
+    },
+    "expansion08/evaluation/first/T04.tex": {
+      "sha256": "6bdc7f3a033a47bdd6894f8b4d9e4f38745e29b6369b80ee093c41fcea8670a9",
+      "size": 1817
+    },
+    "expansion08/scripts/audit_examples.py": {
+      "sha256": "922e482952722dbdb8232be1b817bc0857d760b266a746b9f9eff7c1813619bc",
+      "size": 4233
+    },
+    "expansion08/scripts/build_release.py": {
+      "sha256": "99b4bbc92b4a5655402e920fa9542e2ce0d04db9e087a25bed83008a86670a27",
+      "size": 4977
+    },
+    "expansion08/scripts/edition.py": {
+      "sha256": "d3ba91680ee1ef6cf702767fb46d9c425c8602c54bd04efea1ebdd3311f7c75d",
+      "size": 14210
+    },
+    "expansion08/scripts/freeze.py": {
+      "sha256": "47431ed5a4ff2382250b74437d0d39acbab056ba07d55ea895b2b6688d2dc854",
+      "size": 1891
+    },
+    "expansion08/scripts/study.py": {
+      "sha256": "81341446e0a3dea34b69747e36f996e57201c9724149866b30bbe89005b8b19c",
+      "size": 2358
+    },
+    "expansion08/tests/test_theory.py": {
+      "sha256": "7e0c84133d56d27b236ac203e8ef8cf310d2b5ea0925e2807998a06fbf966463",
+      "size": 7832
+    },
+    "expansion08/vocabulary/BUILD_RECEIPT.json": {
+      "sha256": "3d5b09d6a7cf7c6a81ac00f6f0e839546ad09c2941864f660c18125334789f9e",
+      "size": 2733
+    },
+    "expansion08/vocabulary/attested_vocabulary.sqlite": {
+      "sha256": "1396bcf4e37cde6e7b1237b3f6e4a987a2e14ec944f7b5b9f247fc1e53fa1f5d",
+      "size": 63520768
+    },
+    "expansion08/vocabulary/new_attestations.csv": {
+      "sha256": "079ce62977cd6756e138526e6f312a01949f52c7a6dba7c5aa8e62971e74b17b",
+      "size": 57122
+    },
+    "expansion08/vocabulary/occurrences.csv": {
+      "sha256": "6514ae7b9ebf2067319cd7c810cbccb212dfaf23917e505d9dd5fe01cedcf010",
+      "size": 21746809
+    },
+    "expansion08/vocabulary/words.csv": {
+      "sha256": "ea4f8a8fa8cc66f191b2871049eb7944576761443f1bb68008ef8481d6af8ae2",
+      "size": 3416962
+    },
+    "reviews/A01.md": {
+      "sha256": "9e1fc198bbd1dbaa1c7700e72423f90bad4fd9ce8985489106ef0d9df23ecfa8",
+      "size": 2039
+    },
+    "reviews/A02.md": {
+      "sha256": "e2b3a1a442882dc98536374ca0a9451b7334aaf3ae9e4c2b39a3d33c1b0d6963",
+      "size": 2177
+    },
+    "reviews/A03.md": {
+      "sha256": "095b164e676be87e3645ebf1afbe59ccbf597817f03f32d81c349569e3b05e54",
+      "size": 2341
+    },
+    "reviews/A04.md": {
+      "sha256": "2a089dae097f252311c6cd8f401ffaf9a3bd4ce59d4c15015c433a548b29aaf5",
+      "size": 2009
+    },
+    "reviews/A05.md": {
+      "sha256": "e20e35cf02c96544ce0a967821fd960796ae8304964a444c5d3af4529ff423a9",
+      "size": 2028
+    },
+    "reviews/A06.md": {
+      "sha256": "b0b7135846623b4e3c8654a82cccf23caaaff9f1463bca5269ae112092801f1e",
+      "size": 1916
+    },
+    "reviews/D01.md": {
+      "sha256": "d7ee9e4a8aadf72b3ca9d6394d97eae7c1f3afaf87d183e5a9220e3df2d03a6c",
+      "size": 2070
+    },
+    "reviews/D02.md": {
+      "sha256": "2a0583bc7e5b0896bffc8f8d68124dcdd26cf4a297de07f6e2afde22013db420",
+      "size": 2057
+    },
+    "reviews/D03.md": {
+      "sha256": "a16d370f62b05e1899da74126b722e700226ce09226a43336584c86baaeec575",
+      "size": 2120
+    },
+    "reviews/D04.md": {
+      "sha256": "e350e40cb40cd758e7c251f4685ce820ec468ce80a4d9ca31df68e4ef5e039bb",
+      "size": 2064
+    },
+    "reviews/D05.md": {
+      "sha256": "53ee27b963eb7b001ca843a6d9a53f378358cb923208b01fa53a53873dfe9be5",
+      "size": 1823
+    },
+    "reviews/D06.md": {
+      "sha256": "a2087201f1366adb6b352f973606bd67aca07724b2fc12ad1fbe452279bddd77",
+      "size": 2138
+    },
+    "reviews/K01.md": {
+      "sha256": "c62b6aeda3721619bbd4716e4cac83f8238f08e333cbc3d47d426b0d08cc54d1",
+      "size": 2046
+    },
+    "reviews/K02.md": {
+      "sha256": "6f56278c01807711803b6b41e11b3ebd9e3844453fb5b4e739e8629a75decf21",
+      "size": 2102
+    },
+    "reviews/K03.md": {
+      "sha256": "c420abe40c0e1817952d47fd337bd0cb24f526feca21a2f762f631cafeaa1de3",
+      "size": 2114
+    },
+    "reviews/K04.md": {
+      "sha256": "4180263497a6742a3b638d15667b5491a5b448465898ebfa046cb23943d1b768",
+      "size": 2167
+    },
+    "reviews/R01.md": {
+      "sha256": "5922ea4d89c3d91cae975c5b0c6d83c5fdf65dfd83f5cf418c07b6430d47e27b",
+      "size": 2384
+    },
+    "reviews/R02.md": {
+      "sha256": "caf6746002759b89f738da93d26e045dfb59ec6c076e29523e1e7edfa1058539",
+      "size": 2626
+    },
+    "reviews/R03.md": {
+      "sha256": "6a61920b7fd3a441dd2b98bd129925bfc67ef8814fa2232c18aaf75a00060bac",
+      "size": 2364
+    },
+    "reviews/R04.md": {
+      "sha256": "cadce651a1b46a742e947d09b24e266c33accc72fc819213e5779b163da64785",
+      "size": 2306
+    },
+    "reviews/R05.md": {
+      "sha256": "b6a231ea227d79472e4b87fbc3e126bcc61e65acaaa22d2ebf7c88b4251530eb",
+      "size": 2065
+    },
+    "reviews/R06.md": {
+      "sha256": "5bce5f006388d20c167b022e4d014418df6080c14258af7d65d764929bd57fcb",
+      "size": 2053
+    },
+    "reviews/R07.md": {
+      "sha256": "3bcb2ea12cc393c50cfa04ff88db74f7b75557676f73bcf1468ca2ce9bf46992",
+      "size": 2472
+    },
+    "scripts/corpus.py": {
+      "sha256": "befd9a0bace966299e900feca57a368c4bb4e73b31519588c4138bce640bbc2f",
+      "size": 8675
+    },
+    "scripts/quality.py": {
+      "sha256": "aff568e650761fddd90704b01b7543bc5f116f37d1c741bff370db546535ba37",
+      "size": 6811
+    },
+    "scripts/reading_pack.py": {
+      "sha256": "dafe8ab37e791e8d3a078319f9c6507d41d44dcb2b6b99c6e7fbb02963b47ced",
+      "size": 3252
+    },
+    "scripts/study.py": {
+      "sha256": "0b4ccfecf02aa5af27e589bd622cd7df4da705cc4eae421cdb0dfd37c90258ac",
+      "size": 21492
+    },
+    "scripts/verify_authors.py": {
+      "sha256": "593dc258025808f0b21d20b42845df2405e64bfdabf17bac9727af45ecc8905f",
+      "size": 3754
+    },
+    "scripts/verify_expansion.py": {
+      "sha256": "eddd420b25b92e0c13a800a0bb1c00fbfb79255aa6aece110e49819cd981adf6",
+      "size": 3901
+    },
+    "scripts/verify_package.py": {
+      "sha256": "dd878817701c8435d56e9201732fe0280b298e1d8019f5329ad9ae2967ec69b4",
+      "size": 10051
+    },
+    "scripts/verify_theory.py": {
+      "sha256": "cdf123a3fd2ad32f7ce594d93105f853921bc43a2f8ecd839ea13d8b24abd40d",
+      "size": 4871
+    },
+    "scripts/verify_urban.py": {
+      "sha256": "8d2fd7f1ec102a12d0771764625384ffe39373ca12f75ef457d9c7408806f35d",
+      "size": 3781
+    },
+    "scripts/visual_samples.py": {
+      "sha256": "a9dedbf12dfbcc9bb7285ac72463141e399950c193d3d396f1e67c7a42c1c446",
+      "size": 2224
+    },
+    "scripts/vocabulary.py": {
+      "sha256": "208e24ca0216e2184dbedecf5ffc8bca9f5cb2603b536b9a2cf8f23fe9694c00",
+      "size": 21918
+    },
+    "tests/fixtures/vocabulary_fail.txt": {
+      "sha256": "b8e5d030160b1aced548cb80c1b19ae00a2bd7a41d71784e201649a508a3c9fe",
+      "size": 41
+    },
+    "tests/fixtures/vocabulary_pass.txt": {
+      "sha256": "eeccdc306fa5bf8d8832ecf840bb476197e418b04f78a077e774fd790d07056d",
+      "size": 40
+    },
+    "tests/test_package.py": {
+      "sha256": "2e59eeef20c9bc162c1863709373a410e331d6d717290783641c6475c5277444",
+      "size": 3129
+    },
+    "tests/test_study.py": {
+      "sha256": "9d9b9f3efdc46b6e7af6648f4a81cdd5525b4689d6a568229f402a7c22e7e790",
+      "size": 8239
+    },
+    "tests/test_vocabulary.py": {
+      "sha256": "dfdd00a6e78ac6866a5448be4bbbe6d2bd47f5a3159ee8beb2e785d4282a9e36",
+      "size": 5176
+    },
+    "vocabulary/BUILD_RECEIPT.json": {
+      "sha256": "4ed8e680dff8b94ecacac2169f95507d972df09657b08c60eba08553fe934ca4",
+      "size": 4049
+    },
+    "vocabulary/README.md": {
+      "sha256": "39eaffc33051e870482620d6b9c41989c73d0273d7be5f5089e5bb15b1965b06",
+      "size": 3250
+    },
+    "vocabulary/VERIFY_RECEIPT.json": {
+      "sha256": "d0b290ce3c354de7ed35afe6b96a269373f934a5c49722b980cfdb56cf4409ce",
+      "size": 286
+    },
+    "vocabulary/attested_vocabulary.json": {
+      "sha256": "4bc4a74946bdc21eb48369e461fbc209ce5943f4c23d638f7a7a242d4518aebd",
+      "size": 42813860
+    },
+    "vocabulary/attested_vocabulary.sqlite": {
+      "sha256": "0a595a011d69fc7581f500a5714e8148d0860c4c00ecefe499e212f77061f86b",
+      "size": 25047040
+    },
+    "vocabulary/curated_dictionary_attestation.csv": {
+      "sha256": "eed1cc82c6e5b02356ddb3f12823e0c21579e98819128e67bf1fdd0fb2ce4e39",
+      "size": 15751
+    },
+    "vocabulary/occurrences.csv": {
+      "sha256": "648009ce59f620a628f376b899a31404da4445e29d548ba837bf02c02fe6574d",
+      "size": 8463049
+    },
+    "vocabulary/words.csv": {
+      "sha256": "f72323b5b451ef0f32dedc4df8e42cbe05e7f33be42d8c319abdb2e7b3ce67db",
+      "size": 1675618
+    },
+    "PUBLIC_ADAPTATIONS.json": {
+      "sha256": "b59d52d9a423824a61df27c5b4499986b68a55c5b33fa3d69bb88eccae7a8c23",
+      "size": 1064
+    }
+  },
+  "kind": "library",
+  "provenance": {
+    "default_papers": 59,
+    "example_audit_sha256": "f01953f48f15bead956a854caed314da4842d3209ee35139118f53da7f161693",
+    "preserved_inventories": [
+      23,
+      31,
+      45,
+      53
+    ],
+    "previous_skill_zip_sha256": "4317a8e34ef5a8fb8179cd0fce94578aafd3cdecd9d875d20af7c33ed7cd5ec8",
+    "study_receipt_sha256": "5203b1268aabb98d768f57a3ed1528e12c226f00928b4462932d834901a6d4a6",
+    "theory_inventory_receipt_sha256": "3d5b09d6a7cf7c6a81ac00f6f0e839546ad09c2941864f660c18125334789f9e"
+  },
+  "schema_version": 1,
+  "source_review_rerun_by_package": false
+}

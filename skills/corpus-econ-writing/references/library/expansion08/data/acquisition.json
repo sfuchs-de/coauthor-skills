@@ -1,0 +1,62 @@
+{
+  "TH01": {
+    "bytes": 184282,
+    "id": "TH01",
+    "receipt_recovered_by_matching_redownload": true,
+    "requested_url": "https://milgrom.people.stanford.edu/wp-content/uploads/2002/03/Envelope-Theorems.pdf",
+    "resolved_url": "https://milgrom.people.stanford.edu/wp-content/uploads/2002/03/Envelope-Theorems.pdf",
+    "sha256": "0c31ba565c69fa6f8d10b589b12ab8c191ec9b04d2bf49e7a70faa3946f06eb1",
+    "status": "downloaded_not_yet_reviewed",
+    "verified_download_at_utc": "2026-10-04T11:03:51.862569+00:00"
+  },
+  "TH02": {
+    "bytes": 358168,
+    "id": "TH02",
+    "receipt_recovered_by_matching_redownload": true,
+    "requested_url": "https://www.princeton.edu/~deaton/downloads/An_Almost_Ideal_Demand_System.pdf",
+    "resolved_url": "https://www.princeton.edu/~deaton/downloads/An_Almost_Ideal_Demand_System.pdf",
+    "sha256": "e64bee1431344ca32e075cfd32a190c3b4f1c09852f07aea4db69f90672f283e",
+    "status": "downloaded_not_yet_reviewed",
+    "verified_download_at_utc": "2026-10-04T11:03:52.162566+00:00"
+  },
+  "TH03": {
+    "bytes": 144959,
+    "id": "TH03",
+    "receipt_recovered_by_matching_redownload": true,
+    "requested_url": "https://media.rff.org/documents/RFF-DP-99-45.pdf",
+    "resolved_url": "https://media.rff.org/documents/RFF-DP-99-45.pdf",
+    "sha256": "16c12559811878667c595f0d1ceeb732e6c7dbf6df5f233e52b1f02a49d7cd1b",
+    "status": "downloaded_not_yet_reviewed",
+    "verified_download_at_utc": "2026-10-04T11:03:52.261531+00:00"
+  },
+  "TH04": {
+    "bytes": 979326,
+    "id": "TH04",
+    "receipt_recovered_by_matching_redownload": true,
+    "requested_url": "https://www.nber.org/system/files/working_papers/w20331/w20331.pdf",
+    "resolved_url": "https://www.nber.org/system/files/working_papers/w20331/w20331.pdf",
+    "sha256": "8c30f234ec8c3a836bccbfbf6b28ce1856d209d2d26e72f859aa12aec8defcc4",
+    "status": "downloaded_not_yet_reviewed",
+    "verified_download_at_utc": "2026-10-04T11:03:53.495082+00:00"
+  },
+  "TH05": {
+    "bytes": 1753028,
+    "id": "TH05",
+    "receipt_recovered_by_matching_redownload": false,
+    "requested_url": "https://publish.uwo.ca/~drivers2/research/Production_Final_Full.pdf",
+    "resolved_url": "https://publish.uwo.ca/~drivers2/research/Production_Final_Full.pdf",
+    "sha256": "5031a09b1fd0fcf1e803f80d4c704f8513283b73fd6c3637d57bb4b9054f36b0",
+    "status": "downloaded_not_yet_reviewed",
+    "verified_download_at_utc": "2026-10-04T11:03:54.672737+00:00"
+  },
+  "TH06": {
+    "bytes": 1207853,
+    "id": "TH06",
+    "receipt_recovered_by_matching_redownload": false,
+    "requested_url": "https://www.nber.org/system/files/working_papers/w24632/w24632.pdf",
+    "resolved_url": "https://www.nber.org/system/files/working_papers/w24632/w24632.pdf",
+    "sha256": "71c46cf5d42f632e6921f7bff45c2808cb5eecbfbaa4377232296670606d9405",
+    "status": "downloaded_not_yet_reviewed",
+    "verified_download_at_utc": "2026-10-04T11:03:55.645364+00:00"
+  }
+}

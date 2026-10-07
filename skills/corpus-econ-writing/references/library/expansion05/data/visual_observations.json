@@ -1,0 +1,19 @@
+{
+  "scope":"14 rendered source pages actually inspected; these are presentation observations, not scientific verification or house-style requirements.",
+  "pages":[
+    {"paper":"MY01","pdf_page":7,"note":"State components are enumerated before the first inverse-demand display; variable definitions follow immediately."},
+    {"paper":"MY02","pdf_page":13,"note":"A full timing paragraph leads into the environment and matching equation; auxiliary assumptions use footnotes."},
+    {"paper":"MY03","pdf_page":19,"note":"An underbraced decomposition is interpreted before destination-specific efficiency conditions; three displays form a reasoning sequence."},
+    {"paper":"MY04","pdf_page":8,"note":"Prose explains identifying restrictions before the stacked equation; a remark distinguishes heterogeneous types."},
+    {"paper":"W01","pdf_page":14,"note":"Directional examples precede a stated fact and regression interpretation; detailed fixed-effect reasoning appears in a footnote."},
+    {"paper":"W02","pdf_page":24,"note":"Two equal-size plots explicitly label targeted and untargeted outcomes; each includes fit and equality references and a count scale."},
+    {"paper":"W03","pdf_page":3,"note":"Words explain quantity and distance before measurement variants; a footnote carries direct-distance terminology and a data caveat."},
+    {"paper":"W04","pdf_page":27,"note":"Ownership/status definitions precede the regression display; controls and alternative decomposition details sit in footnotes."},
+    {"paper":"L01","pdf_page":18,"note":"A weighted aggregate identity leads to an industry ratio; prose defines the denominator and a footnote separates alternative trade-share measures."},
+    {"paper":"L02","pdf_page":15,"note":"The mechanism section explains nested comparisons; a footnote explicitly says prices are fixed and general-equilibrium effects absent."},
+    {"paper":"L03","pdf_page":19,"note":"Measurement definitions lead to the price-index display and then the real-output simplification, in that order."},
+    {"paper":"L04","pdf_page":15,"note":"Prose interprets distances from equilibrium conditions and then city examples; the geometry itself is on a different page."},
+    {"paper":"R11","pdf_page":4,"note":"The proceedings page uses two columns; text interprets shares, normalization, and substitution before the response matrix."},
+    {"paper":"R12","pdf_page":20,"note":"Two event-study panels state estimators and intervals; the following section introduces endogeneity and two sources of variation."}
+  ]
+}

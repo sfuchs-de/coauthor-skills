@@ -1,0 +1,5 @@
+# Preserve checksummed source and corpus bytes across platforms.
+* -text
+*.sqlite binary
+# Ignore inherited final blank lines and CRLF; still check trailing spaces/tabs.
+* whitespace=blank-at-eol,space-before-tab,-blank-at-eof,cr-at-eol

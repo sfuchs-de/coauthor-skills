@@ -1,0 +1,82 @@
+{
+  "U01": {
+    "id": "U01",
+    "requested_url": "https://www.nber.org/system/files/working_papers/w8598/w8598.pdf",
+    "resolved_url": "https://www.nber.org/system/files/working_papers/w8598/w8598.pdf",
+    "author_index": "https://www.nber.org/papers",
+    "sha256": "0408e3117919deb58af62c3c2a5cfc8320e6eac8db0239afb71b1e4a356938a0",
+    "bytes": 518123,
+    "retrieved_at_utc": "2026-10-04T05:07:22.797734+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "U02": {
+    "id": "U02",
+    "requested_url": "https://drive.google.com/uc?export=download&id=1L4iUwSdUjqy1VMsvalJ6SgAWeYDkVwU2",
+    "resolved_url": "https://drive.usercontent.google.com/download?id=1L4iUwSdUjqy1VMsvalJ6SgAWeYDkVwU2&export=download",
+    "author_index": "https://sites.google.com/site/baumsnow/research",
+    "sha256": "d63c5228d2041c8bc30df06957a54128f7ee0a8651c635d6ec6113d37683980e",
+    "bytes": 1230946,
+    "retrieved_at_utc": "2026-10-04T05:07:25.004520+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "U03": {
+    "id": "U03",
+    "requested_url": "https://web.stanford.edu/~diamondr/jmp_final_all_files.pdf",
+    "resolved_url": "https://web.stanford.edu/~diamondr/jmp_final_all_files.pdf",
+    "author_index": "https://web.stanford.edu/~diamondr/",
+    "sha256": "dadbac3f5dd30fff3b383f84879d075ea7a89f8444f8baa34d2c9053be00ebde",
+    "bytes": 1110383,
+    "retrieved_at_utc": "2026-10-04T05:07:27.725549+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "U04": {
+    "id": "U04",
+    "requested_url": "https://web.stanford.edu/~diamondr/DMQOld.pdf",
+    "resolved_url": "https://web.stanford.edu/~diamondr/DMQOld.pdf",
+    "author_index": "https://web.stanford.edu/~diamondr/",
+    "sha256": "56ef815df51e3f9e8114b1d1db6c8685c40fd4dd95e51ff71ad466b69005fe24",
+    "bytes": 1840491,
+    "retrieved_at_utc": "2026-10-04T05:07:31.137879+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "U05": {
+    "id": "U05",
+    "requested_url": "https://drive.google.com/uc?export=download&id=1BTA7fyiERnQPbdeP691V_QtOKCCATJTX",
+    "resolved_url": "https://drive.usercontent.google.com/download?id=1BTA7fyiERnQPbdeP691V_QtOKCCATJTX&export=download",
+    "author_index": "https://sites.google.com/site/baumsnow/research",
+    "sha256": "c6bcec4983c107b9603f7c229fcea1244bed399e88128cf1909db69550035831",
+    "bytes": 951552,
+    "retrieved_at_utc": "2026-10-04T05:07:33.243560+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "U06": {
+    "id": "U06",
+    "requested_url": "https://economics.brown.edu/sites/default/files/news/Duranton_Turner_AER_2011.pdf",
+    "resolved_url": "https://economics.brown.edu/sites/default/files/news/Duranton_Turner_AER_2011.pdf",
+    "author_index": "https://economics.brown.edu/people/matthew-turner",
+    "sha256": "bcfa83e2e73cccdf325963d11c3c9fa57339baab7f1707745d17927401ac702e",
+    "bytes": 2270882,
+    "retrieved_at_utc": "2026-10-04T05:07:33.928476+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "U07": {
+    "id": "U07",
+    "requested_url": "https://www.nber.org/system/files/working_papers/w13236/w13236.pdf",
+    "resolved_url": "https://www.nber.org/system/files/working_papers/w13236/w13236.pdf",
+    "author_index": "https://www.nber.org/papers",
+    "sha256": "89faa14a71e6f6ac8722480f48aac6f71b7ef63a7895588e47600a6b8cdf989f",
+    "bytes": 363759,
+    "retrieved_at_utc": "2026-10-04T05:07:35.228083+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "U08": {
+    "id": "U08",
+    "requested_url": "https://opportunityinsights.org/wp-content/uploads/2018/03/mto_paper.pdf",
+    "resolved_url": "https://opportunityinsights.org/wp-content/uploads/2018/03/mto_paper.pdf",
+    "author_index": "https://lkatz.scholars.harvard.edu/publications/effects-exposure-better-neighborhoods-children-new-evidence-moving-opportunity",
+    "sha256": "86363c05e1e3d10b86e19f394fa87358b93ed8121219daa3772c3f7c9c730669",
+    "bytes": 1320125,
+    "retrieved_at_utc": "2026-10-04T05:09:03.707849+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  }
+}

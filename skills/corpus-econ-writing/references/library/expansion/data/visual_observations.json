@@ -1,0 +1,13 @@
+{
+  "scope":"One rendered page per added source, visually inspected; not a full layout audit",
+  "observations":[
+    {"paper":"D07","page":10,"finding":"Government objective precedes the envelope display; a secondary scope discussion is in a footnote. Dense vectors remain in prose, so readability is not uniformly minimal."},
+    {"paper":"D08","page":12,"finding":"A verbal two-part value precedes the dynamic equation; definitions and interpretation follow it before the next decision."},
+    {"paper":"A07","page":7,"finding":"The theorem's three cases and subcases are visually separated. The proof keeps the two derivatives and the inequality in a consecutive chain."},
+    {"paper":"A08","page":44,"finding":"A dense scalar-to-matrix derivation makes dimensions and weights explicit. It is evidence of sequencing, not a recommendation to fit this much algebra on every page."},
+    {"paper":"K05","page":3,"finding":"Direct and indirect terms receive short underbrace labels; the following prose interprets exposure and reduced-form elasticities separately."},
+    {"paper":"R08","page":10,"finding":"Subheadings divide capital, goods clearing, and value-function tasks. The notes immediately after share equations explain subscript orientation."},
+    {"paper":"R09","page":17,"finding":"The specification is introduced before its display and coefficient interpretation; the next heading changes from evidence to mechanism."},
+    {"paper":"R10","page":22,"finding":"A numbered verbal recovery sequence leads to an inversion display; normalization is stated immediately below it."}
+  ]
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "GitHub Local-First"
+  short_description: "Minimize remote CI without weakening release gates"
+  default_prompt: "Use $gh-local-first to complete this repository change locally and publish it with the smallest safe GitHub Actions footprint."
+
+policy:
+  allow_implicit_invocation: true

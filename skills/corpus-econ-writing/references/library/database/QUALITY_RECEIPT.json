@@ -1,0 +1,160 @@
+{
+  "sqlite_integrity": "ok",
+  "foreign_key_errors": [],
+  "table_counts": {
+    "papers": 23,
+    "observations": 245,
+    "rules": 45,
+    "dictionary": 185,
+    "literal_frequency": 1138,
+    "rule_evidence": 136
+  },
+  "csv_counts": {
+    "papers": 23,
+    "observations": 245,
+    "rules": 45,
+    "dictionary": 185,
+    "literal_frequency": 1138
+  },
+  "unit_tests": {
+    "executed": 38,
+    "exit_code": 0,
+    "suite_output": "test_broken_rule_link (test_study.StudyTests.test_broken_rule_link) ... ok\ntest_changed_and_missing_evidence (test_study.StudyTests.test_changed_and_missing_evidence) ... ok\ntest_database_integrity_and_search (test_study.StudyTests.test_database_integrity_and_search) ... ok\ntest_duplicate_dictionary_term (test_study.StudyTests.test_duplicate_dictionary_term) ... ok\ntest_duplicate_ids (test_study.StudyTests.test_duplicate_ids) ... ok\ntest_empty_evidence (test_study.StudyTests.test_empty_evidence) ... ok\ntest_empty_visual_assessment (test_study.StudyTests.test_empty_visual_assessment) ... ok\ntest_incomplete_manifest (test_study.StudyTests.test_incomplete_manifest) ... ok\ntest_invalid_hash (test_study.StudyTests.test_invalid_hash) ... ok\ntest_invalid_main_boundary (test_study.StudyTests.test_invalid_main_boundary) ... ok\ntest_literal_matching_boundaries_and_hyphenation (test_study.StudyTests.test_literal_matching_boundaries_and_hyphenation) ... ok\ntest_literal_matching_diacritics (test_study.StudyTests.test_literal_matching_diacritics) ... ok\ntest_manifest_path_traversal (test_study.StudyTests.test_manifest_path_traversal) ... ok\ntest_missing_visual_review (test_study.StudyTests.test_missing_visual_review) ... ok\ntest_page_outside_source (test_study.StudyTests.test_page_outside_source) ... ok\ntest_quote_requires_new_policy (test_study.StudyTests.test_quote_requires_new_policy) ... ok\ntest_search_relocated_without_corpus (test_study.StudyTests.test_search_relocated_without_corpus) ... ok\ntest_unknown_paper (test_study.StudyTests.test_unknown_paper) ... ok\ntest_unreviewed_observation (test_study.StudyTests.test_unreviewed_observation) ... ok\ntest_valid_records (test_study.StudyTests.test_valid_records) ... ok\ntest_visual_outside_source (test_study.StudyTests.test_visual_outside_source) ... ok\ntest_wrong_source_hash (test_study.StudyTests.test_wrong_source_hash) ... ok\ntest_approved_exception (test_vocabulary.VocabularyTests.test_approved_exception) ... ok\ntest_case_accent_and_apostrophe_normalization (test_vocabulary.VocabularyTests.test_case_accent_and_apostrophe_normalization) ... ok\ntest_compound_and_components (test_vocabulary.VocabularyTests.test_compound_and_components) ... ok\ntest_duplicate_exception (test_vocabulary.VocabularyTests.test_duplicate_exception) ... ok\ntest_every_page_including_references (test_vocabulary.VocabularyTests.test_every_page_including_references) ... ok\ntest_exception_requires_necessity (test_vocabulary.VocabularyTests.test_exception_requires_necessity) ... ok\ntest_line_numbers_preserved (test_vocabulary.VocabularyTests.test_line_numbers_preserved) ... ok\ntest_markdown_preserves_label_excludes_code_url (test_vocabulary.VocabularyTests.test_markdown_preserves_label_excludes_code_url) ... ok\ntest_new_compound_flagged (test_vocabulary.VocabularyTests.test_new_compound_flagged) ... ok\ntest_no_free_inflections (test_vocabulary.VocabularyTests.test_no_free_inflections) ... ok\ntest_occurrence_totals (test_vocabulary.VocabularyTests.test_occurrence_totals) ... ok\ntest_pending_exception_not_approved (test_vocabulary.VocabularyTests.test_pending_exception_not_approved) ... ok\ntest_reference_only_is_reviewed_not_invented (test_vocabulary.VocabularyTests.test_reference_only_is_reviewed_not_invented) ... ok\ntest_tex_preserves_prose_excludes_math_refs_comments (test_vocabulary.VocabularyTests.test_tex_preserves_prose_excludes_math_refs_comments) ... ok\ntest_unverified_linebreak_not_licensed (test_vocabulary.VocabularyTests.test_unverified_linebreak_not_licensed) ... ok\ntest_verified_linebreak_join (test_vocabulary.VocabularyTests.test_verified_linebreak_join) ... ok\n\n----------------------------------------------------------------------\nRan 38 tests in 0.011s\n\nOK\n"
+  },
+  "vocabulary_cli_checks": {
+    "vocabulary_pass.txt": {
+      "exit_code": 0,
+      "report": {
+        "checked_tokens": 5,
+        "unapproved_terms": [],
+        "context_review": [],
+        "approved_exceptions_used": [],
+        "lexical_gate_passed": true,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review.",
+        "file": "tests/fixtures/vocabulary_pass.txt",
+        "file_sha256": "eeccdc306fa5bf8d8832ecf840bb476197e418b04f78a077e774fd790d07056d",
+        "vocabulary_sha256": "0a595a011d69fc7581f500a5714e8148d0860c4c00ecefe499e212f77061f86b",
+        "policy_sha256": "520a67ccb2a64779ed97c9b046b3d77d5b1c7ef60e182a2e7d5b7e3262ffe854",
+        "checker_sha256": "208e24ca0216e2184dbedecf5ffc8bca9f5cb2603b536b9a2cf8f23fe9694c00"
+      }
+    },
+    "vocabulary_fail.txt": {
+      "exit_code": 1,
+      "report": {
+        "checked_tokens": 4,
+        "unapproved_terms": [
+          {
+            "word": "zzzzcorpusabsent",
+            "form": "zzzzcorpusabsent",
+            "reason": "unattested",
+            "count": 1,
+            "lines": [
+              2
+            ]
+          }
+        ],
+        "context_review": [],
+        "approved_exceptions_used": [],
+        "lexical_gate_passed": false,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review.",
+        "file": "tests/fixtures/vocabulary_fail.txt",
+        "file_sha256": "b8e5d030160b1aced548cb80c1b19ae00a2bd7a41d71784e201649a508a3c9fe",
+        "vocabulary_sha256": "0a595a011d69fc7581f500a5714e8148d0860c4c00ecefe499e212f77061f86b",
+        "policy_sha256": "520a67ccb2a64779ed97c9b046b3d77d5b1c7ef60e182a2e7d5b7e3262ffe854",
+        "checker_sha256": "208e24ca0216e2184dbedecf5ffc8bca9f5cb2603b536b9a2cf8f23fe9694c00"
+      }
+    }
+  },
+  "vocabulary_verification": {
+    "all_output_hashes_verified": true,
+    "source_hashes_verified": true,
+    "sqlite_integrity": "ok",
+    "page_counts_reconciled": true,
+    "csv_counts": {
+      "words.csv": 13904,
+      "occurrences.csv": 225204,
+      "curated_dictionary_attestation.csv": 185
+    },
+    "network_used": false
+  },
+  "search_rows": 498,
+  "search_topic_hits": {
+    "envelop*": 4,
+    "\"fixed effects\"": 4,
+    "normalization": 16,
+    "robustness": 11
+  },
+  "local_markdown_links_checked": 260,
+  "missing_local_links": [],
+  "unknown_evidence_ids": [],
+  "python_files_parsed": 8,
+  "network_used_by_quality_check": false,
+  "analysis_file_sha256": {
+    "AUTHOR_GENRE_COMPARISON.md": "cece7844a85382129ae82cedda62ef77d82e7beb6db9a6221735c41e29ee2a23",
+    "DICTIONARY.md": "5702206b6e97cfc03fb975b3038550b0cb85d71ce5f360568e4ab85fdeb34a81",
+    "EXPOSITION_PATTERNS.md": "aad31dbe08afc048f675eef39c190431c401db08b4071bca46503a273bfcdb40",
+    "FORMATTING_GUIDE.md": "7c1eaa9cfe856fc8cdda5eccd40a62356d4e3335a3da1ae25149415a69380075",
+    "GALLERY.md": "99163a292cc1317c5b4850de73e193b27a8eb26c06e9adc87779484d131c4e6d",
+    "README.md": "a3110441e4afca112c2ff4810aa54df5656047f68552f738cf08e4b1f8d6ec66",
+    "REVIEW_REPORT.md": "6e7df2bb211090040ef9fca0df0ccebeb324ec2a5a8418be65cc7dde6302c779",
+    "RULES.md": "c84ee1d1032d4ddb83164b2fb8c0a599a2495b59a65a40fb508b64531678a892",
+    "SETUP_AND_SEARCH.md": "8a85b8a9c564acfb7e02ec427f7a90f24de7a9bf027f554fe7ad22061d788377",
+    "STYLE_GUIDE.md": "ff6d159f72f7b36a660673911370c147b830636a93ff838621580661bb18f609",
+    "VOCABULARY_POLICY.md": "366b97d0ba8eac846d3a4b6eed7fa6c00087832f89f2d8e10b0bb3b6d5a63140",
+    "VOCABULARY_REVIEW.md": "3d16ae62b41bcdfe1acab16f307d5a6bb0e776a67ac6abae0729ef5fe7839177",
+    "WRITING_INSTRUCTIONS.md": "175b6ed4fa45cb79fe22f84e8905fa422de0741ba37de8d4b975f995c206707c",
+    "catalogue.md": "4b8a09023376f9d85c4a084e0828793bf1c361c575cd9713c912b121f6a0231a",
+    "data/acquisition.json": "d8939302a2124adb3b22ed191af06562fa46ecd266ed6d5ff438176978c9eb93",
+    "data/dictionary.tsv": "d2833de4d51d89dc3c336df60f06e51fe33ef4b9ed3c73bc626cd1956176bf42",
+    "data/extraction.json": "8f3749f4d88f4a1b869e1bed0e359f82295955acb26b8adbbc8b41c008ab4a4c",
+    "data/review_amendments.json": "7d75c7e6539de89611e246a028b21e48e6465619f0d26e338c5099754fe1861a",
+    "data/review_inputs.json": "d744ad87ee513df69f6d692a4906eaf65199f316f7f6c2e78fb8675194a7f414",
+    "data/reviews.json": "a37fa5b3a93491e0f354ade0ed4c2626629c08495a75d28b0513ccdf5f72f4b4",
+    "data/reviews_middle.json": "b5be1b53a18c75cccfc2d838f716193ec3bfa3a482965068e4685620fd98f1a9",
+    "data/reviews_redding.json": "8ea96c4a63e9a0e5ddd59d37c8dfc72f834a7c95ca38318a8e31630e9bef602b",
+    "data/rules.json": "c1b40d5deae8aaf4f4f8fafeb291c562ef5cadaa8684b1638a6de56c219547c8",
+    "data/sources.json": "30fc4bccc156bdf8e64f556df6901c2a791007bedbb91c91404aae5097ecf7ef",
+    "data/visual_observations.json": "782a5b23caff7cd5a678f29309ac8f4299b9bf2906736d40f28ad0761b0c7f93",
+    "data/visual_samples.json": "8d7f34156877e6aae15f0982feef4db6e1234a0f7152f0eeca17131c60bf88b9",
+    "data/vocabulary_policy.json": "520a67ccb2a64779ed97c9b046b3d77d5b1c7ef60e182a2e7d5b7e3262ffe854",
+    "database/dictionary.csv": "911a1522892e0c93eb9587dba4b8eddefae96cc6f84154ab242bd3f9307da78b",
+    "database/literal_frequencies.csv": "f32c86e83ac343d74049b6ffe8a40abfd6bdbc026a6ec9c214bbebd0e44aab71",
+    "database/observations.csv": "25ca4211287de888201fefc41af76bc9f434431fac60f7cad888c7d1cfcebd09",
+    "database/papers.csv": "e77af61fbc8befeac74b336f22a2c42154697d00b66db384fdf967ef7ebafdd6",
+    "database/rules.csv": "1b338ed143814de5e70365c7bfa0f06255c56a5ed7c7dcd9c31c147f1bcc0e2e",
+    "database/writing_database.json": "f12ade21b15dda77eb3c8967a33c6029cc66856759d6c72b2a9ee4a473c1477f",
+    "database/writing_database.sqlite": "6ca9e23fba588428e2f37c2a0ef3224a7e77b5b0a9046fc449e73f52d0b1654c",
+    "reviews/A01.md": "9e1fc198bbd1dbaa1c7700e72423f90bad4fd9ce8985489106ef0d9df23ecfa8",
+    "reviews/A02.md": "e2b3a1a442882dc98536374ca0a9451b7334aaf3ae9e4c2b39a3d33c1b0d6963",
+    "reviews/A03.md": "095b164e676be87e3645ebf1afbe59ccbf597817f03f32d81c349569e3b05e54",
+    "reviews/A04.md": "2a089dae097f252311c6cd8f401ffaf9a3bd4ce59d4c15015c433a548b29aaf5",
+    "reviews/A05.md": "e20e35cf02c96544ce0a967821fd960796ae8304964a444c5d3af4529ff423a9",
+    "reviews/A06.md": "b0b7135846623b4e3c8654a82cccf23caaaff9f1463bca5269ae112092801f1e",
+    "reviews/D01.md": "d7ee9e4a8aadf72b3ca9d6394d97eae7c1f3afaf87d183e5a9220e3df2d03a6c",
+    "reviews/D02.md": "2a0583bc7e5b0896bffc8f8d68124dcdd26cf4a297de07f6e2afde22013db420",
+    "reviews/D03.md": "a16d370f62b05e1899da74126b722e700226ce09226a43336584c86baaeec575",
+    "reviews/D04.md": "e350e40cb40cd758e7c251f4685ce820ec468ce80a4d9ca31df68e4ef5e039bb",
+    "reviews/D05.md": "53ee27b963eb7b001ca843a6d9a53f378358cb923208b01fa53a53873dfe9be5",
+    "reviews/D06.md": "a2087201f1366adb6b352f973606bd67aca07724b2fc12ad1fbe452279bddd77",
+    "reviews/K01.md": "c62b6aeda3721619bbd4716e4cac83f8238f08e333cbc3d47d426b0d08cc54d1",
+    "reviews/K02.md": "6f56278c01807711803b6b41e11b3ebd9e3844453fb5b4e739e8629a75decf21",
+    "reviews/K03.md": "c420abe40c0e1817952d47fd337bd0cb24f526feca21a2f762f631cafeaa1de3",
+    "reviews/K04.md": "4180263497a6742a3b638d15667b5491a5b448465898ebfa046cb23943d1b768",
+    "reviews/R01.md": "5922ea4d89c3d91cae975c5b0c6d83c5fdf65dfd83f5cf418c07b6430d47e27b",
+    "reviews/R02.md": "caf6746002759b89f738da93d26e045dfb59ec6c076e29523e1e7edfa1058539",
+    "reviews/R03.md": "6a61920b7fd3a441dd2b98bd129925bfc67ef8814fa2232c18aaf75a00060bac",
+    "reviews/R04.md": "cadce651a1b46a742e947d09b24e266c33accc72fc819213e5779b163da64785",
+    "reviews/R05.md": "b6a231ea227d79472e4b87fbc3e126bcc61e65acaaa22d2ebf7c88b4251530eb",
+    "reviews/R06.md": "5bce5f006388d20c167b022e4d014418df6080c14258af7d65d764929bd57fcb",
+    "reviews/R07.md": "3bcb2ea12cc393c50cfa04ff88db74f7b75557676f73bcf1468ca2ce9bf46992",
+    "scripts/corpus.py": "befd9a0bace966299e900feca57a368c4bb4e73b31519588c4138bce640bbc2f",
+    "scripts/quality.py": "aff568e650761fddd90704b01b7543bc5f116f37d1c741bff370db546535ba37",
+    "scripts/reading_pack.py": "dafe8ab37e791e8d3a078319f9c6507d41d44dcb2b6b99c6e7fbb02963b47ced",
+    "scripts/study.py": "0b4ccfecf02aa5af27e589bd622cd7df4da705cc4eae421cdb0dfd37c90258ac",
+    "scripts/visual_samples.py": "a9dedbf12dfbcc9bb7285ac72463141e399950c193d3d396f1e67c7a42c1c446",
+    "scripts/vocabulary.py": "208e24ca0216e2184dbedecf5ffc8bca9f5cb2603b536b9a2cf8f23fe9694c00",
+    "tests/test_study.py": "9d9b9f3efdc46b6e7af6648f4a81cdd5525b4689d6a568229f402a7c22e7e790",
+    "tests/test_vocabulary.py": "dfdd00a6e78ac6866a5448be4bbbe6d2bd47f5a3159ee8beb2e785d4282a9e36",
+    "vocabulary/README.md": "39eaffc33051e870482620d6b9c41989c73d0273d7be5f5089e5bb15b1965b06"
+  }
+}

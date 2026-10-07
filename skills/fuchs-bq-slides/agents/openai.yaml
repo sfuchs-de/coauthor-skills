@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fuchs BQ Research Slides"
+  short_description: "Minimalist, step-by-step research seminar decks"
+  default_prompt: "Use $fuchs-bq-slides to turn the supplied material into a McGill BQ-style seminar deck of about 45 main slides, with deliberate reveals and linked backup."

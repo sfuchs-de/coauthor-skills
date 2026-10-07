@@ -1,0 +1,37 @@
+term,meaning,distinction,anchor
+transition path,A sequence of equilibrium states following specified initial conditions and shocks.,Not the terminal steady state or the number of solver iterations.,R08:20
+steady state,A state reproduced over time under a specified unchanged environment.,A unique transition conditional on initial conditions need not imply a unique steady state.,D08:3
+initial conditions,States fixed at the beginning of the dynamic exercise.,They differ from a sequence of exogenous fundamentals.,R08:3
+contemporaneous spillovers,Effects of activity on others within the same period.,Do not combine with lagged effects when conditions use them differently.,D08:3
+historical spillovers,Effects entering through activity in earlier periods.,Persistent outcomes do not by themselves identify this channel.,D08:3
+forward-looking decisions,Choices depending on expected future payoffs.,Not simply a static decision repeated over time.,R08:4
+labor force participation,A choice about whether to work in the modeled labor market.,Not a move between workplaces or an intensive hours response.,K05:5
+reservation wage,The payoff threshold governing work participation in the stated model.,Its response and normalization matter for aggregate labor responses.,K05:17
+efficiency units,Labor services after a specified individual productivity adjustment.,"Worker counts, observed earnings, and the price of an efficiency unit differ.",K05:17
+observed average earnings,The measured mean of payments received by the observed workers.,Selection can make its change differ from a wage-rate change.,K05:17
+producer price,The price relevant to the producer's receipts in the stated tax system.,It can differ from gross consumer payments.,D07:9
+consumer price,The price entering the consumer's budget and purchases.,State whether the price includes taxes and transport costs.,D07:9
+tax wedge,A specified gap between prices or returns faced by different agents.,A large wedge alone does not establish a large feasible welfare gain.,D07:5
+policy instrument,A variable the government is allowed to choose.,A restricted instrument set changes the policy problem.,D07:10
+unilateral policy,One government's choice taking other governments' policies as given.,Not a coordinated world optimum or a retaliation equilibrium.,D07:10
+scale elasticity,The proportional productivity response to sector size under the specified technology.,A calibrated trade elasticity can enter both its recovery and policy consequences.,D07:35
+excess labor demand,A demand-minus-supply relationship in the specified labor-market system.,A shock exposure defined from it is not an observed equilibrium employment change.,K05:3
+differential effect,A response contrast across units under a declared comparison.,Does not alone supply a common aggregate response.,K05:2
+aggregate effect,A response aggregated with declared weights and support.,A missing common component needs its own recovery restriction.,K05:2
+impact matrix,A model-specific mapping from shocks into an initial response.,Not the operator updating that response through time.,R08:20
+transition matrix,A model-specific operator governing the next dynamic state.,Not every spending-share matrix has this meaning.,R08:20
+eigenshock,A shock whose initial impact lies in a specified eigenvector direction.,Not an independently identified empirical shock without further evidence.,R08:20
+eigencomponent,A response component in a declared spectral decomposition.,The decomposition is not automatically a behavioral microfoundation.,R08:20
+elasticity bound,A uniform restriction on the magnitude of a derivative over a stated domain.,A local estimate at one point need not establish a global bound.,A07:6
+sufficient condition,A condition that guarantees a specified conclusion.,Its failure does not establish failure of the conclusion.,A07:7
+globally necessary,A property required to guarantee a conclusion across the stated class.,Distinguish existence of a counterexample from failure in every economy.,A07:7
+up to scale,Equivalent solutions remain after a scalar change in the stated object.,"A normalization selects units, not an independently measured level.",A07:9
+best response,A choice maximizing the agent's objective given specified other choices.,A numerical iteration has this interpretation only when its mapping matches those choices.,A07:9
+adding-up restriction,A sum constraint implied by the declared shares or account.,An aggregate cancellation needs the correct weights and closure.,A08:44
+import share,Purchases from an origin divided by the destination's declared expenditure.,It is not the origin's share of sales to that destination.,A08:43
+export share,Sales to a destination divided by the origin's declared total sales.,State subscript direction and the denominator when moving to matrices.,A08:43
+structural residual,An unobserved model object recovered to rationalize observed outcomes.,Its name is not independent evidence of a primitive or mechanism.,R10:22
+spatial scale,"The geographic resolution at which choices, links, and outcomes are modeled.",A regional parameter need not apply unchanged within a city.,R10:3
+consumption access,Access relevant to purchases or consumption travel under the stated model.,Not workplace access or generic market access without qualification.,R10:42
+spatial sorting,Allocation of heterogeneous agents across locations through specified choices.,A difference in tract averages does not identify individual responses.,R10:61
+within-sample shock,An observed change in the model's empirical domain used to evaluate predicted responses.,Disclosure of estimation targets remains necessary before calling a comparison independent.,R10:6

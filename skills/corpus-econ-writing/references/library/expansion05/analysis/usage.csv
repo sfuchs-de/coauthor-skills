@@ -1,0 +1,29 @@
+term,meaning,distinction,anchor
+time to build,Delay between an entry decision and operation.,Not the same as an adjustment cost paid immediately.,MY01:2
+value function,Expected value of an optimized dynamic choice problem.,A market-price proxy requires its own maintained mapping.,MY01:40
+endogenous trade costs,Costs respond to carrier decisions and equilibrium conditions.,Distance alone does not determine this response.,MY02:4
+steady state,Strategies depend on own state and a constant long-run aggregate state.,Observed time variation does not itself establish the approximation.,MY02:19
+composition effect,An additional customer changes the mix of match surpluses.,Distinct from matching probability and congestion effects.,MY03:19
+continuation value,Value of the future state reached after a current choice.,Not merely the current payment from the match.,MY03:11
+counterfactual identification,Admissible models agree on the specified counterfactual object.,Does not require every structural parameter to be identified.,MY04:2
+normalization,A restriction fixing otherwise undetermined payoff components.,Its implications for counterfactuals must be examined.,MY04:8
+round trip effect,Shared transport capacity connects costs in opposite directions.,Not a generic correlation between arbitrary routes.,W01:1
+trade elasticity,Response of a specified trade measure to freight prices.,"Weight, value, and temporal aggregation are not interchangeable.",W01:31
+indirect trade,A shipment makes additional country stops before its final destination.,Stops and transshipment are not identical measures.,W02:2
+model fit,Agreement between predicted and observed objects.,Targeted fit and untargeted or external validation answer different questions.,W02:24
+transport use,Services required by shipment quantities and distances.,Growth in trade value alone does not measure it.,W03:3
+value-to-weight ratio,Shipment value relative to physical weight.,Composition along a supply chain can change this ratio.,W03:18
+firm adjustment status,"Continuation, entry, or exit relative to a stated base year.",Separate from foreign or domestic ownership.,W04:27
+long-run employment effects,Employment changes including entry and later growth.,A bilateral opportunity can affect third-country investment.,W04:42
+aggregate trade share,Total exports relative to domestic sales of tradable goods.,Its industry weights can change alongside within-industry trade shares.,L01:18
+empirical counterpart,An observed measure or specification corresponding to a model implication.,"Requires alignment of outcomes, aggregation, and conditioning variables.",L01:39
+working capital,Funds required before production revenues are realized.,Separate the payment timing from the borrowing restriction.,L02:3
+fixed-price decision rules,Firm choices compared without changing market prices.,Do not label this comparison a general-equilibrium counterfactual.,L02:15
+real GDP,Nominal value added divided by a specified GDP deflator.,Specify the index before interpreting measured productivity changes.,L03:19
+sectoral trade imbalance,Difference between exports and imports in a sector.,Aggregate balances can hide offsetting sectoral differences.,L03:11
+consumption amenities,Location attributes affecting households' utility.,An attribute may also affect production; the categories are not exclusive.,L04:6
+quality of life,The household value of location attributes under the model.,Not an arbitrary weighted ranking or an identified standalone amenity.,L04:15
+economic exposure,A model-defined response of one location to shocks elsewhere.,"Expenditure, income, and response matrices have different meanings.",R11:4
+expected utility,Utility averaged over relevant idiosyncratic amenities and choices.,Equal expected utility need not imply equal observed real wages.,R11:3
+real income exposure,Economic dependence accounting for modeled network responses.,Not equivalent to the bilateral trade share.,R12:2
+quasi-experimental variation,Variation used to support identification beyond model-based measurement.,A theoretically consistent exposure does not by itself establish causality.,R12:2

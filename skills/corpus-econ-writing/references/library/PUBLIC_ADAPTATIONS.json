@@ -1,0 +1,21 @@
+{
+  "purpose": "Private fixture-path redaction and exact distribution hash acceptance only; original freeze records are preserved.",
+  "files": {
+    "database/QUALITY_RECEIPT.json": {
+      "source_sha256": "163843c180be17e17afae58dd0d748b9e500dd4a52caa5cdf9f7af5337f42d44",
+      "package_sha256": "01b8e875539a3bb235a9f13da52bd0d6d9cf825603d1d91cb7fbcbb783d3dd45"
+    },
+    "expansion/scripts/edition.py": {
+      "source_sha256": "30f163854785b55cea1e24bbdd6eb662928bc14f03d97d6c322830fe931ca110",
+      "package_sha256": "8ff3a6fd7b27e86905aada6f923f1a100d69a19041698fc04cc3cb865a627b07"
+    },
+    "expansion05/scripts/edition.py": {
+      "source_sha256": "5d42dd5f135098fb5efe83fe01d28787a9472bc104a482ad461292a8d71267e3",
+      "package_sha256": "08a744f9a45ad6ce93d245ba7117a965fca930d77972e2f1db7ae1ca57207b73"
+    },
+    "expansion06/scripts/edition.py": {
+      "source_sha256": "cde0fc3bcab339c758c0d271e2dc3babd11b29baaae2f9b3ab6e1df5a47047a9",
+      "package_sha256": "db58eeeb7927a36eaa68894bdecd3ac9c031696f0e7a2ef286c0b42eb7750e78"
+    }
+  }
+}

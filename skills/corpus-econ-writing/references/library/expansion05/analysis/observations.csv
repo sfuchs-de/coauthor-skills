@@ -1,0 +1,57 @@
+id,paper,pdf_page,category,analysis
+MY01-01,MY01,2,sequentiality,Introduce entry and delayed operation before describing estimation.
+MY01-02,MY01,3,validation,Compare recovered values with separate observed prices before counterfactual analysis.
+MY01-03,MY01,7,mathematics,"Define the firm, time, and state components before the dynamic equations."
+MY01-04,MY01,29,assumptions,Explain why surplus calculations require an additional assumption about competition.
+MY02-01,MY02,4,mechanism,Describe loaded and unmatched carriers' next destinations before invoking gravity.
+MY02-02,MY02,9,measurement,Define the imbalance measure before interpreting regional differences.
+MY02-03,MY02,13,timing,"Present matching, transport, waiting, and entry in their economic order."
+MY02-04,MY02,19,assumptions,Explain the steady-state approximation and relate it to the observed sample.
+MY03-01,MY03,3,scope,Distinguish eliminating search frictions from eliminating the platform's market power.
+MY03-02,MY03,8,literature,Explain how spatial continuation values change a familiar efficiency condition.
+MY03-03,MY03,11,mathematics,Follow value equations with descriptions of the underlying events.
+MY03-04,MY03,19,interpretation,Name separate derivative terms before explaining the uninternalized composition effect.
+MY04-01,MY04,2,identification,Begin with the object that different observationally equivalent models may disagree about.
+MY04-02,MY04,6,mathematics,"Introduce choices, observed states, and shocks before the transition restriction."
+MY04-03,MY04,8,assumptions,Describe the identifying content of normalization rather than treating it as notation.
+MY04-04,MY04,36,interpretation,Connect the application sensitivity to dependence on payoff levels rather than differences.
+W01-01,W01,1,mechanism,State the physical joint-cost connection before the trade-policy result.
+W01-02,W01,14,facts,Use directional examples to connect freight-price asymmetry to demand asymmetry.
+W01-03,W01,21,identification,"Introduce the equation, endogeneity problem, and proposed instrument in that order."
+W01-04,W01,31,comparison,Compare elasticity estimates only after discussing outcome measures and temporal aggregation.
+W02-01,W02,2,measurement,Define indirect journeys before reporting how prevalent they are.
+W02-02,W02,7,scope,Explain which journey segment is unobserved and how this affects measured indirectness.
+W02-03,W02,11,transition,Use the tension between longer routes and lower costs to motivate estimation.
+W02-04,W02,24,validation,Separate targeted traffic fit from untargeted trade fit and subsequent external comparisons.
+W03-01,W03,1,accessibility,Use a concrete production example to introduce the economic question.
+W03-02,W03,3,measurement,Explain quantity and distance components in words before sending algebra to the appendix.
+W03-03,W03,10,literature,"Compare transport-cost evidence with attention to weights, values, and quality."
+W03-04,W03,18,interpretation,Return to the original product example to explain changes along the supply chain.
+W04-01,W04,2,motivation,Explain why export growth need not imply growth among domestic firms.
+W04-02,W04,14,transition,Turn conceptual predictions about adjustment margins into an empirical question.
+W04-03,W04,27,measurement,"Define ownership, continuation, entry, exit, and the base year before interpreting shares."
+W04-04,W04,42,interpretation,Connect long-run employment changes to foreign entrants and exports beyond the partner market.
+L01-01,L01,2,literature,"Use prior evidence to identify a particular financing channel, not merely a topic."
+L01-02,L01,3,mechanism,Explain the decisions and industry differences before reporting aggregate implications.
+L01-03,L01,18,mathematics,Define aggregate trade shares and their industry weights before interpreting the decomposition.
+L01-04,L01,39,validation,Construct an empirical counterpart to a specific model implication.
+L02-01,L02,2,motivation,Explain which dynamic facts a successful cross-sectional model does not account for.
+L02-02,L02,3,timing,State when wages are paid and how collateral restricts finance before describing margins.
+L02-03,L02,6,literature,Treat competing explanations as potentially complementary rather than automatically excluded.
+L02-04,L02,15,scope,Distinguish changes in firm decision rules at fixed prices from general-equilibrium effects.
+L03-01,L03,2,mechanism,Connect differences in economic structure to heterogeneous responses to common shocks.
+L03-02,L03,11,measurement,Distinguish sectoral balances from the aggregate balance before proceeding to the model.
+L03-03,L03,19,mathematics,Specify real-GDP measurement and the empirical price index before decomposing changes.
+L03-04,L03,41,validation,Translate a comparison between country groups into a testable country-level implication.
+L04-01,L04,2,definitions,Separate consumption amenities from production amenities before estimating either.
+L04-02,L04,6,mathematics,Introduce heterogeneous households and their expenditure problem before the mobility condition.
+L04-03,L04,15,geometry,Explain which distance from an equilibrium condition measures each economic object.
+L04-04,L04,26,sensitivity,Explain the direction of bias from using housing costs to approximate broader living costs.
+R11-01,R11,1,motivation,Give the economic purpose of the exposure matrix before presenting its algebra.
+R11-02,R11,3,interpretation,Explain how amenity selection reconciles real-wage differences with equal expected utility.
+R11-03,R11,4,mathematics,Interpret substitution and market-size terms using the underlying expenditure and income shares.
+R11-04,R11,5,scope,Keep the elasticities and model class attached to the sufficient-statistic representation.
+R12-01,R12,2,identification,Separate the model-based exposure measure from the variation supporting causal claims.
+R12-02,R12,6,sequentiality,Define the economic incentive and exposure object before the network characterization.
+R12-03,R12,15,validation,Distinguish descriptive network changes from external validation.
+R12-04,R12,20,transition,Use the validation exercise to hand off to the central empirical question.

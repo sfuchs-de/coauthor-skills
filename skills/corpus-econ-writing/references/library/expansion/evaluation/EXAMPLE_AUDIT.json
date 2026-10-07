@@ -1,0 +1,169 @@
+{
+  "worked_examples_sha256": "c7c4208c7beafda933ecf7bbfab7415f700949ef9cc2b6c042e8f9ddbabd2cd8",
+  "source_screen_rerun": true,
+  "examples": {
+    "E01": {
+      "sha256": "4c41ad1a349535f82da9c22b7d9ff69fbd7b5b93ee1348620eb22b61e2f73a93",
+      "lexical": {
+        "checked_tokens": 48,
+        "unapproved_terms": [],
+        "context_review": [
+          {
+            "word": "tourist",
+            "status": "main_text_attested",
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1
+          }
+        ],
+        "approved_exceptions_used": [],
+        "lexical_gate_passed": true,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review."
+      },
+      "exact_12_word_match_pages": []
+    },
+    "E02": {
+      "sha256": "bcb0d9e8d633d836fbdb25ed848d5337fe7eb7e1dbcc92972f645cb4219c86a1",
+      "lexical": {
+        "checked_tokens": 58,
+        "unapproved_terms": [],
+        "context_review": [
+          {
+            "word": "tourist",
+            "status": "main_text_attested",
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1
+          }
+        ],
+        "approved_exceptions_used": [],
+        "lexical_gate_passed": true,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review."
+      },
+      "exact_12_word_match_pages": []
+    },
+    "E03": {
+      "sha256": "72537465d49649c1411c337bfd3aef22c288f7e2ca9b129ab7d5ee8df8c5b4c3",
+      "lexical": {
+        "checked_tokens": 57,
+        "unapproved_terms": [],
+        "context_review": [],
+        "approved_exceptions_used": [],
+        "lexical_gate_passed": true,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review."
+      },
+      "exact_12_word_match_pages": []
+    },
+    "E04": {
+      "sha256": "5f434fec2a4608627309c8ce799d1f9d3249d6cc8bebcc94c174ee847cafaed9",
+      "lexical": {
+        "checked_tokens": 60,
+        "unapproved_terms": [],
+        "context_review": [],
+        "approved_exceptions_used": [],
+        "lexical_gate_passed": true,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review."
+      },
+      "exact_12_word_match_pages": []
+    },
+    "E05": {
+      "sha256": "20140d94513546dcf4e7f2961bd1bb9d883ab659e9773cd1369a8b73bf3e729d",
+      "lexical": {
+        "checked_tokens": 57,
+        "unapproved_terms": [],
+        "context_review": [],
+        "approved_exceptions_used": [],
+        "lexical_gate_passed": true,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review."
+      },
+      "exact_12_word_match_pages": []
+    },
+    "E06": {
+      "sha256": "35dd74106817da614b66619b80011981552fd75374bd75918f549cbe0b479861",
+      "lexical": {
+        "checked_tokens": 30,
+        "unapproved_terms": [],
+        "context_review": [],
+        "approved_exceptions_used": [],
+        "lexical_gate_passed": true,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review."
+      },
+      "exact_12_word_match_pages": []
+    },
+    "E07": {
+      "sha256": "b0cd6599a00c44692d9988e03bd3eaf95616131e7bb42fbc6255dca63ad6d0be",
+      "lexical": {
+        "checked_tokens": 44,
+        "unapproved_terms": [],
+        "context_review": [
+          {
+            "word": "group's",
+            "status": "other_pages_attested",
+            "flags": [],
+            "main_count": 0
+          }
+        ],
+        "approved_exceptions_used": [],
+        "lexical_gate_passed": true,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review."
+      },
+      "exact_12_word_match_pages": []
+    },
+    "E08": {
+      "sha256": "ee658b1cf047541c68751463147e9422782e7c32b9c1c12d99e4a6581ae34728",
+      "lexical": {
+        "checked_tokens": 57,
+        "unapproved_terms": [],
+        "context_review": [],
+        "approved_exceptions_used": [],
+        "lexical_gate_passed": true,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review."
+      },
+      "exact_12_word_match_pages": []
+    },
+    "E09": {
+      "sha256": "0bb3b4406acdacbeeb98207c9d0ce9e73c37346501d3a50a1394b044b313f84f",
+      "lexical": {
+        "checked_tokens": 42,
+        "unapproved_terms": [],
+        "context_review": [],
+        "approved_exceptions_used": [],
+        "lexical_gate_passed": true,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review."
+      },
+      "exact_12_word_match_pages": []
+    },
+    "E10": {
+      "sha256": "efc04c3817633b5d977a2375a34a3dc95960d5d1d09a406ec3339cddba7612d3",
+      "lexical": {
+        "checked_tokens": 57,
+        "unapproved_terms": [],
+        "context_review": [
+          {
+            "word": "clearer",
+            "status": "main_text_attested",
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1
+          },
+          {
+            "word": "visitors",
+            "status": "main_text_attested",
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1
+          }
+        ],
+        "approved_exceptions_used": [],
+        "lexical_gate_passed": true,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review."
+      },
+      "exact_12_word_match_pages": []
+    }
+  },
+  "independent_review": false
+}

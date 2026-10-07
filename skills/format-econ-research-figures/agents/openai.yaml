@@ -1,0 +1,4 @@
+interface:
+  display_name: "Economics Figure Formatting"
+  short_description: "Standardize economics figures, maps, and tables"
+  default_prompt: "Use $format-econ-research-figures to standardize these research figures and verify their rendered layout."

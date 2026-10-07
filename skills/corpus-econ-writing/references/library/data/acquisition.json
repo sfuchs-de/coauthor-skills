@@ -1,0 +1,232 @@
+{
+  "D01": {
+    "id": "D01",
+    "requested_url": "https://dave-donaldson.com/wp-content/uploads/2018/03/Donaldson_RRRaj_AER.pdf",
+    "resolved_url": "https://dave-donaldson.com/wp-content/uploads/2018/03/Donaldson_RRRaj_AER.pdf",
+    "author_index": "https://dave-donaldson.com/research/",
+    "sha256": "4d688b30753af4d88a35475c4574ecea5aee2df0d69f7482a21895bc4f52d976",
+    "bytes": 733919,
+    "retrieved_at_utc": "2026-10-03T20:38:40.410467+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "D02": {
+    "id": "D02",
+    "requested_url": "https://dave-donaldson.com/wp-content/uploads/2016/10/Donaldson_Hornbeck_Railroads_paper.pdf",
+    "resolved_url": "https://dave-donaldson.com/wp-content/uploads/2016/10/Donaldson_Hornbeck_Railroads_paper.pdf",
+    "author_index": "https://dave-donaldson.com/research/",
+    "sha256": "cbf3928226a7e4cc0d6b8e9a0c8c74de8bb82f461b5915ea0f74400e959a8cd0",
+    "bytes": 1115688,
+    "retrieved_at_utc": "2026-10-03T20:38:40.952779+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "D03": {
+    "id": "D03",
+    "requested_url": "https://dave-donaldson.com/wp-content/uploads/2017/03/ACD_AER2017.pdf",
+    "resolved_url": "https://dave-donaldson.com/wp-content/uploads/2017/03/ACD_AER2017.pdf",
+    "author_index": "https://dave-donaldson.com/research/",
+    "sha256": "4b781f0b7a1f94504e1dc0f722a122b6c1fd0486b65dd4be7a83dffb94052730",
+    "bytes": 943519,
+    "retrieved_at_utc": "2026-10-03T20:38:41.489038+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "D04": {
+    "id": "D04",
+    "requested_url": "https://dave-donaldson.com/wp-content/uploads/ACD.pdf",
+    "resolved_url": "https://dave-donaldson.com/wp-content/uploads/ACD.pdf",
+    "author_index": "https://dave-donaldson.com/research/",
+    "sha256": "c9e4b95d2d6f35806052f7a34bc051029c1ba0d08348c803f660b4a43843fa01",
+    "bytes": 2526540,
+    "retrieved_at_utc": "2026-10-03T20:38:42.124629+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "D05": {
+    "id": "D05",
+    "requested_url": "https://dave-donaldson.com/wp-content/uploads/Donaldson_JEP.pdf",
+    "resolved_url": "https://dave-donaldson.com/wp-content/uploads/Donaldson_JEP.pdf",
+    "author_index": "https://dave-donaldson.com/research/",
+    "sha256": "e7229d89bb1120ed2cf6ca062d159d4dc9af80a5ea07fc6f96ce64c4ffc7dd1f",
+    "bytes": 550275,
+    "retrieved_at_utc": "2026-10-03T20:38:42.618779+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "D06": {
+    "id": "D06",
+    "requested_url": "https://dave-donaldson.com/wp-content/uploads/ACCDP.pdf",
+    "resolved_url": "https://dave-donaldson.com/wp-content/uploads/ACCDP.pdf",
+    "author_index": "https://dave-donaldson.com/research/",
+    "sha256": "4f0034c7e1c9fcae849688bb899c84cfbc44d6e7931cccdc2ff52121ca47fe73",
+    "bytes": 1124616,
+    "retrieved_at_utc": "2026-10-03T20:38:43.175538+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "A01": {
+    "id": "A01",
+    "requested_url": "https://arkolakis.com/wp-content/uploads/research/Topography/AllenArkolakis.pdf",
+    "resolved_url": "https://arkolakis.com/wp-content/uploads/research/Topography/AllenArkolakis.pdf",
+    "author_index": "https://arkolakis.com/research/",
+    "sha256": "a27527b18307d4d5caccfcec735c0ec73d3d5d0a048bf901ec1d1bbb1267ccdc",
+    "bytes": 14015881,
+    "retrieved_at_utc": "2026-10-03T20:38:46.534650+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "A02": {
+    "id": "A02",
+    "requested_url": "https://arkolakis.com/wp-content/uploads/research/UniversalGravity/AAT-Universal-Gravity-paper.pdf",
+    "resolved_url": "https://arkolakis.com/wp-content/uploads/research/UniversalGravity/AAT-Universal-Gravity-paper.pdf",
+    "author_index": "https://arkolakis.com/research/",
+    "sha256": "302927c2265dcf275cc19db30e7aaee407d8a3a3baa9760a44aef25d1335f193",
+    "bytes": 4043545,
+    "retrieved_at_utc": "2026-10-03T20:38:48.206315+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "A03": {
+    "id": "A03",
+    "requested_url": "https://arkolakis.com/wp-content/uploads/Allen-and-Arkolakis-Welfare-Effects-of-Transportation-Improvements.pdf",
+    "resolved_url": "https://arkolakis.com/wp-content/uploads/Allen-and-Arkolakis-Welfare-Effects-of-Transportation-Improvements.pdf",
+    "author_index": "https://arkolakis.com/research/",
+    "sha256": "93b22792381d574c5f01c2fe00b4a91f45c907055654b9b88005102a2f746979",
+    "bytes": 20350287,
+    "retrieved_at_utc": "2026-10-03T20:38:51.377411+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "A04": {
+    "id": "A04",
+    "requested_url": "https://economics.yale.edu/sites/default/files/2024-02/p1856.pdf",
+    "resolved_url": "https://economics.yale.edu/sites/default/files/2024-02/p1856.pdf",
+    "author_index": "https://arkolakis.com/research/",
+    "sha256": "b13162836acfceb02a556865492324afdbf9ca60b0b5ad317be3e1f0e32062ca",
+    "bytes": 1647869,
+    "retrieved_at_utc": "2026-10-03T20:38:51.893638+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "A05": {
+    "id": "A05",
+    "requested_url": "https://dl.dropbox.com/s/jwfe4qf6x2l0ocn/Allen%20-%20Information%20Frictions%20in%20Trade.pdf?dl=1",
+    "resolved_url": "https://dl.dropboxusercontent.com/s/jwfe4qf6x2l0ocn/Allen%20-%20Information%20Frictions%20in%20Trade.pdf?dl=1",
+    "author_index": "https://sites.google.com/site/treballen/research",
+    "sha256": "bcc884b45fef281fa48ca6ad5464a65f9d8b8377b6b8fe550b822026e7b6b091",
+    "bytes": 762437,
+    "retrieved_at_utc": "2026-10-03T20:38:53.312292+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "A06": {
+    "id": "A06",
+    "requested_url": "https://dl.dropbox.com/s/kg0jnmwb8odi7rc/AD%20-%20Persistence%20Path%20Dependence%20Primer%20%28RSUE%29.pdf?dl=1",
+    "resolved_url": "https://dl.dropboxusercontent.com/s/kg0jnmwb8odi7rc/AD%20-%20Persistence%20Path%20Dependence%20Primer%20%28RSUE%29.pdf?dl=1",
+    "author_index": "https://sites.google.com/site/treballen/research",
+    "sha256": "af2c9f921a05883d2215a3cd07142eb4763c91dcc37dc964993e9d0cd1e2c8fb",
+    "bytes": 883478,
+    "retrieved_at_utc": "2026-10-03T20:38:54.655791+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "K01": {
+    "id": "K01",
+    "requested_url": "https://arkolakis.com/wp-content/uploads/research/GainsfromTrade/GT_ACR.pdf",
+    "resolved_url": "https://arkolakis.com/wp-content/uploads/research/GainsfromTrade/GT_ACR.pdf",
+    "author_index": "https://arkolakis.com/research/",
+    "sha256": "2a60afe6dcfbec2678b3d1145f2a1197216927881cd4fbca95dd3cee07f66110",
+    "bytes": 328223,
+    "retrieved_at_utc": "2026-10-03T20:38:55.620831+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "K02": {
+    "id": "K02",
+    "requested_url": "https://arkolakis.com/wp-content/uploads/research/MarketPenetrationCosts/ArkolakisPaperMarketPenetration.pdf",
+    "resolved_url": "https://arkolakis.com/wp-content/uploads/research/MarketPenetrationCosts/ArkolakisPaperMarketPenetration.pdf",
+    "author_index": "https://arkolakis.com/research/",
+    "sha256": "188317bcc4d7591d108746a031a284a16a908842be0f0e09b94e7a31e285e4b9",
+    "bytes": 537248,
+    "retrieved_at_utc": "2026-10-03T20:38:56.674594+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "K03": {
+    "id": "K03",
+    "requested_url": "https://arkolakis.com/wp-content/uploads/research/Dynamics/ArkolakisDynamics.pdf",
+    "resolved_url": "https://arkolakis.com/wp-content/uploads/research/Dynamics/ArkolakisDynamics.pdf",
+    "author_index": "https://arkolakis.com/research/",
+    "sha256": "8149577baa98a0cfe8532ce4fc846021af2f69dcb4a50771b88103d414890630",
+    "bytes": 660061,
+    "retrieved_at_utc": "2026-10-03T20:38:57.908217+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "K04": {
+    "id": "K04",
+    "requested_url": "https://arkolakis.com/wp-content/uploads/research/ACDR/ACDRdraft.pdf",
+    "resolved_url": "https://arkolakis.com/wp-content/uploads/research/ACDR/ACDRdraft.pdf",
+    "author_index": "https://arkolakis.com/research/",
+    "sha256": "f1546d54a7ac56a11deeefedb817b219e2094e69edcfbc283bd2297680fd6102",
+    "bytes": 615304,
+    "retrieved_at_utc": "2026-10-03T20:38:58.944377+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "R01": {
+    "id": "R01",
+    "requested_url": "https://www.dropbox.com/scl/fi/nx16p1pyrycfgc0wmfrtr/Berlin-Ecta-10876.pdf?rlkey=nzdhixo4917nu1uvf9r7f7299&dl=1",
+    "resolved_url": "https://uccea3d471c7411eb8d5daf1dccf.dl.dropboxusercontent.com/cd/0/get/DJV3kd1IvNOg0TugV3LmP-hkds8cqqzDf8QE-414zFce-TsnktrElffkdH7CVibEvUgL0O0W_0-vSqWhTtqN1c5PiOybMTFKcY7zyWs3DXJzgQPUvmBysX-MLaQEqMm1Ad73i0QKXYZVYD_cSsKgwIOX/file?dl=1",
+    "author_index": "https://stephenredding.github.io/redpublish.htm",
+    "sha256": "8c7398429bccf29b9a3d7ddf088b91bcf2b002cdfcc958f54fc951484384fb74",
+    "bytes": 2738046,
+    "retrieved_at_utc": "2026-10-03T20:39:50.327830+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "R02": {
+    "id": "R02",
+    "requested_url": "https://www.dropbox.com/scl/fi/yat89otfmheo9buqasjwk/MMM-QJE-2020.pdf?rlkey=wedej5ylwyxkq8z9u6gzcd70a&dl=1",
+    "resolved_url": "https://uced530d29b2d32f44ee3751f621.dl.dropboxusercontent.com/cd/0/get/DJVJ5dorLuTT0g48v6W6fv48AZgahUXpjTlvV9lKEKWzvUiA791nUUmR0upfF8G4NEaWypWckUGZG1U0oPtCyZ2PTVWNxjXK_StIXonBW7JcVNKuJ46QO5pnMpaJwQTL31PCIkcBKTJWO5F2eXkzYsGc/file?dl=1",
+    "author_index": "https://stephenredding.github.io/redpublish.htm",
+    "sha256": "d542d37d16a126e7773c75d9be2e398c1117dac12243ac56c00696cb06754f24",
+    "bytes": 1744111,
+    "retrieved_at_utc": "2026-10-03T20:39:51.924966+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "R03": {
+    "id": "R03",
+    "requested_url": "https://www.dropbox.com/scl/fi/80f1wjzh0dhjb8mm85tbs/CMEE-AER-2018.pdf?rlkey=rl6h1oe8tf88xx40ttt5wpuzr&dl=1",
+    "resolved_url": "https://uc36c3af8df0789b68c2de457701.dl.dropboxusercontent.com/cd/0/get/DJUgb4zBFIfOshVJKP0ytiDKLsNC18zQ1JnHtNSKIuJPoXQ3XAX-Y34znF-GSddzerlaQk22b-w5QUd9cTHa-6-z4hWUk8sFg3_Fh9nbaKpe89Lfd_na4hANswKKUt-5JJzth_tYZR3fM9g-RRe5iylF/file?dl=1",
+    "author_index": "https://stephenredding.github.io/redpublish.htm",
+    "sha256": "cd1bafacbd1f7739c1c0ea07ab36c698fc2484abbb6abacf73249943041a4b6e",
+    "bytes": 813544,
+    "retrieved_at_utc": "2026-10-03T20:39:53.295662+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "R04": {
+    "id": "R04",
+    "requested_url": "https://www.dropbox.com/scl/fi/uiaowdjwrp0tktm3zidfp/CES-QJE-2020.pdf?rlkey=qdaevmwudyt3tjwuenml9lggu&dl=1",
+    "resolved_url": "https://uc888561a51714eb1b72651fa7f2.dl.dropboxusercontent.com/cd/0/get/DJWKabAwPsKGCtcpFP2quFc3sh02eAcKxdmfwfsFQFIvfTYR1bkIB6WgXHgNDv4nnEQJYCgVRI_Oi4ip5pjU16ANMlcEGpTYaLXO2T1EyfqygjxyptUZeVDqke9qy9cv1GfnJe6bQAVGF4ZN2VBCafIK/file?dl=1",
+    "author_index": "https://stephenredding.github.io/redpublish.htm",
+    "sha256": "173467079185337536aa2835eacdf73a7ae86c2b6a446ac27f51395bf57912d8",
+    "bytes": 684193,
+    "retrieved_at_utc": "2026-10-03T20:39:54.585385+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "R05": {
+    "id": "R05",
+    "requested_url": "https://www.dropbox.com/scl/fi/lxjhrv4cbd56ci4z0vvi9/ARQSM-2017.pdf?rlkey=4mtnagi1t79d86ppw7sjmfsjw&dl=1",
+    "resolved_url": "https://uc3603ce7b44a898475a674ce03b.dl.dropboxusercontent.com/cd/0/get/DJXCttyGH1MqbsT16JFizF_lo9QvG4YKN-y8WHhnhuR3-zY3_0vXWzLp6injrKu1GNuPdUCnsKyPep_bfU7gpyQOf6Z72PYvtwmMT7xKG9FG7SJyiq3KmpwdvAUaXvNGyx4ltyiFS47dSH8LxBWNHuXD/file?dl=1",
+    "author_index": "https://stephenredding.github.io/redpublish.htm",
+    "sha256": "2897c465ed7e6412dc612fc1b7f1ad7ea43c5e9d79ee207541066b4a3d00ac7c",
+    "bytes": 812835,
+    "retrieved_at_utc": "2026-10-03T20:39:56.120402+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "R06": {
+    "id": "R06",
+    "requested_url": "https://www.dropbox.com/scl/fi/u0gi8sluctql0flq3ihb1/JEP-Urban-2023.pdf?rlkey=lz9sw8nbiyclyf1328ebz1ojl&dl=1",
+    "resolved_url": "https://uc15b36216df77b6f8b27f9d7af0.dl.dropboxusercontent.com/cd/0/get/DJUajnUnzeoDW_1sygsACz8iUQrBQ0N8DoVz98aKYqmKRL53Z0Oegm7gOwGF09H1nJks1gacXZ2nhFSBGQoNhDMXx_l09ZneeV6gwuOX4P034s0WjwAsF8ma6foRs7jQBNjkZhF8cEMnRIm6VUVw2jxG/file?dl=1",
+    "author_index": "https://stephenredding.github.io/redpublish.htm",
+    "sha256": "bca226cf314fa6f107a0e99c1f0ad5844bd1b59872826ac01b29f0e15d1cc25f",
+    "bytes": 3611999,
+    "retrieved_at_utc": "2026-10-03T20:39:57.817861+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  },
+  "R07": {
+    "id": "R07",
+    "requested_url": "https://www.dropbox.com/scl/fi/mea9n6sbz2xi28441md3q/cellphoneQJE2025.pdf?rlkey=sdpvn01etvyg1k2d578dvumi3&dl=1",
+    "resolved_url": "https://uc4ac536ee805e7fff800442842d.dl.dropboxusercontent.com/cd/0/get/DJUxXI9Smc4qGZUpAdWVsMaJKOlsOpmaaHjopz7bSWiKETPN1kg83u-0BbzvFv2N7X4zQt5P7zpV0-9S6rwgMK8mcA_kpUKSJY5Kz-R-OnO9uP4G_aIlBuwwX4ivTDmd36I9k0PwJEYKt5rAdn7AfU_3/file?dl=1",
+    "author_index": "https://stephenredding.github.io/redpublish.htm",
+    "sha256": "cad2ee526b8591e6cbdc74f9b78f66db0ed85b90516b2c6bb85e975d997f6bb7",
+    "bytes": 2510147,
+    "retrieved_at_utc": "2026-10-03T20:39:59.320105+00:00",
+    "status": "downloaded_not_yet_reviewed"
+  }
+}

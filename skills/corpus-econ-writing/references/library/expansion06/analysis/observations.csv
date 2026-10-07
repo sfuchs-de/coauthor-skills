@@ -1,0 +1,33 @@
+id,paper,pdf_page,category,analysis
+U01-01,U01,4,question,The introduction narrows a familiar agglomeration explanation by asking why residents remain where wages and employment are weak.
+U01-02,U01,5,mechanism,Housing durability supplies an explicit price-versus-quantity mechanism before the formal model.
+U01-03,U01,12,mathematical sequence,Geography and housing consumption are defined before the rent-distance condition; the model uses strong simplifying restrictions.
+U01-04,U01,35,interpretation,The conclusion distinguishes a predictive housing-price relationship from a causal estimate.
+U02-01,U02,2,scale,"The introduction makes neighborhood elasticities necessary for the policy question, rather than assuming a metropolitan estimate transfers unchanged."
+U02-02,U02,4,mechanism,The construction discussion separates parcel development from intensity conditional on development.
+U02-03,U02,16,mathematical sequence,"The linked equations are accompanied by definitions of employment, residents, commuting, and the computational use of the system."
+U02-04,U02,38,interpretation,The policy comparison connects a changed geographic elasticity input to changed surplus calculations.
+U03-01,U03,2,question,The motivating facts permit opposing welfare interpretations; the paper states that ambiguity before choosing a model.
+U03-02,U03,11,mathematical sequence,The text distinguishes observed wages and employment from unobserved productivity before describing the estimation problem.
+U03-03,U03,29,interpretation,"An amenity residual is defined through preferences and measured wages and rents, not observed directly as a named mechanism."
+U03-04,U03,5,literature,The literature discussion identifies the response margin added to earlier labor-demand analyses.
+U04-01,U04,1,scope,"The opening separates covered tenants, landlords, and the overall rental market."
+U04-02,U04,9,heterogeneity,"Subgroups are defined using explicit age, tenure, and local rent dimensions before interpretation."
+U04-03,U04,17,mathematical sequence,The continuation-value cancellation is tied to a specified action comparison; it is not an unrestricted shortcut.
+U04-04,U04,25,interpretation,Utility components are introduced separately and converted into rent-equivalent units under structural estimates.
+U05-01,U05,3,scale,The contrast keeps central-city and metropolitan population distinct.
+U05-02,U05,8,identification,The institutional account explains why actual construction is endogenous before introducing planned routes as instruments.
+U05-03,U05,14,estimation,"The results section names the outcome, highway-ray unit, and long-difference versus panel designs."
+U05-04,U05,26,limits,The conclusion preserves the need for additional explanations of suburbanization rather than treating one estimate as a complete mechanism account.
+U06-01,U06,4,mathematical sequence,"The diagram defines lane kilometers, vehicle-kilometers traveled, and average cost before formalizing their relationship."
+U06-02,U06,11,estimation,A preferred OLS specification is distinguished from the preferred estimation method.
+U06-03,U06,30,interpretation,"Household travel and metropolitan traffic are different outcomes, supporting different parts of the mechanism discussion."
+U06-04,U06,35,limits,The conclusion narrows claims for road classes where instruments and boundary changes limit inference.
+U07-01,U07,3,question,"Preference recovery is motivated by allocation and sorting, not by a generic claim that neighborhoods matter."
+U07-02,U07,19,transition,The observed sorting evidence creates a reason to introduce the subsequent choice model.
+U07-03,U07,23,mathematical sequence,"The second estimation step is related explicitly to the earlier price regression, so the new equation answers an existing question."
+U07-04,U07,31,limits,The conclusion explains why a boundary design can remain affected by sorting in other neighborhood attributes.
+U08-01,U08,2,literature,"Earlier adult and older-youth findings motivate a different population and observation horizon, rather than being dismissed."
+U08-02,U08,13,estimation,"Treatment assignment, controls, site indicators, weights, and family clustering are explained alongside the regression."
+U08-03,U08,5,limits,Age at move and exposure duration cannot be separated conclusively by this design; the mechanism discussion retains that limit.
+U08-04,U08,41,scope,The interpretation states which childhood ages are observed and which extrapolations remain open.

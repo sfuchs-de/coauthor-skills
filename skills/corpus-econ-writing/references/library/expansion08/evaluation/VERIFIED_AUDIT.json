@@ -1,0 +1,138 @@
+{
+  "independent_writing_validation": false,
+  "labels_classified": 0,
+  "length_passes": 4,
+  "lexical_passes": 4,
+  "overlap_papers": 59,
+  "overlap_screen_rerun": true,
+  "sample_count": 4,
+  "samples": [
+    {
+      "editorial_command_flags": [],
+      "id": "T01",
+      "length_passed": true,
+      "prose_words": 261,
+      "requested_range": [
+        220,
+        350
+      ],
+      "sha256": "0fb1efdffe384a5a7cb18a847d8e0c9fa9f26f6cea4bcbc1ec09b24b3a4be73a",
+      "source_matches": [],
+      "vocabulary": {
+        "approved_exceptions_used": [],
+        "checked_tokens": 258,
+        "checker_sha256": "d3ba91680ee1ef6cf702767fb46d9c425c8602c54bd04efea1ebdd3311f7c75d",
+        "classified_labels": [],
+        "compound_review_suggestions": [],
+        "context_restrictions_sha256": "82193d41607a8577b164ec7ae74eb83abd29e39468fae5fbe1c904b591ced2c7",
+        "context_restrictions_used": {},
+        "context_review": [],
+        "edition": "2026-10-04-theory-08",
+        "lexical_gate_passed": true,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review.",
+        "unapproved_terms": [],
+        "vocabulary_sha256": "1396bcf4e37cde6e7b1237b3f6e4a987a2e14ec944f7b5b9f247fc1e53fa1f5d"
+      }
+    },
+    {
+      "editorial_command_flags": [],
+      "id": "T02",
+      "length_passed": true,
+      "prose_words": 254,
+      "requested_range": [
+        240,
+        380
+      ],
+      "sha256": "62dacdb6e81095acc45e6ece4917318c0bee8f7e42a07ed93761eff81f3491eb",
+      "source_matches": [],
+      "vocabulary": {
+        "approved_exceptions_used": [],
+        "checked_tokens": 254,
+        "checker_sha256": "d3ba91680ee1ef6cf702767fb46d9c425c8602c54bd04efea1ebdd3311f7c75d",
+        "classified_labels": [],
+        "compound_review_suggestions": [],
+        "context_restrictions_sha256": "82193d41607a8577b164ec7ae74eb83abd29e39468fae5fbe1c904b591ced2c7",
+        "context_restrictions_used": {},
+        "context_review": [
+          {
+            "flags": [],
+            "main_count": 0,
+            "status": "other_pages_attested",
+            "word": "state's"
+          }
+        ],
+        "edition": "2026-10-04-theory-08",
+        "lexical_gate_passed": true,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review.",
+        "unapproved_terms": [],
+        "vocabulary_sha256": "1396bcf4e37cde6e7b1237b3f6e4a987a2e14ec944f7b5b9f247fc1e53fa1f5d"
+      }
+    },
+    {
+      "editorial_command_flags": [],
+      "id": "T03",
+      "length_passed": true,
+      "prose_words": 323,
+      "requested_range": [
+        280,
+        450
+      ],
+      "sha256": "45656ee43d97822a10df14055e6cd892ab328c6dd96ab87e7bf7ac3d105269a9",
+      "source_matches": [],
+      "vocabulary": {
+        "approved_exceptions_used": [],
+        "checked_tokens": 321,
+        "checker_sha256": "d3ba91680ee1ef6cf702767fb46d9c425c8602c54bd04efea1ebdd3311f7c75d",
+        "classified_labels": [],
+        "compound_review_suggestions": [],
+        "context_restrictions_sha256": "82193d41607a8577b164ec7ae74eb83abd29e39468fae5fbe1c904b591ced2c7",
+        "context_restrictions_used": {},
+        "context_review": [
+          {
+            "flags": [
+              "single_occurrence"
+            ],
+            "main_count": 1,
+            "status": "main_text_attested",
+            "word": "naming"
+          }
+        ],
+        "edition": "2026-10-04-theory-08",
+        "lexical_gate_passed": true,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review.",
+        "unapproved_terms": [],
+        "vocabulary_sha256": "1396bcf4e37cde6e7b1237b3f6e4a987a2e14ec944f7b5b9f247fc1e53fa1f5d"
+      }
+    },
+    {
+      "editorial_command_flags": [],
+      "id": "T04",
+      "length_passed": true,
+      "prose_words": 244,
+      "requested_range": [
+        180,
+        280
+      ],
+      "sha256": "3a7d55e25a633d6eed2fdb6c1a5b62071b2091ef3eff2d2f725d186f9e173ddb",
+      "source_matches": [],
+      "vocabulary": {
+        "approved_exceptions_used": [],
+        "checked_tokens": 244,
+        "checker_sha256": "d3ba91680ee1ef6cf702767fb46d9c425c8602c54bd04efea1ebdd3311f7c75d",
+        "classified_labels": [],
+        "compound_review_suggestions": [],
+        "context_restrictions_sha256": "82193d41607a8577b164ec7ae74eb83abd29e39468fae5fbe1c904b591ced2c7",
+        "context_restrictions_used": {},
+        "context_review": [],
+        "edition": "2026-10-04-theory-08",
+        "lexical_gate_passed": true,
+        "scope": "Target-file prose only; not an expanded TeX dependency graph or a semantic/math audit. Math, citations, links, comments, and code are excluded; unfamiliar TeX macros need manual review.",
+        "unapproved_terms": [],
+        "vocabulary_sha256": "1396bcf4e37cde6e7b1237b3f6e4a987a2e14ec944f7b5b9f247fc1e53fa1f5d"
+      }
+    }
+  ],
+  "scope": "Fictional examples; lexical/depth flags and 12-word source screen are not scientific certification",
+  "source_match_pages": 0,
+  "unapproved_occurrences": 0
+}

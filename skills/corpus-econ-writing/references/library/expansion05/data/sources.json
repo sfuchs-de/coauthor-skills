@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "edition": "2026-10-04-authors-05",
+  "previous_edition": "2026-10-03-expanded-04",
+  "author_indexes": {
+    "kalouptsidi": "https://www.myrtokalouptsidi.com/research",
+    "wong": "https://sites.google.com/site/wongwoanfoong/research",
+    "leibovici": "https://www.fernandoleibovici.com/publications",
+    "redding": "https://stephenredding.github.io/redpublish.htm"
+  },
+  "papers": [
+    {
+      "id": "MY01",
+      "title": "Time to Build and Fluctuations in Bulk Shipping",
+      "year": 2014,
+      "authors": [
+        "Myrto Kalouptsidi"
+      ],
+      "focal_authors": [
+        "Kalouptsidi"
+      ],
+      "index": "kalouptsidi",
+      "genre": "dynamic-structural",
+      "version": "Published American Economic Review article, February 2014",
+      "pdf_url": "https://drive.google.com/uc?export=download&id=1OF5uW9Y6zSbXk8uGSjAAYoJcAul5dR39",
+      "main_pages": [
+        1,
+        40
+      ]
+    },
+    {
+      "id": "MY02",
+      "title": "Geography, Transportation, and Endogenous Trade Costs",
+      "year": 2020,
+      "authors": [
+        "Giulia Brancaccio",
+        "Myrto Kalouptsidi",
+        "Theodore Papageorgiou"
+      ],
+      "focal_authors": [
+        "Kalouptsidi"
+      ],
+      "index": "kalouptsidi",
+      "genre": "structural-empirical",
+      "version": "Published Econometrica article, March 2020; includes a publisher cover page",
+      "pdf_url": "https://drive.google.com/uc?export=download&id=1wWXeEs5ykuFOpzgJM7jFRzDzLPQ9QB5i",
+      "main_pages": [
+        2,
+        34
+      ]
+    },
+    {
+      "id": "MY03",
+      "title": "Search Frictions and Efficiency in Decentralized Transport Markets",
+      "year": 2023,
+      "authors": [
+        "Giulia Brancaccio",
+        "Myrto Kalouptsidi",
+        "Theodore Papageorgiou",
+        "Nicola Rosaia"
+      ],
+      "focal_authors": [
+        "Kalouptsidi"
+      ],
+      "index": "kalouptsidi",
+      "genre": "theory-structural-policy",
+      "version": "Author manuscript dated May 2023; subsequently published in QJE in 2023",
+      "pdf_url": "https://drive.google.com/uc?export=download&id=1WO9OS0MxsrhMmQv8OAHMgxVFypcTMPee",
+      "main_pages": [
+        1,
+        46
+      ]
+    },
+    {
+      "id": "MY04",
+      "title": "Identification of Counterfactuals in Dynamic Discrete Choice Models",
+      "year": 2021,
+      "authors": [
+        "Myrto Kalouptsidi",
+        "Paul T. Scott",
+        "Eduardo Souza-Rodrigues"
+      ],
+      "focal_authors": [
+        "Kalouptsidi"
+      ],
+      "index": "kalouptsidi",
+      "genre": "identification-theory",
+      "version": "Author manuscript dated February 2020; subsequently Quantitative Economics 12(2), 2021",
+      "pdf_url": "https://drive.google.com/uc?export=download&id=13l_EVsAC9J5o3_M2jJVFh4qaEccD8NiJ",
+      "main_pages": [
+        1,
+        36
+      ]
+    },
+    {
+      "id": "W01",
+      "title": "The Round Trip Effect: Endogenous Transport Costs and International Trade",
+      "year": 2022,
+      "authors": [
+        "Woan Foong Wong"
+      ],
+      "focal_authors": [
+        "Wong"
+      ],
+      "index": "wong",
+      "genre": "empirical-theory-policy",
+      "version": "Published AEJ Applied Economics article, October 2022",
+      "pdf_url": "https://wongwoanfoong.github.io/research/RoundTrip_Wong.pdf",
+      "main_pages": [
+        1,
+        36
+      ]
+    },
+    {
+      "id": "W02",
+      "title": "Entrepot: Hubs, Scale, and Trade Costs",
+      "year": 2024,
+      "authors": [
+        "Sharat Ganapati",
+        "Woan Foong Wong",
+        "Oren Ziv"
+      ],
+      "focal_authors": [
+        "Wong"
+      ],
+      "index": "wong",
+      "genre": "structural-empirical",
+      "version": "Published AEJ Macroeconomics article, October 2024",
+      "pdf_url": "https://wongwoanfoong.github.io/research/Entrepot_GWZ.pdf",
+      "main_pages": [
+        1,
+        37
+      ]
+    },
+    {
+      "id": "W03",
+      "title": "How Far Goods Travel: Global Transport and Supply Chains from 1965-2020",
+      "year": 2023,
+      "authors": [
+        "Sharat Ganapati",
+        "Woan Foong Wong"
+      ],
+      "focal_authors": [
+        "Wong"
+      ],
+      "index": "wong",
+      "genre": "descriptive-survey",
+      "version": "Published Journal of Economic Perspectives article, Summer 2023",
+      "pdf_url": "https://wongwoanfoong.github.io/research/Transport_SupplyChains_GW.pdf",
+      "main_pages": [
+        1,
+        23
+      ]
+    },
+    {
+      "id": "W04",
+      "title": "Foreign and Domestic Firms: Long Run Employment Effects of Export Opportunities",
+      "year": 2025,
+      "authors": [
+        "Brian McCaig",
+        "Nina Pavcnik",
+        "Woan Foong Wong"
+      ],
+      "focal_authors": [
+        "Wong"
+      ],
+      "index": "wong",
+      "genre": "empirical-long-run",
+      "version": "Author manuscript dated January 2025",
+      "pdf_url": "https://wongwoanfoong.github.io/research/BTA_MPW.pdf",
+      "main_pages": [
+        1,
+        44
+      ]
+    },
+    {
+      "id": "L01",
+      "title": "Financial Development and International Trade",
+      "year": 2021,
+      "authors": [
+        "Fernando Leibovici"
+      ],
+      "focal_authors": [
+        "Leibovici"
+      ],
+      "index": "leibovici",
+      "genre": "structural-empirical",
+      "version": "Author manuscript dated February 2021; subsequently JPE December 2021",
+      "pdf_url": "https://fernandoleibovici.github.io/Leibovici_JMP.pdf",
+      "main_pages": [
+        1,
+        46
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "Financial Frictions and New Exporter Dynamics",
+      "year": 2016,
+      "authors": [
+        "David Kohn",
+        "Fernando Leibovici",
+        "Michal Szkup"
+      ],
+      "focal_authors": [
+        "Leibovici"
+      ],
+      "index": "leibovici",
+      "genre": "dynamic-structural",
+      "version": "Author-linked accepted manuscript, revised January 2015; subsequently International Economic Review, May 2016",
+      "pdf_url": "https://fernandoleibovici.github.io/KLS.pdf",
+      "main_pages": [
+        1,
+        43
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "Trade in Commodities and Business Cycle Volatility",
+      "year": 2021,
+      "authors": [
+        "David Kohn",
+        "Fernando Leibovici",
+        "Hakon Tretvoll"
+      ],
+      "focal_authors": [
+        "Leibovici"
+      ],
+      "index": "leibovici",
+      "genre": "structural-empirical",
+      "version": "Author manuscript dated July 2019; subsequently AEJ Macroeconomics July 2021",
+      "pdf_url": "https://fernandoleibovici.github.io/KLT.pdf",
+      "main_pages": [
+        1,
+        47
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "Quality of Life, Firm Productivity, and the Value of Amenities across Canadian Cities",
+      "year": 2013,
+      "authors": [
+        "David Albouy",
+        "Fernando Leibovici",
+        "Casey Warman"
+      ],
+      "focal_authors": [
+        "Leibovici"
+      ],
+      "index": "leibovici",
+      "genre": "spatial-empirical",
+      "version": "Author-hosted typeset Canadian Journal of Economics article, May 2013",
+      "pdf_url": "https://fernandoleibovici.github.io/canada_qolprod.pdf",
+      "main_pages": [
+        1,
+        27
+      ]
+    },
+    {
+      "id": "R11",
+      "title": "The Linear Algebra of Economic Geography Models",
+      "year": 2024,
+      "authors": [
+        "Benny Kleinman",
+        "Ernest Liu",
+        "Stephen J. Redding"
+      ],
+      "focal_authors": [
+        "Redding"
+      ],
+      "index": "redding",
+      "genre": "theory-exposition",
+      "version": "Published AEA Papers and Proceedings article, May 2024",
+      "resolve_title": "The Linear Algebra of Economic Geography Models",
+      "main_pages": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "R12",
+      "title": "International Friends and Enemies",
+      "year": 2024,
+      "authors": [
+        "Benny Kleinman",
+        "Ernest Liu",
+        "Stephen J. Redding"
+      ],
+      "focal_authors": [
+        "Redding"
+      ],
+      "index": "redding",
+      "genre": "theory-quantitative-policy",
+      "version": "Published AEJ Macroeconomics article, October 2024",
+      "resolve_title": "International Friends and Enemies",
+      "main_pages": [
+        1,
+        34
+      ]
+    }
+  ],
+  "scope_note": "Main-text scope is a page-level approximation: pages can contain both a conclusion and references or appendix material. Exact-form attestation is not English usage or semantic approval.",
+  "index_exclusions": [
+    {
+      "paper_id": "L04",
+      "pdf_page": 1,
+      "start": "Qualité de vie, productivité des entreprises",
+      "end": "    Albouy is also affiliated",
+      "reason": "French abstract; raw extraction remains unchanged"
+    },
+    {
+      "paper_id": "L04",
+      "pdf_page": 2,
+      "start": "pour les allophones,",
+      "end": "1. Introduction",
+      "reason": "French abstract continuation; English introduction retained"
+    }
+  ]
+}

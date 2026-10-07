@@ -1,0 +1,4 @@
+interface:
+  display_name: "Coauthor Workflow"
+  short_description: "Coordinate writing, sync and research collaboration"
+  default_prompt: "Use $coauthor-workflow to review this project's state and coordinate the requested writing and collaboration stages without publishing unless asked."

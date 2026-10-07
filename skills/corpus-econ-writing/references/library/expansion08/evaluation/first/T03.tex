@@ -1,0 +1,43 @@
+The welfare effect of a price change and the income response inferred from
+purchases are different objects. A household at origin $n$ spends income $v_n$
+on two destinations and an outside good. Let $p_{ni}$ be its purchase price,
+including monetary access costs, and $c_{ni}$ its chosen quantity. Preferences
+are fixed and the household optimizes over a fixed feasible set. An expenditure
+function $e_n(p_n,u_n)$ gives the minimum cost of its initial utility. At a
+differentiability point with an attained initial optimum, its price derivative
+is the initial compensated purchase quantity.
+
+These conditions give a first-order welfare change in money:
+\[
+ dW_n=dv_n-\sum_i c_{ni}\,dp_{ni},\qquad
+ \frac{dW_n}{v_n}=d\log v_n-\sum_i s_{ni}\,d\log p_{ni},
+ \quad s_{ni}=\frac{p_{ni}c_{ni}}{v_n}.
+\]
+The sum includes the outside good, so initial shares add to one. Initial
+purchases value price changes even though the household subsequently substitutes.
+This local valuation does not yet determine income from observed spending.
+
+Recovering income requires separating a household's resources from the change
+in where it buys. Write spending as $X_{ni}=v_n s_{ni}$. To make that separation,
+suppose each destination has a common relative-share response $D_i$ across
+origins, with the outside response normalized to zero:
+\[
+ d\log s_{ni}=D_i-\sum_j s_{nj}D_j,\qquad D_0=0.
+\]
+This restriction allows different initial baskets but rules out origin-specific
+destination responses. Substitution then gives
+\[
+ d\log X_{ni}=\alpha_n+D_i,\qquad
+ \alpha_n=d\log v_n-\sum_j s_{nj}D_j.
+\]
+Thus an estimated origin effect is not income itself. Adding the common
+destination responses weighted by the origin's initial basket recovers income
+under this restriction and a compatible normalization.
+
+For example, a change in monetary access costs that affects nearby residents
+more than distant residents need not generate a common destination response.
+The origin-effect correction can then fail, while the household envelope remains
+valid using its own purchase prices. Estimation therefore needs evidence for
+the common response as well as variation separating the two effects. If an
+outside response or a common income component is not observed or identified,
+the citywide level cannot be recovered merely by naming the fitted origin term.

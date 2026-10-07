@@ -1,0 +1,4 @@
+interface:
+  display_name: "Render Mathdown to TeX"
+  short_description: "Turn Mathdown notes into compilation-ready TeX"
+  default_prompt: "Use $render-mathdown-tex to convert these Markdown research notes into a cohesive, compilation-ready TeX document."

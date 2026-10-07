@@ -1,0 +1,4 @@
+interface:
+  display_name: "Economics Presentation Design"
+  short_description: "Structure, edit, and script economics talks"
+  default_prompt: "Use $design-econ-seminar to structure, revise, or script this economics presentation for its audience and time limit."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "reMarkable Move Renderer"
+  short_description: "Render Markdown notes for Paper Pro Move"
+  default_prompt: "Use $remarkable-move-render to render this Markdown document as a Paper Pro Move PDF and verify its layout."

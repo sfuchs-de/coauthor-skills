@@ -1,0 +1,49 @@
+id,paper,pdf_page,category,analysis
+D07-01,D07,2,structure,"The opening carries one policy question into theory, estimation, and quantification."
+D07-02,D07,8,sequence,General utility and technology are defined before policy-specific restrictions.
+D07-03,D07,9,math,Firm and household objectives precede the equilibrium conditions.
+D07-04,D07,10,scope,The government objective and which foreign variables are taken as given accompany the policy result.
+D07-05,D07,14,handoff,The theory identifies which elasticities the empirical exercise must recover.
+D07-06,D07,35,interpretation,Sensitivity is explained through the parameter's two roles rather than a list of alternative columns.
+D08-01,D08,2,question,A spatial pattern becomes separate questions about location and aggregate efficiency.
+D08-02,D08,3,quantifiers,"Unique dynamics, slow convergence, and multiple steady states are distinguished."
+D08-03,D08,7,timing,The life sequence motivates which decisions depend on future values.
+D08-04,D08,12,exposition,The value function is explained through current consumption and descendants' choices.
+D08-05,D08,26,data,A recovery step declares missing years and the historical records used instead.
+D08-06,D08,41,conclusion,The ending reconnects mathematical distinctions to what temporary history can change.
+A07-01,A07,2,object,The interaction system is motivated by computation and uniqueness questions.
+A07-02,A07,5,literature,Earlier mathematical approaches are compared by restrictions and dimensionality.
+A07-03,A07,6,definitions,"Indices, positive domain, and elasticities are defined before the theorem."
+A07-04,A07,7,quantifiers,A sufficient condition and a construction outside that condition have different quantifiers.
+A07-05,A07,9,interpretation,The iteration receives a best-response interpretation under the specified system.
+A07-06,A07,16,scope,The application distinguishes general spillovers from a more restrictive functional form.
+A08-01,A08,1,motivation,Concrete differences across places introduce choices rather than notation alone.
+A08-02,A08,2,structure,Different reading routes reflect the chapter's theoretical and empirical tasks.
+A08-03,A08,8,math,A verbal location choice is followed by utility and an interpreted supply response.
+A08-04,A08,13,interpretation,Illustrations connect a change in fundamentals to concentration through a named force.
+A08-05,A08,43,handoff,Observed shares connect finite counterfactual equations to local comparative statics.
+A08-06,A08,44,notation,"Dimensions, vector orientation, and adding-up restrictions surround the matrix representation."
+K05-01,K05,2,argument,Differential evidence and aggregate recovery are separated at the outset.
+K05-02,K05,3,math,Direct and indirect effects receive an economic interpretation immediately after the display.
+K05-03,K05,5,literature,Connections to prior work are organized around representation and adjustment margins.
+K05-04,K05,10,interpretation,Differences in point estimates and precision are not treated as the same finding.
+K05-05,K05,15,sequence,Empirical disagreement motivates the model's next task.
+K05-06,K05,17,measurement,An observed average earnings measure is separated from the model wage rate.
+R08-01,R08,1,obstacle,The introduction gives a concrete reason dynamic joint decisions are hard to model.
+R08-02,R08,2,assumption,The worker-landlord distinction is introduced for its computational role.
+R08-03,R08,4,literature,Dynamic approaches are compared by the intertemporal decisions they retain.
+R08-04,R08,10,notation,A change in subscript order is explained rather than left implicit.
+R08-05,R08,20,math,An eigenvector decomposition is followed by its adjustment-speed interpretation.
+R08-06,R08,37,conclusion,The conclusion returns to the original adjustment question and analytical contribution.
+R09-01,R09,1,question,Competing explanations motivate a particular source of variation.
+R09-02,R09,2,identification,Institutional details explain the comparison's intended identifying advantage.
+R09-03,R09,6,mechanism,Agglomeration and dispersion channels motivate the modeled choices.
+R09-04,R09,10,data,The sample definition is connected to the comparison rather than supplied as a list.
+R09-05,R09,17,interpretation,A flexible specification and the mechanism discussion have separate roles.
+R09-06,R09,29,support,Data provenance is collected without replacing the main economic interpretation.
+R10-01,R10,3,scope,Geographic scale changes which interactions matter most.
+R10-02,R10,6,validation,Matching levels is distinguished from evaluating responses to a historical shock.
+R10-03,R10,15,math,Choice probabilities and wages depend on the specified interpretation of heterogeneous draws.
+R10-04,R10,22,sequence,Inversion proceeds in numbered economic tasks with normalization stated.
+R10-05,R10,42,literature,Consumption travel is introduced because commuting alone omits an important motive.
+R10-06,R10,61,conclusion,The conclusion links substantive urban mechanisms to what the models can explain.

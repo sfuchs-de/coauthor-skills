@@ -1,0 +1,73 @@
+{
+  "counts": {
+    "papers": 45,
+    "new_papers": 14,
+    "included_pages": 2417,
+    "new_pages": 699,
+    "normalized_forms": 21265,
+    "attested_writing_forms": 19854,
+    "new_attested_forms": 4002,
+    "source_page_records": 445232
+  },
+  "sources_config_sha256": "03f07f0253d1e5c3459cd1a535e1bc77e89fe06a478f3cee421bb46142c3a63f",
+  "index_exclusions": [
+    {
+      "paper_id": "L04",
+      "pdf_page": 1,
+      "start": "Qualité de vie, productivité des entreprises",
+      "end": "    Albouy is also affiliated",
+      "reason": "French abstract; raw extraction remains unchanged",
+      "removed_utf8_sha256": "f7c1ee2f16c7e7271340cf490d62b5797d3a19e4b25051d55e1d45f74ff985e8",
+      "removed_characters": 975
+    },
+    {
+      "paper_id": "L04",
+      "pdf_page": 2,
+      "start": "pour les allophones,",
+      "end": "1. Introduction",
+      "reason": "French abstract continuation; English introduction retained",
+      "removed_utf8_sha256": "60dc350df3d860240568925340baae22719d25f355d17069f9b358a499fb31a8",
+      "removed_characters": 176
+    }
+  ],
+  "previous_inventory_sha256": "77ff39c0b64055b4d0136d31bb4af594bd1b84b7d706fa55b8b883a7ee861a76",
+  "new_source_hashes": {
+    "L01": "0fa29e009d3c1e72eb7176151a9792cd00785a6a0e1a730ac0891889096f9f91",
+    "L02": "bab28ffde931da5626a8821c2b2c8bb14a447d4bcc7254034cf29fcabe5f390f",
+    "L03": "d442bc1e0aa49115b016ef2810e51ecf660f42f79a2b291ace40ca6a5c34f473",
+    "L04": "3d73a2d12e6251bedf4353dfc4479fc328a32f9303db8dd39e291d5cafe57766",
+    "MY01": "bdbadbec6555b8b12362e77bda0d325f81e45722694db99af7f05444e2fefbb3",
+    "MY02": "0168babbef64a9243412e2d94f7626ef3926282b4375d2b34fb605377bf54e27",
+    "MY03": "d2b5b1dc34d95ca085cca4d6ce25f5a452ff46be0fc4578a485fa560ab6e2a32",
+    "MY04": "7dc4cf1043bbd7f8583c18f8f5fd3cd295b09023e9d03b99f803e6398e19e98c",
+    "R11": "5f70779723601f6fc104fbdcdce68db251ee53f8974552a2e33556f86fa27898",
+    "R12": "1bc3c50cc796a5366c650caf0e366d9f2ead290c702bfc84f573d35a95c846ee",
+    "W01": "d5b1e6c46918d0284a4b01bb803c75ccf7be6d22a3dd963b1f48f20fc66a9fe2",
+    "W02": "1831dc68cd944a3f97d574fd71d8eac9be713a8c04cbad263196c556637dc5e5",
+    "W03": "525bf5d753482b9c832fd1f6b3a0e13591e5f4b5254272452999baf84ccac125",
+    "W04": "d4dd17528d8364532669e14577683a5d2c1d0229d00d3102e71e9317bbeed5b1"
+  },
+  "new_extraction_hashes": {
+    "L01": "3a7010cd0bec2880e0caf7b122d436194721c6cb4ef987c211cc365eac281dd6",
+    "L02": "68653e85c376ed178d5d8d99f39de12bcd9f78104635c7f549dcabb5d6e07c59",
+    "L03": "6e2a6bb11bfc4319fda8768510d8d00a4556ca66530117df70d6653ca8b9e20e",
+    "L04": "602f6342182ce8a1ff64db11348454f2c05564b2be1d975aab42e6dfb1e5ebab",
+    "MY01": "78e598050a79f2879a4f51c0170fa1ad8648f744356c228ff953a2f08970f989",
+    "MY02": "29a032e46f6b0d0a5fba722b74f1e0ac86f62f06bf6663575a1b143f0b56e6c0",
+    "MY03": "890fddfe36edf985c0fb9204bfca6afdc5285297b126454d4729b81a382e782d",
+    "MY04": "c2fe70cacdb0b84001aa2e81e87598c47796cf804ffb612079403129275de8d7",
+    "R11": "de706cacdb82da9d4fe58d072d2f7f061c248063df3f57746e7695256451ad65",
+    "R12": "d0356a40e88995d12e0a90e13fba6e36148d20327e96bcb0ab983a6b0c46a6ea",
+    "W01": "6ea3ed127fc8173cb0544cb11b06c81efff6532c53d32c2fd34034fec42dd8af",
+    "W02": "f2ea6d73084f5208a2fef792b42fbd6380e669efb8d25fdfbe3f0e8ae73a0ca0",
+    "W03": "ecbd0df917a2197225c27ffe7347022606a9235f785e247352278e81cff22032",
+    "W04": "1386c3e95289f3bc18e3b914d799243679fa484e379280a3642da3bc29dccee5"
+  },
+  "output_sha256": {
+    "attested_vocabulary.sqlite": "fc713c9ecc8e3fc379013adcd7af37dd5e640b84a521406c3785cf2a00f4f773",
+    "new_attestations.csv": "6970c5455e1a52707256e00e10eaa0120f9242c6814fe7890c26f38309dddcca",
+    "occurrences.csv": "bda3ba866d57983745eef6824aa0b904ddcfa6a731ba58a85b2cc012d9c05241",
+    "words.csv": "1ddaa22fdebd952d8b7618f9ca1cbe2c946b9a0f68b7096ebb4123fabacedc6c"
+  },
+  "scope": "Exact normalized attestation, not semantic approval or free inflection; delta relative to edition04"
+}
