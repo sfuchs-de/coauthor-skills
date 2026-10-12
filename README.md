@@ -104,6 +104,8 @@ plan authorizes publication, messages, bookings, account changes or additional t
 
 ## Setup and detailed guides
 
+- [Coauthor onboarding: staged prompts](docs/coauthor-onboarding.md): start with a local folder,
+  install the collaboration skills, connect your own accounts, verify inputs and run a small pilot.
 - [Account and collaboration setup](docs/collaboration-setup.md): GitHub, Overleaf tokens, local
   LaTeX, project authority, and shared agent memory.
 - [Coauthor GitHub and Dropbox handbook](skills/coauthor-github-workflow/references/coauthor-handbook.md):

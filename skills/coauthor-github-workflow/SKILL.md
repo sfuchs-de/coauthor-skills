@@ -14,6 +14,10 @@ must not interpret an ordinary editing request as permission to publish.
 - **Onboard / explain:** read [the coauthor handbook](references/coauthor-handbook.md). Adapt it to
   the project's actual branch, build tools, access and data arrangement. Offer GitHub Desktop or
   command-line steps; do not require a CLI for a nontechnical collaborator.
+  For a new collaborator or a requested sequence of setup prompts, also read
+  [the staged onboarding protocol](references/onboarding-protocol.md). Adapt its setup card and
+  stop at unresolved access, licensing or compute requirements; do not certify replication from
+  an installation or small test. Keep private project-specific prompts in the project, not here.
 - **Start / update:** inspect instructions, active branch, staged and unstaged work, untracked
   files, current upstream and any competing writer. Fetch when authorized access is available.
   Integrate updates only when within the request; prefer a clean fast-forward. Divergence needs an

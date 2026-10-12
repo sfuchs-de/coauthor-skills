@@ -22,16 +22,20 @@
       "size": 1068
     },
     "README.md": {
-      "sha256": "a0b8a20bac2599286f443ce41174f1ef812d634f310ea2bacb2eb786bd1f4398",
-      "size": 7481
+      "sha256": "61c9750790e6e553819a9f161cab3f124f7f73962d37a58e6065a8f34bcf88d5",
+      "size": 7678
     },
     "THIRD_PARTY_NOTICES.md": {
       "sha256": "476d255f756126f47d39c5bbfc9cfb03142b41a07aa2e490c60102996c2db55c",
       "size": 1292
     },
+    "docs/coauthor-onboarding.md": {
+      "sha256": "992af73c4484be94cbef0d4984def12c4a1a7fd30b3ec6df4a2bdb24aaeb689d",
+      "size": 1760
+    },
     "docs/collaboration-setup.md": {
-      "sha256": "e5c86e9ff6222766184a303184b81ab2653b45ca9b4e7673e5c29223052d2e1a",
-      "size": 4550
+      "sha256": "1afbe96c85dc1a9cef2dcd0fc61226ea7375169734327b46501ce0095fde0cc7",
+      "size": 4801
     },
     "docs/packaging-provenance.json": {
       "sha256": "46a083a0236aa522bc28d4b957363d7df0f71ddaac36728d8b2e387e7fe14589",
@@ -242,8 +246,8 @@
       "size": 4451
     },
     "skills/coauthor-github-workflow/SKILL.md": {
-      "sha256": "726bcab3ba9f71c55130e3ffee8f33613eb8bd9ab5899e3bb204b7f558a34c7f",
-      "size": 4063
+      "sha256": "bde43495a1cc5675148e72f6269ed58533c847dfedf52c039c2d892a492ebad5",
+      "size": 4429
     },
     "skills/coauthor-github-workflow/agents/openai.yaml": {
       "sha256": "52392e32525326ba9b9abda6c910cd5c63a5a481757f31ea8034c53b1e1dc16b",
@@ -252,6 +256,10 @@
     "skills/coauthor-github-workflow/references/coauthor-handbook.md": {
       "sha256": "bb0c9c89284c157f5a588a651514fe06aee0d80b3950a17ea74adf388610f0f2",
       "size": 13574
+    },
+    "skills/coauthor-github-workflow/references/onboarding-protocol.md": {
+      "sha256": "9826e53c89b55898f722adf24ed6619c186e489193ed5593947bf15316223240",
+      "size": 13377
     },
     "skills/coauthor-workflow/SKILL.md": {
       "sha256": "e395050641d6983ffa08020ba754962ad41d9f5c4c3867bfe238c4fa9963679b",
@@ -1744,6 +1752,10 @@
     "tests/test_install.py": {
       "sha256": "89c19836b3e6aebe8625a400de7c5aece9827b0d9086716476d0b138d2ab0125",
       "size": 3455
+    },
+    "tests/test_onboarding.py": {
+      "sha256": "2def7ffa6540e74cb80dfd216846344cdd09d0dd466547fdee3974b412433932",
+      "size": 3148
     },
     "tests/test_public_adaptations.py": {
       "sha256": "775b574ade8b5196dcce4391b24093520fc196392076abfa5854751c11358f8f",
