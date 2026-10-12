@@ -1,5 +1,9 @@
 # Collaboration setup
 
+For a new collaborator starting from a local folder, use the
+[staged onboarding prompts](coauthor-onboarding.md). The stages below are reference material;
+onboarding does not require installing every writing skill or running a full research rebuild.
+
 ## GitHub
 
 For everyday coauthor use, start with the
